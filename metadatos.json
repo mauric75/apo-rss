@@ -1,0 +1,11 @@
+{
+  "podcast": {
+    "titulo": "Los cuentos de Alejandro Apo",
+    "rss": "https://mauric75.github.io/apo-rss/rss.xml"
+  },
+  "estadisticas": {
+    "total_episodios": 1,
+    "autores_unicos": 0,
+    "lista_autores": []
+  }
+}

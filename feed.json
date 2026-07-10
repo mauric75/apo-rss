@@ -1,0 +1,30 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Los cuentos de Alejandro Apo",
+  "home_page_url": "https://mauric75.github.io/apo-rss/",
+  "feed_url": "https://mauric75.github.io/apo-rss/feed.json",
+  "description": "Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina, AM 750 y Pagina/12.",
+  "icon": "https://mauric75.github.io/apo-rss/cover.jpg",
+  "items": [
+    {
+      "id": "",
+      "url": "https://www.radionacional.com.ar/tag/alejandro-apo/",
+      "title": "",
+      "content_html": "Alejandro Apo lee \"\".\n\nFuente original:\nRadio Nacional Argentina.\n\nEntrevista a Sandra Mihanovich\n\"La radio es algo que ha superado mi imaginación ampliamente\"\nhttps://cdn.radionacional.com.ar/wp-content/uploads/2024/04/Nota-a-Sandra-Mihanovich.mp3",
+      "date_published": "2026-07-10T13:15:27.003136+00:00",
+      "authors": [
+        {
+          "name": "Alejandro Apo"
+        }
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.radionacional.com.ar/wp-content/uploads/2024/04/Nota-a-Sandra-Mihanovich.mp3?_=1",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    }
+  ]
+}
