@@ -490,6 +490,17 @@ def main():
     except Exception as e:
         log.error("Error en Spotify: %s", e)
 
+    # RadioCut: programas de Apo con cuentos
+    radiocut_shows = [
+        ("todo-con-afecto", "RadioCut - Todo con Afecto"),
+        ("dondequiera-que-estes", "RadioCut - Dondequiera que Estés"),
+    ]
+    for show_slug, fuente_name in radiocut_shows:
+        try:
+            _agregar(scrape_radiocut(show_slug, fuente_name, max_items=100))
+        except Exception as e:
+            log.error("Error en %s: %s", fuente_name, e)
+
     scrapers = [
         ("https://www.am750.com.ar/?s=Alejandro+Apo", "am750.com.ar", "AM 750"),
         ("https://www.pagina12.com.ar/buscar?q=Alejandro+Apo", "pagina12.com.ar", "Pagina/12"),
