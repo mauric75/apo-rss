@@ -1,59 +1,59 @@
-2026-07-11 06:53:51,174 [INFO] === Inicio de scraping ===
-2026-07-11 06:53:51,174 [INFO] Leyendo feed: https://www.radionacional.com.ar/tag/alejandro-apo/feed/
-2026-07-11 06:53:52,772 [INFO]   OK: 'El Pampa' de Roberto Fontanarrosa
-2026-07-11 06:53:53,774 [INFO] Leyendo feed: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=2
-2026-07-11 06:53:54,334 [INFO]   OK: 'Relatores' de Alejandro Dolina
-2026-07-11 06:53:55,856 [INFO]   OK: Alejandro Apo y un mano a mano con José Tiburcio Serrizuela
-2026-07-11 06:53:56,859 [INFO] Leyendo feed: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=3
-2026-07-11 06:53:57,636 [INFO]   OK: "El pichón de Cristo", de Roberto Fontanarrosa
-2026-07-11 06:53:59,120 [INFO]   OK: Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'
-2026-07-11 06:54:00,121 [INFO] Leyendo feed: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=4
-2026-07-11 06:54:00,691 [INFO]   OK: "Viejo con árbol", de Roberto Fontanarrosa
-2026-07-11 06:54:02,095 [INFO]   OK: El "Pichón de Cristo" de Roberto Fontanarrosa
-2026-07-11 06:54:03,096 [INFO] Leyendo feed: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=5
-2026-07-11 06:54:03,571 [INFO]   OK: Alejandro Apo y el recuerdo de Pelé
-2026-07-11 06:54:04,977 [INFO]   OK: Alejandro Apo: “Estoy cumpliendo 68 años hoy y me van a traer la copa”
-2026-07-11 06:54:06,455 [INFO]   OK: Alejandro Apo: “Argentina paraliza a los rivales”
-2026-07-11 06:54:07,963 [INFO]   OK: Apo: "Nadie ganó antes de jugar, y menos hablando"
-2026-07-11 06:54:09,489 [INFO]   OK: Mundial Qatar 2022: Alejandro Apo cubriendo mundiales desde 1974
-2026-07-11 06:54:10,490 [INFO] Leyendo Spotify podcast feed: Los cuentos de Apo
-2026-07-11 06:54:10,548 [WARNING] Intento 1/3 fallo para https://anchor.fm/s/10LOEotTimEny9t07tXG8E/podcast/rss
-2026-07-11 06:54:15,552 [WARNING] Intento 2/3 fallo para https://anchor.fm/s/10LOEotTimEny9t07tXG8E/podcast/rss
-2026-07-11 06:54:20,555 [WARNING] Intento 3/3 fallo para https://anchor.fm/s/10LOEotTimEny9t07tXG8E/podcast/rss
-2026-07-11 06:54:20,555 [WARNING] No se pudo acceder al feed de Spotify para Los cuentos de Apo
-2026-07-11 06:54:20,555 [INFO] Leyendo RadioCut: todo-con-afecto (offset=0)
-2026-07-11 06:54:20,748 [WARNING] Intento 1/3 fallo para https://radiocut.fm/audios/get_cuts/?show_slug=todo-con-afecto&limit=20&start=0
-2026-07-11 06:54:25,766 [WARNING] Intento 2/3 fallo para https://radiocut.fm/audios/get_cuts/?show_slug=todo-con-afecto&limit=20&start=0
-2026-07-11 06:54:30,785 [WARNING] Intento 3/3 fallo para https://radiocut.fm/audios/get_cuts/?show_slug=todo-con-afecto&limit=20&start=0
-2026-07-11 06:54:30,785 [WARNING] No se pudo acceder a RadioCut para todo-con-afecto
-2026-07-11 06:54:30,785 [INFO] Leyendo RadioCut: dondequiera-que-estes (offset=0)
-2026-07-11 06:54:30,803 [WARNING] Intento 1/3 fallo para https://radiocut.fm/audios/get_cuts/?show_slug=dondequiera-que-estes&limit=20&start=0
-2026-07-11 06:54:35,820 [WARNING] Intento 2/3 fallo para https://radiocut.fm/audios/get_cuts/?show_slug=dondequiera-que-estes&limit=20&start=0
-2026-07-11 06:54:40,837 [WARNING] Intento 3/3 fallo para https://radiocut.fm/audios/get_cuts/?show_slug=dondequiera-que-estes&limit=20&start=0
-2026-07-11 06:54:40,838 [WARNING] No se pudo acceder a RadioCut para dondequiera-que-estes
-2026-07-11 06:54:40,838 [WARNING] youtube-search-python no instalado. Instala con: pip install youtube-search-python
-2026-07-11 06:54:41,155 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
-2026-07-11 06:54:46,304 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
-2026-07-11 06:54:51,476 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
-2026-07-11 06:54:52,164 [INFO] Procesando: https://www.pagina12.com.ar/
-2026-07-11 06:54:53,275 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
-2026-07-11 06:54:54,672 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
-2026-07-11 06:54:56,801 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
-2026-07-11 06:54:58,085 [INFO] Procesando: https://www.pagina12.com.ar/economia
-2026-07-11 06:54:59,299 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
-2026-07-11 06:55:00,493 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
-2026-07-11 06:55:01,740 [INFO] Procesando: https://www.pagina12.com.ar/deportes
-2026-07-11 06:55:03,072 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
-2026-07-11 06:55:04,409 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
-2026-07-11 06:55:05,751 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
-2026-07-11 06:55:06,828 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
-2026-07-11 06:55:08,117 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
-2026-07-11 06:55:09,363 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
-2026-07-11 06:55:10,568 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
-2026-07-11 06:55:12,265 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
-2026-07-11 06:55:14,080 [INFO] Procesando: https://www.pagina12.com.ar/no
-2026-07-11 06:55:15,431 [INFO] Procesando: https://socios.pagina12.com.ar/
-2026-07-11 06:55:17,157 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
-2026-07-11 06:55:18,399 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
-2026-07-11 06:55:19,901 [INFO] Sin episodios nuevos.
-2026-07-11 06:55:19,901 [INFO] === Fin ===
+2026-07-11 07:18:13,963 [INFO] === Inicio de scraping ===
+2026-07-11 07:18:13,964 [INFO] Leyendo feed: https://www.radionacional.com.ar/tag/alejandro-apo/feed/
+2026-07-11 07:18:15,551 [INFO]   OK: 'El Pampa' de Roberto Fontanarrosa
+2026-07-11 07:18:16,554 [INFO] Leyendo feed: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=2
+2026-07-11 07:18:17,761 [INFO]   OK: 'Relatores' de Alejandro Dolina
+2026-07-11 07:18:18,993 [INFO]   OK: Alejandro Apo y un mano a mano con José Tiburcio Serrizuela
+2026-07-11 07:18:19,996 [INFO] Leyendo feed: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=3
+2026-07-11 07:18:20,492 [INFO]   OK: "El pichón de Cristo", de Roberto Fontanarrosa
+2026-07-11 07:18:21,734 [INFO]   OK: Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'
+2026-07-11 07:18:22,736 [INFO] Leyendo feed: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=4
+2026-07-11 07:18:23,134 [INFO]   OK: "Viejo con árbol", de Roberto Fontanarrosa
+2026-07-11 07:18:24,373 [INFO]   OK: El "Pichón de Cristo" de Roberto Fontanarrosa
+2026-07-11 07:18:25,374 [INFO] Leyendo feed: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=5
+2026-07-11 07:18:25,792 [INFO]   OK: Alejandro Apo y el recuerdo de Pelé
+2026-07-11 07:18:27,004 [INFO]   OK: Alejandro Apo: “Estoy cumpliendo 68 años hoy y me van a traer la copa”
+2026-07-11 07:18:28,232 [INFO]   OK: Alejandro Apo: “Argentina paraliza a los rivales”
+2026-07-11 07:18:29,472 [INFO]   OK: Apo: "Nadie ganó antes de jugar, y menos hablando"
+2026-07-11 07:18:30,668 [INFO]   OK: Mundial Qatar 2022: Alejandro Apo cubriendo mundiales desde 1974
+2026-07-11 07:18:31,670 [INFO] Leyendo Spotify podcast feed: Los cuentos de Apo
+2026-07-11 07:18:31,731 [WARNING] Intento 1/3 fallo para https://anchor.fm/s/10LOEotTimEny9t07tXG8E/podcast/rss
+2026-07-11 07:18:36,741 [WARNING] Intento 2/3 fallo para https://anchor.fm/s/10LOEotTimEny9t07tXG8E/podcast/rss
+2026-07-11 07:18:41,751 [WARNING] Intento 3/3 fallo para https://anchor.fm/s/10LOEotTimEny9t07tXG8E/podcast/rss
+2026-07-11 07:18:41,751 [WARNING] No se pudo acceder al feed de Spotify para Los cuentos de Apo
+2026-07-11 07:18:41,751 [INFO] Leyendo RadioCut: todo-con-afecto (offset=0)
+2026-07-11 07:18:41,819 [WARNING] Intento 1/3 fallo para https://radiocut.fm/audios/get_cuts/?show_slug=todo-con-afecto&limit=20&start=0
+2026-07-11 07:18:46,862 [WARNING] Intento 2/3 fallo para https://radiocut.fm/audios/get_cuts/?show_slug=todo-con-afecto&limit=20&start=0
+2026-07-11 07:18:51,905 [WARNING] Intento 3/3 fallo para https://radiocut.fm/audios/get_cuts/?show_slug=todo-con-afecto&limit=20&start=0
+2026-07-11 07:18:51,905 [WARNING] No se pudo acceder a RadioCut para todo-con-afecto
+2026-07-11 07:18:51,905 [INFO] Leyendo RadioCut: dondequiera-que-estes (offset=0)
+2026-07-11 07:18:51,941 [WARNING] Intento 1/3 fallo para https://radiocut.fm/audios/get_cuts/?show_slug=dondequiera-que-estes&limit=20&start=0
+2026-07-11 07:18:56,978 [WARNING] Intento 2/3 fallo para https://radiocut.fm/audios/get_cuts/?show_slug=dondequiera-que-estes&limit=20&start=0
+2026-07-11 07:19:02,014 [WARNING] Intento 3/3 fallo para https://radiocut.fm/audios/get_cuts/?show_slug=dondequiera-que-estes&limit=20&start=0
+2026-07-11 07:19:02,014 [WARNING] No se pudo acceder a RadioCut para dondequiera-que-estes
+2026-07-11 07:19:02,014 [WARNING] youtube-search-python no instalado. Instala con: pip install youtube-search-python
+2026-07-11 07:19:02,379 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
+2026-07-11 07:19:07,561 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
+2026-07-11 07:19:12,742 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
+2026-07-11 07:19:13,605 [INFO] Procesando: https://www.pagina12.com.ar/
+2026-07-11 07:19:15,037 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
+2026-07-11 07:19:16,745 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
+2026-07-11 07:19:18,432 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
+2026-07-11 07:19:20,091 [INFO] Procesando: https://www.pagina12.com.ar/economia
+2026-07-11 07:19:21,625 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
+2026-07-11 07:19:23,158 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
+2026-07-11 07:19:24,812 [INFO] Procesando: https://www.pagina12.com.ar/deportes
+2026-07-11 07:19:26,503 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
+2026-07-11 07:19:28,098 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
+2026-07-11 07:19:29,645 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
+2026-07-11 07:19:30,948 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
+2026-07-11 07:19:32,542 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
+2026-07-11 07:19:34,092 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
+2026-07-11 07:19:35,428 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
+2026-07-11 07:19:37,061 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
+2026-07-11 07:19:38,694 [INFO] Procesando: https://www.pagina12.com.ar/no
+2026-07-11 07:19:40,490 [INFO] Procesando: https://socios.pagina12.com.ar/
+2026-07-11 07:19:42,375 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
+2026-07-11 07:19:44,000 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
+2026-07-11 07:19:45,749 [INFO] Sin episodios nuevos.
+2026-07-11 07:19:45,750 [INFO] === Fin ===
