@@ -16,7 +16,7 @@ RETRY_DELAY = 5
 TERMS_PATTERNS = [r"Alejandro\s+Apo", r"Dondequiera\s+que\s+estes", r"Un\s+Seor\s+Cuento", r"Todo\s+con\s+Afecto", r"Los\s+cuentos\s+de\s+Apo"]
 session = requests.Session()
 session.headers.update({"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"})
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", handlers=[logging.FileHandler(LOG_FILE, encoding="utf-8"), logging.StreamHandler()])
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", handlers=[logging.FileHandler(LOG_FILE, mode="w", encoding="utf-8"), logging.StreamHandler()])
 log = logging.getLogger(__name__)
 COVER_URL = "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
 
@@ -51,9 +51,16 @@ def text_clean(html_str):
     if not html_str: return ""
     return BeautifulSoup(html_str, "lxml").get_text(separator=" ", strip=True)
 
-def matches_apo(text):
+STORY_CONTEXT_PATTERNS = [r"cuento", r"relato", r"narr[oa\u00f3]", r"\blee\b", r"leyendo", r"voz\s+de\s+apo"]
+
+def matches_apo(text, titulo=""):
     t = text.lower()
-    return any(re.search(p, t, re.IGNORECASE) for p in TERMS_PATTERNS)
+    has_apo = any(re.search(p, t, re.IGNORECASE) for p in TERMS_PATTERNS)
+    if not has_apo:
+        return False
+    if titulo and any(re.search(p, titulo.lower(), re.IGNORECASE) for p in TERMS_PATTERNS):
+        return True
+    return any(re.search(p, t, re.IGNORECASE) for p in STORY_CONTEXT_PATTERNS)
 
 def parse_fecha(txt):
     if not txt: return ""
@@ -142,21 +149,37 @@ def _extract(url, fuente):
     resp = safe_get(url)
     if not resp: return None
     soup = BeautifulSoup(resp.text, "lxml")
-    if not matches_apo(soup.get_text(separator=" ", strip=True)): return None
-    mp3 = _find_mp3(soup, url)
-    if not mp3: return None
     titulo = ""
     h1 = soup.find("h1")
     if h1: titulo = h1.get_text(strip=True)
     if not titulo:
         og = soup.find("meta", property="og:title")
         if og: titulo = og.get("content", "")
+    if not titulo: return None
+    if not matches_apo(soup.get_text(separator=" ", strip=True), titulo): return None
+    mp3 = _find_mp3(soup, url)
+    if not mp3: return None
     autor_cuento = _guess_author(titulo, soup.get_text(separator=" ", strip=True))
     desc_el = soup.find("div", class_=re.compile(r"entry|content|post-body|article-body", re.I))
     descripcion = text_clean(desc_el.get_text()[:800]) if desc_el else ""
     ok, dur = verify_mp3(mp3)
     if not ok: return None
     return {"titulo": titulo, "autor_cuento": autor_cuento, "narrador": "Alejandro Apo", "descripcion": descripcion, "fecha": _find_date(soup), "duracion": round(dur, 1), "imagen": _find_image(soup, url) or COVER_URL, "mp3_url": mp3, "fuente": fuente, "fuente_url": url, "guid": make_guid(titulo, autor_cuento), "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
+
+NAV_PATH_EXCLUDE = re.compile(
+    r"/(tags?|contacto|politica-de-privacidad|terminos|socios|usuarios|rss|"
+    r"especiales|publico|opinion|cash|am750|salta12|cordoba12|radar|soy|las12|"
+    r"negrx|ciencia|universidad|psicologia|comunicacion-y-periodismo|plastica|"
+    r"entrevistas|verano12|latinoamerica-piensa|malena|argentina12)(/|\?|$)",
+    re.IGNORECASE,
+)
+MAX_URLS_PER_SOURCE = 40
+
+def _is_candidate_url(full, domain):
+    p = urlparse(full)
+    if domain not in p.netloc: return False
+    if NAV_PATH_EXCLUDE.search(p.path): return False
+    return True
 
 def scrape_source(base_search, domain, fuente):
     results, visited, to_visit = [], set(), []
@@ -165,9 +188,9 @@ def scrape_source(base_search, domain, fuente):
         soup = BeautifulSoup(resp.text, "lxml")
         for a in soup.find_all("a", href=True):
             full = urljoin(base_search, a["href"])
-            p = urlparse(full)
-            if domain in p.netloc and full not in visited: to_visit.append(full)
+            if _is_candidate_url(full, domain) and full not in visited: to_visit.append(full)
     for url in to_visit:
+        if len(visited) >= MAX_URLS_PER_SOURCE: break
         if url in visited: continue
         visited.add(url)
         if "?s=" in url or "/buscar" in url or "/page/" in url:
@@ -176,7 +199,7 @@ def scrape_source(base_search, domain, fuente):
                 s2 = BeautifulSoup(r2.text, "lxml")
                 for a in s2.find_all("a", href=True):
                     full = urljoin(url, a["href"])
-                    if domain in urlparse(full).netloc and full not in visited: to_visit.append(full)
+                    if _is_candidate_url(full, domain) and full not in visited: to_visit.append(full)
             continue
         log.info("Procesando: %s", url)
         ep = _extract(url, fuente)
@@ -184,6 +207,8 @@ def scrape_source(base_search, domain, fuente):
             results.append(ep)
             log.info("  OK: %s", ep["titulo"])
         time.sleep(1)
+    if len(visited) >= MAX_URLS_PER_SOURCE:
+        log.warning("Se alcanzo el limite de %d URLs para %s, puede haber quedado contenido sin revisar.", MAX_URLS_PER_SOURCE, fuente)
     return results
 
 def main():
