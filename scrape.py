@@ -423,6 +423,73 @@ def scrape_radiocut(show_slug, fuente, max_items=100):
     
     return results
 
+def scrape_youtube_playlist(playlist_id, fuente, max_items=100):
+    """Lee videos de una playlist de YouTube usando youtube-search-python
+    (sin API key). Solo extrae metadata, no MP3 (YouTube no permite acceso directo)."""
+    try:
+        from youtubesearchpython import Playlist
+    except ImportError:
+        log.warning("youtube-search-python no instalado. Instala con: pip install youtube-search-python")
+        return []
+    
+    results = []
+    seen_guids = set()
+    
+    playlist_url = f"https://www.youtube.com/playlist?list={playlist_id}"
+    log.info("Leyendo YouTube playlist: %s", playlist_url)
+    
+    try:
+        playlist = Playlist(playlist_url)
+    except Exception as e:
+        log.warning("No se pudo acceder a la playlist de YouTube %s: %s", playlist_id, e)
+        return results
+    
+    count = 0
+    for video in playlist.videos:
+        if count >= max_items:
+            break
+        
+        video_title = video.get("title", "").strip()
+        video_id = video.get("id", "").strip()
+        video_url = f"https://www.youtube.com/watch?v={video_id}" if video_id else ""
+        
+        if not video_title or not video_id:
+            continue
+        
+        # Filtro de Apo
+        if not matches_apo(video_title, video_title):
+            continue
+        
+        item_guid = f"youtube-{video_id}"
+        if item_guid in seen_guids:
+            continue
+        seen_guids.add(item_guid)
+        
+        # Extraer autor del título
+        autor_cuento = _guess_author(video_title, "")
+        
+        # YouTube no permite acceso a MP3 directo; registramos el video pero sin duración
+        # Los usuarios pueden ver el video en YouTube
+        log.info("  OK: %s", video_title)
+        results.append({
+            "titulo": video_title,
+            "autor_cuento": autor_cuento,
+            "narrador": "Alejandro Apo",
+            "descripcion": f"Video de YouTube: {video_title}",
+            "fecha": "",  # YouTube no devuelve fecha fácilmente
+            "duracion": 0,  # No disponible sin API
+            "imagen": f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg",
+            "mp3_url": video_url,  # Guardamos el URL del video, no MP3
+            "fuente": fuente,
+            "fuente_url": video_url,
+            "guid": make_guid(video_title, autor_cuento),
+            "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        })
+        count += 1
+        time.sleep(0.5)
+    
+    return results
+
 NAV_PATH_EXCLUDE = re.compile(
     r"/(tags?|contacto|politica-de-privacidad|terminos|socios|usuarios|rss|"
     r"especiales|publico|opinion|cash|am750|salta12|cordoba12|radar|soy|las12|"
@@ -498,6 +565,17 @@ def main():
     for show_slug, fuente_name in radiocut_shows:
         try:
             _agregar(scrape_radiocut(show_slug, fuente_name, max_items=100))
+        except Exception as e:
+            log.error("Error en %s: %s", fuente_name, e)
+
+    # YouTube playlists
+    youtube_playlists = [
+        ("PLoxVsJWn3DIbdI-yp_CjdG35mF3fYoBfv", "YouTube - El Cuento de la Tarde"),
+        # ("OTRO_PLAYLIST_ID", "YouTube - Un Señor Cuento"),  # Agregar cuando tengamos el link
+    ]
+    for playlist_id, fuente_name in youtube_playlists:
+        try:
+            _agregar(scrape_youtube_playlist(playlist_id, fuente_name, max_items=100))
         except Exception as e:
             log.error("Error en %s: %s", fuente_name, e)
 
