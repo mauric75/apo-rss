@@ -1,56 +1,44 @@
-2026-07-11 05:53:58,557 [INFO] === Inicio de scraping ===
-2026-07-11 05:53:59,260 [INFO] Procesando: https://www.radionacional.com.ar/
-2026-07-11 05:53:59,355 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/
-2026-07-11 05:54:04,445 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/
-2026-07-11 05:54:09,539 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/
-2026-07-11 05:54:10,539 [INFO] Procesando: https://www.radionacional.com.ar/programas/
-2026-07-11 05:54:11,716 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-folklorica/
-2026-07-11 05:54:13,156 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-clasica/
-2026-07-11 05:54:14,338 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-rock/
-2026-07-11 05:54:15,671 [INFO] Procesando: https://www.radionacional.com.ar/portada-rae/
-2026-07-11 05:54:16,921 [INFO] Procesando: https://www.radionacional.com.ar/grillas-actualizadas/
-2026-07-11 05:54:18,180 [INFO] Procesando: https://www.radionacional.com.ar/nacionalrock/
-2026-07-11 05:54:18,365 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/nacionalrock/
-2026-07-11 05:54:23,665 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/nacionalrock/
-2026-07-11 05:54:28,935 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/nacionalrock/
-2026-07-11 05:54:29,935 [INFO] Procesando: https://www.radionacional.com.ar/nacional-folklorica/
-2026-07-11 05:54:31,275 [INFO] Procesando: https://www.radionacional.com.ar/nacional-clasica/
-2026-07-11 05:54:32,595 [INFO] Procesando: https://www.radionacional.com.ar/category/rae/espanol/
-2026-07-11 05:54:33,783 [INFO] Procesando: https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-11 05:54:33,875 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-11 05:54:38,974 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-11 05:54:44,066 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-11 05:54:45,066 [INFO] Procesando: https://www.radionacional.com.ar#nacionalclasica
-2026-07-11 05:54:45,182 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar#nacionalclasica
-2026-07-11 05:54:50,274 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar#nacionalclasica
-2026-07-11 05:54:55,370 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar#nacionalclasica
-2026-07-11 05:54:56,370 [INFO] Procesando: https://www.radionacional.com.ar#nacionalrock
-2026-07-11 05:54:56,469 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar#nacionalrock
-2026-07-11 05:55:01,567 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar#nacionalrock
-2026-07-11 05:55:06,666 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar#nacionalrock
-2026-07-11 05:55:07,666 [INFO] Procesando: https://www.radionacional.com.ar/rae/
-2026-07-11 05:55:09,473 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
-2026-07-11 05:55:14,655 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
-2026-07-11 05:55:19,841 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
-2026-07-11 05:55:20,837 [INFO] Procesando: https://www.pagina12.com.ar/
-2026-07-11 05:55:27,255 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
-2026-07-11 05:55:28,920 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
-2026-07-11 05:55:30,650 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
-2026-07-11 05:55:32,310 [INFO] Procesando: https://www.pagina12.com.ar/economia
-2026-07-11 05:55:33,952 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
-2026-07-11 05:55:35,547 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
-2026-07-11 05:55:37,206 [INFO] Procesando: https://www.pagina12.com.ar/deportes
-2026-07-11 05:55:38,924 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
-2026-07-11 05:55:40,574 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
-2026-07-11 05:55:42,017 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
-2026-07-11 05:55:43,297 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
-2026-07-11 05:55:44,827 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
-2026-07-11 05:55:46,397 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
-2026-07-11 05:55:47,762 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
-2026-07-11 05:55:49,664 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
-2026-07-11 05:55:51,303 [INFO] Procesando: https://www.pagina12.com.ar/no
-2026-07-11 05:55:53,030 [INFO] Procesando: https://socios.pagina12.com.ar/
-2026-07-11 05:55:54,898 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
-2026-07-11 05:55:56,546 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
-2026-07-11 05:55:58,439 [INFO] Sin episodios nuevos.
-2026-07-11 05:55:58,440 [INFO] === Fin ===
+2026-07-11 06:05:29,196 [INFO] === Inicio de scraping ===
+2026-07-11 06:05:30,463 [INFO] Procesando: https://www.radionacional.com.ar/
+2026-07-11 06:05:31,663 [INFO] Procesando: https://www.radionacional.com.ar/programas/
+2026-07-11 06:05:32,924 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-folklorica/
+2026-07-11 06:05:34,571 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-clasica/
+2026-07-11 06:05:35,823 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-rock/
+2026-07-11 06:05:37,362 [INFO] Procesando: https://www.radionacional.com.ar/portada-rae/
+2026-07-11 06:05:38,811 [INFO] Procesando: https://www.radionacional.com.ar/grillas-actualizadas/
+2026-07-11 06:05:40,098 [INFO] Procesando: https://www.radionacional.com.ar/nacionalrock/
+2026-07-11 06:05:40,420 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/nacionalrock/
+2026-07-11 06:05:45,727 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/nacionalrock/
+2026-07-11 06:05:51,042 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/nacionalrock/
+2026-07-11 06:05:52,043 [INFO] Procesando: https://www.radionacional.com.ar/nacional-folklorica/
+2026-07-11 06:05:53,280 [INFO] Procesando: https://www.radionacional.com.ar/nacional-clasica/
+2026-07-11 06:05:54,505 [INFO] Procesando: https://www.radionacional.com.ar/category/rae/espanol/
+2026-07-11 06:05:55,739 [INFO] Procesando: https://www.radionacional.com.ar#nacionalfolklorica
+2026-07-11 06:05:56,945 [INFO] Procesando: https://www.radionacional.com.ar#nacionalclasica
+2026-07-11 06:05:58,116 [INFO] Procesando: https://www.radionacional.com.ar#nacionalrock
+2026-07-11 06:05:59,320 [INFO] Procesando: https://www.radionacional.com.ar/rae/
+2026-07-11 06:06:00,946 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
+2026-07-11 06:06:06,162 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
+2026-07-11 06:06:11,224 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
+2026-07-11 06:06:12,045 [INFO] Procesando: https://www.pagina12.com.ar/
+2026-07-11 06:06:13,347 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
+2026-07-11 06:06:14,801 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
+2026-07-11 06:06:16,279 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
+2026-07-11 06:06:17,576 [INFO] Procesando: https://www.pagina12.com.ar/economia
+2026-07-11 06:06:18,927 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
+2026-07-11 06:06:20,177 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
+2026-07-11 06:06:21,569 [INFO] Procesando: https://www.pagina12.com.ar/deportes
+2026-07-11 06:06:22,835 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
+2026-07-11 06:06:24,207 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
+2026-07-11 06:06:25,530 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
+2026-07-11 06:06:26,856 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
+2026-07-11 06:06:28,235 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
+2026-07-11 06:06:29,635 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
+2026-07-11 06:06:30,821 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
+2026-07-11 06:06:32,294 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
+2026-07-11 06:06:33,934 [INFO] Procesando: https://www.pagina12.com.ar/no
+2026-07-11 06:06:35,419 [INFO] Procesando: https://socios.pagina12.com.ar/
+2026-07-11 06:06:37,526 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
+2026-07-11 06:06:38,970 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
+2026-07-11 06:06:40,331 [INFO] Sin episodios nuevos.
+2026-07-11 06:06:40,331 [INFO] === Fin ===
