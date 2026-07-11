@@ -254,6 +254,88 @@ def scrape_wp_tag_feed(feed_url, fuente, max_pages=5):
             time.sleep(1)
     return results
 
+def scrape_radiocut(show_slug, fuente, max_items=100):
+    """Lee episodios desde RadioCut usando su API no oficial.
+    show_slug: ej 'todo-con-afecto', 'dondequiera-que-estes', etc"""
+    results = []
+    seen_guids = set()
+    limit = 20
+    
+    for start in range(0, max_items, limit):
+        url = "https://radiocut.fm/audios/get_cuts/"
+        params = {
+            "show_slug": show_slug,
+            "limit": limit,
+            "start": start
+        }
+        log.info("Leyendo RadioCut: %s (offset=%d)", show_slug, start)
+        resp = safe_get(url + "?" + "&".join(f"{k}={v}" for k, v in params.items()))
+        if not resp:
+            log.warning("No se pudo acceder a RadioCut para %s", show_slug)
+            break
+        
+        try:
+            data = resp.json()
+        except:
+            log.warning("No se pudo parsear JSON de RadioCut para %s", show_slug)
+            break
+        
+        cuts = data.get("results", [])
+        if not cuts:
+            break
+        
+        for cut in cuts:
+            titulo = cut.get("title", "").strip()
+            if not titulo:
+                continue
+            
+            # Filtro de Apo
+            descripcion = cut.get("description", "")
+            if not matches_apo(f"{titulo} {descripcion}", titulo):
+                continue
+            
+            item_guid = cut.get("id") or cut.get("url")
+            if item_guid and item_guid in seen_guids:
+                continue
+            if item_guid:
+                seen_guids.add(item_guid)
+            
+            mp3_url = cut.get("audio_url", "").strip()
+            if not mp3_url or ".mp3" not in mp3_url.lower():
+                continue
+            
+            ok, dur = verify_mp3(mp3_url)
+            if not ok:
+                continue
+            
+            # Intentar parsear fecha
+            fecha_str = cut.get("created_at") or cut.get("date_published") or ""
+            fecha = parse_fecha(fecha_str) if fecha_str else ""
+            
+            autor_cuento = _guess_author(titulo, descripcion)
+            
+            log.info("  OK: %s", titulo)
+            results.append({
+                "titulo": titulo,
+                "autor_cuento": autor_cuento,
+                "narrador": "Alejandro Apo",
+                "descripcion": descripcion[:800],
+                "fecha": fecha,
+                "duracion": round(dur, 1),
+                "imagen": COVER_URL,
+                "mp3_url": mp3_url,
+                "fuente": fuente,
+                "fuente_url": cut.get("url", f"https://radiocut.fm/audiocut/programa/{show_slug}/"),
+                "guid": make_guid(titulo, autor_cuento),
+                "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            })
+            time.sleep(0.5)
+        
+        if len(cuts) < limit:
+            break
+    
+    return results
+
 NAV_PATH_EXCLUDE = re.compile(
     r"/(tags?|contacto|politica-de-privacidad|terminos|socios|usuarios|rss|"
     r"especiales|publico|opinion|cash|am750|salta12|cordoba12|radar|soy|las12|"
@@ -315,6 +397,17 @@ def main():
         _agregar(scrape_wp_tag_feed("https://www.radionacional.com.ar/tag/alejandro-apo/feed/", "Radio Nacional Argentina"))
     except Exception as e:
         log.error("Error en Radio Nacional Argentina: %s", e)
+
+    # RadioCut: "Todo con Afecto" y otros programas de Apo
+    radiocut_shows = [
+        ("todo-con-afecto", "RadioCut - Todo con Afecto"),
+        ("dondequiera-que-estes", "RadioCut - Dondequiera que Estés"),
+    ]
+    for show_slug, fuente_name in radiocut_shows:
+        try:
+            _agregar(scrape_radiocut(show_slug, fuente_name, max_items=100))
+        except Exception as e:
+            log.error("Error en %s: %s", fuente_name, e)
 
     scrapers = [
         ("https://www.am750.com.ar/?s=Alejandro+Apo", "am750.com.ar", "AM 750"),
