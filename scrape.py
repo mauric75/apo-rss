@@ -254,6 +254,93 @@ def scrape_wp_tag_feed(feed_url, fuente, max_pages=5):
             time.sleep(1)
     return results
 
+def scrape_spotify_podcast_rss(podcast_name, fuente, max_items=50):
+    """Lee episodios desde el feed RSS de un podcast en Spotify.
+    Spotify genera automáticamente RSS feeds para sus podcasts."""
+    results = []
+    seen_guids = set()
+    
+    # URL del feed RSS de Spotify (formato: https://open.spotify.com/show/{id} -> feed XML)
+    # Para "Los cuentos de Apo": 10LOEotTimEny9t07tXG8E
+    feed_url = "https://anchor.fm/s/10LOEotTimEny9t07tXG8E/podcast/rss"
+    
+    log.info("Leyendo Spotify podcast feed: %s", podcast_name)
+    resp = safe_get(feed_url)
+    if not resp:
+        log.warning("No se pudo acceder al feed de Spotify para %s", podcast_name)
+        return results
+    
+    items = _rss_items(resp.text)
+    if not items:
+        log.warning("No hay items en el feed de Spotify para %s", podcast_name)
+        return results
+    
+    count = 0
+    for item in items:
+        if count >= max_items:
+            break
+        
+        titulo_el = item.find("title")
+        titulo = titulo_el.get_text(strip=True) if titulo_el else ""
+        if not titulo:
+            continue
+        
+        # Filtro de Apo
+        desc_el = item.find("description")
+        body_text = text_clean(desc_el.get_text()) if desc_el else ""
+        if not matches_apo(f"{titulo} {body_text}", titulo):
+            continue
+        
+        item_guid = item.find("guid")
+        item_guid_text = item_guid.get_text(strip=True) if item_guid else ""
+        if item_guid_text and item_guid_text in seen_guids:
+            continue
+        if item_guid_text:
+            seen_guids.add(item_guid_text)
+        
+        # Buscar MP3
+        mp3 = _item_mp3(item, feed_url)
+        if not mp3:
+            log.info("  No MP3 encontrado para: %s", titulo)
+            continue
+        
+        # Verificar MP3
+        ok, dur = verify_mp3(mp3)
+        if not ok:
+            log.info("  MP3 inválido para: %s", titulo)
+            continue
+        
+        # Parsear fecha
+        pubdate_el = item.find("pubDate")
+        fecha = parse_fecha(pubdate_el.get_text(strip=True)) if pubdate_el else ""
+        
+        # Autor del cuento
+        autor_cuento = _guess_author(titulo, body_text)
+        
+        # Link a Spotify
+        link_el = item.find("link")
+        link = link_el.get_text(strip=True) if link_el else ""
+        
+        log.info("  OK: %s", titulo)
+        results.append({
+            "titulo": titulo,
+            "autor_cuento": autor_cuento,
+            "narrador": "Alejandro Apo",
+            "descripcion": body_text[:800],
+            "fecha": fecha,
+            "duracion": round(dur, 1),
+            "imagen": COVER_URL,
+            "mp3_url": mp3,
+            "fuente": fuente,
+            "fuente_url": link,
+            "guid": make_guid(titulo, autor_cuento),
+            "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        })
+        count += 1
+        time.sleep(1)
+    
+    return results
+
 def scrape_radiocut(show_slug, fuente, max_items=100):
     """Lee episodios desde RadioCut usando su API no oficial.
     show_slug: ej 'todo-con-afecto', 'dondequiera-que-estes', etc"""
@@ -398,16 +485,10 @@ def main():
     except Exception as e:
         log.error("Error en Radio Nacional Argentina: %s", e)
 
-    # RadioCut: "Todo con Afecto" y otros programas de Apo
-    radiocut_shows = [
-        ("todo-con-afecto", "RadioCut - Todo con Afecto"),
-        ("dondequiera-que-estes", "RadioCut - Dondequiera que Estés"),
-    ]
-    for show_slug, fuente_name in radiocut_shows:
-        try:
-            _agregar(scrape_radiocut(show_slug, fuente_name, max_items=100))
-        except Exception as e:
-            log.error("Error en %s: %s", fuente_name, e)
+    try:
+        _agregar(scrape_spotify_podcast_rss("Los cuentos de Apo", "Spotify - Los cuentos de Apo"))
+    except Exception as e:
+        log.error("Error en Spotify: %s", e)
 
     scrapers = [
         ("https://www.am750.com.ar/?s=Alejandro+Apo", "am750.com.ar", "AM 750"),
