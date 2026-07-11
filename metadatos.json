@@ -1,11 +1,19 @@
 {
   "podcast": {
     "titulo": "Los cuentos de Alejandro Apo",
-    "rss": "https://mauric75.github.io/apo-rss/rss.xml"
+    "rss": "https://mauric75.github.io/apo-rss/rss.xml",
+    "generado": "2026-07-11T06:26:29.544924+00:00"
   },
   "estadisticas": {
-    "total_episodios": 0,
-    "autores_unicos": 0,
-    "lista_autores": []
-  }
+    "total_episodios": 12,
+    "autores_unicos": 1,
+    "fuentes": 1,
+    "duracion_total_segundos": 0.0
+  },
+  "autores": [
+    "Roberto Fontanarrosa"
+  ],
+  "fuentes": [
+    "Radio Nacional Argentina"
+  ]
 }

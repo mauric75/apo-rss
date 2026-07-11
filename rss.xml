@@ -1,2 +1,182 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Los cuentos de Alejandro Apo</title><link>https://mauric75.github.io/apo-rss/rss.xml</link><description>Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina, AM 750 y Pagina/12.</description><atom:link href="https://mauric75.github.io/apo-rss/rss.xml" rel="self" type="application/rss+xml"/><copyright>CC BY-NC-SA 4.0</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://mauric75.github.io/apo-rss/cover.jpg</url><title>Los cuentos de Alejandro Apo</title><link>https://mauric75.github.io/apo-rss/</link></image><language>es-ar</language><lastBuildDate>Sat, 11 Jul 2026 06:06:40 +0000</lastBuildDate><itunes:category text="Arts"><itunes:category text="Literature"/></itunes:category><itunes:image href="https://mauric75.github.io/apo-rss/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:owner><itunes:name>Alejandro Apo</itunes:name><itunes:email>contacto@ejemplo.com</itunes:email></itunes:owner><itunes:summary>Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina, AM 750 y Pagina/12.</itunes:summary><itunes:type>episodic</itunes:type></channel></rss>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Los cuentos de Alejandro Apo</title><link>https://mauric75.github.io/apo-rss/rss.xml</link><description>Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina, AM 750 y Pagina/12.</description><atom:link href="https://mauric75.github.io/apo-rss/rss.xml" rel="self" type="application/rss+xml"/><copyright>CC BY-NC-SA 4.0</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://mauric75.github.io/apo-rss/cover.jpg</url><title>Los cuentos de Alejandro Apo</title><link>https://mauric75.github.io/apo-rss/</link></image><language>es-ar</language><lastBuildDate>Sat, 11 Jul 2026 06:26:29 +0000</lastBuildDate><itunes:category text="Arts"><itunes:category text="Literature"/></itunes:category><itunes:image href="https://mauric75.github.io/apo-rss/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:owner><itunes:name>Alejandro Apo</itunes:name><itunes:email>contacto@ejemplo.com</itunes:email></itunes:owner><itunes:summary>Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina, AM 750 y Pagina/12.</itunes:summary><itunes:type>episodic</itunes:type><item><title>Mundial Qatar 2022: Alejandro Apo cubriendo mundiales desde 1974</title><description>Alejandro Apo lee "Mundial Qatar 2022: Alejandro Apo cubriendo mundiales desde 1974".
+
+Fuente original:
+Radio Nacional Argentina.
+
+A dos días del Mundial de Qatar 2022 el prestigioso periodista deportivo Alejandro Apo dialogó con Radio Nacional Tartagal. Hizo su análisis sobre la Selección Argentina de cara a su debut. Además, habló de su importante trayectoria desde 1974.   […]</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Mundial Qatar 2022: Alejandro Apo cubriendo mundiales desde 1974".
+
+Fuente original:
+Radio Nacional Argentina.
+
+A dos días del Mundial de Qatar 2022 el prestigioso periodista deportivo Alejandro Apo dialogó con Radio Nacional Tartagal. Hizo su análisis sobre la Selección Argentina de cara a su debut. Además, habló de su importante trayectoria desde 1974.   […]&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.radionacional.com.ar/mundial-qatar-2022-alejandro-apo-cubriendo-mundiales-desde-1974/"&gt;Radio Nacional Argentina&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">mundial-qatar-2022:-alejandro-apo-cubriendo-mundiales-desde-1974</guid><enclosure url="https://cdn.radionacional.com.ar/wp-content/uploads/2022/11/alejandro-apo.mp3?_=3" length="0.0" type="audio/mpeg"/><pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:summary>Alejandro Apo lee "Mundial Qatar 2022: Alejandro Apo cubriendo mundiales desde 1974".
+
+Fuente original:
+Radio Nacional Argentina.
+
+A dos días del Mundial de Qatar 2022 el prestigioso periodista deportivo Alejandro Apo dialogó con Radio Nacional Tartagal. Hizo su análisis sobre la Selección Argentina de cara a su debut. Además, habló de su importante trayectoria desde 1974.   […]</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Apo: "Nadie ganó antes de jugar, y menos hablando"</title><description>Alejandro Apo lee "Apo: "Nadie ganó antes de jugar, y menos hablando"".
+
+Fuente original:
+Radio Nacional Argentina.
+
+El relator, periodista y especialista en fútbol, Alejandro Apo analizó en Aire Nacional las coberturas mediáticas que se están desarrollando en torno a Qatar 2022. Pidió cortar con "la soberbia" frente a los equipos rivales. "Estar escuchando todo el tiempo […]</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Apo: "Nadie ganó antes de jugar, y menos hablando"".
+
+Fuente original:
+Radio Nacional Argentina.
+
+El relator, periodista y especialista en fútbol, Alejandro Apo analizó en Aire Nacional las coberturas mediáticas que se están desarrollando en torno a Qatar 2022. Pidió cortar con "la soberbia" frente a los equipos rivales. "Estar escuchando todo el tiempo […]&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.radionacional.com.ar/apo-nadie-gano-antes-de-jugar-y-menos-hablando/"&gt;Radio Nacional Argentina&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">apo:-"nadie-ganó-antes-de-jugar,-y-menos-hablando"</guid><enclosure url="https://cdn.radionacional.com.ar/wp-content/uploads/2022/11/ALEJANDRO-APO.mp3?_=2" length="0.0" type="audio/mpeg"/><pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:summary>Alejandro Apo lee "Apo: "Nadie ganó antes de jugar, y menos hablando"".
+
+Fuente original:
+Radio Nacional Argentina.
+
+El relator, periodista y especialista en fútbol, Alejandro Apo analizó en Aire Nacional las coberturas mediáticas que se están desarrollando en torno a Qatar 2022. Pidió cortar con "la soberbia" frente a los equipos rivales. "Estar escuchando todo el tiempo […]</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Alejandro Apo: “Argentina paraliza a los rivales”</title><description>Alejandro Apo lee "Alejandro Apo: “Argentina paraliza a los rivales”".
+
+Fuente original:
+Radio Nacional Argentina.
+
+En Rosca N'Roll hablamos con Alejandro Apo, periodista deportivo y comentarista de los partidos de la Selección Argentina en la Copa del Mundo. En la previa, dijo: “Yo critico mucho a las personas que ganan o pierden los partidos en […]</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Alejandro Apo: “Argentina paraliza a los rivales”".
+
+Fuente original:
+Radio Nacional Argentina.
+
+En Rosca N'Roll hablamos con Alejandro Apo, periodista deportivo y comentarista de los partidos de la Selección Argentina en la Copa del Mundo. En la previa, dijo: “Yo critico mucho a las personas que ganan o pierden los partidos en […]&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.radionacional.com.ar/alejandro-apo-argentina-paraliza-a-los-rivales/"&gt;Radio Nacional Argentina&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">alejandro-apo:-“argentina-paraliza-a-los-rivales”</guid><enclosure url="https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2022/12/apo.mp3" length="0.0" type="audio/mpeg"/><pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:summary>Alejandro Apo lee "Alejandro Apo: “Argentina paraliza a los rivales”".
+
+Fuente original:
+Radio Nacional Argentina.
+
+En Rosca N'Roll hablamos con Alejandro Apo, periodista deportivo y comentarista de los partidos de la Selección Argentina en la Copa del Mundo. En la previa, dijo: “Yo critico mucho a las personas que ganan o pierden los partidos en […]</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Alejandro Apo: “Estoy cumpliendo 68 años hoy y me van a traer la copa”</title><description>Alejandro Apo lee "Alejandro Apo: “Estoy cumpliendo 68 años hoy y me van a traer la copa”".
+
+Fuente original:
+Radio Nacional Argentina.
+
+En Rosca N´Roll hablamos con el periodista deportivo, Alejandro Apo, para analizar la final del Mundo que ganó Argentina frente a Francia. Apo citó a Víctor Hugo diciendo que la victoria fue un acto de justicia y que los goles […]</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Alejandro Apo: “Estoy cumpliendo 68 años hoy y me van a traer la copa”".
+
+Fuente original:
+Radio Nacional Argentina.
+
+En Rosca N´Roll hablamos con el periodista deportivo, Alejandro Apo, para analizar la final del Mundo que ganó Argentina frente a Francia. Apo citó a Víctor Hugo diciendo que la victoria fue un acto de justicia y que los goles […]&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.radionacional.com.ar/alejandro-apo-estoy-cumpliendo-68-anos-hoy-y-me-van-a-traer-la-copa/"&gt;Radio Nacional Argentina&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">alejandro-apo:-“estoy-cumpliendo-68-años-hoy-y-me-van-a-traer-la-copa”</guid><enclosure url="https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2022/12/apo-1912.mp3" length="0.0" type="audio/mpeg"/><pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:summary>Alejandro Apo lee "Alejandro Apo: “Estoy cumpliendo 68 años hoy y me van a traer la copa”".
+
+Fuente original:
+Radio Nacional Argentina.
+
+En Rosca N´Roll hablamos con el periodista deportivo, Alejandro Apo, para analizar la final del Mundo que ganó Argentina frente a Francia. Apo citó a Víctor Hugo diciendo que la victoria fue un acto de justicia y que los goles […]</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Alejandro Apo y el recuerdo de Pelé</title><description>Alejandro Apo lee "Alejandro Apo y el recuerdo de Pelé".
+
+Fuente original:
+Radio Nacional Argentina.
+
+El célebre periodista deportivo con más de 40 años de trayectoria Alejandro Apo, dialogó con Verano 2023 para recordar la figura del futbolista recientemente fallecido, Edson Arantes do Nascimento, más conocido como Pelé, único jugador del mundo en haber ganado […]</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Alejandro Apo y el recuerdo de Pelé".
+
+Fuente original:
+Radio Nacional Argentina.
+
+El célebre periodista deportivo con más de 40 años de trayectoria Alejandro Apo, dialogó con Verano 2023 para recordar la figura del futbolista recientemente fallecido, Edson Arantes do Nascimento, más conocido como Pelé, único jugador del mundo en haber ganado […]&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.radionacional.com.ar/alejandro-apo-y-el-recuerdo-de-pele/"&gt;Radio Nacional Argentina&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">alejandro-apo-y-el-recuerdo-de-pelé</guid><enclosure url="https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/01/alejandro-apo-pele_0.0-781.0.mp3" length="0.0" type="audio/mpeg"/><pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:summary>Alejandro Apo lee "Alejandro Apo y el recuerdo de Pelé".
+
+Fuente original:
+Radio Nacional Argentina.
+
+El célebre periodista deportivo con más de 40 años de trayectoria Alejandro Apo, dialogó con Verano 2023 para recordar la figura del futbolista recientemente fallecido, Edson Arantes do Nascimento, más conocido como Pelé, único jugador del mundo en haber ganado […]</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>El "Pichón de Cristo" de Roberto Fontanarrosa</title><description>Alejandro Apo lee "El "Pichón de Cristo" de Roberto Fontanarrosa".
+
+Fuente original:
+Radio Nacional Argentina.
+
+"El pichón de Cristo", de Roberto Fontanarrosa, en la voz de Alejandro Apo Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "El "Pichón de Cristo" de Roberto Fontanarrosa".
+
+Fuente original:
+Radio Nacional Argentina.
+
+"El pichón de Cristo", de Roberto Fontanarrosa, en la voz de Alejandro Apo Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.radionacional.com.ar/el-pichon-de-cristo-de-roberto-fontanarrosa/"&gt;Radio Nacional Argentina&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">el-"pichón-de-cristo"-de-roberto-fontanarrosa</guid><enclosure url="https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/04/Sin-titulo-2.mp3" length="0.0" type="audio/mpeg"/><pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:summary>Alejandro Apo lee "El "Pichón de Cristo" de Roberto Fontanarrosa".
+
+Fuente original:
+Radio Nacional Argentina.
+
+"El pichón de Cristo", de Roberto Fontanarrosa, en la voz de Alejandro Apo Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>"Viejo con árbol", de Roberto Fontanarrosa</title><description>Alejandro Apo lee ""Viejo con árbol", de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+Radio Nacional Argentina.
+
+Desde la Feria Internacional del Libro de Buenos Aires, Alejandro Apo recordó al escritor y dibujante Roberto “Negro” Fontanarrosa, compartiendo con los oyentes su magnífico cuento "Viejo con árbol". Todo con Afecto, todos los sábados de 15.00 a 17.00 Con […]</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee ""Viejo con árbol", de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+Radio Nacional Argentina.
+
+Desde la Feria Internacional del Libro de Buenos Aires, Alejandro Apo recordó al escritor y dibujante Roberto “Negro” Fontanarrosa, compartiendo con los oyentes su magnífico cuento "Viejo con árbol". Todo con Afecto, todos los sábados de 15.00 a 17.00 Con […]&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Roberto Fontanarrosa&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.radionacional.com.ar/viejo-con-arbol-de-roberto-fontanarrosa/"&gt;Radio Nacional Argentina&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">"viejo-con-árbol",-de-roberto-fontanarrosa|roberto-fontanarrosa</guid><enclosure url="https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/04/apo.mp3" length="0.0" type="audio/mpeg"/><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:summary>Alejandro Apo lee ""Viejo con árbol", de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+Radio Nacional Argentina.
+
+Desde la Feria Internacional del Libro de Buenos Aires, Alejandro Apo recordó al escritor y dibujante Roberto “Negro” Fontanarrosa, compartiendo con los oyentes su magnífico cuento "Viejo con árbol". Todo con Afecto, todos los sábados de 15.00 a 17.00 Con […]</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'</title><description>Alejandro Apo lee "Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'".
+
+Fuente original:
+Radio Nacional Argentina.
+
+El escritor Mexicano habló en Todo con Afecto tras la lectura de su cuento en la voz de Alejandro Apo. "Me siento muy orgulloso de lo hayas leído, te sigo desde muchísimos años. Soy un aficionado a tu trabajo, a la […]</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'".
+
+Fuente original:
+Radio Nacional Argentina.
+
+El escritor Mexicano habló en Todo con Afecto tras la lectura de su cuento en la voz de Alejandro Apo. "Me siento muy orgulloso de lo hayas leído, te sigo desde muchísimos años. Soy un aficionado a tu trabajo, a la […]&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.radionacional.com.ar/jaime-munoz-vargas-hablo-sobre-su-cuento-transmision-diferida/"&gt;Radio Nacional Argentina&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">jaime-muñoz-vargas-habló-sobre-su-cuento-'transmisión-diferida'</guid><enclosure url="https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/07/Entrevista-Jaime-Munoz-Vargas.mp3" length="0.0" type="audio/mpeg"/><pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:summary>Alejandro Apo lee "Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'".
+
+Fuente original:
+Radio Nacional Argentina.
+
+El escritor Mexicano habló en Todo con Afecto tras la lectura de su cuento en la voz de Alejandro Apo. "Me siento muy orgulloso de lo hayas leído, te sigo desde muchísimos años. Soy un aficionado a tu trabajo, a la […]</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>"El pichón de Cristo", de Roberto Fontanarrosa</title><description>Alejandro Apo lee ""El pichón de Cristo", de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+Radio Nacional Argentina.
+
+"El pichón de Cristo", de Roberto Fontanarrosa, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee ""El pichón de Cristo", de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+Radio Nacional Argentina.
+
+"El pichón de Cristo", de Roberto Fontanarrosa, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Roberto Fontanarrosa&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.radionacional.com.ar/el-pichon-de-cristo-de-roberto-fontanarrosa-2/"&gt;Radio Nacional Argentina&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">"el-pichón-de-cristo",-de-roberto-fontanarrosa|roberto-fontanarrosa</guid><enclosure url="https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/07/Todo-con-Afecto-El-pichon-de-cristo.mp3" length="0.0" type="audio/mpeg"/><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:summary>Alejandro Apo lee ""El pichón de Cristo", de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+Radio Nacional Argentina.
+
+"El pichón de Cristo", de Roberto Fontanarrosa, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Alejandro Apo y un mano a mano con José Tiburcio Serrizuela</title><description>Alejandro Apo lee "Alejandro Apo y un mano a mano con José Tiburcio Serrizuela".
+
+Fuente original:
+Radio Nacional Argentina.
+
+El ex jugador de Independiente, Racing, River y la selección Argentina, entre otros, habló con Alejandro Apo y recordó diferentes anécdotas como jugador. Además, realizó un recorrido a lo largo de toda su carrara: los inicios, su debut, la selección […]</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Alejandro Apo y un mano a mano con José Tiburcio Serrizuela".
+
+Fuente original:
+Radio Nacional Argentina.
+
+El ex jugador de Independiente, Racing, River y la selección Argentina, entre otros, habló con Alejandro Apo y recordó diferentes anécdotas como jugador. Además, realizó un recorrido a lo largo de toda su carrara: los inicios, su debut, la selección […]&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.radionacional.com.ar/alejandro-apo-y-un-mano-a-mano-con-jose-tiburcio-serrizuela/"&gt;Radio Nacional Argentina&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">alejandro-apo-y-un-mano-a-mano-con-josé-tiburcio-serrizuela</guid><enclosure url="https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/10/Entrevista-a-Jose-Serrizuela.mp3" length="0.0" type="audio/mpeg"/><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:summary>Alejandro Apo lee "Alejandro Apo y un mano a mano con José Tiburcio Serrizuela".
+
+Fuente original:
+Radio Nacional Argentina.
+
+El ex jugador de Independiente, Racing, River y la selección Argentina, entre otros, habló con Alejandro Apo y recordó diferentes anécdotas como jugador. Además, realizó un recorrido a lo largo de toda su carrara: los inicios, su debut, la selección […]</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>'Relatores' de Alejandro Dolina</title><description>Alejandro Apo lee "'Relatores' de Alejandro Dolina".
+
+Fuente original:
+Radio Nacional Argentina.
+
+'Relatores', cuento extraído del libro 'El libro del Fantasma', de Alejando Dolina, en la voz de Alejando Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "'Relatores' de Alejandro Dolina".
+
+Fuente original:
+Radio Nacional Argentina.
+
+'Relatores', cuento extraído del libro 'El libro del Fantasma', de Alejando Dolina, en la voz de Alejando Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.radionacional.com.ar/relatores-de-alejandro-dolina-2/"&gt;Radio Nacional Argentina&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">'relatores'-de-alejandro-dolina</guid><enclosure url="https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/10/Todo-con-Afecto-Relatores.mp3" length="0.0" type="audio/mpeg"/><pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:summary>Alejandro Apo lee "'Relatores' de Alejandro Dolina".
+
+Fuente original:
+Radio Nacional Argentina.
+
+'Relatores', cuento extraído del libro 'El libro del Fantasma', de Alejando Dolina, en la voz de Alejando Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>'El Pampa' de Roberto Fontanarrosa</title><description>Alejandro Apo lee "'El Pampa' de Roberto Fontanarrosa".
+
+Fuente original:
+Radio Nacional Argentina.
+
+'El Pampa' cuento extraído del libro 'Negar todo y otros cuentos' de Roberto Fontanarrosa, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "'El Pampa' de Roberto Fontanarrosa".
+
+Fuente original:
+Radio Nacional Argentina.
+
+'El Pampa' cuento extraído del libro 'Negar todo y otros cuentos' de Roberto Fontanarrosa, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.radionacional.com.ar/el-pampa-de-roberto-fontanarrosa/"&gt;Radio Nacional Argentina&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">'el-pampa'-de-roberto-fontanarrosa</guid><enclosure url="https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/12/El-pampa-de-Roberto-Fontanarrosa.mp3" length="0.0" type="audio/mpeg"/><pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:summary>Alejandro Apo lee "'El Pampa' de Roberto Fontanarrosa".
+
+Fuente original:
+Radio Nacional Argentina.
+
+'El Pampa' cuento extraído del libro 'Negar todo y otros cuentos' de Roberto Fontanarrosa, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item></channel></rss>
