@@ -66,29 +66,136 @@ def build_rss(eps):
 def build_json(eps):
     items = []
     for ep in eps:
-        item = {"id": ep.get("guid",""), "url": ep.get("fuente_url",""), "title": ep["titulo"], "content_html": ep.get("descripcion",""), "date_published": datetime.fromisoformat(ep["fecha"]).isoformat() if ep.get("fecha") else datetime.now(timezone.utc).isoformat(), "authors": [{"name": "Alejandro Apo"}], "attachments": []}
+        item = {
+            "id": ep.get("guid", ""),
+            "url": ep.get("fuente_url", ""),
+            "title": ep["titulo"],
+            "content_html": ep.get("descripcion", ""),
+            "date_published": datetime.fromisoformat(ep["fecha"]).isoformat() if ep.get("fecha") else datetime.now(timezone.utc).isoformat(),
+            "attachments": []
+        }
         if ep.get("mp3_url"): item["attachments"].append({"url": ep["mp3_url"], "mime_type": "audio/mpeg", "duration_in_seconds": ep.get("duracion", 0)})
         if ep.get("imagen"): item["image"] = ep["imagen"]
         items.append(item)
-    Path("feed.json").write_text(json.dumps({"version": "https://jsonfeed.org/version/1.1", "title": PODCAST_TITLE, "home_page_url": PODCAST_LINK, "feed_url": f"{PODCAST_LINK}feed.json", "description": PODCAST_DESCRIPTION, "icon": PODCAST_IMAGE, "items": items}, ensure_ascii=False, indent=2), encoding="utf-8")
+    Path("feed.json").write_text(json.dumps({
+        "version": "https://jsonfeed.org/version/1.1",
+        "title": PODCAST_TITLE,
+        "home_page_url": PODCAST_LINK,
+        "feed_url": f"{PODCAST_LINK}feed.json",
+        "description": PODCAST_DESCRIPTION,
+        "items": items
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
 
 def build_opml():
-    Path("podcast.opml").write_text(f'<?xml version="1.0" encoding="UTF-8"?><opml version="2.0"><head><title>{PODCAST_TITLE}</title></head><body><outline text="{PODCAST_TITLE}" type="rss" xmlUrl="{PODCAST_LINK}rss.xml" htmlUrl="{PODCAST_LINK}" /></body></opml>', encoding="utf-8")
+    Path("podcast.opml").write_text(
+        f'<?xml version="1.0" encoding="UTF-8"?>'
+        f'<opml version="2.0">'
+        f'<head><title>{PODCAST_TITLE}</title></head>'
+        f'<body>'
+        f'<outline text="{PODCAST_TITLE}" type="rss" xmlUrl="{PODCAST_LINK}rss.xml" />'
+        f'</body>'
+        f'</opml>',
+        encoding="utf-8"
+    )
 
 def build_metadatos(eps):
     autores = sorted({ep["autor_cuento"] for ep in eps if ep.get("autor_cuento")})
-    Path("metadatos.json").write_text(json.dumps({"podcast": {"titulo": PODCAST_TITLE, "rss": f"{PODCAST_LINK}rss.xml"}, "estadisticas": {"total_episodios": len(eps), "autores_unicos": len(autores), "lista_autores": autores}}, ensure_ascii=False, indent=2), encoding="utf-8")
+    fuentes = sorted({ep["fuente"] for ep in eps if ep.get("fuente")})
+    Path("metadatos.json").write_text(json.dumps({
+        "podcast": {
+            "titulo": PODCAST_TITLE,
+            "rss": f"{PODCAST_LINK}rss.xml",
+            "generado": datetime.now(timezone.utc).isoformat()
+        },
+        "estadisticas": {
+            "total_episodios": len(eps),
+            "autores_unicos": len(autores),
+            "fuentes": len(fuentes),
+            "duracion_total_segundos": sum(ep.get("duracion", 0) for ep in eps)
+        },
+        "autores": autores,
+        "fuentes": fuentes
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
 
 def build_indice(eps):
     lines = [f"# {PODCAST_TITLE}", "", "| # | Titulo | Autor | Fuente | Duracion |", "|---|--------|-------|--------|----------|"]
-    for i, ep in enumerate(eps, 1): lines.append(f"| {i} | {ep['titulo']} | {ep.get('autor_cuento', '-')} | {ep.get('fuente', '-')} | {duracion_str(ep.get('duracion', 0))} |")
+    for i, ep in enumerate(eps, 1):
+        lines.append(f"| {i} | {ep['titulo']} | {ep.get('autor_cuento', '-')} | {ep.get('fuente', '-')} | {duracion_str(ep.get('duracion', 0))} |")
     Path("INDICE.md").write_text("\n".join(lines), encoding="utf-8")
 
 def build_html(eps):
-    html = f'''<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>{PODCAST_TITLE}</title><style>:root{{--bg:#0d0d0d;--card:#1a1a1a;--border:#2a2a2a;--fg:#e0e0e0;--muted:#888;--accent:#c9a84c}}*{{margin:0;padding:0;box-sizing:border-box}}body{{font-family:system-ui,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}}header{{text-align:center;padding:3rem 1rem;border-bottom:1px solid var(--border)}}header h1{{font-size:2rem;color:var(--accent);margin-top:1rem}}header p{{color:var(--muted);margin-top:.5rem}}.feeds{{display:flex;justify-content:center;gap:1rem;margin-top:1.5rem;flex-wrap:wrap}}.feeds a{{padding:.5rem 1rem;background:var(--accent);color:#000;text-decoration:none;border-radius:6px;font-weight:600}}.feeds a.sec{{background:transparent;border:1px solid var(--border);color:var(--fg)}}main{{max-width:800px;margin:0 auto;padding:2rem 1rem}}.ep{{padding:1rem 0;border-bottom:1px solid var(--border)}}.ep h3{{margin-bottom:.2rem}}.meta{{font-size:.8rem;color:var(--muted)}}.meta strong{{color:var(--accent)}}footer{{text-align:center;padding:2rem;color:var(--muted);font-size:.8rem;border-top:1px solid var(--border);margin-top:2rem}}</style></head><body><header><h1>{PODCAST_TITLE}</h1><p>{PODCAST_SUBTITLE}</p><p style="max-width:600px;margin:1rem auto">{PODCAST_DESCRIPTION}</p><div class="feeds"><a href="rss.xml">RSS</a><a href="feed.json" class="sec">JSON</a><a href="podcast.opml" class="sec">OPML</a></div></header><div style="text-align:center;padding:1rem;color:var(--muted);font-size:.85rem;border-bottom:1px solid var(--border)">{len(eps)} episodios</div><main>'''
+    html = f'''<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>{PODCAST_TITLE}</title>
+    <style>
+        :root {{
+            --bg: #0d0d0d;
+            --fg: #e8e8e8;
+            --accent: #ff6b35;
+        }}
+        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+        body {{
+            background: var(--bg);
+            color: var(--fg);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+        }}
+        header {{
+            background: linear-gradient(135deg, var(--accent) 0%, #ff8c42 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }}
+        header h1 {{ font-size: 2.5rem; margin-bottom: 0.5rem; }}
+        header p {{ opacity: 0.9; font-size: 1.1rem; }}
+        main {{ max-width: 900px; margin: 0 auto; padding: 2rem; }}
+        .ep {{
+            background: #1a1a1a;
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 4px;
+        }}
+        .ep h3 {{ color: var(--accent); margin-bottom: 0.5rem; }}
+        .meta {{ font-size: 0.9rem; color: #999; margin-bottom: 1rem; }}
+        .ep p {{ margin-bottom: 1rem; }}
+        .ep audio {{ width: 100%; margin-top: 1rem; }}
+        footer {{
+            background: #1a1a1a;
+            text-align: center;
+            padding: 1rem;
+            border-top: 1px solid #333;
+            font-size: 0.9rem;
+            color: #666;
+        }}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>{PODCAST_TITLE}</h1>
+        <p>{PODCAST_SUBTITLE}</p>
+    </header>
+    <main>
+'''
     for ep in eps:
-        html += f'<article class="ep"><h3>{ep["titulo"]}</h3><div class="meta">{ep.get("autor_cuento","-")} | {ep.get("fecha","-")} | {duracion_str(ep.get("duracion",0))}</div><div style="font-size:.9rem;opacity:.8;margin-top:.5rem">{ep.get("descripcion","")[:200]}</div><div class="meta" style="margin-top:.3rem">Fuente: {ep.get("fuente","")}</div></article>'
-    html += f'</main><footer>Feed independiente. Credito a fuentes originales en cada episodio.</footer></body></html>'
+        audio_html = ""
+        if ep.get("mp3_url"):
+            audio_html = f'<audio controls style="width: 100%;"><source src="{ep["mp3_url"]}" type="audio/mpeg">Tu navegador no soporta audio.</audio>'
+        html += f'''        <article class="ep">
+            <h3>{ep["titulo"]}</h3>
+            <div class="meta">{ep.get("autor_cuento", "-")} | {ep.get("fecha", "-")} | {duracion_str(ep.get("duracion", 0))}</div>
+            <p>{ep.get("descripcion", "")}</p>
+            {audio_html}
+            <p><strong>Fuente:</strong> <a href="{ep.get("fuente_url", "#")}" style="color: var(--accent);">{ep.get("fuente", "N/A")}</a></p>
+        </article>
+'''
+    html += '''    </main>
+    <footer>Feed independiente. Crédito a fuentes originales en cada episodio.</footer>
+</body>
+</html>'''
     Path("index.html").write_text(html, encoding="utf-8")
 
 def main():
