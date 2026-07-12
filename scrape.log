@@ -1,115 +1,115 @@
-2026-07-12 10:04:33,885 [INFO] === Inicio de scraping ===
-2026-07-12 10:04:33,885 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/
-2026-07-12 10:04:35,406 [INFO]   OK RN Feed: 'Pena' de Carlos Ferreira
-2026-07-12 10:04:36,983 [INFO]   OK RN Feed: 'El cuadro de Raulito' de Eduardo Sacheri
-2026-07-12 10:04:38,602 [INFO]   OK RN Feed: 'Los traidores', de Eduardo Sacheri
-2026-07-12 10:04:40,065 [INFO]   OK RN Feed: 'De chilena', de Eduardo Sacheri
-2026-07-12 10:04:41,648 [INFO]   OK RN Feed: 'El álbum', de Héctor Sánchez
-2026-07-12 10:04:43,229 [INFO]   OK RN Feed: 'Un gol asegurado' de Fernando Musa
-2026-07-12 10:04:44,622 [INFO]   OK RN Feed: 'El Pampa' de Roberto Fontanarrosa
-2026-07-12 10:04:46,165 [INFO]   OK RN Feed: 'Chau Mono' de Alfredo Carlino
-2026-07-12 10:04:47,581 [INFO]   OK RN Feed: 'Finito' de Guillermo Blanco
-2026-07-12 10:04:48,582 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=2
-2026-07-12 10:04:49,147 [INFO]   OK RN Feed: 'Todo mientras Diego' de Ariel Scher
-2026-07-12 10:04:50,344 [INFO]   OK RN Feed: 'Relatores' de Alejandro Dolina
-2026-07-12 10:04:51,573 [INFO]   OK RN Feed: 'El último centrojás' de Juan Sasturain
-2026-07-12 10:04:53,143 [INFO]   OK RN Feed: 'Apuntes acerca de una mala mujer' de Sergio Ranieri
-2026-07-12 10:04:54,349 [INFO]   OK RN Feed: 'Señor Labruna' de Rodolfo Braceli
-2026-07-12 10:04:55,833 [INFO]   OK RN Feed: 'Esperándolo a Tito' de Eduardo Sacheri
-2026-07-12 10:04:57,376 [INFO]   OK RN Feed: 'Oración por un gol' de Vicente Gaos
-2026-07-12 10:04:58,923 [INFO]   OK RN Feed: 'Tenemos un arquero que es una maravilla' de Eduardo Maicas
-2026-07-12 10:04:59,924 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=3
-2026-07-12 10:05:00,761 [INFO]   OK RN Feed: "El Chango Agüero, Schopenhauer y el descenso", de Osvaldo Soriano
-2026-07-12 10:05:02,329 [INFO]   OK RN Feed: "De Chilena", de Eduardo Sacheri
-2026-07-12 10:05:03,725 [INFO]   OK RN Feed: “Creo, vieja, que tu hijo la cagó”, de Jorge Valdano
-2026-07-12 10:05:04,756 [INFO]   OK RN Feed: "El pichón de Cristo", de Roberto Fontanarrosa
-2026-07-12 10:05:06,174 [INFO]   OK RN Feed: “Una sonrisa exactamente así”, de Eduardo Sacheri
-2026-07-12 10:05:07,743 [INFO]   OK RN Feed: "El hombre que murió dos veces", de Juan Villoro
-2026-07-12 10:05:09,243 [INFO]   OK RN Feed: Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'
-2026-07-12 10:05:10,718 [INFO]   OK RN Feed: "Transmisión diferida", de Jaime Muñoz Vargas
-2026-07-12 10:05:11,719 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=4
-2026-07-12 10:05:12,201 [INFO]   OK RN Feed: "De chilena", de Eduardo Sacheri
-2026-07-12 10:05:13,628 [INFO]   OK RN Feed: “La posibilidad sublime”, de Pablo Ramos
-2026-07-12 10:05:14,658 [INFO]   OK RN Feed: "Viejo con árbol", de Roberto Fontanarrosa
-2026-07-12 10:05:16,115 [INFO]   OK RN Feed: "Un trapo: Inmortal radiografía de las almas nobles" de Mario Giannotti
-2026-07-12 10:05:17,686 [INFO]   OK RN Feed: El "Pichón de Cristo" de Roberto Fontanarrosa
-2026-07-12 10:05:18,687 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=5
-2026-07-12 10:05:19,131 [INFO]   OK RN Feed: “Inside derecho”, de Humberto
-2026-07-12 10:05:20,588 [INFO]   OK RN Feed: "Banderín solferino", de Juan Sasturain
-2026-07-12 10:05:21,882 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
-2026-07-12 10:05:27,024 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
-2026-07-12 10:05:32,157 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
-2026-07-12 10:05:32,293 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Un+Señor+Cuento
-2026-07-12 10:05:37,307 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Un+Señor+Cuento
-2026-07-12 10:05:42,441 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Un+Señor+Cuento
-2026-07-12 10:05:42,449 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=El+cuento+de+la+tarde
-2026-07-12 10:05:47,460 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=El+cuento+de+la+tarde
-2026-07-12 10:05:52,469 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=El+cuento+de+la+tarde
-2026-07-12 10:05:52,477 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Dondequiera+que+estés
-2026-07-12 10:05:57,492 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Dondequiera+que+estés
-2026-07-12 10:06:02,626 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Dondequiera+que+estés
-2026-07-12 10:06:02,641 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Todo+con+afecto
-2026-07-12 10:06:07,787 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Todo+con+afecto
-2026-07-12 10:06:12,820 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Todo+con+afecto
-2026-07-12 10:06:13,214 [INFO] Procesando: https://www.pagina12.com.ar/
-2026-07-12 10:06:14,317 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
-2026-07-12 10:06:15,607 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
-2026-07-12 10:06:16,841 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
-2026-07-12 10:06:17,945 [INFO] Procesando: https://www.pagina12.com.ar/economia
-2026-07-12 10:06:19,128 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
-2026-07-12 10:06:20,369 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
-2026-07-12 10:06:21,513 [INFO] Procesando: https://www.pagina12.com.ar/deportes
-2026-07-12 10:06:22,771 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
-2026-07-12 10:06:24,031 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
-2026-07-12 10:06:25,174 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
-2026-07-12 10:06:26,353 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
-2026-07-12 10:06:27,518 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
-2026-07-12 10:06:28,622 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
-2026-07-12 10:06:29,735 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
-2026-07-12 10:06:32,061 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
-2026-07-12 10:06:33,519 [INFO] Procesando: https://www.pagina12.com.ar/no
-2026-07-12 10:06:34,791 [INFO] Procesando: https://socios.pagina12.com.ar/
-2026-07-12 10:06:36,629 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
-2026-07-12 10:06:37,876 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
-2026-07-12 10:06:39,429 [INFO] Procesando: https://www.pagina12.com.ar/
-2026-07-12 10:06:41,246 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
-2026-07-12 10:06:42,361 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
-2026-07-12 10:06:43,461 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
-2026-07-12 10:06:44,642 [INFO] Procesando: https://www.pagina12.com.ar/economia
-2026-07-12 10:06:45,704 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
-2026-07-12 10:06:46,777 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
-2026-07-12 10:06:47,825 [INFO] Procesando: https://www.pagina12.com.ar/deportes
-2026-07-12 10:06:48,897 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
-2026-07-12 10:06:49,963 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
-2026-07-12 10:06:51,023 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
-2026-07-12 10:06:52,082 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
-2026-07-12 10:06:53,522 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
-2026-07-12 10:06:54,591 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
-2026-07-12 10:06:55,644 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
-2026-07-12 10:06:56,716 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
-2026-07-12 10:06:57,897 [INFO] Procesando: https://www.pagina12.com.ar/no
-2026-07-12 10:06:59,090 [INFO] Procesando: https://socios.pagina12.com.ar/
-2026-07-12 10:07:00,154 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
-2026-07-12 10:07:01,213 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
-2026-07-12 10:07:02,371 [INFO] Procesando: https://www.pagina12.com.ar/
-2026-07-12 10:07:03,459 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
-2026-07-12 10:07:04,574 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
-2026-07-12 10:07:05,666 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
-2026-07-12 10:07:06,737 [INFO] Procesando: https://www.pagina12.com.ar/economia
-2026-07-12 10:07:07,798 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
-2026-07-12 10:07:08,868 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
-2026-07-12 10:07:09,921 [INFO] Procesando: https://www.pagina12.com.ar/deportes
-2026-07-12 10:07:11,025 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
-2026-07-12 10:07:12,090 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
-2026-07-12 10:07:13,146 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
-2026-07-12 10:07:14,218 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
-2026-07-12 10:07:15,274 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
-2026-07-12 10:07:16,345 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
-2026-07-12 10:07:17,399 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
-2026-07-12 10:07:18,476 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
-2026-07-12 10:07:19,541 [INFO] Procesando: https://www.pagina12.com.ar/no
-2026-07-12 10:07:20,619 [INFO] Procesando: https://socios.pagina12.com.ar/
-2026-07-12 10:07:21,677 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
-2026-07-12 10:07:22,761 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
-2026-07-12 10:07:23,825 [INFO] Se agregaron 26 episodios nuevos.
-2026-07-12 10:07:23,825 [INFO] === Fin ===
+2026-07-12 10:19:40,254 [INFO] === Inicio de scraping ===
+2026-07-12 10:19:40,255 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/
+2026-07-12 10:19:41,715 [INFO]   OK RN Feed: 'Pena' de Carlos Ferreira
+2026-07-12 10:19:42,893 [INFO]   OK RN Feed: 'El cuadro de Raulito' de Eduardo Sacheri
+2026-07-12 10:19:44,638 [INFO]   OK RN Feed: 'Los traidores', de Eduardo Sacheri
+2026-07-12 10:19:45,796 [INFO]   OK RN Feed: 'De chilena', de Eduardo Sacheri
+2026-07-12 10:19:47,007 [INFO]   OK RN Feed: 'El álbum', de Héctor Sánchez
+2026-07-12 10:19:48,131 [INFO]   OK RN Feed: 'Un gol asegurado' de Fernando Musa
+2026-07-12 10:19:49,279 [INFO]   OK RN Feed: 'El Pampa' de Roberto Fontanarrosa
+2026-07-12 10:19:50,411 [INFO]   OK RN Feed: 'Chau Mono' de Alfredo Carlino
+2026-07-12 10:19:51,550 [INFO]   OK RN Feed: 'Finito' de Guillermo Blanco
+2026-07-12 10:19:52,551 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=2
+2026-07-12 10:19:52,874 [INFO]   OK RN Feed: 'Todo mientras Diego' de Ariel Scher
+2026-07-12 10:19:53,918 [INFO]   OK RN Feed: 'Relatores' de Alejandro Dolina
+2026-07-12 10:19:55,016 [INFO]   OK RN Feed: 'El último centrojás' de Juan Sasturain
+2026-07-12 10:19:56,168 [INFO]   OK RN Feed: 'Apuntes acerca de una mala mujer' de Sergio Ranieri
+2026-07-12 10:19:57,397 [INFO]   OK RN Feed: 'Señor Labruna' de Rodolfo Braceli
+2026-07-12 10:19:58,540 [INFO]   OK RN Feed: 'Esperándolo a Tito' de Eduardo Sacheri
+2026-07-12 10:19:59,678 [INFO]   OK RN Feed: 'Oración por un gol' de Vicente Gaos
+2026-07-12 10:20:00,826 [INFO]   OK RN Feed: 'Tenemos un arquero que es una maravilla' de Eduardo Maicas
+2026-07-12 10:20:01,826 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=3
+2026-07-12 10:20:02,226 [INFO]   OK RN Feed: "El Chango Agüero, Schopenhauer y el descenso", de Osvaldo Soriano
+2026-07-12 10:20:03,390 [INFO]   OK RN Feed: "De Chilena", de Eduardo Sacheri
+2026-07-12 10:20:04,535 [INFO]   OK RN Feed: “Creo, vieja, que tu hijo la cagó”, de Jorge Valdano
+2026-07-12 10:20:05,717 [INFO]   OK RN Feed: "El pichón de Cristo", de Roberto Fontanarrosa
+2026-07-12 10:20:06,874 [INFO]   OK RN Feed: “Una sonrisa exactamente así”, de Eduardo Sacheri
+2026-07-12 10:20:08,026 [INFO]   OK RN Feed: "El hombre que murió dos veces", de Juan Villoro
+2026-07-12 10:20:09,070 [INFO]   OK RN Feed: Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'
+2026-07-12 10:20:10,200 [INFO]   OK RN Feed: "Transmisión diferida", de Jaime Muñoz Vargas
+2026-07-12 10:20:11,201 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=4
+2026-07-12 10:20:11,634 [INFO]   OK RN Feed: "De chilena", de Eduardo Sacheri
+2026-07-12 10:20:12,778 [INFO]   OK RN Feed: “La posibilidad sublime”, de Pablo Ramos
+2026-07-12 10:20:13,823 [INFO]   OK RN Feed: "Viejo con árbol", de Roberto Fontanarrosa
+2026-07-12 10:20:15,270 [INFO]   OK RN Feed: "Un trapo: Inmortal radiografía de las almas nobles" de Mario Giannotti
+2026-07-12 10:20:16,433 [INFO]   OK RN Feed: El "Pichón de Cristo" de Roberto Fontanarrosa
+2026-07-12 10:20:17,434 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=5
+2026-07-12 10:20:17,796 [INFO]   OK RN Feed: “Inside derecho”, de Humberto
+2026-07-12 10:20:18,979 [INFO]   OK RN Feed: "Banderín solferino", de Juan Sasturain
+2026-07-12 10:20:20,355 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
+2026-07-12 10:20:25,543 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
+2026-07-12 10:20:30,733 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
+2026-07-12 10:20:30,922 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Un+Señor+Cuento
+2026-07-12 10:20:36,111 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Un+Señor+Cuento
+2026-07-12 10:20:41,133 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Un+Señor+Cuento
+2026-07-12 10:20:41,154 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=El+cuento+de+la+tarde
+2026-07-12 10:20:46,343 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=El+cuento+de+la+tarde
+2026-07-12 10:20:51,366 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=El+cuento+de+la+tarde
+2026-07-12 10:20:51,386 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Dondequiera+que+estés
+2026-07-12 10:20:56,576 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Dondequiera+que+estés
+2026-07-12 10:21:01,782 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Dondequiera+que+estés
+2026-07-12 10:21:01,802 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Todo+con+afecto
+2026-07-12 10:21:06,825 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Todo+con+afecto
+2026-07-12 10:21:11,847 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Todo+con+afecto
+2026-07-12 10:21:12,547 [INFO] Procesando: https://www.pagina12.com.ar/
+2026-07-12 10:21:13,952 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
+2026-07-12 10:21:15,776 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
+2026-07-12 10:21:18,123 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
+2026-07-12 10:21:19,706 [INFO] Procesando: https://www.pagina12.com.ar/economia
+2026-07-12 10:21:21,231 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
+2026-07-12 10:21:22,633 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
+2026-07-12 10:21:24,121 [INFO] Procesando: https://www.pagina12.com.ar/deportes
+2026-07-12 10:21:25,789 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
+2026-07-12 10:21:27,396 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
+2026-07-12 10:21:29,047 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
+2026-07-12 10:21:31,403 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
+2026-07-12 10:21:32,966 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
+2026-07-12 10:21:34,649 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
+2026-07-12 10:21:35,952 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
+2026-07-12 10:21:37,523 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
+2026-07-12 10:21:39,019 [INFO] Procesando: https://www.pagina12.com.ar/no
+2026-07-12 10:21:40,654 [INFO] Procesando: https://socios.pagina12.com.ar/
+2026-07-12 10:21:42,533 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
+2026-07-12 10:21:44,071 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
+2026-07-12 10:21:45,975 [INFO] Procesando: https://www.pagina12.com.ar/
+2026-07-12 10:21:47,340 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
+2026-07-12 10:21:48,431 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
+2026-07-12 10:21:49,501 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
+2026-07-12 10:21:50,802 [INFO] Procesando: https://www.pagina12.com.ar/economia
+2026-07-12 10:21:51,936 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
+2026-07-12 10:21:54,007 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
+2026-07-12 10:21:55,059 [INFO] Procesando: https://www.pagina12.com.ar/deportes
+2026-07-12 10:21:56,333 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
+2026-07-12 10:21:57,528 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
+2026-07-12 10:21:58,569 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
+2026-07-12 10:21:59,906 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
+2026-07-12 10:22:01,233 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
+2026-07-12 10:22:02,283 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
+2026-07-12 10:22:03,405 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
+2026-07-12 10:22:04,470 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
+2026-07-12 10:22:05,513 [INFO] Procesando: https://www.pagina12.com.ar/no
+2026-07-12 10:22:06,922 [INFO] Procesando: https://socios.pagina12.com.ar/
+2026-07-12 10:22:08,038 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
+2026-07-12 10:22:09,075 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
+2026-07-12 10:22:10,168 [INFO] Procesando: https://www.pagina12.com.ar/
+2026-07-12 10:22:11,239 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
+2026-07-12 10:22:12,323 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
+2026-07-12 10:22:13,391 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
+2026-07-12 10:22:14,439 [INFO] Procesando: https://www.pagina12.com.ar/economia
+2026-07-12 10:22:15,492 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
+2026-07-12 10:22:16,540 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
+2026-07-12 10:22:17,578 [INFO] Procesando: https://www.pagina12.com.ar/deportes
+2026-07-12 10:22:18,624 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
+2026-07-12 10:22:19,831 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
+2026-07-12 10:22:20,880 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
+2026-07-12 10:22:21,926 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
+2026-07-12 10:22:22,966 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
+2026-07-12 10:22:24,015 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
+2026-07-12 10:22:25,123 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
+2026-07-12 10:22:26,189 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
+2026-07-12 10:22:27,227 [INFO] Procesando: https://www.pagina12.com.ar/no
+2026-07-12 10:22:28,280 [INFO] Procesando: https://socios.pagina12.com.ar/
+2026-07-12 10:22:29,395 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
+2026-07-12 10:22:30,431 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
+2026-07-12 10:22:31,467 [INFO] Sin episodios nuevos.
+2026-07-12 10:22:31,467 [INFO] === Fin ===
