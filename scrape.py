@@ -326,30 +326,20 @@ def main():
     except Exception as e:
         log.error("Error en Radio Nacional (Feed): %s", e)
 
-    # 2. Búsquedas por nombre de programa en todos los medios
-    scrapers = [
-        # AM 750
-        ("https://www.am750.com.ar/?s=Alejandro+Apo", "am750.com.ar", "AM 750"),
-        ("https://www.am750.com.ar/?s=Un+Señor+Cuento", "am750.com.ar", "AM 750"),
-        ("https://www.am750.com.ar/?s=El+cuento+de+la+tarde", "am750.com.ar", "AM 750"),
-        ("https://www.am750.com.ar/?s=Dondequiera+que+estés", "am750.com.ar", "AM 750"),
-        ("https://www.am750.com.ar/?s=Todo+con+afecto", "am750.com.ar", "AM 750"),
-        # Página/12
-        ("https://www.pagina12.com.ar/buscar?q=Alejandro+Apo", "pagina12.com.ar", "Pagina/12"),
-        ("https://www.pagina12.com.ar/buscar?q=Todo+con+afecto", "pagina12.com.ar", "Pagina/12"),
-        ("https://www.pagina12.com.ar/buscar?q=Dondequiera+que+estés", "pagina12.com.ar", "Pagina/12"),
-        # Radio Nacional ya se cubre arriba via el feed RSS nativo del tag
-        # (scrape_wp_tag_feed), que es mas confiable. Las busquedas ?s= genericas
-        # se sacan: el buscador del sitio matchea palabra por palabra, no frase
-        # exacta, asi que "Todo con afecto" terminaba siendo una busqueda de la
-        # palabra suelta "afecto" y traia articulos sobre incendios, el Mundial,
-        # el Papa Francisco, etc. sin ningun vinculo real con Apo.
-    ]
-    for url, dom, name in scrapers:
-        try:
-            _agregar(scrape_source(url, dom, name))
-        except Exception as e: log.error("Error en %s: %s", name, e)
-        
+    # 2. AM750 y Pagina/12: DESHABILITADOS.
+    # Confirmado en corridas reales (log del 2026-07-12): AM750 falla 3/3
+    # intentos en las 5 variantes de busqueda probadas (el sitio ni siquiera
+    # responde al request, no es un problema de contenido). Pagina/12 nunca
+    # devuelve resultados de busqueda reales via HTML plano -- el buscador es
+    # client-side y el request simple solo trae el layout generico del sitio
+    # (nav, secciones, terminos y condiciones), no resultados. Con 3 variantes
+    # de query configuradas terminaba recorriendo ese menu generico 3 veces
+    # por corrida, ~4-5 minutos gastados por dia sin encontrar un solo
+    # episodio real en ninguna de las dos fuentes.
+    # Si se quiere cubrir estos dos medios, hace falta un enfoque distinto
+    # (API/endpoint real del sitio, o curaduria manual), no scraping de
+    # busqueda por HTML.
+    
     if all_new:
         existing.extend(all_new)
         save_episodes(existing)
