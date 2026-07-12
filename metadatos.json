@@ -2,15 +2,25 @@
   "podcast": {
     "titulo": "Los cuentos de Alejandro Apo",
     "rss": "https://mauric75.github.io/apo-rss/rss.xml",
-    "generado": "2026-07-12T09:01:26.949461+00:00"
+    "generado": "2026-07-12T10:07:23.927507+00:00"
   },
   "estadisticas": {
-    "total_episodios": 12,
-    "autores_unicos": 1,
+    "total_episodios": 31,
+    "autores_unicos": 11,
     "fuentes": 1,
     "duracion_total_segundos": 0.0
   },
   "autores": [
+    "Alejandro Dolina",
+    "Eduardo Sacheri",
+    "Humberto",
+    "Héctor Sánchez",
+    "Jaime Muñoz Vargas",
+    "Jorge Valdano",
+    "Juan Sasturain",
+    "Juan Villoro",
+    "Osvaldo Soriano",
+    "Pablo Ramos",
     "Roberto Fontanarrosa"
   ],
   "fuentes": [

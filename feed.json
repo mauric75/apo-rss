@@ -6,7 +6,82 @@
   "description": "Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina, AM 750 y Pagina/12.",
   "items": [
     {
-      "id": "'el-pampa'-de-roberto-fontanarrosa",
+      "id": "'pena'-de-carlos-ferreira",
+      "url": "https://www.radionacional.com.ar/pena-de-carlos-ferreira/",
+      "title": "'Pena' de Carlos Ferreira",
+      "content_html": "Alejandro Apo lee \"'Pena' de Carlos Ferreira\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'Pena' del libro 'A mi juego' de Carlos Ferreira, en la voz de Bruno, el nieto de Alejandro Apo.",
+      "date_published": "2023-12-23T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/12/Todo-con-Afecto-Pena.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'el-cuadro-de-raulito'-de-eduardo-sacheri",
+      "url": "https://www.radionacional.com.ar/el-cuadro-de-raulito-de-eduardo-sacheri-2/",
+      "title": "'El cuadro de Raulito' de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"'El cuadro de Raulito' de Eduardo Sacheri\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'El cuadro de Raulito' de Eduardo Sacheri, en la voz de Alejandro Apo.",
+      "date_published": "2023-12-23T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/12/Todo-con-Afecto-El-cuadro-de-Raulito.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'los-traidores',-de-eduardo-sacheri|eduardo-sacheri",
+      "url": "https://www.radionacional.com.ar/los-traidores-de-eduardo-sacheri-2/",
+      "title": "'Los traidores', de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"'Los traidores', de Eduardo Sacheri\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadio Nacional Argentina.\n\n'Los traidores', de Eduardo Sacheri, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-12-16T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/12/Los-traidores-de-Eduardo-Sacheri.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'de-chilena',-de-eduardo-sacheri|eduardo-sacheri",
+      "url": "https://www.radionacional.com.ar/de-chilena-de-eduardo-sacheri-4/",
+      "title": "'De chilena', de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"'De chilena', de Eduardo Sacheri\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadio Nacional Argentina.\n\n'De chilena', del libro 'Esperándolo a Tito' de Eduardo Sacheri, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-12-16T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/12/De-chilena-de-Eduardo-Sacheri.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'el-álbum',-de-héctor-sánchez|héctor-sánchez",
+      "url": "https://www.radionacional.com.ar/el-album-de-hector-sanchez-2/",
+      "title": "'El álbum', de Héctor Sánchez",
+      "content_html": "Alejandro Apo lee \"'El álbum', de Héctor Sánchez\", cuento de Héctor Sánchez.\n\nFuente original:\nRadio Nacional Argentina.\n\n'El álbum' del libro 'Figuritas' de Héctor Sánchez, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-12-09T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/12/El-album-de-Hector-Sanchez.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'el-pampa'-de-roberto-fontanarrosa|roberto-fontanarrosa",
       "url": "https://www.radionacional.com.ar/el-pampa-de-roberto-fontanarrosa/",
       "title": "'El Pampa' de Roberto Fontanarrosa",
       "content_html": "Alejandro Apo lee \"'El Pampa' de Roberto Fontanarrosa\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'El Pampa' cuento extraído del libro 'Negar todo y otros cuentos' de Roberto Fontanarrosa, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
@@ -21,7 +96,67 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
-      "id": "'relatores'-de-alejandro-dolina",
+      "id": "'un-gol-asegurado'-de-fernando-musa",
+      "url": "https://www.radionacional.com.ar/un-gol-asegurado-de-fernando-musa/",
+      "title": "'Un gol asegurado' de Fernando Musa",
+      "content_html": "Alejandro Apo lee \"'Un gol asegurado' de Fernando Musa\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'Un gol asegurado' del libro 'Golpe de ausencia' de Fernando Musa, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-12-02T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/12/Un-gol-asegurado-de-Fernando-Musa.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'chau-mono'-de-alfredo-carlino",
+      "url": "https://www.radionacional.com.ar/chau-mono-de-alfredo-carlino/",
+      "title": "'Chau Mono' de Alfredo Carlino",
+      "content_html": "Alejandro Apo lee \"'Chau Mono' de Alfredo Carlino\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'Chau Mono' de Alfredo Carlino, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-11-11T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/11/Chau-Mono-de-Alfredo-Carlino.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'finito'-de-guillermo-blanco",
+      "url": "https://www.radionacional.com.ar/finito-de-guillermo-blanco/",
+      "title": "'Finito' de Guillermo Blanco",
+      "content_html": "Alejandro Apo lee \"'Finito' de Guillermo Blanco\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'Finito' de Guillermo Blanco, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-10-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/10/Finito-Guillermo-Blanco.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'todo-mientras-diego'-de-ariel-scher",
+      "url": "https://www.radionacional.com.ar/todo-mientras-diego-de-ariel-scher-3/",
+      "title": "'Todo mientras Diego' de Ariel Scher",
+      "content_html": "Alejandro Apo lee \"'Todo mientras Diego' de Ariel Scher\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'Todo mientras Diego' de Ariel Scher, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-10-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/10/Ariel-Scher-Todo-mientras-Diego.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'relatores'-de-alejandro-dolina|alejandro-dolina",
       "url": "https://www.radionacional.com.ar/relatores-de-alejandro-dolina-2/",
       "title": "'Relatores' de Alejandro Dolina",
       "content_html": "Alejandro Apo lee \"'Relatores' de Alejandro Dolina\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'Relatores', cuento extraído del libro 'El libro del Fantasma', de Alejando Dolina, en la voz de Alejando Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
@@ -36,14 +171,134 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
-      "id": "alejandro-apo-y-un-mano-a-mano-con-josé-tiburcio-serrizuela",
-      "url": "https://www.radionacional.com.ar/alejandro-apo-y-un-mano-a-mano-con-jose-tiburcio-serrizuela/",
-      "title": "Alejandro Apo y un mano a mano con José Tiburcio Serrizuela",
-      "content_html": "Alejandro Apo lee \"Alejandro Apo y un mano a mano con José Tiburcio Serrizuela\".\n\nFuente original:\nRadio Nacional Argentina.\n\nEl ex jugador de Independiente, Racing, River y la selección Argentina, entre otros, habló con Alejandro Apo y recordó diferentes anécdotas como jugador. Además, realizó un recorrido a lo largo de toda su carrara: los inicios, su debut, la selección […]",
-      "date_published": "2023-10-07T00:00:00",
+      "id": "'el-último-centrojás'-de-juan-sasturain",
+      "url": "https://www.radionacional.com.ar/el-ultimo-centrojas-de-juan-sasturain/",
+      "title": "'El último centrojás' de Juan Sasturain",
+      "content_html": "Alejandro Apo lee \"'El último centrojás' de Juan Sasturain\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'El último centrojás' de Juan Sasturain, en la voz de Alejandro Apo Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-10-14T00:00:00",
       "attachments": [
         {
-          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/10/Entrevista-a-Jose-Serrizuela.mp3",
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/10/Todo-con-Afecto-El-ultimo-centrojas.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'apuntes-acerca-de-una-mala-mujer'-de-sergio-ranieri",
+      "url": "https://www.radionacional.com.ar/apuntes-acerca-de-una-mala-mujer-de-sergio-ranieri/",
+      "title": "'Apuntes acerca de una mala mujer' de Sergio Ranieri",
+      "content_html": "Alejandro Apo lee \"'Apuntes acerca de una mala mujer' de Sergio Ranieri\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'Apuntes acerca de una mala mujer' de Sergio Ranieri, por Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-09-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/09/Todo-con-afecto-cuento-Sergio-Ranieri.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'señor-labruna'-de-rodolfo-braceli",
+      "url": "https://www.radionacional.com.ar/senor-labruna-de-rodolfo-braceli-2/",
+      "title": "'Señor Labruna' de Rodolfo Braceli",
+      "content_html": "Alejandro Apo lee \"'Señor Labruna' de Rodolfo Braceli\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'Señor Labruna' de Rodolfo Braceli, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-09-23T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/09/Todo-con-Afecto-Senor-Labruna.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'esperándolo-a-tito'-de-eduardo-sacheri",
+      "url": "https://www.radionacional.com.ar/esperandolo-a-tito-de-eduardo-sacheri-2/",
+      "title": "'Esperándolo a Tito' de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"'Esperándolo a Tito' de Eduardo Sacheri\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'Esperándolo a Tito' de Eduardo Sacheri, en la voz de Alejando Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-09-16T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/09/Esperando-a-Tito-Sacheri.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'oración-por-un-gol'-de-vicente-gaos",
+      "url": "https://www.radionacional.com.ar/oracion-por-un-gol-de-vicente-gaos/",
+      "title": "'Oración por un gol' de Vicente Gaos",
+      "content_html": "Alejandro Apo lee \"'Oración por un gol' de Vicente Gaos\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'Oración por un gol', poema de Vicente Gaos dedicado al jugador brasileño Jairzinho, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-09-02T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/09/Poema-Jairzinho.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "'tenemos-un-arquero-que-es-una-maravilla'-de-eduardo-maicas",
+      "url": "https://www.radionacional.com.ar/tenemos-un-arquero-que-es-una-maravilla-de-eduardo-maicas/",
+      "title": "'Tenemos un arquero que es una maravilla' de Eduardo Maicas",
+      "content_html": "Alejandro Apo lee \"'Tenemos un arquero que es una maravilla' de Eduardo Maicas\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'Tenemos un arquero que es una maravilla' de Eduardo Maicas, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-08-26T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/08/Todo-con-Afecto-Eduardo-Maicas.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "\"el-chango-agüero,-schopenhauer-y-el-descenso\",-de-osvaldo-soriano|osvaldo-soriano",
+      "url": "https://www.radionacional.com.ar/el-chango-aguero-schopenhauer-y-el-descenso-de-osvaldo-soriano/",
+      "title": "\"El Chango Agüero, Schopenhauer y el descenso\", de Osvaldo Soriano",
+      "content_html": "Alejandro Apo lee \"\"El Chango Agüero, Schopenhauer y el descenso\", de Osvaldo Soriano\", cuento de Osvaldo Soriano.\n\nFuente original:\nRadio Nacional Argentina.\n\n\"El Chango Agüero, Schopenhauer y el descenso\", de Osvaldo Soriano, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-08-12T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/08/El-Chango-Aguero-Schopenhauer-y-el-descenso.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "\"de-chilena\",-de-eduardo-sacheri|eduardo-sacheri",
+      "url": "https://www.radionacional.com.ar/de-chilena-de-eduardo-sacheri-3/",
+      "title": "\"De Chilena\", de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"\"De Chilena\", de Eduardo Sacheri\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadio Nacional Argentina.\n\n\"De chilena\", del libro 'Esperándolo a Tito' de Eduardo Sacheri, en la voz de Alejandro Apo.",
+      "date_published": "2023-07-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/07/Todo-con-Afecto-De-chilena.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "“creo,-vieja,-que-tu-hijo-la-cagó”,-de-jorge-valdano|jorge-valdano",
+      "url": "https://www.radionacional.com.ar/creo-vieja-que-tu-hijo-la-cago-de-jorge-valdano-2/",
+      "title": "“Creo, vieja, que tu hijo la cagó”, de Jorge Valdano",
+      "content_html": "Alejandro Apo lee \"“Creo, vieja, que tu hijo la cagó”, de Jorge Valdano\", cuento de Jorge Valdano.\n\nFuente original:\nRadio Nacional Argentina.\n\n“Creo, vieja, que tu hijo la cagó”, de Jorge Valdano, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-07-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/07/Todo-con-afecto-29-7-2023.mp3",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 0.0
         }
@@ -66,6 +321,36 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "“una-sonrisa-exactamente-así”,-de-eduardo-sacheri|eduardo-sacheri",
+      "url": "https://www.radionacional.com.ar/una-sonrisa-exactamente-asi-de-eduardo-sacheri-2/",
+      "title": "“Una sonrisa exactamente así”, de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"“Una sonrisa exactamente así”, de Eduardo Sacheri\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadio Nacional Argentina.\n\n“Una sonrisa exactamente así”, de Eduardo Sacheri, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-07-15T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/07/Todo-con-afecto-15-7-2023Sin-titulo-1.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "\"el-hombre-que-murió-dos-veces\",-de-juan-villoro|juan-villoro",
+      "url": "https://www.radionacional.com.ar/el-hombre-que-murio-dos-veces-de-juan-villoro/",
+      "title": "\"El hombre que murió dos veces\", de Juan Villoro",
+      "content_html": "Alejandro Apo lee \"\"El hombre que murió dos veces\", de Juan Villoro\", cuento de Juan Villoro.\n\nFuente original:\nRadio Nacional Argentina.\n\n\"El hombre que murió dos veces\", de Juan Villoro, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-07-15T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/07/Todo-con-Afecto-El-hombre-que-murio-dos-veces.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "jaime-muñoz-vargas-habló-sobre-su-cuento-'transmisión-diferida'",
       "url": "https://www.radionacional.com.ar/jaime-munoz-vargas-hablo-sobre-su-cuento-transmision-diferida/",
       "title": "Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'",
@@ -74,6 +359,36 @@
       "attachments": [
         {
           "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/07/Entrevista-Jaime-Munoz-Vargas.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "\"transmisión-diferida\",-de-jaime-muñoz-vargas|jaime-muñoz-vargas",
+      "url": "https://www.radionacional.com.ar/transmision-diferida-de-jaime-munoz-vargas/",
+      "title": "\"Transmisión diferida\", de Jaime Muñoz Vargas",
+      "content_html": "Alejandro Apo lee \"\"Transmisión diferida\", de Jaime Muñoz Vargas\", cuento de Jaime Muñoz Vargas.\n\nFuente original:\nRadio Nacional Argentina.\n\n\"Transmisión diferida\" de Jaime Muñoz Vargas, perteneciente a su libro Ojos en la sombra, en la voz de Alejandro Apo.   Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-07-08T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/07/Alejandro-Apo-Transmision-Diferida.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "“la-posibilidad-sublime”,-de-pablo-ramos|pablo-ramos",
+      "url": "https://www.radionacional.com.ar/la-posibilidad-sublime-de-pablo-ramos/",
+      "title": "“La posibilidad sublime”, de Pablo Ramos",
+      "content_html": "Alejandro Apo lee \"“La posibilidad sublime”, de Pablo Ramos\", cuento de Pablo Ramos.\n\nFuente original:\nRadio Nacional Argentina.\n\n“La posibilidad sublime”, de Pablo Ramos, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-05-13T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/05/Todo-con-afecto-13-5-2023Sin-titulo-2.mp3",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 0.0
         }
@@ -96,6 +411,21 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "\"un-trapo:-inmortal-radiografía-de-las-almas-nobles\"-de-mario-giannotti",
+      "url": "https://www.radionacional.com.ar/un-trapo-inmortal-radiografia-de-las-almas-nobles-de-mario-giannotti/",
+      "title": "\"Un trapo: Inmortal radiografía de las almas nobles\" de Mario Giannotti",
+      "content_html": "Alejandro Apo lee \"\"Un trapo: Inmortal radiografía de las almas nobles\" de Mario Giannotti\".\n\nFuente original:\nRadio Nacional Argentina.\n\n\"Un trapo: Inmortal radiografía de las almas nobles\" de Mario Giannotti, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-04-15T00:00:00",
+      "attachments": [
+        {
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/04/Cuento-Giannotti.mp3",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "el-\"pichón-de-cristo\"-de-roberto-fontanarrosa",
       "url": "https://www.radionacional.com.ar/el-pichon-de-cristo-de-roberto-fontanarrosa/",
       "title": "El \"Pichón de Cristo\" de Roberto Fontanarrosa",
@@ -111,14 +441,14 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
-      "id": "alejandro-apo-y-el-recuerdo-de-pelé",
-      "url": "https://www.radionacional.com.ar/alejandro-apo-y-el-recuerdo-de-pele/",
-      "title": "Alejandro Apo y el recuerdo de Pelé",
-      "content_html": "Alejandro Apo lee \"Alejandro Apo y el recuerdo de Pelé\".\n\nFuente original:\nRadio Nacional Argentina.\n\nEl célebre periodista deportivo con más de 40 años de trayectoria Alejandro Apo, dialogó con Verano 2023 para recordar la figura del futbolista recientemente fallecido, Edson Arantes do Nascimento, más conocido como Pelé, único jugador del mundo en haber ganado […]",
-      "date_published": "2023-01-02T00:00:00",
+      "id": "“inside-derecho”,-de-humberto|humberto",
+      "url": "https://www.radionacional.com.ar/inside-derecho-de-humberto/",
+      "title": "“Inside derecho”, de Humberto",
+      "content_html": "Alejandro Apo lee \"“Inside derecho”, de Humberto\", cuento de Humberto.\n\nFuente original:\nRadio Nacional Argentina.\n\n“Inside derecho”, de Humberto Constantini, en la voz de Alejandro Apo   Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
+      "date_published": "2023-03-04T00:00:00",
       "attachments": [
         {
-          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/01/alejandro-apo-pele_0.0-781.0.mp3",
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/03/Cuento-de-Apo-4-3-2023Sin-titulo-6.mp3",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 0.0
         }
@@ -126,59 +456,14 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
-      "id": "alejandro-apo:-“estoy-cumpliendo-68-años-hoy-y-me-van-a-traer-la-copa”",
-      "url": "https://www.radionacional.com.ar/alejandro-apo-estoy-cumpliendo-68-anos-hoy-y-me-van-a-traer-la-copa/",
-      "title": "Alejandro Apo: “Estoy cumpliendo 68 años hoy y me van a traer la copa”",
-      "content_html": "Alejandro Apo lee \"Alejandro Apo: “Estoy cumpliendo 68 años hoy y me van a traer la copa”\".\n\nFuente original:\nRadio Nacional Argentina.\n\nEn Rosca N´Roll hablamos con el periodista deportivo, Alejandro Apo, para analizar la final del Mundo que ganó Argentina frente a Francia. Apo citó a Víctor Hugo diciendo que la victoria fue un acto de justicia y que los goles […]",
-      "date_published": "2022-12-19T00:00:00",
+      "id": "\"banderín-solferino\",-de-juan-sasturain|juan-sasturain",
+      "url": "https://www.radionacional.com.ar/banderin-solferino-de-juan-sasturain/",
+      "title": "\"Banderín solferino\", de Juan Sasturain",
+      "content_html": "Alejandro Apo lee \"\"Banderín solferino\", de Juan Sasturain\", cuento de Juan Sasturain.\n\nFuente original:\nRadio Nacional Argentina.\n\n\"Banderín solferino\", de Juan Sasturain, en la voz de Alejandro Apo",
+      "date_published": "2023-02-18T00:00:00",
       "attachments": [
         {
-          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2022/12/apo-1912.mp3",
-          "mime_type": "audio/mpeg",
-          "duration_in_seconds": 0.0
-        }
-      ],
-      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
-    },
-    {
-      "id": "alejandro-apo:-“argentina-paraliza-a-los-rivales”",
-      "url": "https://www.radionacional.com.ar/alejandro-apo-argentina-paraliza-a-los-rivales/",
-      "title": "Alejandro Apo: “Argentina paraliza a los rivales”",
-      "content_html": "Alejandro Apo lee \"Alejandro Apo: “Argentina paraliza a los rivales”\".\n\nFuente original:\nRadio Nacional Argentina.\n\nEn Rosca N'Roll hablamos con Alejandro Apo, periodista deportivo y comentarista de los partidos de la Selección Argentina en la Copa del Mundo. En la previa, dijo: “Yo critico mucho a las personas que ganan o pierden los partidos en […]",
-      "date_published": "2022-12-15T00:00:00",
-      "attachments": [
-        {
-          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2022/12/apo.mp3",
-          "mime_type": "audio/mpeg",
-          "duration_in_seconds": 0.0
-        }
-      ],
-      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
-    },
-    {
-      "id": "apo:-\"nadie-ganó-antes-de-jugar,-y-menos-hablando\"",
-      "url": "https://www.radionacional.com.ar/apo-nadie-gano-antes-de-jugar-y-menos-hablando/",
-      "title": "Apo: \"Nadie ganó antes de jugar, y menos hablando\"",
-      "content_html": "Alejandro Apo lee \"Apo: \"Nadie ganó antes de jugar, y menos hablando\"\".\n\nFuente original:\nRadio Nacional Argentina.\n\nEl relator, periodista y especialista en fútbol, Alejandro Apo analizó en Aire Nacional las coberturas mediáticas que se están desarrollando en torno a Qatar 2022. Pidió cortar con \"la soberbia\" frente a los equipos rivales. \"Estar escuchando todo el tiempo […]",
-      "date_published": "2022-11-29T00:00:00",
-      "attachments": [
-        {
-          "url": "https://cdn.radionacional.com.ar/wp-content/uploads/2022/11/ALEJANDRO-APO.mp3?_=2",
-          "mime_type": "audio/mpeg",
-          "duration_in_seconds": 0.0
-        }
-      ],
-      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
-    },
-    {
-      "id": "mundial-qatar-2022:-alejandro-apo-cubriendo-mundiales-desde-1974",
-      "url": "https://www.radionacional.com.ar/mundial-qatar-2022-alejandro-apo-cubriendo-mundiales-desde-1974/",
-      "title": "Mundial Qatar 2022: Alejandro Apo cubriendo mundiales desde 1974",
-      "content_html": "Alejandro Apo lee \"Mundial Qatar 2022: Alejandro Apo cubriendo mundiales desde 1974\".\n\nFuente original:\nRadio Nacional Argentina.\n\nA dos días del Mundial de Qatar 2022 el prestigioso periodista deportivo Alejandro Apo dialogó con Radio Nacional Tartagal. Hizo su análisis sobre la Selección Argentina de cara a su debut. Además, habló de su importante trayectoria desde 1974.   […]",
-      "date_published": "2022-11-18T00:00:00",
-      "attachments": [
-        {
-          "url": "https://cdn.radionacional.com.ar/wp-content/uploads/2022/11/alejandro-apo.mp3?_=3",
+          "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/02/banderin-solferino.mp3",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 0.0
         }

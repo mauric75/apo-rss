@@ -1,306 +1,115 @@
-2026-07-12 08:48:41,048 [INFO] === Inicio de scraping ===
-2026-07-12 08:48:41,048 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/
-2026-07-12 08:48:43,114 [INFO]   OK RN Feed: 'El Pampa' de Roberto Fontanarrosa
-2026-07-12 08:48:44,116 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=2
-2026-07-12 08:48:44,847 [INFO]   OK RN Feed: 'Relatores' de Alejandro Dolina
-2026-07-12 08:48:46,201 [INFO]   OK RN Feed: Alejandro Apo y un mano a mano con José Tiburcio Serrizuela
-2026-07-12 08:48:47,205 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=3
-2026-07-12 08:48:47,990 [INFO]   OK RN Feed: "El pichón de Cristo", de Roberto Fontanarrosa
-2026-07-12 08:48:49,364 [INFO]   OK RN Feed: Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'
-2026-07-12 08:48:50,365 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=4
-2026-07-12 08:48:51,057 [INFO]   OK RN Feed: "Viejo con árbol", de Roberto Fontanarrosa
-2026-07-12 08:48:52,549 [INFO]   OK RN Feed: El "Pichón de Cristo" de Roberto Fontanarrosa
-2026-07-12 08:48:53,550 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=5
-2026-07-12 08:48:54,211 [INFO]   OK RN Feed: Alejandro Apo y el recuerdo de Pelé
-2026-07-12 08:48:55,640 [INFO]   OK RN Feed: Alejandro Apo: “Estoy cumpliendo 68 años hoy y me van a traer la copa”
-2026-07-12 08:48:57,048 [INFO]   OK RN Feed: Alejandro Apo: “Argentina paraliza a los rivales”
-2026-07-12 08:48:58,493 [INFO]   OK RN Feed: Apo: "Nadie ganó antes de jugar, y menos hablando"
-2026-07-12 08:48:59,966 [INFO]   OK RN Feed: Mundial Qatar 2022: Alejandro Apo cubriendo mundiales desde 1974
-2026-07-12 08:49:01,282 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
-2026-07-12 08:49:06,452 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
-2026-07-12 08:49:11,600 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
-2026-07-12 08:49:11,773 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Un+Señor+Cuento
-2026-07-12 08:49:16,781 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Un+Señor+Cuento
-2026-07-12 08:49:21,927 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Un+Señor+Cuento
-2026-07-12 08:49:21,958 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=El+cuento+de+la+tarde
-2026-07-12 08:49:27,104 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=El+cuento+de+la+tarde
-2026-07-12 08:49:32,252 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=El+cuento+de+la+tarde
-2026-07-12 08:49:32,283 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Dondequiera+que+estés
-2026-07-12 08:49:37,315 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Dondequiera+que+estés
-2026-07-12 08:49:42,461 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Dondequiera+que+estés
-2026-07-12 08:49:42,469 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Todo+con+afecto
-2026-07-12 08:49:47,479 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Todo+con+afecto
-2026-07-12 08:49:52,487 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Todo+con+afecto
-2026-07-12 08:49:53,087 [INFO] Procesando: https://www.pagina12.com.ar/
-2026-07-12 08:49:54,181 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
-2026-07-12 08:49:55,553 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
-2026-07-12 08:49:56,821 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
-2026-07-12 08:49:58,111 [INFO] Procesando: https://www.pagina12.com.ar/economia
-2026-07-12 08:49:59,319 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
-2026-07-12 08:50:00,655 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
-2026-07-12 08:50:01,905 [INFO] Procesando: https://www.pagina12.com.ar/deportes
-2026-07-12 08:50:03,129 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
-2026-07-12 08:50:04,400 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
-2026-07-12 08:50:05,675 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
-2026-07-12 08:50:06,933 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
-2026-07-12 08:50:08,188 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
-2026-07-12 08:50:09,392 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
-2026-07-12 08:50:10,576 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
-2026-07-12 08:50:12,080 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
-2026-07-12 08:50:13,243 [INFO] Procesando: https://www.pagina12.com.ar/no
-2026-07-12 08:50:14,570 [INFO] Procesando: https://socios.pagina12.com.ar/
-2026-07-12 08:50:15,945 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
-2026-07-12 08:50:17,194 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
-2026-07-12 08:50:18,483 [INFO] Procesando: https://www.pagina12.com.ar/
-2026-07-12 08:50:19,560 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
-2026-07-12 08:50:20,665 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
-2026-07-12 08:50:21,754 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
-2026-07-12 08:50:22,869 [INFO] Procesando: https://www.pagina12.com.ar/economia
-2026-07-12 08:50:23,930 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
-2026-07-12 08:50:24,996 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
-2026-07-12 08:50:26,046 [INFO] Procesando: https://www.pagina12.com.ar/deportes
-2026-07-12 08:50:27,107 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
-2026-07-12 08:50:28,167 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
-2026-07-12 08:50:29,219 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
-2026-07-12 08:50:30,270 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
-2026-07-12 08:50:31,348 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
-2026-07-12 08:50:32,409 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
-2026-07-12 08:50:33,474 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
-2026-07-12 08:50:34,544 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
-2026-07-12 08:50:35,589 [INFO] Procesando: https://www.pagina12.com.ar/no
-2026-07-12 08:50:36,652 [INFO] Procesando: https://socios.pagina12.com.ar/
-2026-07-12 08:50:37,728 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
-2026-07-12 08:50:38,777 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
-2026-07-12 08:50:40,181 [INFO] Procesando: https://www.pagina12.com.ar/
-2026-07-12 08:50:41,259 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
-2026-07-12 08:50:42,363 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
-2026-07-12 08:50:43,453 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
-2026-07-12 08:50:44,612 [INFO] Procesando: https://www.pagina12.com.ar/economia
-2026-07-12 08:50:45,672 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
-2026-07-12 08:50:46,899 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
-2026-07-12 08:50:47,949 [INFO] Procesando: https://www.pagina12.com.ar/deportes
-2026-07-12 08:50:49,087 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
-2026-07-12 08:50:50,177 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
-2026-07-12 08:50:51,230 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
-2026-07-12 08:50:52,321 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
-2026-07-12 08:50:53,373 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
-2026-07-12 08:50:54,434 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
-2026-07-12 08:50:55,502 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
-2026-07-12 08:50:56,569 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
-2026-07-12 08:50:57,617 [INFO] Procesando: https://www.pagina12.com.ar/no
-2026-07-12 08:50:58,679 [INFO] Procesando: https://socios.pagina12.com.ar/
-2026-07-12 08:50:59,753 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
-2026-07-12 08:51:00,801 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
-2026-07-12 08:51:09,423 [INFO] Procesando: https://www.radionacional.com.ar/
-2026-07-12 08:51:10,052 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/
-2026-07-12 08:51:15,151 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/
-2026-07-12 08:51:20,251 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/
-2026-07-12 08:51:21,251 [INFO] Procesando: https://www.radionacional.com.ar/programas/
-2026-07-12 08:51:22,543 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-folklorica/
-2026-07-12 08:51:24,043 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-clasica/
-2026-07-12 08:51:25,560 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-rock/
-2026-07-12 08:51:26,913 [INFO] Procesando: https://www.radionacional.com.ar/portada-rae/
-2026-07-12 08:51:28,250 [INFO] Procesando: https://www.radionacional.com.ar/grillas-actualizadas/
-2026-07-12 08:51:29,581 [INFO] Procesando: https://www.radionacional.com.ar/una-tarde-a-pura-musica-cuentos-historias-y-muchos-chicos/
-2026-07-12 08:51:30,790 [INFO] Procesando: https://www.radionacional.com.ar/que-vas-a-encontrar-en-la-noche-de-las-jugueterias-descuentos-promociones-y-sorteos-para-estas-fiestas/
-2026-07-12 08:51:31,997 [INFO] Procesando: https://www.radionacional.com.ar/comienza-una-semana-de-importantes-descuentos-en-turismo/
-2026-07-12 08:51:33,292 [INFO] Procesando: https://www.radionacional.com.ar/almundo-se-suma-al-travel-sale-con-importantes-descuentos-en-turismo/
-2026-07-12 08:51:34,499 [INFO] Procesando: https://www.radionacional.com.ar/descuento-de-35-en-medicamentos-para-poblacion-sin-prepaga-ni-obra-social/
-2026-07-12 08:51:35,710 [INFO] Procesando: https://www.radionacional.com.ar/la-primera-tarde-en-la-bombonera-la-solto-como-una-lagrima/
-2026-07-12 08:51:37,102 [INFO] Procesando: https://www.radionacional.com.ar/se-beneficiara-a-mendoza-con-un-descuento-de-30-en-la-tarifa-del-gas/
-2026-07-12 08:51:38,419 [INFO] Procesando: https://www.radionacional.com.ar/los-cuentos-de-la-susi/
-2026-07-12 08:51:39,621 [INFO] Procesando: https://www.radionacional.com.ar/otra-tarde-a-pura-musica-y-las-mejores-cosas-que-aprendimos-en-cuarentena/
-2026-07-12 08:51:40,917 [INFO] Procesando: https://www.radionacional.com.ar/canciones-entrevistas-cuentos-y-actualidad-en-voz-de-los-chicos/
-2026-07-12 08:51:42,127 [INFO] Procesando: https://www.radionacional.com.ar/arsenal-le-empato-a-union-en-tiempo-de-descuento-en-santa-fe/
-2026-07-12 08:51:43,335 [INFO] Procesando: https://www.radionacional.com.ar/el-gremio-docente-solicito-la-nulidad-de-los-descuentos-masivos/
-2026-07-12 08:51:44,601 [INFO] Procesando: https://www.radionacional.com.ar/el-gobierno-confirmo-que-realizara-descuentos-masivos/
-2026-07-12 08:51:45,883 [INFO] Procesando: https://www.radionacional.com.ar/union-se-desperto-tarde-y-cayo-ante-san-lorenzo/
-2026-07-12 08:51:47,140 [INFO] Procesando: https://www.radionacional.com.ar/colon-derroto-a-gimnasia-en-la-ultima-bola-de-la-noche/
-2026-07-12 08:52:10,684 [INFO] Procesando: https://www.radionacional.com.ar/nacionalrock/
-2026-07-12 08:52:10,947 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/nacionalrock/
-2026-07-12 08:52:16,298 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/nacionalrock/
-2026-07-12 08:52:21,645 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/nacionalrock/
-2026-07-12 08:52:22,646 [INFO] Procesando: https://www.radionacional.com.ar/nacional-folklorica/
-2026-07-12 08:52:23,954 [INFO] Procesando: https://www.radionacional.com.ar/nacional-clasica/
-2026-07-12 08:52:24,054 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/nacional-clasica/
-2026-07-12 08:52:29,157 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/nacional-clasica/
-2026-07-12 08:52:34,258 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/nacional-clasica/
-2026-07-12 08:52:35,259 [INFO] Procesando: https://www.radionacional.com.ar/category/rae/espanol/
-2026-07-12 08:52:36,605 [INFO] Procesando: https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-12 08:52:36,707 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-12 08:52:41,811 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-12 08:52:46,909 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-12 08:52:47,909 [INFO] Procesando: https://www.radionacional.com.ar#nacionalclasica
-2026-07-12 08:52:48,009 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar#nacionalclasica
-2026-07-12 08:52:53,108 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar#nacionalclasica
-2026-07-12 08:52:58,209 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar#nacionalclasica
-2026-07-12 08:52:59,210 [INFO] Procesando: https://www.radionacional.com.ar#nacionalrock
-2026-07-12 08:52:59,311 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar#nacionalrock
-2026-07-12 08:53:04,410 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar#nacionalrock
-2026-07-12 08:53:09,512 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar#nacionalrock
-2026-07-12 08:53:10,512 [INFO] Procesando: https://www.radionacional.com.ar/rae/
-2026-07-12 08:53:10,613 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/rae/
-2026-07-12 08:53:15,720 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/rae/
-2026-07-12 08:53:20,820 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/rae/
-2026-07-12 08:53:21,820 [INFO] Procesando: https://www.radionacional.com.ar/con-el-cuento-del-cambio-de-billetes-estafaron-a-una-mujer-de-70-anos/
-2026-07-12 08:53:23,029 [INFO] Procesando: https://www.radionacional.com.ar/la-corte-fallo-contra-el-descuento-de-ganancias-a-una-jubilada/
-2026-07-12 08:53:23,206 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/la-corte-fallo-contra-el-descuento-de-ganancias-a-una-jubilada/
-2026-07-12 08:53:28,395 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/la-corte-fallo-contra-el-descuento-de-ganancias-a-una-jubilada/
-2026-07-12 08:53:33,566 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/la-corte-fallo-contra-el-descuento-de-ganancias-a-una-jubilada/
-2026-07-12 08:53:34,567 [INFO] Procesando: https://www.radionacional.com.ar/el-conjunto-africano-se-impuso-2-1-con-un-gol-fortuito-y-otro-polemico-la-respuesta-polaca-llego-tarde-y-fue-insuficiente/
-2026-07-12 08:53:34,703 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/el-conjunto-africano-se-impuso-2-1-con-un-gol-fortuito-y-otro-polemico-la-respuesta-polaca-llego-tarde-y-fue-insuficiente/
-2026-07-12 08:53:39,874 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/el-conjunto-africano-se-impuso-2-1-con-un-gol-fortuito-y-otro-polemico-la-respuesta-polaca-llego-tarde-y-fue-insuficiente/
-2026-07-12 08:53:45,038 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/el-conjunto-africano-se-impuso-2-1-con-un-gol-fortuito-y-otro-polemico-la-respuesta-polaca-llego-tarde-y-fue-insuficiente/
-2026-07-12 08:53:46,038 [INFO] Procesando: https://www.radionacional.com.ar/esta-tarde-se-reunen-gobierno-y-docentes/
-2026-07-12 08:53:46,185 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/esta-tarde-se-reunen-gobierno-y-docentes/
-2026-07-12 08:53:51,405 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/esta-tarde-se-reunen-gobierno-y-docentes/
-2026-07-12 08:53:56,607 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/esta-tarde-se-reunen-gobierno-y-docentes/
-2026-07-12 08:53:57,607 [INFO] Procesando: https://www.radionacional.com.ar/recuento-renido-de-votos-en-viedma/
-2026-07-12 08:53:57,825 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/recuento-renido-de-votos-en-viedma/
-2026-07-12 08:54:03,027 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/recuento-renido-de-votos-en-viedma/
-2026-07-12 08:54:08,230 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/recuento-renido-de-votos-en-viedma/
-2026-07-12 08:54:09,230 [INFO] Procesando: https://www.radionacional.com.ar/la-justicia-electoral-comienza-el-recuento-definitivo-de-votos/
-2026-07-12 08:54:09,422 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/la-justicia-electoral-comienza-el-recuento-definitivo-de-votos/
-2026-07-12 08:54:14,587 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/la-justicia-electoral-comienza-el-recuento-definitivo-de-votos/
-2026-07-12 08:54:19,760 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/la-justicia-electoral-comienza-el-recuento-definitivo-de-votos/
-2026-07-12 08:54:20,761 [INFO] Procesando: https://www.radionacional.com.ar/cuento-del-tio-reiteran-que-los-bancos-no-cambian-billetes-a-domicilio/
-2026-07-12 08:54:20,992 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/cuento-del-tio-reiteran-que-los-bancos-no-cambian-billetes-a-domicilio/
-2026-07-12 08:54:35,334 [INFO] Procesando: https://www.radionacional.com.ar/
-2026-07-12 08:54:35,435 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/
-2026-07-12 08:54:40,536 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/
-2026-07-12 08:54:45,636 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/
-2026-07-12 08:54:46,636 [INFO] Procesando: https://www.radionacional.com.ar/programas/
-2026-07-12 08:54:47,659 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-folklorica/
-2026-07-12 08:54:48,687 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-clasica/
-2026-07-12 08:54:49,712 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-rock/
-2026-07-12 08:54:50,762 [INFO] Procesando: https://www.radionacional.com.ar/portada-rae/
-2026-07-12 08:54:51,786 [INFO] Procesando: https://www.radionacional.com.ar/grillas-actualizadas/
-2026-07-12 08:54:52,806 [INFO] Procesando: https://www.radionacional.com.ar/recomendaciones-literarias-cuentos-en-secreto/
-2026-07-12 08:54:54,119 [INFO] Procesando: https://www.radionacional.com.ar/suspenden-a-un-profesor-en-san-juan-por-leer-un-cuento-de-hernan-casciari/
-2026-07-12 08:54:55,396 [INFO] Procesando: https://www.radionacional.com.ar/cuentos-de-medianoche-de-marzo-a-junio/
-2026-07-12 08:54:56,684 [INFO] Procesando: https://www.radionacional.com.ar/recopilacion-de-cuentos-de-quique-pesoa/
-2026-07-12 08:54:57,964 [INFO] Procesando: https://www.radionacional.com.ar/estafaron-a-una-anciana-con-el-cuento-del-tio/
-2026-07-12 08:54:59,181 [INFO] Procesando: https://www.radionacional.com.ar/programacion-domingo-12-de-julio-2/
-2026-07-12 08:55:00,212 [INFO] Procesando: https://www.radionacional.com.ar/lucas-botta-presenta-chamuyos-que-hicieron-historia/
-2026-07-12 08:55:01,473 [INFO] Procesando: https://www.radionacional.com.ar/dia-de-la-radiodifusion-105o-aniversario-de-la-primera-transmision/
-2026-07-12 08:55:02,785 [INFO] Procesando: https://www.radionacional.com.ar/programacion-lunes-30-de-junio/
-2026-07-12 08:55:04,162 [INFO] Procesando: https://www.radionacional.com.ar/cumple-83-anos-la-actriz-graciela-borges-el-rostro-de-la-belleza-argentina-de-los-anos-60-y-70/
-2026-07-12 08:55:05,412 [INFO] Procesando: https://www.radionacional.com.ar/programacion-domingo-1-de-junio/
-2026-07-12 08:55:06,756 [INFO] Procesando: https://www.radionacional.com.ar/programacion-jueves-8-de-mayo/
-2026-07-12 08:55:08,095 [INFO] Procesando: https://www.radionacional.com.ar/programacion-martes-6-de-mayo/
-2026-07-12 08:55:09,610 [INFO] Procesando: https://www.radionacional.com.ar/programacion-domingo-9-de-marzo/
-2026-07-12 08:55:11,049 [INFO] Procesando: https://www.radionacional.com.ar/programacion-martes-25-de-febrero-2/
-2026-07-12 08:55:36,446 [INFO] Procesando: https://www.radionacional.com.ar/nacionalrock/
-2026-07-12 08:55:36,809 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/nacionalrock/
-2026-07-12 08:55:42,109 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/nacionalrock/
-2026-07-12 08:55:47,421 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/nacionalrock/
-2026-07-12 08:55:48,422 [INFO] Procesando: https://www.radionacional.com.ar/nacional-folklorica/
-2026-07-12 08:55:49,961 [INFO] Procesando: https://www.radionacional.com.ar/nacional-clasica/
-2026-07-12 08:55:50,065 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/nacional-clasica/
-2026-07-12 08:55:55,168 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/nacional-clasica/
-2026-07-12 08:56:00,274 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/nacional-clasica/
-2026-07-12 08:56:01,274 [INFO] Procesando: https://www.radionacional.com.ar/category/rae/espanol/
-2026-07-12 08:56:02,299 [INFO] Procesando: https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-12 08:56:02,401 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-12 08:56:07,501 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-12 08:56:12,603 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-12 08:56:13,603 [INFO] Procesando: https://www.radionacional.com.ar#nacionalclasica
-2026-07-12 08:56:13,705 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar#nacionalclasica
-2026-07-12 08:56:18,808 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar#nacionalclasica
-2026-07-12 08:56:23,911 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar#nacionalclasica
-2026-07-12 08:56:24,912 [INFO] Procesando: https://www.radionacional.com.ar#nacionalrock
-2026-07-12 08:56:25,010 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar#nacionalrock
-2026-07-12 08:56:30,110 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar#nacionalrock
-2026-07-12 08:56:35,211 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar#nacionalrock
-2026-07-12 08:56:36,212 [INFO] Procesando: https://www.radionacional.com.ar/rae/
-2026-07-12 08:56:36,314 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/rae/
-2026-07-12 08:56:41,416 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/rae/
-2026-07-12 08:56:46,516 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/rae/
-2026-07-12 08:56:47,516 [INFO] Procesando: https://www.radionacional.com.ar/programacion-jueves-19-de-diciembre-2/
-2026-07-12 08:56:48,819 [INFO] Procesando: https://www.radionacional.com.ar/programacion-miercoles-11-de-diciembre-2/
-2026-07-12 08:56:50,196 [INFO] Procesando: https://www.radionacional.com.ar/programacion-fin-de-semana-19/
-2026-07-12 08:56:51,544 [INFO] Procesando: https://www.radionacional.com.ar/programacion-fin-de-semana-8/
-2026-07-12 08:56:52,911 [INFO] Procesando: https://www.radionacional.com.ar/programacion-miercoles-31-de-julio-2/
-2026-07-12 08:56:54,170 [INFO] Procesando: https://www.radionacional.com.ar/programacion-lunes-29-de-julio-2/
-2026-07-12 08:56:55,552 [INFO] Procesando: https://www.radionacional.com.ar/aguas-riojanas-cobrara-la-factura-con-el-mismo-valor-del-mes-anterior/
-2026-07-12 08:57:04,346 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/?s=Dondequiera+que+estés
-2026-07-12 08:57:16,854 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/?s=Dondequiera+que+estés
-2026-07-12 08:57:29,247 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/?s=Dondequiera+que+estés
-2026-07-12 08:57:37,856 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/?s=Todo+con+afecto
-2026-07-12 08:57:51,388 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/?s=Todo+con+afecto
-2026-07-12 08:58:05,164 [INFO] Procesando: https://www.radionacional.com.ar/
-2026-07-12 08:58:05,263 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/
-2026-07-12 08:58:10,364 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/
-2026-07-12 08:58:15,466 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/
-2026-07-12 08:58:16,466 [INFO] Procesando: https://www.radionacional.com.ar/programas/
-2026-07-12 08:58:17,659 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-folklorica/
-2026-07-12 08:58:19,183 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-clasica/
-2026-07-12 08:58:20,503 [INFO] Procesando: https://www.radionacional.com.ar/portada-nacional-rock/
-2026-07-12 08:58:22,155 [INFO] Procesando: https://www.radionacional.com.ar/portada-rae/
-2026-07-12 08:58:23,486 [INFO] Procesando: https://www.radionacional.com.ar/grillas-actualizadas/
-2026-07-12 08:58:24,788 [INFO] Procesando: https://www.radionacional.com.ar/este-fin-de-semana-un-corte-de-luz-afecto-a-todo-el-norte-neuquino/
-2026-07-12 08:58:26,070 [INFO] Procesando: https://www.radionacional.com.ar/afecto-a-todo-el-departamento-sin-producir-danos/
-2026-07-12 08:58:27,346 [INFO] Procesando: https://www.radionacional.com.ar/el-ciberataque-ransomware-afecto-a-empresas-de-todo-el-mundo/
-2026-07-12 08:58:28,554 [INFO] Procesando: https://www.radionacional.com.ar/detectaron-un-caso-de-grooming-que-afecto-a-90-victimas-en-todo-el-pais-22-en-la-provincia-de-santa-fe/
-2026-07-12 08:58:29,765 [INFO] Procesando: https://www.radionacional.com.ar/la-antartida-cambia-la-percepcion-de-lo-que-son-los-afectos-y-re-dimensiona-todo/
-2026-07-12 08:58:31,029 [INFO] Procesando: https://www.radionacional.com.ar/el-papa-francisco-se-fue-en-paz-con-el-corazon-tranquilo-por-haberlo-dado-todo/
-2026-07-12 08:58:32,281 [INFO] Procesando: https://www.radionacional.com.ar/fieles-de-todo-el-mundo-se-congregan-en-el-vaticano-para-orar-por-la-salud-del-papa-francisco/
-2026-07-12 08:58:33,608 [INFO] Procesando: https://www.radionacional.com.ar/costumbres-jujenas-en-el-dia-de-todos-los-santos-y-dia-de-los-fieles-difuntos/
-2026-07-12 08:58:34,852 [INFO] Procesando: https://www.radionacional.com.ar/por-las-lluvias-la-mayoria-de-la-gente-perdio-todo-en-santa-lucia/
-2026-07-12 08:58:36,296 [INFO] Procesando: https://www.radionacional.com.ar/todo-ocurrio-de-manera-muy-rapida-y-la-gente-no-tuvo-tiempo-de-escapar/
-2026-07-12 08:58:37,567 [INFO] Procesando: https://www.radionacional.com.ar/incendio-en-los-alerces-afecto-a-mas-de-2-800-hectareas-y-se-mantiene-activo/
-2026-07-12 08:58:38,784 [INFO] Procesando: https://www.radionacional.com.ar/el-incendio-en-el-parque-nacional-los-alerces-afecto-a-2400-hectareas/
-2026-07-12 08:58:40,054 [INFO] Procesando: https://www.radionacional.com.ar/todo-mientras-diego-de-ariel-scher-3/
-2026-07-12 08:58:41,325 [INFO] Procesando: https://www.radionacional.com.ar/no-gobernamos-desde-el-desprecio-gobernamos-desde-el-afecto/
-2026-07-12 08:58:42,522 [INFO] Procesando: https://www.radionacional.com.ar/messi-es-una-maquina-perfecta-de-hacer-todo-bien-y-el-diego-era-magia/
-2026-07-12 08:59:09,917 [INFO] Procesando: https://www.radionacional.com.ar/nacionalrock/
-2026-07-12 08:59:10,162 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/nacionalrock/
-2026-07-12 08:59:15,519 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/nacionalrock/
-2026-07-12 08:59:20,820 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/nacionalrock/
-2026-07-12 08:59:21,821 [INFO] Procesando: https://www.radionacional.com.ar/nacional-folklorica/
-2026-07-12 08:59:23,030 [INFO] Procesando: https://www.radionacional.com.ar/nacional-clasica/
-2026-07-12 08:59:23,134 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/nacional-clasica/
-2026-07-12 08:59:28,233 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/nacional-clasica/
-2026-07-12 08:59:33,334 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/nacional-clasica/
-2026-07-12 08:59:34,334 [INFO] Procesando: https://www.radionacional.com.ar/category/rae/espanol/
-2026-07-12 08:59:35,679 [INFO] Procesando: https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-12 08:59:35,786 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-12 08:59:40,885 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-12 08:59:45,988 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar#nacionalfolklorica
-2026-07-12 08:59:46,989 [INFO] Procesando: https://www.radionacional.com.ar#nacionalclasica
-2026-07-12 08:59:47,088 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar#nacionalclasica
-2026-07-12 08:59:52,188 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar#nacionalclasica
-2026-07-12 08:59:57,290 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar#nacionalclasica
-2026-07-12 08:59:58,290 [INFO] Procesando: https://www.radionacional.com.ar#nacionalrock
-2026-07-12 08:59:58,390 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar#nacionalrock
-2026-07-12 09:00:03,491 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar#nacionalrock
-2026-07-12 09:00:08,593 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar#nacionalrock
-2026-07-12 09:00:09,594 [INFO] Procesando: https://www.radionacional.com.ar/rae/
-2026-07-12 09:00:09,694 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/rae/
-2026-07-12 09:00:14,796 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/rae/
-2026-07-12 09:00:19,897 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/rae/
-2026-07-12 09:00:20,897 [INFO] Procesando: https://www.radionacional.com.ar/fallecio-raul-soto-el-musico-que-tocaba-con-todos/
-2026-07-12 09:00:22,170 [INFO] Procesando: https://www.radionacional.com.ar/vialidad-nacional-trabajo-sin-presupuesto-durante-el-ano/
-2026-07-12 09:00:22,395 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/vialidad-nacional-trabajo-sin-presupuesto-durante-el-ano/
-2026-07-12 09:00:27,606 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/vialidad-nacional-trabajo-sin-presupuesto-durante-el-ano/
-2026-07-12 09:00:32,806 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/vialidad-nacional-trabajo-sin-presupuesto-durante-el-ano/
-2026-07-12 09:00:33,807 [INFO] Procesando: https://www.radionacional.com.ar/referentes-del-frente-de-todos-reafirman-que-peron-marca-el-camino/
-2026-07-12 09:00:34,057 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/referentes-del-frente-de-todos-reafirman-que-peron-marca-el-camino/
-2026-07-12 09:00:39,369 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/referentes-del-frente-de-todos-reafirman-que-peron-marca-el-camino/
-2026-07-12 09:00:44,537 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/referentes-del-frente-de-todos-reafirman-que-peron-marca-el-camino/
-2026-07-12 09:00:45,537 [INFO] Procesando: https://www.radionacional.com.ar/ricardo-giusti-el-volante-que-gano-todo-con-independiente-y-la-seleccion/
-2026-07-12 09:00:45,754 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/ricardo-giusti-el-volante-que-gano-todo-con-independiente-y-la-seleccion/
-2026-07-12 09:00:50,920 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/ricardo-giusti-el-volante-que-gano-todo-con-independiente-y-la-seleccion/
-2026-07-12 09:00:56,067 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/ricardo-giusti-el-volante-que-gano-todo-con-independiente-y-la-seleccion/
-2026-07-12 09:00:57,067 [INFO] Procesando: https://www.radionacional.com.ar/incendio-intencional-afecto-sector-del-hospital-san-martin/
-2026-07-12 09:00:57,284 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/incendio-intencional-afecto-sector-del-hospital-san-martin/
-2026-07-12 09:01:02,459 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/incendio-intencional-afecto-sector-del-hospital-san-martin/
-2026-07-12 09:01:07,664 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/incendio-intencional-afecto-sector-del-hospital-san-martin/
-2026-07-12 09:01:08,664 [INFO] Procesando: https://www.radionacional.com.ar/todo-lo-que-hay-que-saber-sobre-el-mundial-de-qatar-2022/
-2026-07-12 09:01:08,860 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/todo-lo-que-hay-que-saber-sobre-el-mundial-de-qatar-2022/
-2026-07-12 09:01:14,083 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/todo-lo-que-hay-que-saber-sobre-el-mundial-de-qatar-2022/
-2026-07-12 09:01:19,313 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/todo-lo-que-hay-que-saber-sobre-el-mundial-de-qatar-2022/
-2026-07-12 09:01:20,313 [INFO] Procesando: https://www.radionacional.com.ar/como-afecto-la-pandemia-la-psicologia-y-la-sociabilidad-de-los-seres-humanos/
-2026-07-12 09:01:20,514 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/como-afecto-la-pandemia-la-psicologia-y-la-sociabilidad-de-los-seres-humanos/
-2026-07-12 09:01:26,837 [INFO] Se agregaron 12 episodios nuevos.
-2026-07-12 09:01:26,837 [INFO] === Fin ===
+2026-07-12 10:04:33,885 [INFO] === Inicio de scraping ===
+2026-07-12 10:04:33,885 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/
+2026-07-12 10:04:35,406 [INFO]   OK RN Feed: 'Pena' de Carlos Ferreira
+2026-07-12 10:04:36,983 [INFO]   OK RN Feed: 'El cuadro de Raulito' de Eduardo Sacheri
+2026-07-12 10:04:38,602 [INFO]   OK RN Feed: 'Los traidores', de Eduardo Sacheri
+2026-07-12 10:04:40,065 [INFO]   OK RN Feed: 'De chilena', de Eduardo Sacheri
+2026-07-12 10:04:41,648 [INFO]   OK RN Feed: 'El álbum', de Héctor Sánchez
+2026-07-12 10:04:43,229 [INFO]   OK RN Feed: 'Un gol asegurado' de Fernando Musa
+2026-07-12 10:04:44,622 [INFO]   OK RN Feed: 'El Pampa' de Roberto Fontanarrosa
+2026-07-12 10:04:46,165 [INFO]   OK RN Feed: 'Chau Mono' de Alfredo Carlino
+2026-07-12 10:04:47,581 [INFO]   OK RN Feed: 'Finito' de Guillermo Blanco
+2026-07-12 10:04:48,582 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=2
+2026-07-12 10:04:49,147 [INFO]   OK RN Feed: 'Todo mientras Diego' de Ariel Scher
+2026-07-12 10:04:50,344 [INFO]   OK RN Feed: 'Relatores' de Alejandro Dolina
+2026-07-12 10:04:51,573 [INFO]   OK RN Feed: 'El último centrojás' de Juan Sasturain
+2026-07-12 10:04:53,143 [INFO]   OK RN Feed: 'Apuntes acerca de una mala mujer' de Sergio Ranieri
+2026-07-12 10:04:54,349 [INFO]   OK RN Feed: 'Señor Labruna' de Rodolfo Braceli
+2026-07-12 10:04:55,833 [INFO]   OK RN Feed: 'Esperándolo a Tito' de Eduardo Sacheri
+2026-07-12 10:04:57,376 [INFO]   OK RN Feed: 'Oración por un gol' de Vicente Gaos
+2026-07-12 10:04:58,923 [INFO]   OK RN Feed: 'Tenemos un arquero que es una maravilla' de Eduardo Maicas
+2026-07-12 10:04:59,924 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=3
+2026-07-12 10:05:00,761 [INFO]   OK RN Feed: "El Chango Agüero, Schopenhauer y el descenso", de Osvaldo Soriano
+2026-07-12 10:05:02,329 [INFO]   OK RN Feed: "De Chilena", de Eduardo Sacheri
+2026-07-12 10:05:03,725 [INFO]   OK RN Feed: “Creo, vieja, que tu hijo la cagó”, de Jorge Valdano
+2026-07-12 10:05:04,756 [INFO]   OK RN Feed: "El pichón de Cristo", de Roberto Fontanarrosa
+2026-07-12 10:05:06,174 [INFO]   OK RN Feed: “Una sonrisa exactamente así”, de Eduardo Sacheri
+2026-07-12 10:05:07,743 [INFO]   OK RN Feed: "El hombre que murió dos veces", de Juan Villoro
+2026-07-12 10:05:09,243 [INFO]   OK RN Feed: Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'
+2026-07-12 10:05:10,718 [INFO]   OK RN Feed: "Transmisión diferida", de Jaime Muñoz Vargas
+2026-07-12 10:05:11,719 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=4
+2026-07-12 10:05:12,201 [INFO]   OK RN Feed: "De chilena", de Eduardo Sacheri
+2026-07-12 10:05:13,628 [INFO]   OK RN Feed: “La posibilidad sublime”, de Pablo Ramos
+2026-07-12 10:05:14,658 [INFO]   OK RN Feed: "Viejo con árbol", de Roberto Fontanarrosa
+2026-07-12 10:05:16,115 [INFO]   OK RN Feed: "Un trapo: Inmortal radiografía de las almas nobles" de Mario Giannotti
+2026-07-12 10:05:17,686 [INFO]   OK RN Feed: El "Pichón de Cristo" de Roberto Fontanarrosa
+2026-07-12 10:05:18,687 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=5
+2026-07-12 10:05:19,131 [INFO]   OK RN Feed: “Inside derecho”, de Humberto
+2026-07-12 10:05:20,588 [INFO]   OK RN Feed: "Banderín solferino", de Juan Sasturain
+2026-07-12 10:05:21,882 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
+2026-07-12 10:05:27,024 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
+2026-07-12 10:05:32,157 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Alejandro+Apo
+2026-07-12 10:05:32,293 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Un+Señor+Cuento
+2026-07-12 10:05:37,307 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Un+Señor+Cuento
+2026-07-12 10:05:42,441 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Un+Señor+Cuento
+2026-07-12 10:05:42,449 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=El+cuento+de+la+tarde
+2026-07-12 10:05:47,460 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=El+cuento+de+la+tarde
+2026-07-12 10:05:52,469 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=El+cuento+de+la+tarde
+2026-07-12 10:05:52,477 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Dondequiera+que+estés
+2026-07-12 10:05:57,492 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Dondequiera+que+estés
+2026-07-12 10:06:02,626 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Dondequiera+que+estés
+2026-07-12 10:06:02,641 [WARNING] Intento 1/3 fallo para https://www.am750.com.ar/?s=Todo+con+afecto
+2026-07-12 10:06:07,787 [WARNING] Intento 2/3 fallo para https://www.am750.com.ar/?s=Todo+con+afecto
+2026-07-12 10:06:12,820 [WARNING] Intento 3/3 fallo para https://www.am750.com.ar/?s=Todo+con+afecto
+2026-07-12 10:06:13,214 [INFO] Procesando: https://www.pagina12.com.ar/
+2026-07-12 10:06:14,317 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
+2026-07-12 10:06:15,607 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
+2026-07-12 10:06:16,841 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
+2026-07-12 10:06:17,945 [INFO] Procesando: https://www.pagina12.com.ar/economia
+2026-07-12 10:06:19,128 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
+2026-07-12 10:06:20,369 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
+2026-07-12 10:06:21,513 [INFO] Procesando: https://www.pagina12.com.ar/deportes
+2026-07-12 10:06:22,771 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
+2026-07-12 10:06:24,031 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
+2026-07-12 10:06:25,174 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
+2026-07-12 10:06:26,353 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
+2026-07-12 10:06:27,518 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
+2026-07-12 10:06:28,622 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
+2026-07-12 10:06:29,735 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
+2026-07-12 10:06:32,061 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
+2026-07-12 10:06:33,519 [INFO] Procesando: https://www.pagina12.com.ar/no
+2026-07-12 10:06:34,791 [INFO] Procesando: https://socios.pagina12.com.ar/
+2026-07-12 10:06:36,629 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
+2026-07-12 10:06:37,876 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
+2026-07-12 10:06:39,429 [INFO] Procesando: https://www.pagina12.com.ar/
+2026-07-12 10:06:41,246 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
+2026-07-12 10:06:42,361 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
+2026-07-12 10:06:43,461 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
+2026-07-12 10:06:44,642 [INFO] Procesando: https://www.pagina12.com.ar/economia
+2026-07-12 10:06:45,704 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
+2026-07-12 10:06:46,777 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
+2026-07-12 10:06:47,825 [INFO] Procesando: https://www.pagina12.com.ar/deportes
+2026-07-12 10:06:48,897 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
+2026-07-12 10:06:49,963 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
+2026-07-12 10:06:51,023 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
+2026-07-12 10:06:52,082 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
+2026-07-12 10:06:53,522 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
+2026-07-12 10:06:54,591 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
+2026-07-12 10:06:55,644 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
+2026-07-12 10:06:56,716 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
+2026-07-12 10:06:57,897 [INFO] Procesando: https://www.pagina12.com.ar/no
+2026-07-12 10:06:59,090 [INFO] Procesando: https://socios.pagina12.com.ar/
+2026-07-12 10:07:00,154 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
+2026-07-12 10:07:01,213 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
+2026-07-12 10:07:02,371 [INFO] Procesando: https://www.pagina12.com.ar/
+2026-07-12 10:07:03,459 [INFO] Procesando: https://www.pagina12.com.ar/edicion-impresa
+2026-07-12 10:07:04,574 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026
+2026-07-12 10:07:05,666 [INFO] Procesando: https://www.pagina12.com.ar/el-pais
+2026-07-12 10:07:06,737 [INFO] Procesando: https://www.pagina12.com.ar/economia
+2026-07-12 10:07:07,798 [INFO] Procesando: https://www.pagina12.com.ar/sociedad
+2026-07-12 10:07:08,868 [INFO] Procesando: https://www.pagina12.com.ar/cultura-y-espectaculos
+2026-07-12 10:07:09,921 [INFO] Procesando: https://www.pagina12.com.ar/deportes
+2026-07-12 10:07:11,025 [INFO] Procesando: https://www.pagina12.com.ar/el-mundo
+2026-07-12 10:07:12,090 [INFO] Procesando: https://www.pagina12.com.ar/recordatorios
+2026-07-12 10:07:13,146 [INFO] Procesando: https://www.pagina12.com.ar/buenos-aires12
+2026-07-12 10:07:14,218 [INFO] Procesando: https://www.pagina12.com.ar/rosario12
+2026-07-12 10:07:15,274 [INFO] Procesando: https://www.pagina12.com.ar/contratapa
+2026-07-12 10:07:16,345 [INFO] Procesando: https://www.pagina12.com.ar/mundial-2026/prode
+2026-07-12 10:07:17,399 [INFO] Procesando: https://www.pagina12.com.ar/50-anos-del-golpe
+2026-07-12 10:07:18,476 [INFO] Procesando: https://www.pagina12.com.ar/radar-libros
+2026-07-12 10:07:19,541 [INFO] Procesando: https://www.pagina12.com.ar/no
+2026-07-12 10:07:20,619 [INFO] Procesando: https://socios.pagina12.com.ar/
+2026-07-12 10:07:21,677 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
+2026-07-12 10:07:22,761 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
+2026-07-12 10:07:23,825 [INFO] Se agregaron 26 episodios nuevos.
+2026-07-12 10:07:23,825 [INFO] === Fin ===
