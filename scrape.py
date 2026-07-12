@@ -13,13 +13,25 @@ LOG_FILE = Path("scrape.log")
 SESSION_TIMEOUT = 30
 RETRY_ATTEMPTS = 3
 RETRY_DELAY = 5
-TERMS_PATTERNS = [r"Alejandro\s+Apo", r"Dondequiera\s+que\s+estes", r"Un\s+Seor\s+Cuento", r"Todo\s+con\s+Afecto", r"Los\s+cuentos\s+de\s+Apo"]
+
+TERMS_PATTERNS = [
+    r"Alejandro\s+Apo", r"Dondequiera\s+que\s+estés", r"Dondequiera\s+que\s+estes",
+    r"Un\s+Señor\s+Cuento", r"Un\s+Seor\s+Cuento", r"Todo\s+con\s+Afecto", 
+    r"Los\s+cuentos\s+de\s+Apo", r"cuentos\s+de\s+Apo"
+]
+
 session = requests.Session()
-session.headers.update({"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"})
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", handlers=[logging.FileHandler(LOG_FILE, mode="w", encoding="utf-8"), logging.StreamHandler()])
+session.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"})
+
+logging.basicConfig(
+    level=logging.INFO, 
+    format="%(asctime)s [%(levelname)s] %(message)s", 
+    handlers=[logging.FileHandler(LOG_FILE, mode="w", encoding="utf-8"), logging.StreamHandler()]
+)
 log = logging.getLogger(__name__)
 COVER_URL = "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
 
+# --- Utilidades ---
 def safe_get(url, timeout=SESSION_TIMEOUT):
     for attempt in range(1, RETRY_ATTEMPTS + 1):
         try:
@@ -51,7 +63,8 @@ def text_clean(html_str):
     if not html_str: return ""
     return BeautifulSoup(html_str, "lxml").get_text(separator=" ", strip=True)
 
-STORY_CONTEXT_PATTERNS = [r"cuento", r"relato", r"narr[oa\u00f3]", r"\blee\b", r"leyendo", r"voz\s+de\s+apo"]
+# --- Filtros Inteligentes ---
+STORY_CONTEXT_PATTERNS = [r"cuento", r"relato", r"narr[oaó]", r"\blee\b", r"leyendo", r"voz\s+de\s+apo"]
 INTERVIEW_TITLE_PATTERNS = [r"entrevista", r"dialog[oó]\s+con", r"habl[oó]\s+con", r"convers[oó]\s+con"]
 
 def is_interview_title(titulo):
@@ -61,15 +74,10 @@ def is_interview_title(titulo):
 def matches_apo(text, titulo=""):
     t = text.lower()
     has_apo = any(re.search(p, t, re.IGNORECASE) for p in TERMS_PATTERNS)
-    if not has_apo:
-        return False
+    if not has_apo: return False
     if titulo:
-        # Rechazar entrevistas AL propio Apo (o hechas por el a otra persona), aunque su
-        # nombre aparezca en el titulo. No es un cuento narrado por el.
-        if is_interview_title(titulo):
-            return False
-        if any(re.search(p, titulo.lower(), re.IGNORECASE) for p in TERMS_PATTERNS):
-            return True
+        if is_interview_title(titulo): return False
+        if any(re.search(p, titulo.lower(), re.IGNORECASE) for p in TERMS_PATTERNS): return True
     return any(re.search(p, t, re.IGNORECASE) for p in STORY_CONTEXT_PATTERNS)
 
 def parse_fecha(txt):
@@ -105,6 +113,7 @@ def dedup(episodes, new):
         if t and a and t == e.get("titulo") and a == e.get("autor_cuento"): return True
     return False
 
+# --- Extractores de HTML ---
 def _find_mp3(soup, base_url):
     for src in soup.find_all("source", attrs={"type": re.compile(r"audio", re.I)}):
         url = src.get("src", "")
@@ -146,9 +155,9 @@ def _find_date(soup):
     return ""
 
 def _guess_author(titulo, body):
-    m = re.search(r",\s*de\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,3})", titulo)
+    m = re.search(r",\s*de\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){0,3})", titulo)
     if m: return m.group(1).strip()
-    for pattern in [r"cuento\s+de\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,3})", r"relato\s+de\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,3})"]:
+    for pattern in [r"cuento\s+de\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){0,3})", r"relato\s+de\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){0,3})"]:
         m = re.search(pattern, body[:1500])
         if m:
             c = m.group(1).strip()
@@ -174,21 +183,16 @@ def _extract(url, fuente):
     descripcion = text_clean(desc_el.get_text()[:800]) if desc_el else ""
     ok, dur = verify_mp3(mp3)
     if not ok: return None
+    imagen = _find_image(soup, url) or COVER_URL
     return {
-        "titulo": titulo,
-        "autor_cuento": autor_cuento,
-        "narrador": "Alejandro Apo",
-        "descripcion": descripcion,
-        "fecha": _find_date(soup),
-        "duracion": round(dur, 1),
-        "imagen": _find_image(soup, url),
-        "mp3_url": mp3,
-        "fuente": fuente,
-        "fuente_url": url,
+        "titulo": titulo, "autor_cuento": autor_cuento, "narrador": "Alejandro Apo",
+        "descripcion": descripcion, "fecha": _find_date(soup), "duracion": round(dur, 1),
+        "imagen": imagen, "mp3_url": mp3, "fuente": fuente, "fuente_url": url,
         "guid": make_guid(titulo, autor_cuento),
         "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
 
+# --- Scrapers Específicos ---
 def _rss_items(xml_text):
     soup = BeautifulSoup(xml_text, "xml")
     return soup.find_all("item")
@@ -204,14 +208,12 @@ def _item_mp3(item, base_url):
     return ""
 
 def scrape_wp_tag_feed(feed_url, fuente, max_pages=5):
-    """Lee un feed RSS nativo de tag de WordPress (con paginacion ?paged=N) en vez de
-    scrapear el HTML. Mucho mas confiable: trae titulo, fecha, link y mp3 ya estructurados
-    en vez de tener que adivinarlos de la pagina."""
+    """Lee el feed RSS nativo de WordPress del tag de Apo en Radio Nacional."""
     results = []
     seen_guids = set()
     for page in range(1, max_pages + 1):
         url = feed_url if page == 1 else f"{feed_url}?paged={page}"
-        log.info("Leyendo feed: %s", url)
+        log.info("Leyendo feed RN: %s", url)
         resp = safe_get(url)
         if not resp: break
         items = _rss_items(resp.text)
@@ -236,260 +238,18 @@ def scrape_wp_tag_feed(feed_url, fuente, max_pages=5):
             autor_cuento = _guess_author(titulo, body_text)
             ok, dur = verify_mp3(mp3)
             if not ok: continue
-            log.info("  OK: %s", titulo)
+            log.info("  OK RN Feed: %s", titulo)
             results.append({
-                "titulo": titulo,
-                "autor_cuento": autor_cuento,
-                "narrador": "Alejandro Apo",
-                "descripcion": body_text[:800],
-                "fecha": fecha,
-                "duracion": round(dur, 1),
-                "imagen": COVER_URL,
-                "mp3_url": mp3,
-                "fuente": fuente,
-                "fuente_url": link or url,
+                "titulo": titulo, "autor_cuento": autor_cuento, "narrador": "Alejandro Apo",
+                "descripcion": body_text[:800], "fecha": fecha, "duracion": round(dur, 1),
+                "imagen": COVER_URL, "mp3_url": mp3, "fuente": fuente, "fuente_url": link or url,
                 "guid": make_guid(titulo, autor_cuento),
                 "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             })
             time.sleep(1)
     return results
 
-def scrape_spotify_podcast_rss(podcast_name, fuente, max_items=50):
-    """Lee episodios desde el feed RSS de un podcast en Spotify.
-    Spotify genera automáticamente RSS feeds para sus podcasts."""
-    results = []
-    seen_guids = set()
-    
-    # URL del feed RSS de Spotify (formato: https://open.spotify.com/show/{id} -> feed XML)
-    # Para "Los cuentos de Apo": 10LOEotTimEny9t07tXG8E
-    feed_url = "https://anchor.fm/s/10LOEotTimEny9t07tXG8E/podcast/rss"
-    
-    log.info("Leyendo Spotify podcast feed: %s", podcast_name)
-    resp = safe_get(feed_url)
-    if not resp:
-        log.warning("No se pudo acceder al feed de Spotify para %s", podcast_name)
-        return results
-    
-    items = _rss_items(resp.text)
-    if not items:
-        log.warning("No hay items en el feed de Spotify para %s", podcast_name)
-        return results
-    
-    count = 0
-    for item in items:
-        if count >= max_items:
-            break
-        
-        titulo_el = item.find("title")
-        titulo = titulo_el.get_text(strip=True) if titulo_el else ""
-        if not titulo:
-            continue
-        
-        # Filtro de Apo
-        desc_el = item.find("description")
-        body_text = text_clean(desc_el.get_text()) if desc_el else ""
-        if not matches_apo(f"{titulo} {body_text}", titulo):
-            continue
-        
-        item_guid = item.find("guid")
-        item_guid_text = item_guid.get_text(strip=True) if item_guid else ""
-        if item_guid_text and item_guid_text in seen_guids:
-            continue
-        if item_guid_text:
-            seen_guids.add(item_guid_text)
-        
-        # Buscar MP3
-        mp3 = _item_mp3(item, feed_url)
-        if not mp3:
-            log.info("  No MP3 encontrado para: %s", titulo)
-            continue
-        
-        # Verificar MP3
-        ok, dur = verify_mp3(mp3)
-        if not ok:
-            log.info("  MP3 inválido para: %s", titulo)
-            continue
-        
-        # Parsear fecha
-        pubdate_el = item.find("pubDate")
-        fecha = parse_fecha(pubdate_el.get_text(strip=True)) if pubdate_el else ""
-        
-        # Autor del cuento
-        autor_cuento = _guess_author(titulo, body_text)
-        
-        # Link a Spotify
-        link_el = item.find("link")
-        link = link_el.get_text(strip=True) if link_el else ""
-        
-        log.info("  OK: %s", titulo)
-        results.append({
-            "titulo": titulo,
-            "autor_cuento": autor_cuento,
-            "narrador": "Alejandro Apo",
-            "descripcion": body_text[:800],
-            "fecha": fecha,
-            "duracion": round(dur, 1),
-            "imagen": COVER_URL,
-            "mp3_url": mp3,
-            "fuente": fuente,
-            "fuente_url": link,
-            "guid": make_guid(titulo, autor_cuento),
-            "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        })
-        count += 1
-        time.sleep(1)
-    
-    return results
-
-def scrape_radiocut(show_slug, fuente, max_items=100):
-    """Lee episodios desde RadioCut usando su API no oficial.
-    show_slug: ej 'todo-con-afecto', 'dondequiera-que-estes', etc"""
-    results = []
-    seen_guids = set()
-    limit = 20
-    
-    for start in range(0, max_items, limit):
-        url = "https://radiocut.fm/audios/get_cuts/"
-        params = {
-            "show_slug": show_slug,
-            "limit": limit,
-            "start": start
-        }
-        log.info("Leyendo RadioCut: %s (offset=%d)", show_slug, start)
-        resp = safe_get(url + "?" + "&".join(f"{k}={v}" for k, v in params.items()))
-        if not resp:
-            log.warning("No se pudo acceder a RadioCut para %s", show_slug)
-            break
-        
-        try:
-            data = resp.json()
-        except:
-            log.warning("No se pudo parsear JSON de RadioCut para %s", show_slug)
-            break
-        
-        cuts = data.get("results", [])
-        if not cuts:
-            break
-        
-        for cut in cuts:
-            titulo = cut.get("title", "").strip()
-            if not titulo:
-                continue
-            
-            # Filtro de Apo
-            descripcion = cut.get("description", "")
-            if not matches_apo(f"{titulo} {descripcion}", titulo):
-                continue
-            
-            item_guid = cut.get("id") or cut.get("url")
-            if item_guid and item_guid in seen_guids:
-                continue
-            if item_guid:
-                seen_guids.add(item_guid)
-            
-            mp3_url = cut.get("audio_url", "").strip()
-            if not mp3_url or ".mp3" not in mp3_url.lower():
-                continue
-            
-            ok, dur = verify_mp3(mp3_url)
-            if not ok:
-                continue
-            
-            # Intentar parsear fecha
-            fecha_str = cut.get("created_at") or cut.get("date_published") or ""
-            fecha = parse_fecha(fecha_str) if fecha_str else ""
-            
-            autor_cuento = _guess_author(titulo, descripcion)
-            
-            log.info("  OK: %s", titulo)
-            results.append({
-                "titulo": titulo,
-                "autor_cuento": autor_cuento,
-                "narrador": "Alejandro Apo",
-                "descripcion": descripcion[:800],
-                "fecha": fecha,
-                "duracion": round(dur, 1),
-                "imagen": COVER_URL,
-                "mp3_url": mp3_url,
-                "fuente": fuente,
-                "fuente_url": cut.get("url", f"https://radiocut.fm/audiocut/programa/{show_slug}/"),
-                "guid": make_guid(titulo, autor_cuento),
-                "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-            })
-            time.sleep(0.5)
-        
-        if len(cuts) < limit:
-            break
-    
-    return results
-
-def scrape_youtube_playlist(playlist_id, fuente, max_items=100):
-    """Lee videos de una playlist de YouTube usando youtube-search-python
-    (sin API key). Solo extrae metadata, no MP3 (YouTube no permite acceso directo)."""
-    try:
-        from youtubesearchpython import Playlist
-    except ImportError:
-        log.warning("youtube-search-python no instalado. Instala con: pip install youtube-search-python")
-        return []
-    
-    results = []
-    seen_guids = set()
-    
-    playlist_url = f"https://www.youtube.com/playlist?list={playlist_id}"
-    log.info("Leyendo YouTube playlist: %s", playlist_url)
-    
-    try:
-        playlist = Playlist(playlist_url)
-    except Exception as e:
-        log.warning("No se pudo acceder a la playlist de YouTube %s: %s", playlist_id, e)
-        return results
-    
-    count = 0
-    for video in playlist.videos:
-        if count >= max_items:
-            break
-        
-        video_title = video.get("title", "").strip()
-        video_id = video.get("id", "").strip()
-        video_url = f"https://www.youtube.com/watch?v={video_id}" if video_id else ""
-        
-        if not video_title or not video_id:
-            continue
-        
-        # Filtro de Apo
-        if not matches_apo(video_title, video_title):
-            continue
-        
-        item_guid = f"youtube-{video_id}"
-        if item_guid in seen_guids:
-            continue
-        seen_guids.add(item_guid)
-        
-        # Extraer autor del título
-        autor_cuento = _guess_author(video_title, "")
-        
-        # YouTube no permite acceso a MP3 directo; registramos el video pero sin duración
-        # Los usuarios pueden ver el video en YouTube
-        log.info("  OK: %s", video_title)
-        results.append({
-            "titulo": video_title,
-            "autor_cuento": autor_cuento,
-            "narrador": "Alejandro Apo",
-            "descripcion": f"Video de YouTube: {video_title}",
-            "fecha": "",  # YouTube no devuelve fecha fácilmente
-            "duracion": 0,  # No disponible sin API
-            "imagen": f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg",
-            "mp3_url": video_url,  # Guardamos el URL del video, no MP3
-            "fuente": fuente,
-            "fuente_url": video_url,
-            "guid": make_guid(video_title, autor_cuento),
-            "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        })
-        count += 1
-        time.sleep(0.5)
-    
-    return results
-
+# --- Scraper Genérico (AM750 y Página/12) ---
 NAV_PATH_EXCLUDE = re.compile(
     r"/(tags?|contacto|politica-de-privacidad|terminos|socios|usuarios|rss|"
     r"especiales|publico|opinion|cash|am750|salta12|cordoba12|radar|soy|las12|"
@@ -531,10 +291,9 @@ def scrape_source(base_search, domain, fuente):
             results.append(ep)
             log.info("  OK: %s", ep["titulo"])
         time.sleep(1)
-    if len(visited) >= MAX_URLS_PER_SOURCE:
-        log.warning("Se alcanzo el limite de %d URLs para %s, puede haber quedado contenido sin revisar.", MAX_URLS_PER_SOURCE, fuente)
     return results
 
+# --- Ejecución Principal ---
 def main():
     log.info("=== Inicio de scraping ===")
     existing = load_existing()
@@ -547,46 +306,35 @@ def main():
                 ep["descripcion"] = f'Alejandro Apo lee "{ep["titulo"]}"{f", cuento de {a}" if a else ""}.\n\nFuente original:\n{ep["fuente"]}.\n\n{ep["descripcion"]}'
                 all_new.append(ep)
 
+    # 1. Radio Nacional (Feed RSS nativo - Ultra eficiente)
     try:
         _agregar(scrape_wp_tag_feed("https://www.radionacional.com.ar/tag/alejandro-apo/feed/", "Radio Nacional Argentina"))
     except Exception as e:
-        log.error("Error en Radio Nacional Argentina: %s", e)
+        log.error("Error en Radio Nacional (Feed): %s", e)
 
-    try:
-        _agregar(scrape_spotify_podcast_rss("Los cuentos de Apo", "Spotify - Los cuentos de Apo"))
-    except Exception as e:
-        log.error("Error en Spotify: %s", e)
-
-    # RadioCut: programas de Apo con cuentos
-    radiocut_shows = [
-        ("todo-con-afecto", "RadioCut - Todo con Afecto"),
-        ("dondequiera-que-estes", "RadioCut - Dondequiera que Estés"),
-    ]
-    for show_slug, fuente_name in radiocut_shows:
-        try:
-            _agregar(scrape_radiocut(show_slug, fuente_name, max_items=100))
-        except Exception as e:
-            log.error("Error en %s: %s", fuente_name, e)
-
-    # YouTube playlists
-    youtube_playlists = [
-        ("PLoxVsJWn3DIbdI-yp_CjdG35mF3fYoBfv", "YouTube - El Cuento de la Tarde"),
-        # ("OTRO_PLAYLIST_ID", "YouTube - Un Señor Cuento"),  # Agregar cuando tengamos el link
-    ]
-    for playlist_id, fuente_name in youtube_playlists:
-        try:
-            _agregar(scrape_youtube_playlist(playlist_id, fuente_name, max_items=100))
-        except Exception as e:
-            log.error("Error en %s: %s", fuente_name, e)
-
+    # 2. Búsquedas por nombre de programa en todos los medios
     scrapers = [
+        # AM 750
         ("https://www.am750.com.ar/?s=Alejandro+Apo", "am750.com.ar", "AM 750"),
+        ("https://www.am750.com.ar/?s=Un+Señor+Cuento", "am750.com.ar", "AM 750"),
+        ("https://www.am750.com.ar/?s=El+cuento+de+la+tarde", "am750.com.ar", "AM 750"),
+        ("https://www.am750.com.ar/?s=Dondequiera+que+estés", "am750.com.ar", "AM 750"),
+        ("https://www.am750.com.ar/?s=Todo+con+afecto", "am750.com.ar", "AM 750"),
+        # Página/12
         ("https://www.pagina12.com.ar/buscar?q=Alejandro+Apo", "pagina12.com.ar", "Pagina/12"),
+        ("https://www.pagina12.com.ar/buscar?q=Todo+con+afecto", "pagina12.com.ar", "Pagina/12"),
+        ("https://www.pagina12.com.ar/buscar?q=Dondequiera+que+estés", "pagina12.com.ar", "Pagina/12"),
+        # Radio Nacional (Búsquedas extra por si hay cosas fuera del tag)
+        ("https://www.radionacional.com.ar/?s=El+cuento+de+la+tarde", "www.radionacional.com.ar", "Radio Nacional Argentina"),
+        ("https://www.radionacional.com.ar/?s=Un+Señor+Cuento", "www.radionacional.com.ar", "Radio Nacional Argentina"),
+        ("https://www.radionacional.com.ar/?s=Dondequiera+que+estés", "www.radionacional.com.ar", "Radio Nacional Argentina"),
+        ("https://www.radionacional.com.ar/?s=Todo+con+afecto", "www.radionacional.com.ar", "Radio Nacional Argentina"),
     ]
     for url, dom, name in scrapers:
         try:
             _agregar(scrape_source(url, dom, name))
         except Exception as e: log.error("Error en %s: %s", name, e)
+        
     if all_new:
         existing.extend(all_new)
         save_episodes(existing)
