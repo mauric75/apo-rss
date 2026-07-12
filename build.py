@@ -5,8 +5,6 @@ from pathlib import Path
 from feedgen.feed import FeedGenerator
 
 DATA_FILE = Path("episodes.json")
-# Forzar limpieza si el archivo tiene basura de YouTube/Spotify
-if DATA_FILE.exists(): DATA_FILE.unlink()
 PODCAST_TITLE = "Los cuentos de Alejandro Apo"
 PODCAST_SUBTITLE = "RSS independiente"
 PODCAST_DESCRIPTION = "Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina, AM 750 y Pagina/12."
