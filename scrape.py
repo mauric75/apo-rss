@@ -65,7 +65,16 @@ def text_clean(html_str):
 
 # --- Filtros Inteligentes ---
 STORY_CONTEXT_PATTERNS = [r"cuento", r"relato", r"narr[oaó]", r"\blee\b", r"leyendo", r"voz\s+de\s+apo"]
-INTERVIEW_TITLE_PATTERNS = [r"entrevista", r"dialog[oó]\s+con", r"habl[oó]\s+con", r"convers[oó]\s+con"]
+INTERVIEW_TITLE_PATTERNS = [
+    r"entrevista", r"dialog[oó]\s+con", r"habl[oó]\s+con", r"convers[oó]\s+con",
+    r"mano\s+a\s+mano", r"cara\s+a\s+cara", r"reportaje\s+a", r"charla\s+con",
+]
+# Titulo tipo "'El Pampa' de Roberto Fontanarrosa": el patron real y confiable
+# de un cuento genuino (obra entre comillas + atribucion de autoria).
+STORY_TITLE_STRONG_RE = re.compile(r'[\'"\u201c][^\'"\u201d]{3,90}[\'"\u201d]\s*,?\s*de\s+[A-ZÁÉÍÓÚÑ]')
+# Titulo tipo 'Alejandro Apo: "Estoy cumpliendo 68 anos..."': cita/declaracion
+# periodistica, nunca es el titulo de un cuento narrado.
+QUOTE_TITLE_RE = re.compile(r':\s*[\'"\u201c]')
 
 def is_interview_title(titulo):
     t = titulo.lower()
@@ -77,7 +86,12 @@ def matches_apo(text, titulo=""):
     if not has_apo: return False
     if titulo:
         if is_interview_title(titulo): return False
-        if any(re.search(p, titulo.lower(), re.IGNORECASE) for p in TERMS_PATTERNS): return True
+        if STORY_TITLE_STRONG_RE.search(titulo): return True
+        if QUOTE_TITLE_RE.search(titulo): return False
+        if any(re.search(p, titulo.lower(), re.IGNORECASE) for p in TERMS_PATTERNS):
+            # Menciona su nombre pero no tiene forma de titulo de cuento ni de
+            # cita: exigir igual contexto real de narracion en el cuerpo.
+            return any(re.search(p, t, re.IGNORECASE) for p in STORY_CONTEXT_PATTERNS)
     return any(re.search(p, t, re.IGNORECASE) for p in STORY_CONTEXT_PATTERNS)
 
 def parse_fecha(txt):
@@ -324,11 +338,12 @@ def main():
         ("https://www.pagina12.com.ar/buscar?q=Alejandro+Apo", "pagina12.com.ar", "Pagina/12"),
         ("https://www.pagina12.com.ar/buscar?q=Todo+con+afecto", "pagina12.com.ar", "Pagina/12"),
         ("https://www.pagina12.com.ar/buscar?q=Dondequiera+que+estés", "pagina12.com.ar", "Pagina/12"),
-        # Radio Nacional (Búsquedas extra por si hay cosas fuera del tag)
-        ("https://www.radionacional.com.ar/?s=El+cuento+de+la+tarde", "www.radionacional.com.ar", "Radio Nacional Argentina"),
-        ("https://www.radionacional.com.ar/?s=Un+Señor+Cuento", "www.radionacional.com.ar", "Radio Nacional Argentina"),
-        ("https://www.radionacional.com.ar/?s=Dondequiera+que+estés", "www.radionacional.com.ar", "Radio Nacional Argentina"),
-        ("https://www.radionacional.com.ar/?s=Todo+con+afecto", "www.radionacional.com.ar", "Radio Nacional Argentina"),
+        # Radio Nacional ya se cubre arriba via el feed RSS nativo del tag
+        # (scrape_wp_tag_feed), que es mas confiable. Las busquedas ?s= genericas
+        # se sacan: el buscador del sitio matchea palabra por palabra, no frase
+        # exacta, asi que "Todo con afecto" terminaba siendo una busqueda de la
+        # palabra suelta "afecto" y traia articulos sobre incendios, el Mundial,
+        # el Papa Francisco, etc. sin ningun vinculo real con Apo.
     ]
     for url, dom, name in scrapers:
         try:
