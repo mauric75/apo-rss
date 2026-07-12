@@ -1,7 +1,7 @@
 [
   {
     "titulo": "'El Pampa' de Roberto Fontanarrosa",
-    "autor_cuento": "",
+    "autor_cuento": "Roberto Fontanarrosa",
     "narrador": "Alejandro Apo",
     "descripcion": "Alejandro Apo lee \"'El Pampa' de Roberto Fontanarrosa\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'El Pampa' cuento extraído del libro 'Negar todo y otros cuentos' de Roberto Fontanarrosa, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
     "fecha": "2023-12-02",
@@ -10,12 +10,12 @@
     "mp3_url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/12/El-pampa-de-Roberto-Fontanarrosa.mp3",
     "fuente": "Radio Nacional Argentina",
     "fuente_url": "https://www.radionacional.com.ar/el-pampa-de-roberto-fontanarrosa/",
-    "guid": "'el-pampa'-de-roberto-fontanarrosa",
+    "guid": "'el-pampa'-de-roberto-fontanarrosa|roberto-fontanarrosa",
     "extraido": "2026-07-12T10:03:57Z"
   },
   {
     "titulo": "'Relatores' de Alejandro Dolina",
-    "autor_cuento": "",
+    "autor_cuento": "Alejandro Dolina",
     "narrador": "Alejandro Apo",
     "descripcion": "Alejandro Apo lee \"'Relatores' de Alejandro Dolina\".\n\nFuente original:\nRadio Nacional Argentina.\n\n'Relatores', cuento extraído del libro 'El libro del Fantasma', de Alejando Dolina, en la voz de Alejando Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.",
     "fecha": "2023-10-21",
@@ -24,7 +24,7 @@
     "mp3_url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/10/Todo-con-Afecto-Relatores.mp3",
     "fuente": "Radio Nacional Argentina",
     "fuente_url": "https://www.radionacional.com.ar/relatores-de-alejandro-dolina-2/",
-    "guid": "'relatores'-de-alejandro-dolina",
+    "guid": "'relatores'-de-alejandro-dolina|alejandro-dolina",
     "extraido": "2026-07-12T10:03:57Z"
   },
   {
