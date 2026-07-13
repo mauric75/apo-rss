@@ -615,6 +615,119 @@ def scrape_youtube_playlist(playlist_id, playlist_name):
     
     return results
 
+# --- Scraper RadioCut.fm ---
+# Extrae audiocuts de RadioCut usando los sitemaps y el HTML.
+# Cada pagina de audiocut expone datos en <li> elements y JSON-LD.
+
+RC_FUENTE = "RadioCut.fm"
+
+def scrape_radiocut_url(audiocut_url):
+    """Extrae datos de un audiocut individual de RadioCut.
+    Retorna un dict de episodio o None si falla/no es relevante."""
+    resp = safe_get(audiocut_url)
+    if not resp:
+        return None
+    
+    html = resp.text
+    
+    # Extraer titulo
+    title_match = re.search(r'<h1[^>]*id="cut_title"[^>]*>(.*?)</h1>', html, re.DOTALL)
+    titulo = ""
+    if title_match:
+        titulo = re.sub(r'<[^>]+>', '', title_match.group(1)).strip()
+    if not titulo:
+        og_title = re.search(r'<meta[^>]*property="og:title"[^>]*content="([^"]+)"', html)
+        if og_title: titulo = og_title.group(1)
+    if not titulo:
+        return None
+    
+    # Filtrar
+    body = BeautifulSoup(html, "lxml").get_text(separator=" ", strip=True)[:2000]
+    if not matches_apo(f"{titulo} {body}", titulo):
+        return None
+    
+    # Datos de audio
+    station = re.findall(r'<li class="audio_station">([^<]+)</li>', html)
+    seconds = re.findall(r'<li class="audio_seconds">([^<]+)</li>', html)
+    base_url = re.findall(r'<li class="audio_base_url">([^<]+)</li>', html)
+    
+    # URL de audio desde JSON-LD (preferido) o construido
+    audio_url = ""
+    ld_urls = re.findall(r'"contentUrl"\s*:\s*"([^"]+)"', html)
+    if ld_urls:
+        audio_url = ld_urls[0]
+    elif station and seconds and base_url:
+        # Fallback: construir URL (menos preciso pero funciona)
+        dur_match = re.findall(r'<li class="audio_duration">([^<]+)</li>', html)
+        dur = dur_match[0] if dur_match else seconds[0]
+        audio_url = f"{base_url[0]}/server/get_unified_file/{station[0]}/{seconds[0]}.0/{dur}"
+    
+    if not audio_url:
+        return None
+    
+    # Fecha desde JSON-LD o meta
+    fecha = ""
+    ld_dates = re.findall(r'"uploadDate"\s*:\s*"([^"]+)"', html)
+    if ld_dates:
+        fecha = parse_fecha(ld_dates[0][:10])
+    if not fecha:
+        og_date = re.search(r'<meta[^>]*property="article:published_time"[^>]*content="([^"]+)"', html)
+        if og_date: fecha = parse_fecha(og_date.group(1)[:10])
+    if not fecha:
+        ld_mod = re.findall(r'"dateModified"\s*:\s*"([^"]+)"', html)
+        if ld_mod: fecha = parse_fecha(ld_mod[0][:10])
+    
+    # Duracion ISO 8601 -> segundos (PT1H30M20S, PT24M20S, PT45S)
+    dur_secs = 0.0
+    ld_dur = re.findall(r'"duration"\s*:\s*"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?"', html)
+    if ld_dur:
+        h, m, s = ld_dur[0]
+        dur_secs = int(h or 0) * 3600 + int(m or 0) * 60 + int(s or 0)
+    else:
+        # Intentar desde <li class="audio_duration">
+        dur_li = re.findall(r'<li class="audio_duration">(\d+)</li>', html)
+        if dur_li:
+            dur_secs = float(dur_li[0])
+    
+    # Descripcion
+    desc_match = re.search(r'"description"\s*:\s*"([^"]+)"', html)
+    descripcion = desc_match.group(1)[:800] if desc_match else ""
+    
+    # Autor desde el titulo
+    autor_cuento = _guess_author(titulo, body)
+    
+    # GUID: usar la URL como identificador unico
+    guid = f"rc-{audiocut_url.split('/')[-2]}" if audiocut_url.endswith('/') else f"rc-{audiocut_url.split('/')[-1]}"
+    
+    return {
+        "titulo": titulo,
+        "autor_cuento": autor_cuento,
+        "narrador": "Alejandro Apo",
+        "descripcion": descripcion[:800],
+        "fecha": fecha,
+        "duracion": round(dur_secs, 1),
+        "imagen": COVER_URL,
+        "mp3_url": audio_url,
+        "fuente": RC_FUENTE,
+        "fuente_url": audiocut_url,
+        "guid": guid,
+        "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    }
+
+# URLs de audiocuts de Apo descubiertas via sitemaps de RadioCut
+RC_APO_URLS = [
+    "https://radiocut.fm/audiocut/te-digo-mas-roberto-fontanarrosa-por-alejandro-apo/",
+    "https://radiocut.fm/audiocut/alejandro-apo-lee-a-eduardo-sacheri/",
+    "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-una-sonrisa-exactamente-asi-eduardo-sacheri/",
+    "https://radiocut.fm/audiocut/alejandro-apo-dondequiera-estes-lecturas-y-cuentos-jueves-19-10-2023/",
+    "https://radiocut.fm/audiocut/dama-del-perrito-griselda-gambaro/",
+    "https://radiocut.fm/audiocut/el-mundo-ha-vivido-equivocado-de-roberto-fontanarrosa-por-alejandro-apo/",
+    "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-por-am750-hoy-sur-viejo-de-dalmiro-saenz/",
+    "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-torito-de-julio-cortazar/",
+    "https://radiocut.fm/audiocut/unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-juan-murana-jorge-luis-borges/",
+    "https://radiocut.fm/audiocut/cuento-del-diario-intimo-un-chico-rubio/",
+]
+
 # --- Scraper Genérico (AM750 y Página/12) ---
 # Nota: "am750" y "tags" fueron sacados de esta lista. AM750 ahora vive DENTRO
 # de pagina12.com.ar/am750/ (el dominio am750.com.ar quedo dado de baja), y la
@@ -708,7 +821,20 @@ def main():
     else:
         log.warning("yt-dlp no instalado. Saltando YouTube. Instalar con: pip install yt-dlp")
 
-    # 4. Anchor.fm (Spotify for Creators) — feed oficial del podcast
+    # 4. RadioCut.fm — audiocuts individuales descubiertos via sitemaps.
+    # Contiene contenido reciente (2024-2025) de AM750 no disponible en RSS.
+    try:
+        for rc_url in RC_APO_URLS:
+            ep = scrape_radiocut_url(rc_url)
+            if ep and not dedup(existing, ep) and not dedup(all_new, ep):
+                a = ep["autor_cuento"]
+                ep["descripcion"] = f'Alejandro Apo lee "{ep["titulo"]}"{f", cuento de {a}" if a else ""}.\n\nFuente original:\n{ep["fuente"]}.\n\n{ep["descripcion"]}'
+                all_new.append(ep)
+                log.info("  OK RadioCut: %s", ep["titulo"][:70])
+    except Exception as e:
+        log.error("Error en RadioCut: %s", e)
+
+    # 5. Anchor.fm (Spotify for Creators) — feed oficial del podcast
     # "Los cuentos de Apo" por Grupo Octubre. Contiene 51 episodios (2021).
     # Es la fuente original que TuneIn agrega en:
     #   https://tunein.com/podcasts/Books--Literature/Los-cuentos-de-Apo-p2783793/
@@ -717,7 +843,7 @@ def main():
     except Exception as e:
         log.error("Error en Anchor.fm: %s", e)
 
-    # 5. Pagina/12 (incluye AM750): DESHABILITADO otra vez, esta vez por un
+    # 6. Pagina/12 (incluye AM750): DESHABILITADO otra vez, esta vez por un
     # motivo distinto y definitivo. El dominio am750.com.ar murio y su
     # contenido se mudo a pagina12.com.ar/am750/, y la pagina de tag real
     # (pagina12.com.ar/tags/7116-alejandro-apo) SI lista notas reales sobre

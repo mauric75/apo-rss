@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Los cuentos de Alejandro Apo</title><link>https://mauric75.github.io/apo-rss/rss.xml</link><description>Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina y Los cuentos de Apo (Anchor.fm / Grupo Octubre).</description><atom:link href="https://mauric75.github.io/apo-rss/rss.xml" rel="self" type="application/rss+xml"/><copyright>CC BY-NC-SA 4.0</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://mauric75.github.io/apo-rss/cover.jpg</url><title>Los cuentos de Alejandro Apo</title><link>https://mauric75.github.io/apo-rss/</link></image><language>es-ar</language><lastBuildDate>Mon, 13 Jul 2026 02:54:26 +0000</lastBuildDate><itunes:category text="Arts"><itunes:category text="Literature"/></itunes:category><itunes:image href="https://mauric75.github.io/apo-rss/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:owner><itunes:name>Alejandro Apo</itunes:name><itunes:email>contacto@ejemplo.com</itunes:email></itunes:owner><itunes:summary>Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina y Los cuentos de Apo (Anchor.fm / Grupo Octubre).</itunes:summary><itunes:type>episodic</itunes:type><item><title>El Hincha - Por Alejandro Apo (Mempo Giardinelli) 2/2</title><description>Alejandro Apo lee "El Hincha - Por Alejandro Apo (Mempo Giardinelli) 2/2".
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Los cuentos de Alejandro Apo</title><link>https://mauric75.github.io/apo-rss/rss.xml</link><description>Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina y Los cuentos de Apo (Anchor.fm / Grupo Octubre).</description><atom:link href="https://mauric75.github.io/apo-rss/rss.xml" rel="self" type="application/rss+xml"/><copyright>CC BY-NC-SA 4.0</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://mauric75.github.io/apo-rss/cover.jpg</url><title>Los cuentos de Alejandro Apo</title><link>https://mauric75.github.io/apo-rss/</link></image><language>es-ar</language><lastBuildDate>Mon, 13 Jul 2026 03:05:47 +0000</lastBuildDate><itunes:category text="Arts"><itunes:category text="Literature"/></itunes:category><itunes:image href="https://mauric75.github.io/apo-rss/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:owner><itunes:name>Alejandro Apo</itunes:name><itunes:email>contacto@ejemplo.com</itunes:email></itunes:owner><itunes:summary>Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina y Los cuentos de Apo (Anchor.fm / Grupo Octubre).</itunes:summary><itunes:type>episodic</itunes:type><item><title>El Hincha - Por Alejandro Apo (Mempo Giardinelli) 2/2</title><description>Alejandro Apo lee "El Hincha - Por Alejandro Apo (Mempo Giardinelli) 2/2".
 
 Fuente original:
 YouTube - Cuentos (varios).
@@ -275,7 +275,22 @@ un cuentazo...crudo...real...humano...genial...&lt;/p&gt;&lt;p&gt;Autor: &lt;str
 Fuente original:
 YouTube - Fontanarrosa por Apo.
 
-un cuentazo...crudo...real...humano...genial...</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>El apocalipsis segun el Chato</title><description>Alejandro Apo lee "El apocalipsis segun el Chato".
+un cuentazo...crudo...real...humano...genial...</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>&amp;quot;El mundo ha vivido equivocado&amp;quot; de Roberto Fontanarrosa por Alejandro Apo.</title><description>Alejandro Apo lee "&amp;quot;El mundo ha vivido equivocado&amp;quot; de Roberto Fontanarrosa por Alejandro Apo.".
+
+Fuente original:
+RadioCut.fm.
+
+Cuento de Roberto Fontanarrosa \</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "&amp;quot;El mundo ha vivido equivocado&amp;quot; de Roberto Fontanarrosa por Alejandro Apo.".
+
+Fuente original:
+RadioCut.fm.
+
+Cuento de Roberto Fontanarrosa \&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://radiocut.fm/audiocut/el-mundo-ha-vivido-equivocado-de-roberto-fontanarrosa-por-alejandro-apo/"&gt;RadioCut.fm&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">rc-el-mundo-ha-vivido-equivocado-de-roberto-fontanarrosa-por-alejandro-apo</guid><enclosure url="https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1437506573.0/2023" length="2023" type="audio/mpeg"/><pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>33:43</itunes:duration><itunes:summary>Alejandro Apo lee "&amp;quot;El mundo ha vivido equivocado&amp;quot; de Roberto Fontanarrosa por Alejandro Apo.".
+
+Fuente original:
+RadioCut.fm.
+
+Cuento de Roberto Fontanarrosa \</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>El apocalipsis segun el Chato</title><description>Alejandro Apo lee "El apocalipsis segun el Chato".
 
 Fuente original:
 YouTube - Y el fútbol contó un cuento.
@@ -707,7 +722,37 @@ YouTube - Fontanarrosa por Apo.
 Audio; Radio Madre
 Donde quiera que estés
 Alejandro Apo y Victoria Nardone
- El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>El discipulo" de Roberto Fontanarrosa</title><description>Alejandro Apo lee "El discipulo" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>&amp;quot;Un señor cuento&amp;quot; en &amp;quot;La casa invita&amp;quot; AM 750 por Alejandro Apo &amp;quot;Torito&amp;quot; de Julio Cortázar</title><description>Alejandro Apo lee "&amp;quot;Un señor cuento&amp;quot; en &amp;quot;La casa invita&amp;quot; AM 750 por Alejandro Apo &amp;quot;Torito&amp;quot; de Julio Cortázar", cuento de Julio Cortázar.
+
+Fuente original:
+RadioCut.fm.
+
+\</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "&amp;quot;Un señor cuento&amp;quot; en &amp;quot;La casa invita&amp;quot; AM 750 por Alejandro Apo &amp;quot;Torito&amp;quot; de Julio Cortázar", cuento de Julio Cortázar.
+
+Fuente original:
+RadioCut.fm.
+
+\&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Julio Cortázar&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-torito-de-julio-cortazar/"&gt;RadioCut.fm&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">rc-un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-torito-de-julio-cortazar</guid><enclosure url="https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1488938587.0/1031" length="1031" type="audio/mpeg"/><pubDate>Wed, 08 Mar 2017 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>17:11</itunes:duration><itunes:summary>Alejandro Apo lee "&amp;quot;Un señor cuento&amp;quot; en &amp;quot;La casa invita&amp;quot; AM 750 por Alejandro Apo &amp;quot;Torito&amp;quot; de Julio Cortázar", cuento de Julio Cortázar.
+
+Fuente original:
+RadioCut.fm.
+
+\</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>&amp;quot;Un señor Cuento&amp;quot; en &amp;quot;La Casa Invita&amp;quot; por AM750 HOY: &amp;quot;Sur viejo&amp;quot; de Dalmiro Sáenz</title><description>Alejandro Apo lee "&amp;quot;Un señor Cuento&amp;quot; en &amp;quot;La Casa Invita&amp;quot; por AM750 HOY: &amp;quot;Sur viejo&amp;quot; de Dalmiro Sáenz", cuento de Dalmiro Sáenz.
+
+Fuente original:
+RadioCut.fm.
+
+Alejandro Apo y su #Se\u00f1orCuento de todas las noches.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "&amp;quot;Un señor Cuento&amp;quot; en &amp;quot;La Casa Invita&amp;quot; por AM750 HOY: &amp;quot;Sur viejo&amp;quot; de Dalmiro Sáenz", cuento de Dalmiro Sáenz.
+
+Fuente original:
+RadioCut.fm.
+
+Alejandro Apo y su #Se\u00f1orCuento de todas las noches.&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Dalmiro Sáenz&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-por-am750-hoy-sur-viejo-de-dalmiro-saenz/"&gt;RadioCut.fm&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">rc-un-senor-cuento-en-la-casa-invita-por-am750-hoy-sur-viejo-de-dalmiro-saenz</guid><enclosure url="https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1490839571.0/949" length="949" type="audio/mpeg"/><pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>15:49</itunes:duration><itunes:summary>Alejandro Apo lee "&amp;quot;Un señor Cuento&amp;quot; en &amp;quot;La Casa Invita&amp;quot; por AM750 HOY: &amp;quot;Sur viejo&amp;quot; de Dalmiro Sáenz", cuento de Dalmiro Sáenz.
+
+Fuente original:
+RadioCut.fm.
+
+Alejandro Apo y su #Se\u00f1orCuento de todas las noches.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>El discipulo" de Roberto Fontanarrosa</title><description>Alejandro Apo lee "El discipulo" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
 
 Fuente original:
 YouTube - Fontanarrosa por Apo.
@@ -779,7 +824,22 @@ YouTube - Fontanarrosa por Apo.
 , Audio; Radio Madre
 Donde quiera que estés
 Alejandro Apo y Victoria Nardone
- El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Gnomos en Bariloche" de Roberto Fontanarrosa</title><description>Alejandro Apo lee "Gnomos en Bariloche" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>#UnSeñorCuento en &amp;quot;La Casa Invita&amp;quot; por AM750. HOY: &amp;quot;Una sonrisa exactamente así&amp;quot; Eduardo Sacheri</title><description>Alejandro Apo lee "#UnSeñorCuento en &amp;quot;La Casa Invita&amp;quot; por AM750. HOY: &amp;quot;Una sonrisa exactamente así&amp;quot; Eduardo Sacheri".
+
+Fuente original:
+RadioCut.fm.
+
+Alejandro Apo y su #Se\u00f1orCuento de cada noche en #LaCasaInvita por AM750 \r\nHOY: \</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "#UnSeñorCuento en &amp;quot;La Casa Invita&amp;quot; por AM750. HOY: &amp;quot;Una sonrisa exactamente así&amp;quot; Eduardo Sacheri".
+
+Fuente original:
+RadioCut.fm.
+
+Alejandro Apo y su #Se\u00f1orCuento de cada noche en #LaCasaInvita por AM750 \r\nHOY: \&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-una-sonrisa-exactamente-asi-eduardo-sacheri/"&gt;RadioCut.fm&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-una-sonrisa-exactamente-asi-eduardo-sacheri</guid><enclosure url="https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1500602798.0/1325" length="1325" type="audio/mpeg"/><pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>22:05</itunes:duration><itunes:summary>Alejandro Apo lee "#UnSeñorCuento en &amp;quot;La Casa Invita&amp;quot; por AM750. HOY: &amp;quot;Una sonrisa exactamente así&amp;quot; Eduardo Sacheri".
+
+Fuente original:
+RadioCut.fm.
+
+Alejandro Apo y su #Se\u00f1orCuento de cada noche en #LaCasaInvita por AM750 \r\nHOY: \</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Gnomos en Bariloche" de Roberto Fontanarrosa</title><description>Alejandro Apo lee "Gnomos en Bariloche" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
 
 Fuente original:
 YouTube - Fontanarrosa por Apo.
@@ -800,7 +860,52 @@ YouTube - Fontanarrosa por Apo.
 
 Audio; Radio: AM 750
 La Casa Invita
-Un Señor Cuento</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Lo que se dice jugador al fulbo", de Roberto Fontanarrosa - por Alejandro Apo</title><description>Alejandro Apo lee "Lo que se dice jugador al fulbo", de Roberto Fontanarrosa - por Alejandro Apo", cuento de Roberto Fontanarrosa.
+Un Señor Cuento</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Alejandro Apo lee a Eduardo Sacheri.</title><description>Alejandro Apo lee "Alejandro Apo lee a Eduardo Sacheri.".
+
+Fuente original:
+RadioCut.fm.
+
+Tengo Miedo - FM La Patriada. Alejandro Apo lee el cuento \</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Alejandro Apo lee a Eduardo Sacheri.".
+
+Fuente original:
+RadioCut.fm.
+
+Tengo Miedo - FM La Patriada. Alejandro Apo lee el cuento \&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://radiocut.fm/audiocut/alejandro-apo-lee-a-eduardo-sacheri/"&gt;RadioCut.fm&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">rc-alejandro-apo-lee-a-eduardo-sacheri</guid><enclosure url="https://chunkserver-do.radiocut.site/server/get_unified_file/patriada/1536107303.0/1266" length="1266" type="audio/mpeg"/><pubDate>Wed, 05 Sep 2018 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>21:06</itunes:duration><itunes:summary>Alejandro Apo lee "Alejandro Apo lee a Eduardo Sacheri.".
+
+Fuente original:
+RadioCut.fm.
+
+Tengo Miedo - FM La Patriada. Alejandro Apo lee el cuento \</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &amp;quot;Juan Muraña&amp;quot; Jorge Luis Borges</title><description>Alejandro Apo lee "#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &amp;quot;Juan Muraña&amp;quot; Jorge Luis Borges".
+
+Fuente original:
+RadioCut.fm.
+
+Esta noche Alejandro Apo nos lee \</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &amp;quot;Juan Muraña&amp;quot; Jorge Luis Borges".
+
+Fuente original:
+RadioCut.fm.
+
+Esta noche Alejandro Apo nos lee \&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://radiocut.fm/audiocut/unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-juan-murana-jorge-luis-borges/"&gt;RadioCut.fm&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">rc-unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-juan-murana-jorge-luis-borges</guid><enclosure url="https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1544063980.0/699" length="699" type="audio/mpeg"/><pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>11:39</itunes:duration><itunes:summary>Alejandro Apo lee "#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &amp;quot;Juan Muraña&amp;quot; Jorge Luis Borges".
+
+Fuente original:
+RadioCut.fm.
+
+Esta noche Alejandro Apo nos lee \</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Cuento &amp;quot;del diario íntimo de un chico rubio&amp;quot;</title><description>Alejandro Apo lee "Cuento &amp;quot;del diario íntimo de un chico rubio&amp;quot;".
+
+Fuente original:
+RadioCut.fm.
+
+De Walter Vargas,Alejandro Apo,cuento</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Cuento &amp;quot;del diario íntimo de un chico rubio&amp;quot;".
+
+Fuente original:
+RadioCut.fm.
+
+De Walter Vargas,Alejandro Apo,cuento&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://radiocut.fm/audiocut/cuento-del-diario-intimo-un-chico-rubio/"&gt;RadioCut.fm&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">rc-cuento-del-diario-intimo-un-chico-rubio</guid><enclosure url="https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1566268689.0/742" length="742" type="audio/mpeg"/><pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>12:22</itunes:duration><itunes:summary>Alejandro Apo lee "Cuento &amp;quot;del diario íntimo de un chico rubio&amp;quot;".
+
+Fuente original:
+RadioCut.fm.
+
+De Walter Vargas,Alejandro Apo,cuento</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Lo que se dice jugador al fulbo", de Roberto Fontanarrosa - por Alejandro Apo</title><description>Alejandro Apo lee "Lo que se dice jugador al fulbo", de Roberto Fontanarrosa - por Alejandro Apo", cuento de Roberto Fontanarrosa.
 
 Fuente original:
 YouTube - Fontanarrosa por Apo.
@@ -3296,7 +3401,22 @@ Radio Nacional Argentina.
 Fuente original:
 Radio Nacional Argentina.
 
-'El último centrojás' de Juan Sasturain, en la voz de Alejandro Apo Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>'Relatores' de Alejandro Dolina</title><description>Alejandro Apo lee "'Relatores' de Alejandro Dolina".
+'El último centrojás' de Juan Sasturain, en la voz de Alejandro Apo Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>ALEJANDRO APO - Dondequiera que estés - Lecturas y cuentos - jueves 19-10-2023</title><description>Alejandro Apo lee "ALEJANDRO APO - Dondequiera que estés - Lecturas y cuentos - jueves 19-10-2023".
+
+Fuente original:
+RadioCut.fm.
+
+Cuento de Mariana Blouson: \</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "ALEJANDRO APO - Dondequiera que estés - Lecturas y cuentos - jueves 19-10-2023".
+
+Fuente original:
+RadioCut.fm.
+
+Cuento de Mariana Blouson: \&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://radiocut.fm/audiocut/alejandro-apo-dondequiera-estes-lecturas-y-cuentos-jueves-19-10-2023/"&gt;RadioCut.fm&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">rc-alejandro-apo-dondequiera-estes-lecturas-y-cuentos-jueves-19-10-2023</guid><enclosure url="https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1697769246.0/886" length="886" type="audio/mpeg"/><pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>14:46</itunes:duration><itunes:summary>Alejandro Apo lee "ALEJANDRO APO - Dondequiera que estés - Lecturas y cuentos - jueves 19-10-2023".
+
+Fuente original:
+RadioCut.fm.
+
+Cuento de Mariana Blouson: \</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>'Relatores' de Alejandro Dolina</title><description>Alejandro Apo lee "'Relatores' de Alejandro Dolina".
 
 Fuente original:
 Radio Nacional Argentina.
@@ -3566,4 +3686,19 @@ Radio Nacional Argentina.
 Fuente original:
 Radio Nacional Argentina.
 
-'Pena' del libro 'A mi juego' de Carlos Ferreira, en la voz de Bruno, el nieto de Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item></channel></rss>
+'Pena' del libro 'A mi juego' de Carlos Ferreira, en la voz de Bruno, el nieto de Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>&amp;quot;Te digo más&amp;quot; de Roberto Fontanarrosa por (Alejandro Apo)</title><description>Alejandro Apo lee "&amp;quot;Te digo más&amp;quot; de Roberto Fontanarrosa por (Alejandro Apo)".
+
+Fuente original:
+RadioCut.fm.
+
+\</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "&amp;quot;Te digo más&amp;quot; de Roberto Fontanarrosa por (Alejandro Apo)".
+
+Fuente original:
+RadioCut.fm.
+
+\&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://radiocut.fm/audiocut/te-digo-mas-roberto-fontanarrosa-por-alejandro-apo/"&gt;RadioCut.fm&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">rc-te-digo-mas-roberto-fontanarrosa-por-alejandro-apo</guid><enclosure url="https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1766542194.0/1460" length="1460" type="audio/mpeg"/><pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>24:20</itunes:duration><itunes:summary>Alejandro Apo lee "&amp;quot;Te digo más&amp;quot; de Roberto Fontanarrosa por (Alejandro Apo)".
+
+Fuente original:
+RadioCut.fm.
+
+\</itunes:summary><itunes:episodeType>full</itunes:episodeType></item></channel></rss>

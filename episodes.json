@@ -1,5 +1,19 @@
 [
   {
+    "titulo": "&quot;Te digo más&quot; de Roberto Fontanarrosa por (Alejandro Apo)",
+    "autor_cuento": "",
+    "narrador": "Alejandro Apo",
+    "descripcion": "Alejandro Apo lee \"&quot;Te digo más&quot; de Roberto Fontanarrosa por (Alejandro Apo)\".\n\nFuente original:\nRadioCut.fm.\n\n\\",
+    "fecha": "2025-12-29",
+    "duracion": 1460,
+    "imagen": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg",
+    "mp3_url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1766542194.0/1460",
+    "fuente": "RadioCut.fm",
+    "fuente_url": "https://radiocut.fm/audiocut/te-digo-mas-roberto-fontanarrosa-por-alejandro-apo/",
+    "guid": "rc-te-digo-mas-roberto-fontanarrosa-por-alejandro-apo",
+    "extraido": "2026-07-13T03:05:42Z"
+  },
+  {
     "titulo": "'Pena' de Carlos Ferreira",
     "autor_cuento": "",
     "narrador": "Alejandro Apo",
@@ -250,6 +264,20 @@
     "fuente_url": "https://www.radionacional.com.ar/relatores-de-alejandro-dolina-2/",
     "guid": "'relatores'-de-alejandro-dolina|alejandro-dolina",
     "extraido": "2026-07-12T10:03:57Z"
+  },
+  {
+    "titulo": "ALEJANDRO APO - Dondequiera que estés - Lecturas y cuentos - jueves 19-10-2023",
+    "autor_cuento": "",
+    "narrador": "Alejandro Apo",
+    "descripcion": "Alejandro Apo lee \"ALEJANDRO APO - Dondequiera que estés - Lecturas y cuentos - jueves 19-10-2023\".\n\nFuente original:\nRadioCut.fm.\n\nCuento de Mariana Blouson: \\",
+    "fecha": "2023-10-21",
+    "duracion": 886,
+    "imagen": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg",
+    "mp3_url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1697769246.0/886",
+    "fuente": "RadioCut.fm",
+    "fuente_url": "https://radiocut.fm/audiocut/alejandro-apo-dondequiera-estes-lecturas-y-cuentos-jueves-19-10-2023/",
+    "guid": "rc-alejandro-apo-dondequiera-estes-lecturas-y-cuentos-jueves-19-10-2023",
+    "extraido": "2026-07-13T03:05:43Z"
   },
   {
     "titulo": "'El último centrojás' de Juan Sasturain",
@@ -2534,6 +2562,48 @@
     "extraido": "2026-07-13T02:52:38Z"
   },
   {
+    "titulo": "Cuento &quot;del diario íntimo de un chico rubio&quot;",
+    "autor_cuento": "",
+    "narrador": "Alejandro Apo",
+    "descripcion": "Alejandro Apo lee \"Cuento &quot;del diario íntimo de un chico rubio&quot;\".\n\nFuente original:\nRadioCut.fm.\n\nDe Walter Vargas,Alejandro Apo,cuento",
+    "fecha": "2019-08-20",
+    "duracion": 742,
+    "imagen": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg",
+    "mp3_url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1566268689.0/742",
+    "fuente": "RadioCut.fm",
+    "fuente_url": "https://radiocut.fm/audiocut/cuento-del-diario-intimo-un-chico-rubio/",
+    "guid": "rc-cuento-del-diario-intimo-un-chico-rubio",
+    "extraido": "2026-07-13T03:05:46Z"
+  },
+  {
+    "titulo": "#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;Juan Muraña&quot; Jorge Luis Borges",
+    "autor_cuento": "",
+    "narrador": "Alejandro Apo",
+    "descripcion": "Alejandro Apo lee \"#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;Juan Muraña&quot; Jorge Luis Borges\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche Alejandro Apo nos lee \\",
+    "fecha": "2018-12-06",
+    "duracion": 699,
+    "imagen": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg",
+    "mp3_url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1544063980.0/699",
+    "fuente": "RadioCut.fm",
+    "fuente_url": "https://radiocut.fm/audiocut/unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-juan-murana-jorge-luis-borges/",
+    "guid": "rc-unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-juan-murana-jorge-luis-borges",
+    "extraido": "2026-07-13T03:05:45Z"
+  },
+  {
+    "titulo": "Alejandro Apo lee a Eduardo Sacheri.",
+    "autor_cuento": "",
+    "narrador": "Alejandro Apo",
+    "descripcion": "Alejandro Apo lee \"Alejandro Apo lee a Eduardo Sacheri.\".\n\nFuente original:\nRadioCut.fm.\n\nTengo Miedo - FM La Patriada. Alejandro Apo lee el cuento \\",
+    "fecha": "2018-09-05",
+    "duracion": 1266,
+    "imagen": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg",
+    "mp3_url": "https://chunkserver-do.radiocut.site/server/get_unified_file/patriada/1536107303.0/1266",
+    "fuente": "RadioCut.fm",
+    "fuente_url": "https://radiocut.fm/audiocut/alejandro-apo-lee-a-eduardo-sacheri/",
+    "guid": "rc-alejandro-apo-lee-a-eduardo-sacheri",
+    "extraido": "2026-07-13T03:05:42Z"
+  },
+  {
     "titulo": "Gnomos en Bariloche\" de Roberto Fontanarrosa",
     "autor_cuento": "Roberto Fontanarrosa",
     "narrador": "Alejandro Apo",
@@ -2546,6 +2616,20 @@
     "fuente_url": "https://www.youtube.com/watch?v=dQp6iXK9vqY",
     "guid": "yt-dQp6iXK9vqY",
     "extraido": "2026-07-13T02:52:29Z"
+  },
+  {
+    "titulo": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Una sonrisa exactamente así&quot; Eduardo Sacheri",
+    "autor_cuento": "",
+    "narrador": "Alejandro Apo",
+    "descripcion": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Una sonrisa exactamente así&quot; Eduardo Sacheri\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750 \\r\\nHOY: \\",
+    "fecha": "2017-07-21",
+    "duracion": 1325,
+    "imagen": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg",
+    "mp3_url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1500602798.0/1325",
+    "fuente": "RadioCut.fm",
+    "fuente_url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-una-sonrisa-exactamente-asi-eduardo-sacheri/",
+    "guid": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-una-sonrisa-exactamente-asi-eduardo-sacheri",
+    "extraido": "2026-07-13T03:05:43Z"
   },
   {
     "titulo": "Maud Emprende el Vuelo\" de Roberto Fontanarrosa",
@@ -2588,6 +2672,34 @@
     "fuente_url": "https://www.youtube.com/watch?v=w9zRJqT_RPc",
     "guid": "yt-w9zRJqT_RPc",
     "extraido": "2026-07-13T02:52:20Z"
+  },
+  {
+    "titulo": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; por AM750 HOY: &quot;Sur viejo&quot; de Dalmiro Sáenz",
+    "autor_cuento": "Dalmiro Sáenz",
+    "narrador": "Alejandro Apo",
+    "descripcion": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; por AM750 HOY: &quot;Sur viejo&quot; de Dalmiro Sáenz\", cuento de Dalmiro Sáenz.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de todas las noches.",
+    "fecha": "2017-03-30",
+    "duracion": 949,
+    "imagen": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg",
+    "mp3_url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1490839571.0/949",
+    "fuente": "RadioCut.fm",
+    "fuente_url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-por-am750-hoy-sur-viejo-de-dalmiro-saenz/",
+    "guid": "rc-un-senor-cuento-en-la-casa-invita-por-am750-hoy-sur-viejo-de-dalmiro-saenz",
+    "extraido": "2026-07-13T03:05:44Z"
+  },
+  {
+    "titulo": "&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Torito&quot; de Julio Cortázar",
+    "autor_cuento": "Julio Cortázar",
+    "narrador": "Alejandro Apo",
+    "descripcion": "Alejandro Apo lee \"&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Torito&quot; de Julio Cortázar\", cuento de Julio Cortázar.\n\nFuente original:\nRadioCut.fm.\n\n\\",
+    "fecha": "2017-03-08",
+    "duracion": 1031,
+    "imagen": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg",
+    "mp3_url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1488938587.0/1031",
+    "fuente": "RadioCut.fm",
+    "fuente_url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-torito-de-julio-cortazar/",
+    "guid": "rc-un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-torito-de-julio-cortazar",
+    "extraido": "2026-07-13T03:05:45Z"
   },
   {
     "titulo": "La Verdad Sobre el Transbordador Columbia\" de Roberto Fontanarrosa",
@@ -2840,6 +2952,20 @@
     "fuente_url": "https://www.youtube.com/watch?v=duC0gfHAg8I",
     "guid": "yt-duC0gfHAg8I",
     "extraido": "2026-07-13T02:51:36Z"
+  },
+  {
+    "titulo": "&quot;El mundo ha vivido equivocado&quot; de Roberto Fontanarrosa por Alejandro Apo.",
+    "autor_cuento": "",
+    "narrador": "Alejandro Apo",
+    "descripcion": "Alejandro Apo lee \"&quot;El mundo ha vivido equivocado&quot; de Roberto Fontanarrosa por Alejandro Apo.\".\n\nFuente original:\nRadioCut.fm.\n\nCuento de Roberto Fontanarrosa \\",
+    "fecha": "2015-07-28",
+    "duracion": 2023,
+    "imagen": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg",
+    "mp3_url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1437506573.0/2023",
+    "fuente": "RadioCut.fm",
+    "fuente_url": "https://radiocut.fm/audiocut/el-mundo-ha-vivido-equivocado-de-roberto-fontanarrosa-por-alejandro-apo/",
+    "guid": "rc-el-mundo-ha-vivido-equivocado-de-roberto-fontanarrosa-por-alejandro-apo",
+    "extraido": "2026-07-13T03:05:44Z"
   },
   {
     "titulo": "Julito   de Roberto Fontanarosa en la voz de Alejandro Apo",

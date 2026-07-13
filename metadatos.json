@@ -2,13 +2,13 @@
   "podcast": {
     "titulo": "Los cuentos de Alejandro Apo",
     "rss": "https://mauric75.github.io/apo-rss/rss.xml",
-    "generado": "2026-07-13T02:54:26.523955+00:00"
+    "generado": "2026-07-13T03:05:47.183044+00:00"
   },
   "estadisticas": {
-    "total_episodios": 217,
+    "total_episodios": 226,
     "autores_unicos": 81,
-    "fuentes": 10,
-    "duracion_total_segundos": 172785.0
+    "fuentes": 11,
+    "duracion_total_segundos": 183166.0
   },
   "autores": [
     "Abel Antonio Ponse",
@@ -96,6 +96,7 @@
   "fuentes": [
     "Los cuentos de Apo (Anchor.fm / Grupo Octubre)",
     "Radio Nacional Argentina",
+    "RadioCut.fm",
     "YouTube - Alejandro Apo, El Cuento de la tarde",
     "YouTube - Cuentos (varios)",
     "YouTube - Cuentos por Alejandro Apo",
