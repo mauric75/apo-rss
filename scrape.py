@@ -264,11 +264,18 @@ def scrape_wp_tag_feed(feed_url, fuente, max_pages=5):
     return results
 
 # --- Scraper Genérico (AM750 y Página/12) ---
+# Nota: "am750" y "tags" fueron sacados de esta lista. AM750 ahora vive DENTRO
+# de pagina12.com.ar/am750/ (el dominio am750.com.ar quedo dado de baja), y la
+# pagina de tag real (pagina12.com.ar/tags/...) es justamente la fuente que
+# ahora usamos en vez del buscador roto, asi que no puede estar bloqueada.
 NAV_PATH_EXCLUDE = re.compile(
-    r"/(tags?|contacto|politica-de-privacidad|terminos|socios|usuarios|rss|"
-    r"especiales|publico|opinion|cash|am750|salta12|cordoba12|radar|soy|las12|"
+    r"/(contacto|politica-de-privacidad|terminos|socios|usuarios|rss|"
+    r"especiales|publico|opinion|cash|salta12|cordoba12|radar|soy|las12|"
     r"negrx|ciencia|universidad|psicologia|comunicacion-y-periodismo|plastica|"
-    r"entrevistas|verano12|latinoamerica-piensa|malena|argentina12)(/|\?|$)",
+    r"entrevistas|verano12|latinoamerica-piensa|malena|argentina12|"
+    r"edicion-impresa|mundial-2026|el-pais|economia|sociedad|"
+    r"cultura-y-espectaculos|deportes|el-mundo|recordatorios|buenos-aires12|"
+    r"rosario12|contratapa|50-anos-del-golpe|radar-libros)(/|\?|$)",
     re.IGNORECASE,
 )
 MAX_URLS_PER_SOURCE = 40
@@ -291,7 +298,7 @@ def scrape_source(base_search, domain, fuente):
         if len(visited) >= MAX_URLS_PER_SOURCE: break
         if url in visited: continue
         visited.add(url)
-        if "?s=" in url or "/buscar" in url or "/page/" in url:
+        if "?s=" in url or "/buscar" in url or "/page/" in url or "?page=" in url:
             r2 = safe_get(url)
             if r2:
                 s2 = BeautifulSoup(r2.text, "lxml")
@@ -326,19 +333,21 @@ def main():
     except Exception as e:
         log.error("Error en Radio Nacional (Feed): %s", e)
 
-    # 2. AM750 y Pagina/12: DESHABILITADOS.
-    # Confirmado en corridas reales (log del 2026-07-12): AM750 falla 3/3
-    # intentos en las 5 variantes de busqueda probadas (el sitio ni siquiera
-    # responde al request, no es un problema de contenido). Pagina/12 nunca
-    # devuelve resultados de busqueda reales via HTML plano -- el buscador es
-    # client-side y el request simple solo trae el layout generico del sitio
-    # (nav, secciones, terminos y condiciones), no resultados. Con 3 variantes
-    # de query configuradas terminaba recorriendo ese menu generico 3 veces
-    # por corrida, ~4-5 minutos gastados por dia sin encontrar un solo
-    # episodio real en ninguna de las dos fuentes.
-    # Si se quiere cubrir estos dos medios, hace falta un enfoque distinto
-    # (API/endpoint real del sitio, o curaduria manual), no scraping de
-    # busqueda por HTML.
+    # 2. Pagina/12 (incluye AM750: el dominio am750.com.ar quedo dado de baja,
+    # y su contenido ahora vive DENTRO de pagina12.com.ar/am750/).
+    # El buscador (?q=... / ?s=...) es 100% client-side y nunca devuelve
+    # resultados reales via HTML plano -- confirmado en corridas reales del
+    # 2026-07-12, donde recorria el menu generico del sitio sin encontrar
+    # nada. En cambio, la pagina de TAG real (con id numerico propio del CMS
+    # de Pagina/12) si lista contenido real con fecha, y cubre tanto notas de
+    # Pagina/12 como de AM750 porque ambos comparten el mismo sistema de tags.
+    scrapers = [
+        ("https://www.pagina12.com.ar/tags/7116-alejandro-apo", "pagina12.com.ar", "Página/12 / AM750"),
+    ]
+    for url, dom, name in scrapers:
+        try:
+            _agregar(scrape_source(url, dom, name))
+        except Exception as e: log.error("Error en %s: %s", name, e)
     
     if all_new:
         existing.extend(all_new)
