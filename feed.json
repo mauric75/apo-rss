@@ -6,6 +6,21 @@
   "description": "Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina y Los cuentos de Apo (Anchor.fm / Grupo Octubre).",
   "items": [
     {
+      "id": "rc-alejandro-apo-lee-juan-villoro-barbosa-hombre-murio-dos-veces",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-lee-juan-villoro-barbosa-hombre-murio-dos-veces/",
+      "title": "Alejandro Apo lee de Juan Villoro &quot;Barbosa, el hombre que murió dos veces&quot; - 11:15",
+      "content_html": "Alejandro Apo lee \"Alejandro Apo lee de Juan Villoro &quot;Barbosa, el hombre que murió dos veces&quot; - 11:15\".\n\nFuente original:\nRadioCut.fm.\n\nExcelente cuento del escritor mejicanoJuan Villoro sobre el arquero de la selecci\\u00f3n brasilera en el mundial de 1950 - ",
+      "date_published": "2026-02-17T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1771296006.0/675",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 675
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "rc-te-digo-mas-roberto-fontanarrosa-por-alejandro-apo",
       "url": "https://radiocut.fm/audiocut/te-digo-mas-roberto-fontanarrosa-por-alejandro-apo/",
       "title": "&quot;Te digo más&quot; de Roberto Fontanarrosa por (Alejandro Apo)",
@@ -16,6 +31,126 @@
           "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1766542194.0/1460",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 1460
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-alejandro-apo-lee-6ta-parte-tunel-ernesto-sabato-lunes-4-8-25",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-lee-6ta-parte-tunel-ernesto-sabato-lunes-4-8-25/",
+      "title": "ALEJANDRO APO lee la 6ta.parte de &quot;EL TÚNEL&quot; de Ernesto SÁBATO - Lunes 4/8/25 - 52:12",
+      "content_html": "Alejandro Apo lee \"ALEJANDRO APO lee la 6ta.parte de &quot;EL TÚNEL&quot; de Ernesto SÁBATO - Lunes 4/8/25 - 52:12\".\n\nFuente original:\nRadioCut.fm.\n\nContinuaci\\u00f3n de la lectura de EL TUNEL, en el programa \\",
+      "date_published": "2025-08-12T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1754359502.0/3132",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 3132
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-alejandro-apo-lee-5ta-parte-tunel-ernesto-sabato-viernes-1-8-25",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-lee-5ta-parte-tunel-ernesto-sabato-viernes-1-8-25/",
+      "title": "ALEJANDRO APO lee la 5ta. parte de &quot;EL TÚNEL&quot; de Ernesto SÁBATO - VIERNES 1/8/25 - 49:57",
+      "content_html": "Alejandro Apo lee \"ALEJANDRO APO lee la 5ta. parte de &quot;EL TÚNEL&quot; de Ernesto SÁBATO - VIERNES 1/8/25 - 49:57\".\n\nFuente original:\nRadioCut.fm.\n\nContinuaci\\u00f3n de la lectura de EL TUNEL, en el programa \\",
+      "date_published": "2025-08-10T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1754100334.0/2997",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 2997
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-alejandro-apo-lee-tunel-4ta-parte-jueves-31-7-25",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-lee-tunel-4ta-parte-jueves-31-7-25/",
+      "title": "ALEJANDRO APO lee EL TUNEL -4ta parte-  jueves 31-7-25  - 43:46",
+      "content_html": "Alejandro Apo lee \"ALEJANDRO APO lee EL TUNEL -4ta parte-  jueves 31-7-25  - 43:46\".\n\nFuente original:\nRadioCut.fm.\n\nContinuaci\\u00f3n de la lectura de EL TUNEL, en el programa \\",
+      "date_published": "2025-08-10T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1754014111.0/2626",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 2626
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-alejandro-apo-lee-3ra-parte-tunel-ernesto-sabato-miercoles-30-7-25",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-lee-3ra-parte-tunel-ernesto-sabato-miercoles-30-7-25/",
+      "title": "ALEJANDRO APO lee la 3ra. parte de EL TUNEL de ERNESTO SÁBATO - miércoles 30-7-25 - 42:54",
+      "content_html": "Alejandro Apo lee \"ALEJANDRO APO lee la 3ra. parte de EL TUNEL de ERNESTO SÁBATO - miércoles 30-7-25 - 42:54\".\n\nFuente original:\nRadioCut.fm.\n\nContinuaci\\u00f3n de la lectura de EL TUNEL, en el programa \\",
+      "date_published": "2025-08-06T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1753927806.0/2574",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 2574
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-alejandro-apo-lee-tunel-ernesto-sabato-2da-parte-martes-29-7-25",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-lee-tunel-ernesto-sabato-2da-parte-martes-29-7-25/",
+      "title": "ALEJANDRO APO lee EL TUNEL, de Ernesto SABATO - 2da.parte - martes 29-7-25",
+      "content_html": "Alejandro Apo lee \"ALEJANDRO APO lee EL TUNEL, de Ernesto SABATO - 2da.parte - martes 29-7-25\", cuento de Ernesto.\n\nFuente original:\nRadioCut.fm.\n\nContinuaci\\u00f3n de la historia de JUAN PABLO CASTEL y MAR\\u00cdA IRIBARNE",
+      "date_published": "2025-08-06T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1753841279.0/2422",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 2422
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-alejandro-apo-lee-tunel-ernesto-sabato-1ra-parte-lunes-29-7-2025-duracion",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-lee-tunel-ernesto-sabato-1ra-parte-lunes-29-7-2025-duracion/",
+      "title": "Alejandro APO lee &quot;El TUNEL&quot; de Ernesto Sábato - 1ra. parte - lunes 28-7-25 - duración 49:35",
+      "content_html": "Alejandro Apo lee \"Alejandro APO lee &quot;El TUNEL&quot; de Ernesto Sábato - 1ra. parte - lunes 28-7-25 - duración 49:35\".\n\nFuente original:\nRadioCut.fm.\n\nComienzo de la historia - Presentaci\\u00f3n del personaje principal ",
+      "date_published": "2025-07-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1753754863.0/2975",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 2975
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-alejandro-apo-especial-am750-por-sus-50-anos-trayectoria-en-medios-05-08-2024",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-especial-am750-por-sus-50-anos-trayectoria-en-medios-05-08-2024/",
+      "title": "ALEJANDRO APO. ESPECIAL DE LA #AM750 POR SUS 50 AÑOS DE TRAYECTORIA EN LOS MEDIOS. 05 - 08 - 2024",
+      "content_html": "Alejandro Apo lee \"ALEJANDRO APO. ESPECIAL DE LA #AM750 POR SUS 50 AÑOS DE TRAYECTORIA EN LOS MEDIOS. 05 - 08 - 2024\".\n\nFuente original:\nRadioCut.fm.\n\nALEJANDRO APO. ESPECIAL DE LA #AM750 POR SUS 50 A\\u00d1OS DE TRAYECTORIA EN LOS MEDIOS. 05 - 08 - 2024",
+      "date_published": "2024-08-06T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1722902429.0/10876",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 10876
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-audio-homenaje-a-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/audio-homenaje-a-alejandro-apo/",
+      "title": "Audio homenaje a Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Audio homenaje a Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\nTema: homenaje a Alejandro Apo",
+      "date_published": "2024-08-06T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1722902455.0/359",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 359
         }
       ],
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
@@ -696,6 +831,21 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-cuentos-leidos-por-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/cuentos-leidos-por-alejandro-apo/",
+      "title": "Cuentos leídos por Alejandro Apo.",
+      "content_html": "Alejandro Apo lee \"Cuentos leídos por Alejandro Apo.\".\n\nFuente original:\nRadioCut.fm.\n\nDonde quieras que est\\u00e9s. Martes 11/04/23",
+      "date_published": "2023-04-16T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1681265055.68/3357",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 3357
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "\"un-trapo:-inmortal-radiografía-de-las-almas-nobles\"-de-mario-giannotti",
       "url": "https://www.radionacional.com.ar/un-trapo-inmortal-radiografia-de-las-almas-nobles-de-mario-giannotti/",
       "title": "\"Un trapo: Inmortal radiografía de las almas nobles\" de Mario Giannotti",
@@ -766,6 +916,21 @@
           "url": "https://www.podtrac.com/pts/redirect.mp3/admin.radionacional.com.ar/wp-content/uploads/2023/03/Gustavo-Vergara-11-3-2023m.mp3",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 1561
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-apo-lee-un-senor-cuento-750am",
+      "url": "https://radiocut.fm/audiocut/apo-lee-un-senor-cuento-750am/",
+      "title": "Apo lee Un señor cuento 750AM",
+      "content_html": "Alejandro Apo lee \"Apo lee Un señor cuento 750AM\".\n\nFuente original:\nRadioCut.fm.\n\nEn homenaje a las mujeres en el d\\u00eda 8M ",
+      "date_published": "2023-03-09T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1678327413.0/317",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 317
         }
       ],
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
@@ -2421,6 +2586,21 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-yo-ustedes-y-yo-dalmiro-saenz-setenta-veces-siete-alejandro-apo-un-senor-cuento",
+      "url": "https://radiocut.fm/audiocut/yo-ustedes-y-yo-dalmiro-saenz-setenta-veces-siete-alejandro-apo-un-senor-cuento/",
+      "title": "Yo, ustedes y yo. Dalmiro Sáenz. Setenta veces siete. Alejandro Apo. Un señor cuento.",
+      "content_html": "Alejandro Apo lee \"Yo, ustedes y yo. Dalmiro Sáenz. Setenta veces siete. Alejandro Apo. Un señor cuento.\".\n\nFuente original:\nRadioCut.fm.\n\nYo, ustedes y yo. Dalmiro S\\u00e1enz. Setenta veces siete. Un se\\u00f1or cuento. Alejandro Apo. 28 abril 2021.",
+      "date_published": "2021-04-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1619661790.0/1337",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1337
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "https://www.radionacional.com.ar/?p=1444413",
       "url": "https://www.radionacional.com.ar/por-que-no-lo-sacas-sarlanga-de-pedro-saborido/",
       "title": "\"¿Por qué no lo sacás, Sarlanga?\", de Pedro Saborido",
@@ -2601,6 +2781,36 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-alejandro-apo-lee-a-gabriel-garcia-marquez-en-donde-quieras-estes",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-lee-a-gabriel-garcia-marquez-en-donde-quieras-estes/",
+      "title": "Alejandro Apo lee a Gabriel García Márquez en Donde quieras que estés",
+      "content_html": "Alejandro Apo lee \"Alejandro Apo lee a Gabriel García Márquez en Donde quieras que estés\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo lee a Gabriel Garc\\u00eda M\\u00e1rquez en Donde quieras que est\\u00e9s",
+      "date_published": "2021-02-25T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1614218708.0/1059",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1059
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-dondequieraqueestes-con-alejandroapo-por-am750-te-digo-mas",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-dondequieraqueestes-con-alejandroapo-por-am750-te-digo-mas/",
+      "title": "#UnSeñorCuento en #DondeQuieraQueEstes con #AlejandroApo por @AM750. &quot;Te digo mas&quot;",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en #DondeQuieraQueEstes con #AlejandroApo por @AM750. &quot;Te digo mas&quot;\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche Alejandro Apo lee el cuento \\",
+      "date_published": "2021-02-23T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1614046602.0/1419",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1419
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "http://www.radionacional.com.ar/?p=1333834",
       "url": "https://www.radionacional.com.ar/victor-hugo-morales-maestro-del-periodismo-y-el-relato-deportivo/",
       "title": "Víctor Hugo Morales, maestro del periodismo y el relato deportivo",
@@ -2676,6 +2886,21 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-me-van-a-tener-disculpar-eduardo-sacheri-y-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/me-van-a-tener-disculpar-eduardo-sacheri-y-alejandro-apo/",
+      "title": "&quot;Me van a tener que disculpar&quot;, de Eduardo Sacheri (y Alejandro Apo)",
+      "content_html": "Alejandro Apo lee \"&quot;Me van a tener que disculpar&quot;, de Eduardo Sacheri (y Alejandro Apo)\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadioCut.fm.\n\nCuento de Eduardo Sacheri, los goles de Maradona a los ingleses. Voz de Alejandro Apo, relato de goles por V\\u00edctor Hugo Morales.",
+      "date_published": "2020-11-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/nacional870/1606585265.0/1157",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1157
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "http://www.radionacional.com.ar/?p=1278375",
       "url": "https://www.radionacional.com.ar/los-60-anos-de-diego-maradona-cuentos-mensajes-y-anecdotas-del-diez/",
       "title": "Los 60 años de Diego Maradona: cuentos, mensajes y anécdotas del Diez",
@@ -2721,6 +2946,51 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-alejandro-apo-lee-un-texto-fontanarrosa-sobre-su-camiseta-platense",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-lee-un-texto-fontanarrosa-sobre-su-camiseta-platense/",
+      "title": "Alejandro Apo lee un texto de Fontanarrosa sobre su camiseta de Platense",
+      "content_html": "Alejandro Apo lee \"Alejandro Apo lee un texto de Fontanarrosa sobre su camiseta de Platense\", cuento de Platense.\n\nFuente original:\nRadioCut.fm.\n\nUn hermoso texto de Roberto Fontanarrosa sobre una camiseta de Platense que defiende como casaca bien criolla",
+      "date_published": "2020-10-11T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/nacional870/1602353420.0/221",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 221
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-hoy-alejandro-apo-no-relata-cuento-cuestion-fe-roberto-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/hoy-alejandro-apo-no-relata-cuento-cuestion-fe-roberto-fontanarrosa/",
+      "title": "HOY ALEJANDRO APO NO RELATA EL CUENTO:  CUESTIÓN DE FE DE  ROBERTO FONTANARROSA",
+      "content_html": "Alejandro Apo lee \"HOY ALEJANDRO APO NO RELATA EL CUENTO:  CUESTIÓN DE FE DE  ROBERTO FONTANARROSA\".\n\nFuente original:\nRadioCut.fm.\n\nUN SE\\u00d1OR CUENTO\\r\\nALEJANDRO APO\\r\\nRADIO AM 750\\r\\nPROGRAMA: LA CASA INVITA\\r\\nAGOSTO 7 DE 2020\\r\\n",
+      "date_published": "2020-08-08T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1596854205.0/1205",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1205
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-desaparecio-abuelo",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-desaparecio-abuelo/",
+      "title": "#UnSeñorCuento de @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;Desapareció el abuelo&quot;",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento de @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;Desapareció el abuelo&quot;\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche Alejandro Apo nos lee el cuento \\",
+      "date_published": "2020-06-11T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1591843410.0/667",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 667
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "yt-7QqqYEazHRM",
       "url": "https://www.youtube.com/watch?v=7QqqYEazHRM",
       "title": "Señor Pastoriza”, el cuento de Eduardo Sacheri por Alejandro Apo",
@@ -2731,6 +3001,36 @@
           "url": "https://rr10---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932786&ei=ElNUasXzAemq-LAP5_XysQs&ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&id=o-AA2igQz33sOdorYx1rSUcM05GYkEI5ccEkSujgComvx2&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=152&met=1783911186%2C&mh=tn&mm=31%2C29&mn=sn-5ouxa-h8qes%2Csn-x1x7dned&ms=au%2Crdu&mv=m&mvi=10&pl=42&rms=au%2Cau&initcwndbps=1992500&bui=AZFlqhNVkaDP4Mt8I0y0khhCKVQAThjUujRRVbLh3PYNHQmPFhX66Z0FgZMmosqxxxO-zvWLu3Oas2bu&spc=SQ-umnucVd9qRpJ277BJZqBX7X1VwluHOpJqOxShksu3&vprv=1&svpuc=1&mime=audio%2Fwebm&rqh=1&gir=yes&clen=8591841&dur=485.021&lmt=1722621823532054&mt=1783910725&fvip=3&keepalive=yes&fexp=51565116%2C51946837%2C52017147&c=ANDROID_VR&txp=5318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AE0s2JYwRQIhAOlg4FKjFBR4acpRbbpQoZ-6lIt8jd10lVGzMFAMT3bqAiA0idsrbmeuvHqgoZP5PRPEv4ErrME9BNy59iqWif8RuA%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgNd_Wwu0H37jViW4VNHvSV8Ny23Rl8SDgjQcpBHABwVsCIEKmeBOJqpCNKYV8gbaRA_iO-MYf9ecER6VMhavcpeZV",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 485.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-tachuelas-iparraguirre",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-tachuelas-iparraguirre/",
+      "title": "#UnSeñorCuento de AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;Tachuelas&quot; Iparraguirre",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento de AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;Tachuelas&quot; Iparraguirre\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche Alejandro Apo nos lee el cuento \\",
+      "date_published": "2019-12-04T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1575426995.0/929",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 929
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejadnro-apo-en-lacasainvita-por-am750-hoy-jorge-luis-borges",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejadnro-apo-en-lacasainvita-por-am750-hoy-jorge-luis-borges/",
+      "title": "#UnSeñorCuento de Alejadnro Apo en #LaCasaInvita por @AM750. Hoy: Jorge Luis Borges",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento de Alejadnro Apo en #LaCasaInvita por @AM750. Hoy: Jorge Luis Borges\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche Alejandro Apo nos lee el cuento \\",
+      "date_published": "2019-11-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1572921641.0/616",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 616
         }
       ],
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
@@ -2766,6 +3066,231 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-sinceramente-cfk-en-voz-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/sinceramente-cfk-en-voz-alejandro-apo/",
+      "title": "Sinceramente, de CFK. En la voz de Alejandro Apo.",
+      "content_html": "Alejandro Apo lee \"Sinceramente, de CFK. En la voz de Alejandro Apo.\".\n\nFuente original:\nRadioCut.fm.\n\nLeonardo Greco presenta al gran periodista y locutor, leyendo de la p\\u00e1gina 101 a la 118, del libro de la Presidenta de la Naci\\u00f3n ( MC ).",
+      "date_published": "2019-06-01T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/delplata/1559405486.0/3040",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 3040
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-esa-mujer",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-esa-mujer/",
+      "title": "#UnSeñorCuento de @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;Esa mujer&quot;",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento de @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;Esa mujer&quot;\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche Alejandro Apo nos lee el cuento \\",
+      "date_published": "2019-05-08T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1557282772.0/1118",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1118
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-frio-eduardo-sacheri",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-frio-eduardo-sacheri/",
+      "title": "#UnSeñorCuento de @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;Frío&quot; Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento de @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;Frío&quot; Eduardo Sacheri\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche Alejandro Apo nos lee el cuento \\",
+      "date_published": "2019-04-10T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1554863611.0/1083",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1083
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-el-hombre-que-murio-dos-veces-de-juan-villoro-por-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/el-hombre-que-murio-dos-veces-de-juan-villoro-por-alejandro-apo/",
+      "title": "&quot;El hombre que murió dos veces&quot; de Juan Villoro por Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;El hombre que murió dos veces&quot; de Juan Villoro por Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\nUn cuento, un poema, un an\\u00e1lisis, una historia en el espacio de Alejandro Apo. Homenaje a Moacir Barbosa Nascimento",
+      "date_published": "2019-03-03T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/cooperativa/1551615027.0/759",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 759
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-mi-amigo-mickey-de-fontanarrosa-por-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/mi-amigo-mickey-de-fontanarrosa-por-alejandro-apo/",
+      "title": "&quot;Mi amigo Mickey&quot; de Fontanarrosa por Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;Mi amigo Mickey&quot; de Fontanarrosa por Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2019-02-22T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/patriada/1550535037.0/1665",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1665
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-alejandro-apo-1",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-alejandro-apo-1/",
+      "title": "Un señor cuento Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Un señor cuento Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\nEduardo Sacheri Abandono",
+      "date_published": "2019-02-01T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1548902093.04/818",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 818
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-alejandro-apo/",
+      "title": "Un señor Cuento - Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Un señor Cuento - Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo",
+      "date_published": "2019-01-15T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1547519644.76/1097",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1097
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-asi-es-mama-juan-jose-hernandez-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/asi-es-mama-juan-jose-hernandez-alejandro-apo/",
+      "title": "Así es mamá Juan José Hernández - Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Así es mamá Juan José Hernández - Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\nUn se\\u00f1or cuento",
+      "date_published": "2019-01-13T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1547260187.11/1130",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1130
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-alejandro-apo-un-senor-cuento-de-fontanarrosa-la-observacion-de-los-pajaros",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-un-senor-cuento-de-fontanarrosa-la-observacion-de-los-pajaros/",
+      "title": "ALEJANDRO APO - Un señor cuento - de Fontanarrosa &quot;La observación de los pájaros&quot;",
+      "content_html": "Alejandro Apo lee \"ALEJANDRO APO - Un señor cuento - de Fontanarrosa &quot;La observación de los pájaros&quot;\".\n\nFuente original:\nRadioCut.fm.\n\n27-12-2018 - Un gran autor y una gran lectura - Final de LA CASA INVITA del d\\u00eda de hoy",
+      "date_published": "2018-12-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1545964119.0/1378",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1378
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-de-alejandroapo-en-lacasainvita-por-am750-hoy-roberto-fontanarrosa-2",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-de-alejandroapo-en-lacasainvita-por-am750-hoy-roberto-fontanarrosa-2/",
+      "title": "#UnSeñorCuento de @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento de @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Roberto Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche escuchamos a Alejandro Apo ley\\u00e9ndonos el cuento \\",
+      "date_published": "2018-12-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1545964125.0/1387",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1387
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-roberto-fontanarrosa-19-de-diciembre-de-1971-el-viejo-casales-lee-el-gran-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/roberto-fontanarrosa-19-de-diciembre-de-1971-el-viejo-casales-lee-el-gran-alejandro-apo/",
+      "title": "Roberto Fontanarrosa -19 de Diciembre de 1971 - El viejo Casales. Lee el &quot;Gran&quot; Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Roberto Fontanarrosa -19 de Diciembre de 1971 - El viejo Casales. Lee el &quot;Gran&quot; Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\n\\u00a1La cara de felicidad de ese viejo, hermano, la locura de alegr\\u00eda en la cara de ese viejo! \\u00a1Que alguien me diga si lo vio llorar abrazado a todos como lo vi llorar yo a ese viejo, que te puedo asegurar que ese d\\u00eda fue para ese viejo el d\\u00eda m\\u00e1s feliz de su vida, pero lejos lejos el d\\u00eda m\\u00e1s feliz de su vida, porque te juro que la alegr\\u00eda que ten\\u00eda ese viejo era algo impresionante! Y cuando lo vi caerse al suelo como fulminado por un rayo, porque qued\\u00f3 seco el pobre viejo, un poco que todos pensamos; \\u201c\\u00a1qu\\u00e9 importa!\\u201d \\u00a1Qu\\u00e9 m\\u00e1s quer\\u00eda que morir as\\u00ed ese hombre! \\u00a1Esa es la manera de morir para un canalla! \\u00bfIba a seguir viviendo? \\u00bfPara qu\\u00e9? \\u00bfPara vivir dos o tres a\\u00f1os ra",
+      "date_published": "2018-12-23T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/nef/1545589061.0/1293",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1293
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-19-de-diciembre-de-1971",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-19-de-diciembre-de-1971/",
+      "title": "#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;19 de diciembre de 1971&quot;",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;19 de diciembre de 1971&quot;\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche  Alejandro Apo nos lee el gran cuento \\",
+      "date_published": "2018-12-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1545272891.0/1322",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1322
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-eduardo-sacheri",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-eduardo-sacheri/",
+      "title": "#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Eduardo Sacheri\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche Alejandro Apo nos lee \\",
+      "date_published": "2018-12-15T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1544841411.0/825",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 825
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-jorge-luis-borges",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-jorge-luis-borges/",
+      "title": "#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Jorge Luis Borges",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Jorge Luis Borges\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche Alejandro Apo nos lee el cuento \\",
+      "date_published": "2018-12-11T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1544495571.0/1104",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1104
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-superclasico-gol-de-river-pratto-relato-de-vhmok-victor-hugo-y-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/superclasico-gol-de-river-pratto-relato-de-vhmok-victor-hugo-y-alejandro-apo/",
+      "title": "#Superclásico Gol de #River, Pratto. Relato de @VHMOk Victor Hugo y Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"#Superclásico Gol de #River, Pratto. Relato de @VHMOk Victor Hugo y Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\nGOL de RIVER!!!!!!!!!! El OSO Pratto empata el partido cuando van 22\\u2019 del segundo tiempo!!!! Empieza otro encuentro en Madrid!",
+      "date_published": "2018-12-09T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/nef/1544388896.0/81",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 81
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "rc-unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-juan-murana-jorge-luis-borges",
       "url": "https://radiocut.fm/audiocut/unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-juan-murana-jorge-luis-borges/",
       "title": "#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: &quot;Juan Muraña&quot; Jorge Luis Borges",
@@ -2776,6 +3301,96 @@
           "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1544063980.0/699",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 699
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-juan-carlos-onetti",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-juan-carlos-onetti/",
+      "title": "#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Juan Carlos Onetti",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Juan Carlos Onetti\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo nos lee el cuento \\",
+      "date_published": "2018-12-04T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1543890915.0/1017",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1017
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-de-alejandroapo-en-lacasainvita-por-am750-hoy-jorge-luis-borges",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-de-alejandroapo-en-lacasainvita-por-am750-hoy-jorge-luis-borges/",
+      "title": "#UnSeñorCuento de @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Jorge Luis Borges",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento de @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Jorge Luis Borges\".\n\nFuente original:\nRadioCut.fm.\n\nComo cada noche, Alejandro Apo nos lee un cuento. Hoy \\",
+      "date_published": "2018-11-21T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1542767887.0/879",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 879
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-alejandro-apo-lee-el-lado-b-de-un-cuento-de-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-lee-el-lado-b-de-un-cuento-de-fontanarrosa/",
+      "title": "Alejandro Apo lee el lado B de un cuento de Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"Alejandro Apo lee el lado B de un cuento de Fontanarrosa\", cuento de Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nTengo Miedo - FM La Patriada. Hoy Alejandro Apo nos trae el lado B del cuento de Roberto Fontanarrosa \\",
+      "date_published": "2018-11-01T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/patriada/1541031408.0/1364",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1364
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-me-van-a-tener-que-disculpar-de-eduardo-sacheri-por-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/me-van-a-tener-que-disculpar-de-eduardo-sacheri-por-alejandro-apo/",
+      "title": "Me van a tener que disculpar - de Eduardo Sacheri - por Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Me van a tener que disculpar - de Eduardo Sacheri - por Alejandro Apo\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadioCut.fm.\n\n\\u00abMe van a tener que disculpar\\u00bb, cuento de Eduardo Sacheri, narrado por Alejandro Apo.\\r\\n\\r\\nhttps://es.wikipedia.org/wiki/Eduardo_Sacheri\\r\\n\\r\\nhttp://elcieloporasalto.blogspot.com/2013/04/me-van-tener-que-disculpar-de-eduardo.html",
+      "date_published": "2018-10-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1540749319.0/830",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 830
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-senor-labruna-de-de-rodolfo-braceli-historia-narrada-por-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/senor-labruna-de-de-rodolfo-braceli-historia-narrada-por-alejandro-apo/",
+      "title": "Señor Labruna, de Rodolfo Braceli Historia Narrada Por Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Señor Labruna, de Rodolfo Braceli Historia Narrada Por Alejandro Apo\", cuento de Rodolfo Braceli Historia Narrada.\n\nFuente original:\nRadioCut.fm.\n\nEstimado se\\u00f1or Labruna: Por intermedio de la presente me dirijo a usted, antes que nada deseando que al recibo de esta carta se encuentren ",
+      "date_published": "2018-09-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/nef/1538330564.0/687",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 687
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-tengo-miedo-alejandro-apo-lee-raices-de-mariana-torres-seleccion-seba-ronchetti",
+      "url": "https://radiocut.fm/audiocut/tengo-miedo-alejandro-apo-lee-raices-de-mariana-torres-seleccion-seba-ronchetti/",
+      "title": "Tengo Miedo - Alejandro Apo lee &quot;Raices&quot; de Mariana Torres (selección Seba Ronchetti)",
+      "content_html": "Alejandro Apo lee \"Tengo Miedo - Alejandro Apo lee &quot;Raices&quot; de Mariana Torres (selección Seba Ronchetti)\".\n\nFuente original:\nRadioCut.fm.\n\nTengo Miedo - Alejandro Apo lee \\",
+      "date_published": "2018-09-18T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/patriada/1537229538.0/833",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 833
         }
       ],
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
@@ -2796,6 +3411,81 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-unsenorcuento-de-alejandroapo-en-lacasainvita-por-am750-hoy-roberto-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-de-alejandroapo-en-lacasainvita-por-am750-hoy-roberto-fontanarrosa/",
+      "title": "&quot;UnSeñorCuento de @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"&quot;UnSeñorCuento de @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Roberto Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche Alejandro Apo nos lee el cuento \\",
+      "date_published": "2018-09-04T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1536027149.0/1277",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1277
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-esteban-valentino",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-esteban-valentino/",
+      "title": "#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Esteban Valentino",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750. Hoy: Esteban Valentino\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche Alejandro Apo nos lee el cuento \\",
+      "date_published": "2018-08-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1535596413.0/847",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 847
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-cambios-en-tu-hijo-adolescente-por-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/cambios-en-tu-hijo-adolescente-por-alejandro-apo/",
+      "title": "Cambios en tu hijo adolescente por Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Cambios en tu hijo adolescente por Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\nCuento de Roberto Fontanarrosa le\\u00eddo por Alejandro Apo",
+      "date_published": "2018-08-18T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1534559874.0/847",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 847
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-alejandro-apo-lee-como-la-tuve-que-remar-de-reynaldo-colombatti",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-lee-como-la-tuve-que-remar-de-reynaldo-colombatti/",
+      "title": "Alejandro Apo lee &quot;¡Cómo la tuve que remar!&quot; de Reynaldo Colombatti",
+      "content_html": "Alejandro Apo lee \"Alejandro Apo lee &quot;¡Cómo la tuve que remar!&quot; de Reynaldo Colombatti\", cuento de Reynaldo Colombatti.\n\nFuente original:\nRadioCut.fm.\n\nTengo Miedo - FM La Patriada - Alejandro Apo lee \\",
+      "date_published": "2018-08-01T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/patriada/1533081929.0/630",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 630
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-eduardo-sacheri-3",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-eduardo-sacheri-3/",
+      "title": "#UnSeñorCuento @AlejandroApo en @lacasainvita por @AM750. Hoy: Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento @AlejandroApo en @lacasainvita por @AM750. Hoy: Eduardo Sacheri\".\n\nFuente original:\nRadioCut.fm.\n\nEsta noche Alejandro Apo nos lee \\",
+      "date_published": "2018-07-17T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1531793172.0/1297",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1297
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "yt-dQp6iXK9vqY",
       "url": "https://www.youtube.com/watch?v=dQp6iXK9vqY",
       "title": "Gnomos en Bariloche\" de Roberto Fontanarrosa",
@@ -2806,6 +3496,666 @@
           "url": "https://rr1---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932749&ei=7VJUaprvKY6P-LAP3unIqQk&ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&id=o-AH5z1JsENEjnVd-2JrgINFoJKIqE1bDQ6YpFqoLBC6VV&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=204&met=1783911149%2C&mh=6H&mm=31%2C29&mn=sn-5ouxa-h8qel%2Csn-x1xe7ne6&ms=au%2Crdu&mv=m&mvi=1&pl=42&rms=au%2Cau&initcwndbps=1913750&bui=AZFlqhMaN7g4W_YhI8kgmCTXYc06uCPIVuy6OATUfw7KFNAJSSfSGhMCYKaMHp4XT-OmTANoUdI4LNbo&spc=SQ-umhUToTb3N4wcZQDGBBe83xehNiC_lmi6XKh8ZhrW&vprv=1&svpuc=1&mime=audio%2Fwebm&rqh=1&gir=yes&clen=12102765&dur=855.461&lmt=1745259867303997&mt=1783910725&fvip=1&keepalive=yes&fexp=51565116%2C52017147&c=ANDROID_VR&txp=8218224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AHEqNM4wRAIgald_01iVojokpMmF5jNcCxwwqALrwa_SuNI14gt7klgCICeS-2MvnYYNSaNhp4_LxOqKNhQ8HoEV97_Ng9pDJYWF&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhAOrQ8jv8WQyT9ak-YueReSfWc2qs1s2Y9oDlsy2yYWhFAiAb0uR_wkRDU3SsZ67_zQ0RyUA5TQthE0ylb1BzXiw2Pw%3D%3D",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 855.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-de-chilena-cuento-de-eduardo-sacheri-por-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/de-chilena-cuento-de-eduardo-sacheri-por-alejandro-apo/",
+      "title": "De chilena. Cuento de Eduardo Sacheri por Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"De chilena. Cuento de Eduardo Sacheri por Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\nMaravillosa narraci\\u00f3n de Apo del cuento De Chilena a prop\\u00f3sito del gol de Bale de ayer del Real Madrid contra el Liverpool",
+      "date_published": "2018-05-27T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1527443512.0/1672",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1672
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-la-promesa-eduardo-sacheri",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-la-promesa-eduardo-sacheri/",
+      "title": "#UnSeñorCuento @AlejandroApo en @lacasainvita por @AM750. Hoy: &quot;La promesa&quot; Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento @AlejandroApo en @lacasainvita por @AM750. Hoy: &quot;La promesa&quot; Eduardo Sacheri\".\n\nFuente original:\nRadioCut.fm.\n\nComo cada noche Alejandro Apo no lee un cuento. Hoy La promesa de Eduardo Sacheri",
+      "date_published": "2018-04-25T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1524621817.0/1113",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1113
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-mario-benedetti",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-mario-benedetti/",
+      "title": "#UnSeñorCuento @AlejandroApo en @lacasainvita por @AM750. Hoy: Mario Benedetti",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento @AlejandroApo en @lacasainvita por @AM750. Hoy: Mario Benedetti\", cuento de Mario Benedetti.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo hoy nos lee un hermoso cuento de Mario Benedetti, \\",
+      "date_published": "2018-04-18T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1524017045.0/1364",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1364
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-alejandro-dolina",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvita-por-am750-hoy-alejandro-dolina/",
+      "title": "#UnSeñorCuento @AlejandroApo en @lacasainvita por @AM750. Hoy: Alejandro Dolina",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento @AlejandroApo en @lacasainvita por @AM750. Hoy: Alejandro Dolina\".\n\nFuente original:\nRadioCut.fm.\n\nHoy Alejandro Apo nos lee \\",
+      "date_published": "2018-04-11T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1523412953.0/678",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 678
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-pablo-ramos",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-pablo-ramos/",
+      "title": "#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750: Hoy Pablo Ramos",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento con @AlejandroApo en #LaCasaInvita por @AM750: Hoy Pablo Ramos\".\n\nFuente original:\nRadioCut.fm.\n\nComo cada noche escuchamos a Alejandro Apo ley\\u00e9ndonos un cuento. Hoy \\",
+      "date_published": "2018-03-10T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1520647412.0/1480",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1480
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-dora-apo-alejandro-apo-fue-el-amor-de-mi-vida-nunca-pude-reemplazarlo-por-nadie",
+      "url": "https://radiocut.fm/audiocut/dora-apo-alejandro-apo-fue-el-amor-de-mi-vida-nunca-pude-reemplazarlo-por-nadie/",
+      "title": "Alejandro Apo entrevistó a su madre, Dora",
+      "content_html": "Alejandro Apo lee \"Alejandro Apo entrevistó a su madre, Dora\".\n\nFuente original:\nRadioCut.fm.\n\nTengo Miedo - FM La Patriada. Alejandro Apo mantuvo un profundo dialogo con Dora Apo (su madre), sobre su vida familiar y profesional: \\",
+      "date_published": "2018-02-21T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/patriada/1519172104.0/2314",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 2314
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-el-cuento-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/el-cuento-de-alejandro-apo/",
+      "title": "EL CUENTO DE ALEJANDRO APO",
+      "content_html": "Alejandro Apo lee \"EL CUENTO DE ALEJANDRO APO\".\n\nFuente original:\nRadioCut.fm.\n\n: Tengo miedo - FM La Patriada. \\",
+      "date_published": "2018-02-07T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/patriada/1517962132.0/213",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 213
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvitaam750-por-am750-hoy-el-duelo-mempo-giardinelli",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvitaam750-por-am750-hoy-el-duelo-mempo-giardinelli/",
+      "title": "#UnSeñorCuento @AlejandroApo en @lacasainvitaam750 por @AM750. Hoy: &quot;El duelo&quot; Mempo Giardinelli",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento @AlejandroApo en @lacasainvitaam750 por @AM750. Hoy: &quot;El duelo&quot; Mempo Giardinelli\".\n\nFuente original:\nRadioCut.fm.\n\nC\\u00f3mo todas las noches, escuchamos al maestro Alejandro Apo ley\\u00e9ndonos un cuento, hoy \\",
+      "date_published": "2018-01-23T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1516673084.0/1096",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1096
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvita-por-radioam750-hoy-roberto-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvita-por-radioam750-hoy-roberto-fontanarrosa/",
+      "title": "#UnSeñorCuento @Alejandroapo en @lacasainvita por @radioam750. Hoy: Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento @Alejandroapo en @lacasainvita por @radioam750. Hoy: Roberto Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\nA partir de hoy a las 23 horas vuelve el maestro Alejandro Apo con #UnSe\\u00f1orCuento. Hoy de la mano del gran Roberto Fontanarrosa nos lee \\",
+      "date_published": "2018-01-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1516414038.0/1043",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1043
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-dirige-barreiro-en-la-voz-de-alejandro-apo-cuento-final-del-libro-elpartidorojo-de-claudio_gmz",
+      "url": "https://radiocut.fm/audiocut/dirige-barreiro-en-la-voz-de-alejandro-apo-cuento-final-del-libro-elpartidorojo-de-claudio_gmz/",
+      "title": "Dirige Barreiro en la voz de Alejandro Apo - Cuento final del libro @ElPartidoRojo de @claudio_gmz",
+      "content_html": "Alejandro Apo lee \"Dirige Barreiro en la voz de Alejandro Apo - Cuento final del libro @ElPartidoRojo de @claudio_gmz\".\n\nFuente original:\nRadioCut.fm.\n\nDirige Barreiro en la voz de Alejandro Apo - Cuento final del libro @ElPartidoRojo de @claudio_gmz",
+      "date_published": "2018-01-07T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/nef/1515348661.0/1626",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1626
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-1",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-1/",
+      "title": "Un Señor Cuento",
+      "content_html": "Alejandro Apo lee \"Un Señor Cuento\".\n\nFuente original:\nRadioCut.fm.\n\nApo nos lee \\",
+      "date_published": "2017-12-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1514426769.0/1706",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1706
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-con-alejandroapo-en-lacasainvitaam750-por-am750-hoy-roberto-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-con-alejandroapo-en-lacasainvitaam750-por-am750-hoy-roberto-fontanarrosa/",
+      "title": "#UnSeñorCuento con @AlejandroApo en @lacasainvitaam750 por @AM750. Hoy: Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento con @AlejandroApo en @lacasainvitaam750 por @AM750. Hoy: Roberto Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\nComo cada noche escuchamos a Alejandro Apo cont\\u00e1ndonos un cuento, hoy nos lee \\",
+      "date_published": "2017-12-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1514426767.0/1708",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1708
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-te-conte-la-del-gordo-luis-cuando-hizo-de-papa-noel-de-roberto-fontanarrosa-por-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/te-conte-la-del-gordo-luis-cuando-hizo-de-papa-noel-de-roberto-fontanarrosa-por-alejandro-apo/",
+      "title": "Te conté la del Gordo Luis cuando hizo de Papá Noel ? De Roberto Fontanarrosa por Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Te conté la del Gordo Luis cuando hizo de Papá Noel ? De Roberto Fontanarrosa por Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\nCasi se convierte en otra v\\u00edctima del imperialismo salvaje el pobre Gordo. Del colonialismo, por decirlo de otra manera. Porque, decime vos, qu\\u00e9 carajo tiene que ver con nosotros y con nuestras costumbres el Pap\\u00e1 Noel. \\u00bfQui\\u00e9n le dio chapa al Pap\\u00e1 Noel? Un tipo vestido para la nieve, abrigado como para ir a la Ant\\u00e1rtida, en un trineo tirado por renos. \\u00a1Renos, mi querido! \\u00bfCu\\u00e1ndo mierda hemos visto un reno nosotros? \\u00bfAlguna vez te fuiste a Buenos Aires en auto y viste al costado del camino un reno morfando pasto debajo de un \\u00e1rbol?",
+      "date_published": "2017-12-24T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/nef/1514136667.0/1260",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1260
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvitaam750-por-am750-hoy-roberto-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvitaam750-por-am750-hoy-roberto-fontanarrosa/",
+      "title": "#UnSeñorCuento @AlejandroApo en @lacasainvitaam750 por @AM750. Hoy: Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento @AlejandroApo en @lacasainvitaam750 por @AM750. Hoy: Roberto Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\nC\\u00f3mo cada noche escuchamos a Alejandro Apo, leyendo un cuento, hoy el maestro Roberto Fontanarrosa con  \\",
+      "date_published": "2017-12-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1513735580.0/1530",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1530
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvitaam750-por-am750-hoy-don-juan-manuel",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvitaam750-por-am750-hoy-don-juan-manuel/",
+      "title": "#UnSeñorCuento @AlejandroApo en @lacasainvitaam750 por @AM750. Hoy: Don Juan Manuel",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento @AlejandroApo en @lacasainvitaam750 por @AM750. Hoy: Don Juan Manuel\".\n\nFuente original:\nRadioCut.fm.\n\nComo cada noche Alejandro Apo nos cuenta un cuento, hoy \\",
+      "date_published": "2017-12-16T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1513390338.0/654",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 654
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvita-por-radioam750-hoy-julio-cortazar",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvita-por-radioam750-hoy-julio-cortazar/",
+      "title": "#UnSeñorCuento @Alejandroapo en @lacasainvita por @radioam750. Hoy: Julio Cortazar",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento @Alejandroapo en @lacasainvita por @radioam750. Hoy: Julio Cortazar\".\n\nFuente original:\nRadioCut.fm.\n\nC\\u00f3mo cada noche, Alejandro Apo nos cuenta un cuento, hoy \\",
+      "date_published": "2017-12-08T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1512698892.0/475",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 475
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-lacasainvitaam750-por-am750-hoy-aquel-peronismo-de-juguete-osvaldo-soriano",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-lacasainvitaam750-por-am750-hoy-aquel-peronismo-de-juguete-osvaldo-soriano/",
+      "title": "#UnSeñorCuento en @lacasainvitaam750 por @AM750. Hoy: &quot;Aquel peronismo de juguete&quot; Osvaldo Soriano",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en @lacasainvitaam750 por @AM750. Hoy: &quot;Aquel peronismo de juguete&quot; Osvaldo Soriano\".\n\nFuente original:\nRadioCut.fm.\n\nC\\u00f3mo todas las noches escuchamos a Alejandro Apo con un cuento, hoy \\",
+      "date_published": "2017-12-06T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1512525834.0/470",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 470
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvita-por-radioam750-hoy-alejandro-dolina",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvita-por-radioam750-hoy-alejandro-dolina/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @lacasainvita por @radioam750. Hoy: Alejandro Dolina",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @lacasainvita por @radioam750. Hoy: Alejandro Dolina\".\n\nFuente original:\nRadioCut.fm.\n\nComo todas las noches @AlejandroApo nos cuenta un cuento. Hoy: \\",
+      "date_published": "2017-12-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1512439329.0/595",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 595
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-de-alejandro-apo-la-casa-invita-por-radio-am-750-hoy-mempo-giardinelli",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-de-alejandro-apo-la-casa-invita-por-radio-am-750-hoy-mempo-giardinelli/",
+      "title": "#UnSeñorCuento de @Alejandro Apo @la casa invita por @Radio AM 750. Hoy : Mempo Giardinelli",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento de @Alejandro Apo @la casa invita por @Radio AM 750. Hoy : Mempo Giardinelli\".\n\nFuente original:\nRadioCut.fm.\n\nComo todas las noches Alejandro Apo nos cuenta un cuento, hoy \\",
+      "date_published": "2017-12-02T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1512180293.0/1097",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1097
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvitaam750-por-radioam750-hoy-roberto-fontanarrosa-1",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvitaam750-por-radioam750-hoy-roberto-fontanarrosa-1/",
+      "title": "#UnSeñorCuento @AlejandroApo en @lacasainvitaam750 por @radioam750. Hoy: Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento @AlejandroApo en @lacasainvitaam750 por @radioam750. Hoy: Roberto Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\nComo cada noche Alejandro Apo nos cuenta un cuento. Hoy \\",
+      "date_published": "2017-11-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1511835067.0/1020",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1020
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-alejandroapo-en-lacasainvitaam750-por-radioam750-hoy-ray-bradbury",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-alejandroapo-en-lacasainvitaam750-por-radioam750-hoy-ray-bradbury/",
+      "title": "#UnSeñorCuento @AlejandroApo en @lacasainvitaam750 por @radioam750. Hoy: Ray Bradbury",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento @AlejandroApo en @lacasainvitaam750 por @radioam750. Hoy: Ray Bradbury\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita.\\r\\n\\r\\nHOY: \\",
+      "date_published": "2017-11-25T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1511575783.0/1222",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1222
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-roberto-fontanarrosa-6",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-roberto-fontanarrosa-6/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Roberto Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\nComo todas las noches Alejandro Apo nos lee un cuento. Hoy \\",
+      "date_published": "2017-11-03T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1509674496.0/1273",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1273
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-roberto-fontanarrosa-5",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-roberto-fontanarrosa-5/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Roberto Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\nComo todas las noches en la voz de Alejandro Apo, un cuento. Hoy \\",
+      "date_published": "2017-10-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1509156335.0/956",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 956
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-apertura-de-alejandroapo-en-lacasainvitaam750-por-am750-hoy-margara-averbach",
+      "url": "https://radiocut.fm/audiocut/apertura-de-alejandroapo-en-lacasainvitaam750-por-am750-hoy-margara-averbach/",
+      "title": "Apertura de @AlejandroApo en @lacasainvitaam750 por @am750. HOY: Margara Averbach",
+      "content_html": "Alejandro Apo lee \"Apertura de @AlejandroApo en @lacasainvitaam750 por @am750. HOY: Margara Averbach\".\n\nFuente original:\nRadioCut.fm.\n\nLa #Apertura de hoy en la voz de Alejandro Apo, nos cuenta dos cuentos de ni\\u00f1os de M\\u00e1rgara Averbach",
+      "date_published": "2017-10-27T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1509066217.0/416",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 416
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-mempo-giardinelli",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-mempo-giardinelli/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Mempo Giardinelli",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Mempo Giardinelli\".\n\nFuente original:\nRadioCut.fm.\n\n#Hoy Alejandro Apo nos cuenta \\",
+      "date_published": "2017-10-27T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1509070073.0/615",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 615
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-roberto-fontanarrosa-4",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-roberto-fontanarrosa-4/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Roberto Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\n#Hoy Alejandro Apo no cuenta \\",
+      "date_published": "2017-10-24T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1508810866.0/1080",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1080
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-roberto-fontanarrosa-3",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-roberto-fontanarrosa-3/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Roberto Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\nHoy Alejandro Apo nos cuenta un gran cuento \\",
+      "date_published": "2017-10-18T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1508292356.0/903",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 903
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-jorge-luis-borges-1",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-jorge-luis-borges-1/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Jorge Luis Borges",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Jorge Luis Borges\".\n\nFuente original:\nRadioCut.fm.\n\nHoy Alejandro Apo nos cuenta un gran cuento \\",
+      "date_published": "2017-10-14T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1507947016.0/712",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 712
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-gabriel-garcia-marquez-1",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-gabriel-garcia-marquez-1/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Gabriel Garcia Marquez",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Gabriel Garcia Marquez\".\n\nFuente original:\nRadioCut.fm.\n\n#Hoy en la voz de Alejandro Apo, el cuento \\",
+      "date_published": "2017-10-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1507169471.0/751",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 751
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-rodolfo-braceli-diadelhinchaderiver",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-rodolfo-braceli-diadelhinchaderiver/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Rodolfo Braceli  #DiaDelHinchaDeRiver",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Rodolfo Braceli  #DiaDelHinchaDeRiver\".\n\nFuente original:\nRadioCut.fm.\n\nEn la voz de #Alejandro Apo. Hoy: \\",
+      "date_published": "2017-09-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1506650770.0/1056",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1056
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-roberto-fontanarrosa-1",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-roberto-fontanarrosa-1/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Roberto Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche. HOY: \\",
+      "date_published": "2017-09-27T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1506478059.0/884",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 884
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-rodolfo-braceli",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-rodolfo-braceli/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Rodolfo Braceli",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Rodolfo Braceli\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche. HOY: \\",
+      "date_published": "2017-09-23T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1506132296.0/988",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 988
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-alejandro-dolina",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-alejandro-dolina/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: @Alejandro Dolina",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: @Alejandro Dolina\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche. HOY: \\",
+      "date_published": "2017-09-21T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1505959525.0/705",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 705
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-eduardo-galeano",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-eduardo-galeano/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Eduardo Galeano",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: Eduardo Galeano\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche. HOY: \\",
+      "date_published": "2017-09-14T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1505354455.0/1049",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1049
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-la-decadencia-de-la-amistad-dolina",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandroapo-en-lacasainvitaam750-hoy-la-decadencia-de-la-amistad-dolina/",
+      "title": "#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: &quot;La decadencia de la amistad&quot; Dolina",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por @AlejandroApo en @LaCasaInvitaam750 HOY: &quot;La decadencia de la amistad&quot; Dolina\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche HOY: \\",
+      "date_published": "2017-09-12T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1505182161.0/666",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 666
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "yt-4cde1P6uNX0",
+      "url": "https://www.youtube.com/watch?v=4cde1P6uNX0",
+      "title": "Cumpleaños feliz\" de Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"Cumpleaños feliz\" de Roberto Fontanarrosa\", cuento de Roberto Fontanarrosa.\n\nFuente original:\nYouTube - Fontanarrosa por Apo.\n\nAudio; Radio Madre\nDonde quiera que estés\nAlejandro Apo y Victoria Nardone\nEl Cuento de la tarde",
+      "date_published": "2017-09-10T00:00:00",
+      "attachments": [
+        {
+          "url": "https://rr5---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783933805&ei=DVdUasLsAcfY1sQP_vqowAM&ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&id=o-AOHtbpVGq1YxhZb7q7M1aDTdUNOpiTZ3MyPwAI7zBvlp&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=279&met=1783912205%2C&mh=FD&mm=31%2C29&mn=sn-5ouxa-h8qes%2Csn-x1x7dn7s&ms=au%2Crdu&mv=m&mvi=5&pl=42&rms=au%2Cau&initcwndbps=1991250&bui=ARmQxEWyR5ZR-i9lmhRmwMABMKlo8ZMrTCf3rdH2C6ZwjNu5dTIbDHeLZ6s4ozs-4geqDWxfB9mRi02J&spc=SQ-umoaYeX3D9a_pitvggLJ86wnu-O9JovUUSIZ--T4p&vprv=1&svpuc=1&mime=audio%2Fwebm&rqh=1&gir=yes&clen=17456384&dur=1049.621&lmt=1564777641422053&mt=1783911692&fvip=1&keepalive=yes&fexp=51565115%2C52017147&c=ANDROID_VR&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AHEqNM4wRAIgFlWW03cu_HBHclb_DXYtFNwkn762tZzQCHWasQ15tTQCIASw6D1bGwt7bzrn1wOGI3rM1FWbs-BODJJtrZ5Tuz00&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgbQf79bYdh---tO8up6wsgISh2Z1d1lvD3c6w2yApyCUCIDwxhJb4odt5KHHGDqSYOuj01kwyl3oiMaCypp1T099t",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1050.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-relatores-de-alejandro-dolina-por-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-relatores-de-alejandro-dolina-por-alejandro-apo/",
+      "title": "Un señor cuento. &quot;Relatores&quot; de Alejandro Dolina, por Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Un señor cuento. &quot;Relatores&quot; de Alejandro Dolina, por Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\nUn se\\u00f1or cuento. \\",
+      "date_published": "2017-09-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/nef/1504578907.0/620",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 620
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-en-lacasainvita-am750-hoy-el-sueno-del-idolo-de-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-en-lacasainvita-am750-hoy-el-sueno-del-idolo-de-fontanarrosa/",
+      "title": "#UnSeñorCuento por Alejandro Apo en #LaCasaInvita AM750. HOY: &quot;El sueño del ídolo&quot; de Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo en #LaCasaInvita AM750. HOY: &quot;El sueño del ídolo&quot; de Fontanarrosa\", cuento de Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noches en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-09-01T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1504232387.0/1257",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1257
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-lacus-vendelinus-de-fontanarrosa-1",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-lacus-vendelinus-de-fontanarrosa-1/",
+      "title": "#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY: &quot;Lacus vendelinus&quot; de Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY: &quot;Lacus vendelinus&quot; de Fontanarrosa\", cuento de Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750\\r\\nHOY: \\",
+      "date_published": "2017-08-26T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1503713345.0/1342",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1342
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-el-muerto-de-jorge-luis-borges",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-el-muerto-de-jorge-luis-borges/",
+      "title": "#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY: &quot;El muerto&quot; de Jorge Luis Borges",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY: &quot;El muerto&quot; de Jorge Luis Borges\", cuento de Jorge Luis Borges.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-08-25T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1503627058.0/1098",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1098
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-en-lacasainvita-am750-hoy-deshoras-julio-cortazar",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-en-lacasainvita-am750-hoy-deshoras-julio-cortazar/",
+      "title": "#UnSeñorCuento por Alejandro Apo en #LaCasaInvita AM750. HOY: &quot;Deshoras&quot; Julio Cortazar",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo en #LaCasaInvita AM750. HOY: &quot;Deshoras&quot; Julio Cortazar\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750. \\r\\nHOY: \\",
+      "date_published": "2017-08-18T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1503021915.0/1600",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1600
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-en-lacasainvita-am750-hoy-el-pensador-de-roberto-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-en-lacasainvita-am750-hoy-el-pensador-de-roberto-fontanarrosa/",
+      "title": "#UnSeñorCuento por Alejandro Apo en #LaCasaInvita  AM750. HOY: &quot;El pensador&quot; de Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo en #LaCasaInvita  AM750. HOY: &quot;El pensador&quot; de Roberto Fontanarrosa\", cuento de Roberto Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-08-16T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1502849429.0/1360",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1360
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-un-hecho-curioso-de-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-un-hecho-curioso-de-fontanarrosa/",
+      "title": "#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY &quot;Un hecho curioso&quot; de Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY &quot;Un hecho curioso&quot; de Fontanarrosa\", cuento de Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\n HOY \\",
+      "date_published": "2017-07-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1501207767.0/1302",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1302
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-el-rulo-y-la-muerte-de-sacheri",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-el-rulo-y-la-muerte-de-sacheri/",
+      "title": "#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY: &quot;El Rulo y la muerte&quot; de Sacheri",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY: &quot;El Rulo y la muerte&quot; de Sacheri\", cuento de Sacheri.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-07-26T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1501034843.0/1493",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1493
         }
       ],
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
@@ -2826,6 +4176,336 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-unsenorcuento-por-alejandro-apo-lacasainvita-am750-hoy-te-digo-mas-de-roberto-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-lacasainvita-am750-hoy-te-digo-mas-de-roberto-fontanarrosa/",
+      "title": "#UnSeñorCuento por Alejandro Apo #LaCasaInvita AM750 HOY: &quot;Te digo más&quot; de Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo #LaCasaInvita AM750 HOY: &quot;Te digo más&quot; de Roberto Fontanarrosa\", cuento de Roberto Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750\\r\\nHOY: \\",
+      "date_published": "2017-07-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1500512669.0/1415",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1415
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-la-espera-de-jorge-luis-borges",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-la-espera-de-jorge-luis-borges/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La espera&quot; de Jorge Luis Borges",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La espera&quot; de Jorge Luis Borges\", cuento de Jorge Luis Borges.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-07-19T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1500430076.0/790",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 790
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-lacasainvita-am750-hoy-felicitaciones-ingeniero-de-daniel-rearte",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-lacasainvita-am750-hoy-felicitaciones-ingeniero-de-daniel-rearte/",
+      "title": "#UnSeñorCuento por Alejandro Apo #LaCasaInvita AM750 HOY &quot;Felicitaciones ingeniero&quot; de Daniel Rearte",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo #LaCasaInvita AM750 HOY &quot;Felicitaciones ingeniero&quot; de Daniel Rearte\", cuento de Daniel Rearte.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento en #LaCasaInvita por AM750.\\r\\nHOY \\",
+      "date_published": "2017-07-15T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1500080653.0/1492",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1492
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-hombres-sin-mujeres-de-haruki-murakami",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-hombres-sin-mujeres-de-haruki-murakami/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Hombres sin mujeres&quot; de Haruki Murakami",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Hombres sin mujeres&quot; de Haruki Murakami\", cuento de Haruki Murakami.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-07-12T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1499825061.0/1509",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1509
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-los-funerales-de-la-mama-grande-de-gg-marquez",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-los-funerales-de-la-mama-grande-de-gg-marquez/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Los funerales de la mamá grande&quot; de G.G Márquez",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Los funerales de la mamá grande&quot; de G.G Márquez\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-07-11T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1499738681.0/1607",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1607
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-en-una-estacion-de-buen-tiempo-ray-bradbury",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-en-una-estacion-de-buen-tiempo-ray-bradbury/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;En una estación de buen tiempo&quot; Ray Bradbury",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;En una estación de buen tiempo&quot; Ray Bradbury\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-07-07T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1499393122.0/961",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 961
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-apertura-de-alejandro-apo-en-la-casa-invita-am-750-los-nombres-de-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/apertura-de-alejandro-apo-en-la-casa-invita-am-750-los-nombres-de-fontanarrosa/",
+      "title": "Apertura de Alejandro Apo en &quot;La casa invita&quot; AM 750 &quot;Los Nombres de Fontanarrosa&quot;",
+      "content_html": "Alejandro Apo lee \"Apertura de Alejandro Apo en &quot;La casa invita&quot; AM 750 &quot;Los Nombres de Fontanarrosa&quot;\".\n\nFuente original:\nRadioCut.fm.\n\n \\",
+      "date_published": "2017-07-06T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1499303066.0/438",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 438
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-la-fuga-de-roberto-arlt",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-la-fuga-de-roberto-arlt/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La fuga&quot; de Roberto Arlt",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La fuga&quot; de Roberto Arlt\", cuento de Roberto Arlt.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-07-06T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1499306812.0/1020",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1020
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-encuentro-con-el-traidor-de-augusto-roa-bastos",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-encuentro-con-el-traidor-de-augusto-roa-bastos/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Encuentro con el traidor&quot; de Augusto Roa Bastos",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Encuentro con el traidor&quot; de Augusto Roa Bastos\", cuento de Augusto Roa Bastos.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de todas las noches en #LaCasaInvita por AM750. \\r\\nHOY: \\",
+      "date_published": "2017-07-04T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1499134172.0/955",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 955
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-el-castigo-de-eduardo-sacheri",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-el-castigo-de-eduardo-sacheri/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;El castigo&quot; de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;El castigo&quot; de Eduardo Sacheri\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de todas las noches en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-07-01T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1498871127.0/1294",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1294
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-a-la-deriva-de-horacio-quiroga",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-a-la-deriva-de-horacio-quiroga/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;A la deriva&quot; de Horacio Quiroga",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;A la deriva&quot; de Horacio Quiroga\", cuento de Horacio Quiroga.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de todas las noches en #LaCasaInvita.\\r\\nHOY: \\",
+      "date_published": "2017-06-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1498702257.0/606",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 606
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-primeros-amores-de-osvaldo-soriano",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-primeros-amores-de-osvaldo-soriano/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Primeros amores&quot; de Osvaldo Soriano",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Primeros amores&quot; de Osvaldo Soriano\", cuento de Osvaldo Soriano.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por @am750.\\r\\n HOY: \\",
+      "date_published": "2017-06-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1498615960.0/763",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 763
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-volvedor-de-abelardo-castillo",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-volvedor-de-abelardo-castillo/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Volvedor&quot; de Abelardo Castillo",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Volvedor&quot; de Abelardo Castillo\", cuento de Abelardo Castillo.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\n HOY: \\",
+      "date_published": "2017-06-27T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1498529007.0/1148",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1148
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-lacasainvita-am750-hoy-que-quieres-tu-de-mi-de-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-lacasainvita-am750-hoy-que-quieres-tu-de-mi-de-fontanarrosa/",
+      "title": "#UnSeñorCuento por Alejandro Apo #LaCasaInvita AM750. HOY &quot;¿Qué quieres tu de mí?&quot; de Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo #LaCasaInvita AM750. HOY &quot;¿Qué quieres tu de mí?&quot; de Fontanarrosa\", cuento de Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY \\",
+      "date_published": "2017-06-24T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1498266176.0/1284",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1284
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-apo-en-lacasainvita-am750-hoy-me-van-a-tener-que-disculpar-de-eduardo-sacheri",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-apo-en-lacasainvita-am750-hoy-me-van-a-tener-que-disculpar-de-eduardo-sacheri/",
+      "title": "#UnSeñorCuento por Apo en #LaCasaInvita AM750. HOY &quot;Me van a tener que disculpar&quot; de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Apo en #LaCasaInvita AM750. HOY &quot;Me van a tener que disculpar&quot; de Eduardo Sacheri\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo con su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\n HOY \\",
+      "date_published": "2017-06-23T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1498183596.0/1177",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1177
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-en-lacasainvita-am750-hoy-un-dia-de-la-bandera-de-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-en-lacasainvita-am750-hoy-un-dia-de-la-bandera-de-fontanarrosa/",
+      "title": "#UnSeñorCuento por Alejandro Apo en #LaCasaInvita AM750. HOY: &quot;Un día de la bandera&quot; de Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo en #LaCasaInvita AM750. HOY: &quot;Un día de la bandera&quot; de Fontanarrosa\", cuento de Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-06-22T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1498097089.0/1224",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1224
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-hoy-el-laucha-benitez-cantaba-boleros-de-ricardo-piglia",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-hoy-el-laucha-benitez-cantaba-boleros-de-ricardo-piglia/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot;. HOY: &quot;El Laucha Benítez cantaba boleros&quot; de Ricardo Piglia",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot;. HOY: &quot;El Laucha Benítez cantaba boleros&quot; de Ricardo Piglia\", cuento de Ricardo Piglia.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de todas las noches en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-06-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1497924465.0/1306",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1306
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-el-pichon-de-cristo-de-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-el-pichon-de-cristo-de-fontanarrosa/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;El pichon de Cristo&quot; de Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;El pichon de Cristo&quot; de Fontanarrosa\", cuento de Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche. \\r\\nHOY: \\",
+      "date_published": "2017-06-17T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1497661438.0/722",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 722
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-el-hijo-del-sheik-de-roberto-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-el-hijo-del-sheik-de-roberto-fontanarrosa/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;El hijo del Sheik&quot; de Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;El hijo del Sheik&quot; de Roberto Fontanarrosa\", cuento de Roberto Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche.\\r\\nHOY: \\",
+      "date_published": "2017-06-15T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1497492505.0/1026",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1026
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-la-salud-de-los-enfermos-de-julio-cortazar",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-la-salud-de-los-enfermos-de-julio-cortazar/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La salud de los enfermos&quot; de Julio Cortázar",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La salud de los enfermos&quot; de Julio Cortázar\", cuento de Julio Cortázar.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-06-10T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1497056521.0/1780",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1780
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-la-luna-roja-de-roberto-arlt",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-la-luna-roja-de-roberto-arlt/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La luna roja&quot; de Roberto Arlt",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La luna roja&quot; de Roberto Arlt\", cuento de Roberto Arlt.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-06-09T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1496974277.0/1311",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1311
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-la-verdad-de-luigi-pirandello",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-la-verdad-de-luigi-pirandello/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La verdad&quot; de Luigi Pirandello",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La verdad&quot; de Luigi Pirandello\", cuento de Luigi Pirandello.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-06-08T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1496887579.0/1238",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1238
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "yt-e4SZxvj0Dxo",
       "url": "https://www.youtube.com/watch?v=e4SZxvj0Dxo",
       "title": "Maud Emprende el Vuelo\" de Roberto Fontanarrosa",
@@ -2836,6 +4516,381 @@
           "url": "https://rr8---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932734&ei=3lJUapXSHKf41sQP5dGzyA4&ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&id=o-AOiGe367C2RjtEyyqaKMFDQ5iqu1YiiCk1_hTOMkRcon&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=176&met=1783911134%2C&mh=hP&mm=31%2C29&mn=sn-5ouxa-h8qel%2Csn-u1x1x5-5j&ms=au%2Crdu&mv=m&mvi=8&pl=42&rms=au%2Cau&initcwndbps=1913750&bui=ARmQxEWM5t7WEQIPatZXCEaVgXALKDUgPC5rQ_xBUtgirEqI7Fsv4Oz4gqZvgCJR5mTDWJZSdyu5mHpF&spc=SQ-umjMyfXnOTCQ0GK8oKUaQ9Sn6dcucupTC6v86vkm7&vprv=1&svpuc=1&mime=audio%2Fwebm&rqh=1&gir=yes&clen=14061511&dur=900.361&lmt=1746175874334024&mt=1783910725&fvip=2&keepalive=yes&fexp=51565116%2C52017147&c=ANDROID_VR&txp=8218224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AHEqNM4wRQIhAPg2d1KTPFKZtXiXMCrJW3X0-BFXACLr8y6vLU6QlX0fAiBKPPNKXAS5GYgo5EuD1Mes15fqVMw59CFmcZtE-1pVhg%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgX6B6dmSEBaGWGv9aNDOI7izVff9RQfEH0r9mfjCkX_YCIAUIENNTbPha94bAtKp7kDHwvsnciE8c9FG9jzjW2P_L",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 900.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-mi-amigo-mickey-de-roberto-fontarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-mi-amigo-mickey-de-roberto-fontarrosa/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Mi amigo Mickey&quot; de Roberto Fontarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Mi amigo Mickey&quot; de Roberto Fontarrosa\", cuento de Roberto Fontarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche.\\r\\nHOY: \\",
+      "date_published": "2017-06-06T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1496714791.0/1687",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1687
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-tierna-es-la-noche-de-ricardo-piglia",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-tierna-es-la-noche-de-ricardo-piglia/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Tierna es la noche&quot; de Ricardo Piglia",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;Tierna es la noche&quot; de Ricardo Piglia\", cuento de Ricardo Piglia.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche.\\r\\n HOY: \\",
+      "date_published": "2017-06-02T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1496369002.0/1272",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1272
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-am750-hoy-confesion-de-amor-en-la-parada-del-93-de-eduardo-sacheri",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-am750-hoy-confesion-de-amor-en-la-parada-del-93-de-eduardo-sacheri/",
+      "title": "#UnSeñorCuento por AM750. HOY: &quot;Confesión de amor en la parada del 93&quot; de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por AM750. HOY: &quot;Confesión de amor en la parada del 93&quot; de Eduardo Sacheri\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche.\\r\\nHOY: \\",
+      "date_published": "2017-06-01T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1496282758.0/1038",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1038
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-la-fiesta-ajena-de-liliana-heker",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-la-fiesta-ajena-de-liliana-heker/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La fiesta ajena&quot; de Liliana Heker",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La fiesta ajena&quot; de Liliana Heker\", cuento de Liliana Heker.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche.\\r\\nHOY: \\",
+      "date_published": "2017-05-31T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1496196436.0/937",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 937
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-el-chileno-de-roberto-fontarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-el-chileno-de-roberto-fontarrosa/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;El chileno&quot; de Roberto Fontarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;El chileno&quot; de Roberto Fontarrosa\", cuento de Roberto Fontarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche.\\r\\nHOY: \\",
+      "date_published": "2017-05-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1496110087.0/1231",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1231
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-en-am750-hoy-el-hombre-que-murio-dos-veces-juan-villoro",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-en-am750-hoy-el-hombre-que-murio-dos-veces-juan-villoro/",
+      "title": "#UnSeñorCuento por Alejandro Apo en AM750. HOY: &quot;El hombre que murió dos veces&quot; Juan Villoro",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo en AM750. HOY: &quot;El hombre que murió dos veces&quot; Juan Villoro\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche en #LaCasaInvita por AM750.\\r\\nHOY: \\",
+      "date_published": "2017-05-27T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1495846957.0/703",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 703
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-al-angulo-superior-derecho-sabin",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-al-angulo-superior-derecho-sabin/",
+      "title": "#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY: &quot;Al ángulo superior derecho&quot; Sabin",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY: &quot;Al ángulo superior derecho&quot; Sabin\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche por #LaCasaInvita en AM750.\\r\\nHOY: \\",
+      "date_published": "2017-05-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1495242391.0/829",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 829
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-el-album-de-hector-sanchez",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-el-album-de-hector-sanchez/",
+      "title": "#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY: &quot;El álbum&quot; de Héctor Sánchez",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY: &quot;El álbum&quot; de Héctor Sánchez\", cuento de Héctor Sánchez.\n\nFuente original:\nRadioCut.fm.\n\nAlenadro Apo y su #Se\\u00f1orCuento de cada noche.\\r\\nHOY: \\",
+      "date_published": "2017-05-19T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1495159500.0/642",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 642
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-lacus-vendelinus-de-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-por-alejandro-apo-en-lacasainvita-por-am750-hoy-lacus-vendelinus-de-fontanarrosa/",
+      "title": "#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY: &quot;Lacus Vendelinus&quot; de Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento por Alejandro Apo en #LaCasaInvita por AM750. HOY: &quot;Lacus Vendelinus&quot; de Fontanarrosa\", cuento de Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de todas las noches por #LaCasaInvita \\r\\nHOY: \\",
+      "date_published": "2017-05-13T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1494637429.0/1071",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1071
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-la-noche-de-mantequilla-de-julio-cortazar",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-la-noche-de-mantequilla-de-julio-cortazar/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La noche de mantequilla&quot; de Julio Cortázar",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;La noche de mantequilla&quot; de Julio Cortázar\", cuento de Julio Cortázar.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de todas las noches en #LaCasaInvita por AM750\\r\\nHOY: \\",
+      "date_published": "2017-05-10T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1494382674.0/1406",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1406
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-el-principe-feliz-de-oscar-wilde",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-el-principe-feliz-de-oscar-wilde/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;El príncipe feliz&quot; de Oscar Wilde.",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;El príncipe feliz&quot; de Oscar Wilde.\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de todas las noches en #LaCasaInvita por AM750.\\r\\nHOY; \\",
+      "date_published": "2017-05-09T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1494295824.0/1323",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1323
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-unsenorcuento-en-la-casa-invita-por-am750-hoy-el-hermano-mayor-de-abelardo-castillo",
+      "url": "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-el-hermano-mayor-de-abelardo-castillo/",
+      "title": "#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;El hermano mayor&quot; de Abelardo Castillo",
+      "content_html": "Alejandro Apo lee \"#UnSeñorCuento en &quot;La Casa Invita&quot; por AM750. HOY: &quot;El hermano mayor&quot; de Abelardo Castillo\", cuento de Abelardo Castillo.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche.\\r\\nHOY: \\",
+      "date_published": "2017-05-03T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1493777296.0/793",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 793
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-el-fin-de-jorge-luis-borges-por-alejandro-apo-la-casa-invita-am-750",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-el-fin-de-jorge-luis-borges-por-alejandro-apo-la-casa-invita-am-750/",
+      "title": "Un señor cuento &quot;El fín&quot; de Jorge Luis Borges por Alejandro Apo &quot;La casa invita&quot; AM 750",
+      "content_html": "Alejandro Apo lee \"Un señor cuento &quot;El fín&quot; de Jorge Luis Borges por Alejandro Apo &quot;La casa invita&quot; AM 750\".\n\nFuente original:\nRadioCut.fm.\n\nUn se\\u00f1or cuento \\",
+      "date_published": "2017-04-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1493345336.0/484",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 484
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am750-hoy-como-se-salvo-wang-fo-de-yourcenal-margarite",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am750-hoy-como-se-salvo-wang-fo-de-yourcenal-margarite/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Cómo se salvó Wang-Fó&quot; de Yourcenal Margarite",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Cómo se salvó Wang-Fó&quot; de Yourcenal Margarite\", cuento de Yourcenal Margarite.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche por #LaCasaInvita.\\r\\nEsta noche: \\",
+      "date_published": "2017-04-27T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1493258949.0/1354",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1354
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am750-hoy-trenes-de-osvaldo-soriano",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am750-hoy-trenes-de-osvaldo-soriano/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Trenes&quot; de Osvaldo Soriano",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Trenes&quot; de Osvaldo Soriano\", cuento de Osvaldo Soriano.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de todas las noches.\\r\\nHOY: \\",
+      "date_published": "2017-04-26T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1493172360.0/623",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 623
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am750-hoy-19-de-diciembre-de-1971-del-negro-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am750-hoy-19-de-diciembre-de-1971-del-negro-fontanarrosa/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;19 de diciembre de 1971&quot; del Negro Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;19 de diciembre de 1971&quot; del Negro Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche.\\r\\nHOY: \\",
+      "date_published": "2017-04-22T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1492823075.0/1244",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1244
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am750-hoy-la-intrusa-de-jorge-luis-borges",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am750-hoy-la-intrusa-de-jorge-luis-borges/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;La intrusa&quot; de Jorge Luis Borges",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;La intrusa&quot; de Jorge Luis Borges\", cuento de Jorge Luis Borges.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de cada noche.\\r\\nHOY: \\",
+      "date_published": "2017-04-21T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1492740529.0/646",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 646
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am750-hoy-la-mujer-ilustrada-de-ray-bradbury",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am750-hoy-la-mujer-ilustrada-de-ray-bradbury/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;La mujer ilustrada&quot; de Ray Bradbury",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;La mujer ilustrada&quot; de Ray Bradbury\", cuento de Ray Bradbury.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su se\\u00f1or cuento de cada noche.\\r\\nHOY: \\",
+      "date_published": "2017-04-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1492654261.0/1521",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1521
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am750-hoy-usted-no-me-lo-va-a-creer-de-roberto-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am750-hoy-usted-no-me-lo-va-a-creer-de-roberto-fontanarrosa/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Usted no me lo va a creer&quot; de Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Usted no me lo va a creer&quot; de Roberto Fontanarrosa\", cuento de Roberto Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su #Se\\u00f1orCuento de todas las noches.\\r\\nHOY: \\",
+      "date_published": "2017-04-19T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1492567376.0/1128",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1128
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am750-hoy-geografia-de-tercero-de-eduardo-sacheri",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am750-hoy-geografia-de-tercero-de-eduardo-sacheri/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Geografía de tercero&quot; de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Geografía de tercero&quot; de Eduardo Sacheri\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadioCut.fm.\n\nNuestro #Se\\u00f1orCuento de todas las noches en #LaCasaInvita.\\r\\nHoy: \\",
+      "date_published": "2017-04-18T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1492480999.0/1389",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1389
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am750-hoy-jules-y-jim-de-mario-benedetti",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am750-hoy-jules-y-jim-de-mario-benedetti/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Jules y Jim&quot; de Mario Benedetti",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Jules y Jim&quot; de Mario Benedetti\", cuento de Mario Benedetti.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su se\\u00f1or cuento de todas las noches en #LaCasaInvita.",
+      "date_published": "2017-04-14T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1492135637.0/1372",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1372
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am750-hoy-todo-el-verano-en-un-dia-ray-bradbury",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am750-hoy-todo-el-verano-en-un-dia-ray-bradbury/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Todo el verano en un dia&quot; Ray Bradbury",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Todo el verano en un dia&quot; Ray Bradbury\".\n\nFuente original:\nRadioCut.fm.\n\nEl se\\u00f1or cuento de todas las noches con Alejandro Apo.\\r\\n",
+      "date_published": "2017-04-13T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1492049246.0/967",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 967
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am750-hoy-emma-zunz-de-jorge-luis-borges",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am750-hoy-emma-zunz-de-jorge-luis-borges/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Emma Zunz&quot; de Jorge Luis Borges",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Emma Zunz&quot; de Jorge Luis Borges\", cuento de Jorge Luis Borges.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su se\\u00f1or cuento de todas las noches",
+      "date_published": "2017-04-11T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1491876379.0/866",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 866
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am750-hoy-me-van-a-tener-que-disculpar-de-eduardo-sacheri",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am750-hoy-me-van-a-tener-que-disculpar-de-eduardo-sacheri/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Me van a tener que disculpar&quot; de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Me van a tener que disculpar&quot; de Eduardo Sacheri\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadioCut.fm.\n\nEl se\\u00f1or cuento de todas las noches con Alejandro Apo\\r\\n",
+      "date_published": "2017-04-08T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1491613631.0/905",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 905
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-por-am750-hoy-los-pocillos-de-mario-benedetti",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-por-am750-hoy-los-pocillos-de-mario-benedetti/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; por AM750 HOY: &quot;Los pocillos&quot; de Mario Benedetti",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; por AM750 HOY: &quot;Los pocillos&quot; de Mario Benedetti\", cuento de Mario Benedetti.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su se\\u00f1or cuento de todas las noches.\\r\\nHoy \\",
+      "date_published": "2017-04-07T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1491531001.0/865",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 865
         }
       ],
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
@@ -2856,6 +4911,36 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-por-am750-hoy-a-mi-nunca-me-dejaban-hablar-de-blaisten",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-por-am750-hoy-a-mi-nunca-me-dejaban-hablar-de-blaisten/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; por AM750 HOY: &quot;A mí nunca me dejaban hablar&quot; de Blaisten",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; por AM750 HOY: &quot;A mí nunca me dejaban hablar&quot; de Blaisten\", cuento de Blaisten.\n\nFuente original:\nRadioCut.fm.\n\nEl se\\u00f1or cuento de Alejandro Apo: \\",
+      "date_published": "2017-04-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1491357981.0/1111",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1111
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am750-hoy-un-hombre-de-experiencia-del-negro-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am750-hoy-un-hombre-de-experiencia-del-negro-fontanarrosa/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Un hombre de experiencia&quot; del Negro Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; AM750 HOY: &quot;Un hombre de experiencia&quot; del Negro Fontanarrosa\".\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su se\\u00f1or cuento de hoy: \\",
+      "date_published": "2017-04-04T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1491271655.0/1213",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1213
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "yt-w9zRJqT_RPc",
       "url": "https://www.youtube.com/watch?v=w9zRJqT_RPc",
       "title": "El discipulo\" de Roberto Fontanarrosa",
@@ -2866,6 +4951,21 @@
           "url": "https://rr7---sn-5ouxa-h8qy.googlevideo.com/videoplayback?expire=1783932741&ei=5VJUarWzDtjv1sQP0MCEsAM&ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&id=o-ABTzj-OP3ggAgY-s7Y8T_anC1BtuLQ-SVeISqTNbhoyr&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=240&met=1783911141%2C&mh=Oz&mm=31%2C29&mn=sn-5ouxa-h8qy%2Csn-x1x7dne6&ms=au%2Crdu&mv=m&mvi=7&pl=42&rms=au%2Cau&initcwndbps=1987500&bui=ARmQxEWnn9TtahCXOk7HtZOrEvZCGEY3mGduOcsaH7GKHmK5QutSrZDIXloTkCnuVnqN6Yi-bYV29UPI&spc=SQ-ummZ6697cLXK51N8Brtt-drtcf2z_uJN2KBX-fSZR&vprv=1&svpuc=1&mime=audio%2Fwebm&rqh=1&gir=yes&clen=18033240&dur=1400.061&lmt=1700409807866408&mt=1783910725&fvip=4&keepalive=yes&fexp=51565115%2C52017147&c=ANDROID_VR&txp=1318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AHEqNM4wRQIgOjESdnzCYLliprnAWU5rg8K8DSG5eLWY8oQiPLMNta0CIQDbAouKpPdQxUVJdCfW3K09Z3AteRIu8RB-aE9EeJjPaQ%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhAMOYufuhCl1q2Q6nD3HL7SmSeyAw6yiOtFJBoyQMDpe3AiBmJrBaeq2fdtP0uoBAL6Gq15YT4Cj7oSs2hjAY_12n6A%3D%3D",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 1400.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-por-am750-hoy-fotos-viejas-de-eduardo-sacheri",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-por-am750-hoy-fotos-viejas-de-eduardo-sacheri/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; por AM750 HOY: &quot;Fotos viejas&quot; de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; por AM750 HOY: &quot;Fotos viejas&quot; de Eduardo Sacheri\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su se\\u00f1or cuento de todas las noches.",
+      "date_published": "2017-03-31T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1490926770.0/510",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 510
         }
       ],
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
@@ -2886,6 +4986,171 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-apuntes-acerca-de-una-mala-mujer-de-sergio-ranieri-por-alejandro-apo-en-la-casa-invita",
+      "url": "https://radiocut.fm/audiocut/apuntes-acerca-de-una-mala-mujer-de-sergio-ranieri-por-alejandro-apo-en-la-casa-invita/",
+      "title": "&quot;Apuntes acerca de una mala mujer&quot; de Sergio Ranieri por Alejandro Apo en &quot;La Casa Invita&quot;",
+      "content_html": "Alejandro Apo lee \"&quot;Apuntes acerca de una mala mujer&quot; de Sergio Ranieri por Alejandro Apo en &quot;La Casa Invita&quot;\".\n\nFuente original:\nRadioCut.fm.\n\nLectura del cuento \\",
+      "date_published": "2017-03-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1490836107.0/356",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 356
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-por-am750-hoy-veni-llorado-de-eduardo-belgrano-rawson",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-por-am750-hoy-veni-llorado-de-eduardo-belgrano-rawson/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; por AM750 HOY: &quot;Vení llorado&quot; de Eduardo Belgrano Rawson",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; por AM750 HOY: &quot;Vení llorado&quot; de Eduardo Belgrano Rawson\", cuento de Eduardo Belgrano Rawson.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo y su \\",
+      "date_published": "2017-03-23T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1490234817.0/298",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 298
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-por-am750-hoy-la-madre-de-ernesto-de-abelardo-castillo",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-por-am750-hoy-la-madre-de-ernesto-de-abelardo-castillo/",
+      "title": "&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; por AM750 HOY: &quot;La madre de Ernesto&quot; de Abelardo Castillo",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor Cuento&quot; en &quot;La Casa Invita&quot; por AM750 HOY: &quot;La madre de Ernesto&quot; de Abelardo Castillo\", cuento de Abelardo Castillo.\n\nFuente original:\nRadioCut.fm.\n\nHOY: \\",
+      "date_published": "2017-03-21T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1490061805.0/804",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 804
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-por-la-casa-invita-en-am750-hoy-el-penal-mas-largo-del-mundo-de-soriano",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-por-la-casa-invita-en-am750-hoy-el-penal-mas-largo-del-mundo-de-soriano/",
+      "title": "&quot;Un señor cuento&quot; por &quot;La Casa Invita&quot; en AM750 HOY: &quot;El penal más largo del mundo&quot; de Soriano",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor cuento&quot; por &quot;La Casa Invita&quot; en AM750 HOY: &quot;El penal más largo del mundo&quot; de Soriano\", cuento de Soriano.\n\nFuente original:\nRadioCut.fm.\n\n Hoy por Alejandro Apo \\",
+      "date_published": "2017-03-18T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1489799137.0/1022",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1022
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am-750-por-apo-requiem-con-tostadas-de-mario-benedetti",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am-750-por-apo-requiem-con-tostadas-de-mario-benedetti/",
+      "title": "&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Apo &quot;Réquiem con tostadas&quot; de Mario Benedetti",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Apo &quot;Réquiem con tostadas&quot; de Mario Benedetti\", cuento de Mario Benedetti.\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2017-03-17T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1489716195.0/719",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 719
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-lezamita-de-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-lezamita-de-fontanarrosa/",
+      "title": "&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Lezamita&quot; de Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Lezamita&quot; de Fontanarrosa\", cuento de Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nDe Roberto Fontanarrosa, \\",
+      "date_published": "2017-03-16T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1489629568.0/882",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 882
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-te-conozco-mendizabal-de-sacheri",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-te-conozco-mendizabal-de-sacheri/",
+      "title": "&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Te conozco Mendizábal&quot; de Sacheri",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Te conozco Mendizábal&quot; de Sacheri\", cuento de Sacheri.\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2017-03-15T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1489543362.0/1291",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1291
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-un-muerto-de-jorge-luis-borges",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-un-muerto-de-jorge-luis-borges/",
+      "title": "&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Un muerto&quot; de Jorge Luis Borges",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Un muerto&quot; de Jorge Luis Borges\", cuento de Jorge Luis Borges.\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2017-03-14T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1489456966.0/822",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 822
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-te-digo-mas-de-fontanarrosa",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-te-digo-mas-de-fontanarrosa/",
+      "title": "&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Te digo más&quot; de Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Te digo más&quot; de Fontanarrosa\", cuento de Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\nAlejandro Apo, como cada noche, nos cuenta un cuento. Hoy: \\",
+      "date_published": "2017-03-10T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1489111260.0/1242",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1242
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-mami-contame-un-cuento-por-alejandro-apo-en-la-casa-invita-por-am-750",
+      "url": "https://radiocut.fm/audiocut/mami-contame-un-cuento-por-alejandro-apo-en-la-casa-invita-por-am-750/",
+      "title": "&quot;Mami contame un cuento&quot; por Alejandro Apo en &quot;La Casa Invita&quot; por AM 750",
+      "content_html": "Alejandro Apo lee \"&quot;Mami contame un cuento&quot; por Alejandro Apo en &quot;La Casa Invita&quot; por AM 750\".\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2017-03-09T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1489022276.0/131",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 131
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-esa-mujer-de-rodolfo-walsh",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-esa-mujer-de-rodolfo-walsh/",
+      "title": "&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Esa mujer&quot; de Rodolfo Walsh",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Esa mujer&quot; de Rodolfo Walsh\", cuento de Rodolfo Walsh.\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2017-03-09T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1489024906.0/1072",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1072
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "rc-un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-torito-de-julio-cortazar",
       "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-torito-de-julio-cortazar/",
       "title": "&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo &quot;Torito&quot; de Julio Cortázar",
@@ -2896,6 +5161,21 @@
           "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1488938587.0/1031",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 1031
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-en-paz-descansa-de-eduardo-sacheri",
+      "url": "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-en-paz-descansa-de-eduardo-sacheri/",
+      "title": "&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo  &quot;En paz descansa&quot; de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"&quot;Un señor cuento&quot; en &quot;La casa invita&quot; AM 750 por Alejandro Apo  &quot;En paz descansa&quot; de Eduardo Sacheri\", cuento de Eduardo Sacheri.\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2017-03-07T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/am750/1488852066.0/793",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 793
         }
       ],
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
@@ -3066,6 +5346,21 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-alejandro-apo-retorna-con-el-futbol-conto-un-cuento-radio-la-red-13112016",
+      "url": "https://radiocut.fm/audiocut/alejandro-apo-retorna-con-el-futbol-conto-un-cuento-radio-la-red-13112016/",
+      "title": "Alejandro Apo retorna con &quot;El Fútbol contó un cuento&quot; (Radio La Red 13/11/2016)",
+      "content_html": "Alejandro Apo lee \"Alejandro Apo retorna con &quot;El Fútbol contó un cuento&quot; (Radio La Red 13/11/2016)\".\n\nFuente original:\nRadioCut.fm.\n\n  Lo cuentan Toti Pasman y Leonardo Gentili en Radio La Red.",
+      "date_published": "2016-11-14T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/lared/1479060836.0/63",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 63
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "yt-PFcj4j50rQ8",
       "url": "https://www.youtube.com/watch?v=PFcj4j50rQ8",
       "title": "El prostíbulo\" de Dalmiro Sáenz",
@@ -3141,6 +5436,51 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-cuento-la-felicidad-de-isidoro-blaisten-en-voz-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/cuento-la-felicidad-de-isidoro-blaisten-en-voz-de-alejandro-apo/",
+      "title": "Cuento: La Felicidad de Isidoro Blaisten en Voz de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Cuento: La Felicidad de Isidoro Blaisten en Voz de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\nCuento: La Felicidad de Isidoro Blaisten en Voz de Alejandro Apo",
+      "date_published": "2016-06-13T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1442862943.0/1039",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1039
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-cuento-la-salud-de-los-enfermos-de-cortazar-voz-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/cuento-la-salud-de-los-enfermos-de-cortazar-voz-alejandro-apo/",
+      "title": "Cuento: La salud de los enfermos de Cortazar. Voz: Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Cuento: La salud de los enfermos de Cortazar. Voz: Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\nCuento: La salud de los enfermos de Cortazar. Voz: Alejandro Apo",
+      "date_published": "2016-06-13T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1442949003.0/2223",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 2223
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-geografia-de-3ro-eduardo-sacheri-voz-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/geografia-de-3ro-eduardo-sacheri-voz-alejandro-apo/",
+      "title": "Geografía de 3ro - Eduardo Sacheri - Voz: Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Geografía de 3ro - Eduardo Sacheri - Voz: Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\nCuento de Eduardo Sacheri en Voz de Alejandro Apo",
+      "date_published": "2016-06-12T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1429126244.0/1450",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1450
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "yt-LYPE9BW6Io8",
       "url": "https://www.youtube.com/watch?v=LYPE9BW6Io8",
       "title": "Palizas\" de Osvaldo Soriano",
@@ -3171,6 +5511,36 @@
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
     },
     {
+      "id": "rc-mama-de-roberto-fontanarrosa-por-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/mama-de-roberto-fontanarrosa-por-alejandro-apo/",
+      "title": "&quot;Mamá&quot; de Roberto Fontanarrosa por Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;Mamá&quot; de Roberto Fontanarrosa por Alejandro Apo\".\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2015-08-15T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1439580264.0/1224",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1224
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-los-heraldos-negros-de-roberto-fontanarrosa-por-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/los-heraldos-negros-de-roberto-fontanarrosa-por-alejandro-apo/",
+      "title": "&quot;Los Heraldos Negros&quot; de Roberto Fontanarrosa por Alejandro Apo.",
+      "content_html": "Alejandro Apo lee \"&quot;Los Heraldos Negros&quot; de Roberto Fontanarrosa por Alejandro Apo.\", cuento de Roberto Fontanarrosa.\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2015-08-01T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1438452081.0/1481",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1481
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
       "id": "rc-el-mundo-ha-vivido-equivocado-de-roberto-fontanarrosa-por-alejandro-apo",
       "url": "https://radiocut.fm/audiocut/el-mundo-ha-vivido-equivocado-de-roberto-fontanarrosa-por-alejandro-apo/",
       "title": "&quot;El mundo ha vivido equivocado&quot; de Roberto Fontanarrosa por Alejandro Apo.",
@@ -3181,6 +5551,21 @@
           "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1437506573.0/2023",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 2023
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-el-prostibulo-cuento-de-dalmiro-saenz-por-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/el-prostibulo-cuento-de-dalmiro-saenz-por-alejandro-apo/",
+      "title": "&quot;El prostíbulo&quot;. Cuento de Dalmiro Saenz por Alejandro Apo.",
+      "content_html": "Alejandro Apo lee \"&quot;El prostíbulo&quot;. Cuento de Dalmiro Saenz por Alejandro Apo.\".\n\nFuente original:\nRadioCut.fm.\n\nDe Dalmiro Saenz, \\",
+      "date_published": "2015-07-28T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1437592683.0/1180",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1180
         }
       ],
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
@@ -3211,6 +5596,306 @@
           "url": "https://rr11---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932803&ei=I1NUap7HK6uZg-UP1Y-I6AY&ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&id=o-ANXOL8v6iTi-eXy1hJ5HTO2PCJN4mzYd83MVflNZiWBJ&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=254&met=1783911203%2C&mh=EY&mm=31%2C29&mn=sn-5ouxa-h8qes%2Csn-x1xe7nez&ms=au%2Crdu&mv=m&mvi=11&pl=42&rms=au%2Cau&initcwndbps=1992500&bui=AZFlqhNzPFJjq8_MsLNf6_AxMWELm4O-mfY7CQ5Gb75M266U9_o_7GofzZyTeYPM8n1iV1d3eDucP5rV&spc=SQ-umqr67VgPh0vNsMB4OHX6eyI3gDG2C20aHVf9-e1o&vprv=1&svpuc=1&mime=audio%2Fwebm&rqh=1&gir=yes&clen=24300267&dur=1414.861&lmt=1740414243587173&mt=1783910725&fvip=1&keepalive=yes&fexp=51565115%2C52017147&c=ANDROID_VR&txp=8218224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AE0s2JYwRgIhALh2IipXQ8NFiZyEgU1CV22PmT73Nr2kQKpQGlRv7X6CAiEAriqSLllmGA1gsgVtmKmsscDdsnSdnX6eIglyfhGvZr0%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgWZBPUQ9vo1HbleILnvhvSN180sy-5Cvdx-WCguXVbPECIBs7fsLdI0mBCrUJM8SDIi8kPJoGdaOTqRQ7_gQWT1sP",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 1415.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-cinco-leyendas-de-alejandro-dolina-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/cinco-leyendas-de-alejandro-dolina-relato-de-alejandro-apo/",
+      "title": "&quot;Cinco Leyendas&quot; de Alejandro Dolina. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;Cinco Leyendas&quot; de Alejandro Dolina. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1396639827.0/552",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 552
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-curados-de-espanto-y-sin-embargo-de-mario-benedetti-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/curados-de-espanto-y-sin-embargo-de-mario-benedetti-relato-de-alejandro-apo/",
+      "title": "&quot;Curados de Espanto y Sin Embargo&quot; de Mario Benedetti. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;Curados de Espanto y Sin Embargo&quot; de Mario Benedetti. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1395775207.0/595",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 595
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-destino-de-mujer-de-roberto-fontanarrosa-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/destino-de-mujer-de-roberto-fontanarrosa-relato-de-alejandro-apo/",
+      "title": "&quot;Destino de Mujer&quot; de Roberto Fontanarrosa. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;Destino de Mujer&quot; de Roberto Fontanarrosa. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1396294888.0/308",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 308
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-el-chileno-de-fontanarrosa-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/el-chileno-de-fontanarrosa-relato-de-alejandro-apo/",
+      "title": "&quot;El Chileno&quot; de Fontanarrosa. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;El Chileno&quot; de Fontanarrosa. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1398454036.0/33",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 33
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-el-discipulo-de-roberto-fontanarrosa-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/el-discipulo-de-roberto-fontanarrosa-relato-de-alejandro-apo/",
+      "title": "&quot;El Discípulo&quot; de Roberto Fontanarrosa. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;El Discípulo&quot; de Roberto Fontanarrosa. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1399576113.0/1394",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1394
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-el-fin-de-jorge-luis-borges-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/el-fin-de-jorge-luis-borges-relato-de-alejandro-apo/",
+      "title": "&quot;El Fin&quot; de Jorge Luis Borges. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;El Fin&quot; de Jorge Luis Borges. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1398109304.0/512",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 512
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-el-piloto-de-combate-de-eduardo-sacheri-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/el-piloto-de-combate-de-eduardo-sacheri-relato-de-alejandro-apo/",
+      "title": "&quot;El Piloto de Combate&quot; de Eduardo Sacheri. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;El Piloto de Combate&quot; de Eduardo Sacheri. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1395429729.0/647",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 647
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-en-paz-descansa-de-eduardo-sacheri-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/en-paz-descansa-de-eduardo-sacheri-relato-de-alejandro-apo/",
+      "title": "&quot;En Paz Descansa&quot; de Eduardo Sacheri. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;En Paz Descansa&quot; de Eduardo Sacheri. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1398195100.0/811",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 811
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-fotos-viejas-de-eduardo-sacheri-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/fotos-viejas-de-eduardo-sacheri-relato-de-alejandro-apo/",
+      "title": "&quot;Fotos Viejas&quot; de Eduardo Sacheri. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;Fotos Viejas&quot; de Eduardo Sacheri. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1395258058.0/472",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 472
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-la-fruta-en-el-fondo-del-tazon-de-ray-bradbury-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/la-fruta-en-el-fondo-del-tazon-de-ray-bradbury-relato-de-alejandro-apo/",
+      "title": "&quot;La Fruta en el Fondo del Tazón&quot; de Ray Bradbury. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;La Fruta en el Fondo del Tazón&quot; de Ray Bradbury. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1398280149.0/1063",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1063
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-la-guerra-y-la-paz-de-mario-benedetti-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/la-guerra-y-la-paz-de-mario-benedetti-relato-de-alejandro-apo/",
+      "title": "&quot;La Guerra y la Paz&quot; de Mario Benedetti. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;La Guerra y la Paz&quot; de Mario Benedetti. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n\\",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1395256228.0/403",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 403
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-la-verdad-sobre-el-transbordador-columbia-de-r-fontanarrosa-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/la-verdad-sobre-el-transbordador-columbia-de-r-fontanarrosa-relato-de-alejandro-apo/",
+      "title": "&quot;La Verdad Sobre el Transbordador Columbia&quot; de R. Fontanarrosa. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;La Verdad Sobre el Transbordador Columbia&quot; de R. Fontanarrosa. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1398107301.0/1257",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1257
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-liliana-llorando-de-julio-cortazar-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/liliana-llorando-de-julio-cortazar-relato-de-alejandro-apo/",
+      "title": "&quot;Liliana Llorando&quot; de Julio Cortazar. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;Liliana Llorando&quot; de Julio Cortazar. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1395342866.0/1303",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1303
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-maud-emprende-el-vuelo-de-fontanarrosa-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/maud-emprende-el-vuelo-de-fontanarrosa-relato-de-alejandro-apo/",
+      "title": "&quot;Maud Emprende el Vuelo&quot; de Fontanarrosa. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;Maud Emprende el Vuelo&quot; de Fontanarrosa. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1400095610.0/898",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 898
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-pasatiempo-poema-mario-benedetti-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/pasatiempo-poema-mario-benedetti-relato-de-alejandro-apo/",
+      "title": "&quot;Pasatiempo&quot;, poema Mario Benedetti. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;Pasatiempo&quot;, poema Mario Benedetti. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1395345275.0/53",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 53
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-reuniones-de-egresados-de-eduardo-sacheri-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/reuniones-de-egresados-de-eduardo-sacheri-relato-de-alejandro-apo/",
+      "title": "&quot;Reuniones de Egresados&quot; de Eduardo Sacheri. Relato de Alejandro Apo.",
+      "content_html": "Alejandro Apo lee \"&quot;Reuniones de Egresados&quot; de Eduardo Sacheri. Relato de Alejandro Apo.\".\n\nFuente original:\nRadioCut.fm.\n\n\\r\\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1398799036.0/1463",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1463
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-tactica-y-estrategia-de-la-escondida-de-alejandro-dolina-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/tactica-y-estrategia-de-la-escondida-de-alejandro-dolina-relato-de-alejandro-apo/",
+      "title": "&quot;Táctica y Estrategia de la Escondida&quot; de Alejandro Dolina, Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;Táctica y Estrategia de la Escondida&quot; de Alejandro Dolina, Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\nFragmentos de \\",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1395776904.0/248",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 248
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-te-conozco-mendizabal-cuento-de-eduardo-sacheri-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/te-conozco-mendizabal-cuento-de-eduardo-sacheri-relato-de-alejandro-apo/",
+      "title": "Te Conozco Mendizabal. Cuento de Eduardo Sacheri. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"Te Conozco Mendizabal. Cuento de Eduardo Sacheri. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\nTe Conozco Mendizabal. Cuento de Eduardo Sacheri. Relato de Alejandro Apo",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1395169746.0/1332",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1332
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-te-digo-mas-del-gran-negro-fontanarrosa-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/te-digo-mas-del-gran-negro-fontanarrosa-relato-de-alejandro-apo/",
+      "title": "&quot;Te Digo Más&quot; del Gran Negro Fontanarrosa, relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;Te Digo Más&quot; del Gran Negro Fontanarrosa, relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1396035130.0/1274",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1274
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "rc-una-leccion-de-vida-del-negro-fontanarrosa-relato-de-alejandro-apo",
+      "url": "https://radiocut.fm/audiocut/una-leccion-de-vida-del-negro-fontanarrosa-relato-de-alejandro-apo/",
+      "title": "&quot;Una Lección de Vida&quot; del Negro Fontanarrosa. Relato de Alejandro Apo",
+      "content_html": "Alejandro Apo lee \"&quot;Una Lección de Vida&quot; del Negro Fontanarrosa. Relato de Alejandro Apo\", cuento de Alejandro Apo.\n\nFuente original:\nRadioCut.fm.\n\n",
+      "date_published": "2014-06-30T00:00:00",
+      "attachments": [
+        {
+          "url": "https://chunkserver-do.radiocut.site/server/get_unified_file/madres/1396465603.0/1686",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1686
         }
       ],
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
