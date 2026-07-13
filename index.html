@@ -203,7 +203,7 @@ return`<article class="ep${cls}" data-guid="${ep.guid||ep.mp3_url||''}"><div cla
 <div class="desc">${ep.descripcion||''}</div>
 ${audio}
 <div class="ep-actions">
-${ep.mp3_url?`<a href="${ep.mp3_url}" download>Descargar</a>`:""}
+${ep.mp3_url?`<a href="${ep.mp3_url}" target="_blank">Abrir audio</a>`:""}
 <select class="speed-select" onchange="changeSpeed('${id}',this.value)"><option value="1">1x</option><option value="1.25">1.25x</option><option value="1.5">1.5x</option><option value="2">2x</option></select>
 <a href="https://wa.me/?text=${encodeURIComponent(ep.titulo)}%20${encodeURIComponent(ep.fuente_url||'')}" target="_blank">WhatsApp</a>
 <button onclick="copyLink('${ep.fuente_url||''}')">Copiar link</button>
