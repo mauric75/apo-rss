@@ -143,161 +143,155 @@ def build_html(eps):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Los cuentos de Alejandro Apo</title>
-    <meta name="description" content="Colección de 400+ cuentos narrados por Alejandro Apo desde radios argentinas.">
+    <meta name="description" content="Colección de 400+ cuentos narrados por Alejandro Apo desde radios argentinas. Feed RSS independiente.">
     <meta property="og:title" content="Los cuentos de Alejandro Apo">
-    <meta property="og:description" content="Colección de 400+ cuentos narrados por Alejandro Apo.">
+    <meta property="og:description" content="Colección de 400+ cuentos narrados por Alejandro Apo. RSS, Apple Podcasts, Spotify.">
     <meta property="og:image" content="https://mauric75.github.io/apo-rss/cover.jpg">
-    <link rel="icon" href="cover.jpg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/jpeg" href="cover.jpg">
     <style>
         :root{
-            --bg:#1a1a1a;--ink:#e0dbd2;--accent:#b71c1c;--card:#252525;--meta:#9c9c9c;--border:#3a3a3a;--hairline:#333;
-            --paper:#1a1a1a;--red:#b71c1c;--warm:#222;
+            --bg:#0d0d0d;--fg:#e8e8e8;--accent:#ff6b35;--card:#1a1a1a;--meta:#999;--border:#2a2a2a;
+            --rn:#ff6b35;--anchor:#1db954;--rc:#3b82f6;--yt:#ef4444;
         }
-        body.light{--bg:#f8f5ee;--ink:#1a1a1a;--card:#fff;--meta:#5c5c5c;--border:#d4cec4;--hairline:#e0dbd2;--paper:#f8f5ee;--warm:#faf7f0}
+        body.light{--bg:#f5f5f5;--fg:#1a1a1a;--card:#fff;--meta:#666;--border:#ddd}
         *{margin:0;padding:0;box-sizing:border-box}
-        body{background:var(--bg);color:var(--ink);font-family:"Source Serif 4",Georgia,serif;line-height:1.7;transition:background .4s,color .4s;font-weight:350}
-        .masthead{border-bottom:4px double var(--ink);padding:2rem 1rem 1.5rem;text-align:center;max-width:1000px;margin:0 auto}
-        .masthead-inner{display:flex;align-items:center;justify-content:center;gap:1.5rem;flex-wrap:wrap}
-        .masthead-photo{width:80px;height:80px;border-radius:50%;object-fit:cover;border:2px solid var(--ink);filter:grayscale(30%)}
-        .masthead-title{font-family:"Playfair Display",Georgia,serif;font-size:2.5rem;font-weight:900;letter-spacing:-0.5px;line-height:1.1;color:var(--ink)}
-        .masthead-sub{font-style:italic;color:var(--meta);font-size:.9rem;margin-top:.2rem}
-        .masthead-date{font-size:.7rem;text-transform:uppercase;letter-spacing:.15em;color:var(--meta);margin-top:.5rem;border-top:1px solid var(--hairline);display:inline-block;padding-top:.5rem}
-        .masthead-links{display:flex;gap:1.2rem;justify-content:center;flex-wrap:wrap;margin-top:1rem;font-size:.75rem}
-        .masthead-links a{color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--meta);padding-bottom:1px;transition:border .2s}
-        .masthead-links a:hover{border-bottom-color:var(--accent);color:var(--accent)}
-        .stats-bar{max-width:1000px;margin:.8rem auto;padding:0 1rem;text-align:center;font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--meta)}
-        .stats-bar span{margin:0 .8rem}
-        .stats-bar .update{color:var(--accent);font-weight:600}
-        .top-bar{display:flex;justify-content:flex-end;max-width:1000px;margin:.5rem auto 0;padding:0 1rem;gap:.3rem}
-        .icon-btn{background:none;border:1px solid var(--border);color:var(--meta);padding:.25rem .7rem;border-radius:3px;cursor:pointer;font-size:.7rem;font-family:"Source Serif 4",Georgia,serif;transition:all .2s;text-transform:uppercase;letter-spacing:.05em}
-        .icon-btn:hover{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-        .icon-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-        .toolbar{max-width:1000px;margin:1rem auto;padding:0 1rem;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center}
-        #search{flex:1;min-width:160px;background:var(--card);border:1px solid var(--hairline);color:var(--ink);padding:.5rem .8rem;font-size:.85rem;outline:none;font-family:"Source Serif 4",Georgia,serif;border-radius:2px}
-        #search:focus{border-color:var(--ink)}
-        select{background:var(--card);border:1px solid var(--hairline);color:var(--ink);padding:.45rem .6rem;font-size:.78rem;cursor:pointer;outline:none;font-family:"Source Serif 4",Georgia,serif;border-radius:2px}
-        .chip-bar{max-width:1000px;margin:0 auto .4rem;padding:0 1rem;display:flex;gap:.2rem;flex-wrap:wrap;max-height:90px;overflow-y:auto}
-        .chip-bar button{background:none;border:1px solid var(--hairline);color:var(--meta);padding:.1rem .6rem;font-size:.68rem;cursor:pointer;font-family:"Source Serif 4",Georgia,serif;transition:all .2s;text-transform:uppercase;letter-spacing:.04em}
-        .chip-bar button:hover,.chip-bar button.active{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-        main{max-width:1000px;margin:1.5rem auto;padding:0 1rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem}
-        .ep{background:var(--card);border-top:3px solid var(--accent);padding:1rem 1.1rem;transition:box-shadow .2s;position:relative}
-        .ep:hover{box-shadow:0 2px 10px rgba(0,0,0,.08)}
-        .ep h3{font-family:"Playfair Display",Georgia,serif;font-size:1.05rem;font-weight:700;line-height:1.25;margin-bottom:.4rem;color:var(--ink)}
-        .ep .meta{font-size:.68rem;color:var(--meta);margin-bottom:.5rem;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;text-transform:uppercase;letter-spacing:.04em}
-        .ep .meta .source-dot{width:7px;height:7px;border-radius:50%;display:inline-block;flex-shrink:0}
-        .source-rn{background:#b71c1c}.source-anchor{background:#2d6a4f}.source-rc{background:#1b5e8c}.source-yt{background:#8b1a1a}
-        .ep p{font-size:.8rem;color:var(--meta);margin-bottom:.6rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-style:italic}
-        .ep audio{width:100%;height:28px;margin-top:.4rem;filter:grayscale(30%)}
-        .ep audio::-webkit-media-controls-panel{background:var(--warm)}
-        .ep-actions{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center;margin-top:.5rem;font-size:.65rem}
-        .ep-actions a,.ep-actions button{color:var(--meta);text-decoration:none;background:none;border:1px solid var(--hairline);padding:.15rem .5rem;cursor:pointer;font-family:"Source Serif 4",Georgia,serif;font-size:.65rem;transition:all .2s;text-transform:uppercase;letter-spacing:.04em}
-        .ep-actions a:hover,.ep-actions button:hover{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-        .ep-actions .speed-select{padding:.1rem .3rem;font-size:.6rem}
-        .listened-badge{color:#2d6a4f;font-weight:600;font-size:.6rem;text-transform:uppercase;letter-spacing:.05em}
-        .ep.listened{opacity:.55;border-top-color:var(--hairline)}
-        .ep.listened:hover{opacity:.85}
-        .queue-panel{position:fixed;bottom:0;right:0;width:300px;max-height:45vh;background:var(--card);border:1px solid var(--hairline);box-shadow:0 -2px 20px rgba(0,0,0,.15);z-index:150;transform:translateY(100%);transition:transform .3s;overflow-y:auto}
+        body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6;transition:background .3s,color .3s}
+        header{background:linear-gradient(135deg,var(--accent)0%,#ff8c42 100%);color:#fff;padding:2.5rem 1.5rem 2rem;text-align:center}
+        .header-content{display:flex;align-items:center;justify-content:center;gap:1.5rem;flex-wrap:wrap;max-width:700px;margin:0 auto}
+        .header-photo{width:100px;height:100px;border-radius:50%;border:3px solid rgba(255,255,255,.5);object-fit:cover;box-shadow:0 4px 20px rgba(0,0,0,.3);cursor:pointer;transition:transform .3s}
+        .header-photo:hover{transform:scale(2.5);z-index:10;position:relative}
+        .header-text{text-align:left}
+        .header-text h1{font-size:2rem;margin-bottom:.2rem}
+        .header-text p{opacity:.9;font-size:1rem}
+        .top-bar{display:flex;justify-content:flex-end;max-width:900px;margin:.5rem auto 0;padding:0 1rem;gap:.5rem}
+        .icon-btn{background:var(--card);border:1px solid var(--border);color:var(--fg);width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:1rem;display:flex;align-items:center;justify-content:center;transition:all .2s}
+        .icon-btn:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+        .queue-panel{position:fixed;bottom:0;right:0;width:320px;max-height:50vh;background:var(--card);border:1px solid var(--border);border-radius:12px 0 0 0;box-shadow:0 -4px 20px rgba(0,0,0,.4);z-index:150;transform:translateY(100%);transition:transform .3s;overflow-y:auto}
         .queue-panel.open{transform:translateY(0)}
-        .queue-panel h4{position:sticky;top:0;background:var(--ink);color:var(--bg);padding:.5rem .8rem;font-size:.8rem;display:flex;justify-content:space-between;align-items:center;z-index:1;font-family:"Playfair Display",Georgia,serif;font-weight:700}
-        .queue-panel h4 button{background:none;border:none;color:var(--bg);cursor:pointer;font-size:1.1rem}
-        .queue-item{display:flex;align-items:center;gap:.4rem;padding:.4rem .8rem;border-bottom:1px solid var(--hairline);font-size:.7rem;cursor:pointer;transition:background .15s}
-        .queue-item:hover{background:var(--warm)}
-        .queue-item .remove{color:var(--meta);font-size:1rem;flex-shrink:0;cursor:pointer}
+        .queue-panel h4{position:sticky;top:0;background:var(--accent);color:#fff;padding:.6rem 1rem;font-size:.85rem;display:flex;justify-content:space-between;align-items:center;z-index:1}
+        .queue-panel h4 button{background:none;border:none;color:#fff;cursor:pointer;font-size:1.2rem}
+        .queue-item{display:flex;align-items:center;gap:.5rem;padding:.5rem 1rem;border-bottom:1px solid var(--border);font-size:.8rem;cursor:pointer;transition:background .2s}
+        .queue-item:hover{background:var(--border)}
+        .queue-item .remove{color:var(--meta);cursor:pointer;font-size:1rem;flex-shrink:0}
         .queue-item .remove:hover{color:var(--accent)}
-        .queue-badge{position:fixed;bottom:1.5rem;right:5rem;background:var(--ink);color:var(--bg);border:none;width:38px;height:38px;font-size:.7rem;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.2);z-index:149;display:none;text-transform:uppercase;letter-spacing:.05em}
-        .queue-count{position:absolute;top:-4px;right:-4px;background:var(--accent);color:#fff;font-size:.55rem;width:16px;height:16px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700}
-        #top-btn{position:fixed;bottom:1.5rem;right:1.5rem;background:var(--ink);color:var(--bg);border:none;width:38px;height:38px;cursor:pointer;display:none;box-shadow:0 2px 8px rgba(0,0,0,.2);z-index:100;font-size:.9rem}
-        body.audio-only .ep p,body.audio-only .ep .meta,body.audio-only .ep-actions,body.audio-only .toolbar,body.audio-only #timeline,body.audio-only #authors-bar,body.audio-only #top-authors,body.audio-only .masthead-links,body.audio-only .stats-bar,body.audio-only footer{display:none!important}
-        body.audio-only main{padding-top:.3rem;display:block;max-width:700px}
-        body.audio-only .ep{padding:.5rem .8rem;margin-bottom:.2rem}
-        body.audio-only .ep h3{font-size:.85rem}
-        .top-authors{max-width:1000px;margin:2rem auto 0;padding:0 1rem;border-top:2px solid var(--hairline);padding-top:1.5rem}
-        .top-authors h3{font-family:"Playfair Display",Georgia,serif;font-size:.85rem;color:var(--meta);margin-bottom:.6rem;text-align:center;text-transform:uppercase;letter-spacing:.1em;font-weight:400}
-        .top-authors ol{display:flex;flex-wrap:wrap;gap:.2rem 1.5rem;justify-content:center;list-style:none;font-size:.7rem;color:var(--meta)}
+        .queue-badge{position:fixed;bottom:1.5rem;right:5rem;background:var(--accent);color:#fff;border:none;width:40px;height:40px;border-radius:50%;font-size:1.1rem;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.3);z-index:149;display:none}
+        .queue-count{position:absolute;top:-5px;right:-5px;background:#ef4444;color:#fff;font-size:.6rem;width:18px;height:18px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700}
+        body.audio-only .ep p,body.audio-only .ep .meta,body.audio-only .ep-actions,body.audio-only .toolbar,body.audio-only #timeline,body.audio-only #authors-bar,body.audio-only #top-authors,body.audio-only .subscribe,body.audio-only .stats,body.audio-only footer{display:none!important}
+        body.audio-only main{padding-top:.5rem}
+        body.audio-only .ep{padding:.6rem 1rem;margin-bottom:.3rem}
+        body.audio-only .ep h3{font-size:.9rem}
+        .ep.listened{opacity:.5;border-left-color:var(--meta)}
+        .ep.listened:hover{opacity:.8}
+        .listened-badge{font-size:.65rem;color:#1db954;margin-left:.3rem}
+        .subscribe{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;margin-top:1rem}
+        .subscribe a{background:rgba(255,255,255,.15);color:#fff;padding:.5rem 1.2rem;border-radius:50px;text-decoration:none;font-size:.85rem;border:1px solid rgba(255,255,255,.25);transition:all .2s}
+        .subscribe a:hover{background:rgba(255,255,255,.3)}
+        .stats{max-width:900px;margin:1.5rem auto 0;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;font-size:.85rem;opacity:.8}
+        .stats span{background:rgba(255,255,255,.1);padding:.3rem .8rem;border-radius:50px}
+        .toolbar{max-width:900px;margin:1rem auto;padding:0 1rem;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center}
+        #search{flex:1;min-width:160px;background:var(--card);border:1px solid var(--border);color:var(--fg);padding:.5rem .8rem;border-radius:8px;font-size:.85rem;outline:none}
+        #search:focus{border-color:var(--accent)}
+        select{background:var(--card);border:1px solid var(--border);color:var(--fg);padding:.5rem .6rem;border-radius:8px;font-size:.8rem;cursor:pointer;outline:none}
+        select:focus{border-color:var(--accent)}
+        .timeline{max-width:900px;margin:0 auto .5rem;padding:0 1rem;display:flex;gap:.25rem;flex-wrap:wrap;justify-content:center}
+        .timeline button{background:var(--card);border:1px solid var(--border);color:var(--meta);padding:.15rem .6rem;border-radius:50px;font-size:.7rem;cursor:pointer;transition:all .2s}
+        .timeline button:hover,.timeline button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+        .authors-bar{max-width:900px;margin:0 auto .5rem;padding:0 1rem;display:flex;gap:.3rem;flex-wrap:wrap;max-height:100px;overflow-y:auto}
+        .authors-bar button{background:var(--card);border:1px solid var(--border);color:var(--meta);padding:.15rem .5rem;border-radius:50px;font-size:.7rem;cursor:pointer;white-space:nowrap;transition:all .2s}
+        .authors-bar button:hover,.authors-bar button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+        main{max-width:900px;margin:0 auto;padding:1rem;min-height:50vh}
+        .ep{background:var(--card);border-left:4px solid var(--accent);padding:1rem 1.25rem;margin-bottom:.8rem;border-radius:0 6px 6px 0;transition:transform .15s,box-shadow .15s}
+        .ep:hover{transform:translateX(2px);box-shadow:0 2px 12px rgba(0,0,0,.2)}
+        .ep h3{font-size:1rem;margin-bottom:.3rem;color:var(--fg)}
+        .ep .meta{font-size:.75rem;color:var(--meta);margin-bottom:.5rem;display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}
+        .badge{font-size:.6rem;padding:.1rem .4rem;border-radius:50px;color:#fff;font-weight:600;text-transform:uppercase;letter-spacing:.3px}
+        .badge-rn{background:var(--rn)}.badge-anchor{background:var(--anchor)}.badge-rc{background:var(--rc)}.badge-yt{background:var(--yt)}
+        .ep p{font-size:.8rem;color:var(--meta);margin-bottom:.6rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+        .ep audio{width:100%;height:30px;margin-top:.4rem;border-radius:6px}
+        .ep audio::-webkit-media-controls-panel{background:var(--border)}
+        .ep-actions{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-top:.5rem}
+        .ep-actions a,.ep-actions button{font-size:.7rem;color:var(--meta);text-decoration:none;background:var(--border);padding:.2rem .6rem;border-radius:50px;border:none;cursor:pointer;transition:all .2s}
+        .ep-actions a:hover,.ep-actions button:hover{background:var(--accent);color:#fff}
+        .speed-select{font-size:.7rem;padding:.15rem .3rem;border-radius:4px;background:var(--border);color:var(--meta);border:none;cursor:pointer}
+        #top-btn{position:fixed;bottom:1.5rem;right:1.5rem;background:var(--accent);color:#fff;border:none;width:40px;height:40px;border-radius:50%;font-size:1.2rem;cursor:pointer;display:none;box-shadow:0 2px 10px rgba(0,0,0,.3);z-index:100;transition:opacity .3s}
+        .no-results{text-align:center;color:var(--meta);padding:3rem}
+        .top-authors{max-width:900px;margin:2rem auto 0;padding:0 1rem}
+        .top-authors h3{font-size:.9rem;color:var(--meta);margin-bottom:.5rem;text-align:center}
+        .top-authors ol{display:flex;flex-wrap:wrap;gap:.3rem 1.5rem;justify-content:center;list-style:none;font-size:.75rem;color:var(--meta)}
         .top-authors li{cursor:pointer;transition:color .2s}
         .top-authors li:hover{color:var(--accent)}
-        .no-results{text-align:center;color:var(--meta);padding:3rem;font-style:italic;grid-column:1/-1}
-        .toast{position:fixed;bottom:5rem;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:.4rem 1rem;font-size:.78rem;z-index:200;opacity:0;transition:opacity .3s;pointer-events:none;font-family:"Source Serif 4",Georgia,serif}
+        .toast{position:fixed;bottom:5rem;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;padding:.5rem 1.2rem;border-radius:50px;font-size:.85rem;z-index:200;opacity:0;transition:opacity .3s;pointer-events:none}
         .toast.show{opacity:1}
-        footer{text-align:center;padding:2rem 1rem;font-size:.7rem;color:var(--meta);border-top:1px solid var(--hairline);margin-top:2rem;max-width:1000px;margin-left:auto;margin-right:auto;text-transform:uppercase;letter-spacing:.08em}
-        footer a{color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--meta)}
-        footer a:hover{color:var(--accent);border-bottom-color:var(--accent)}
-        @media(max-width:650px){
-            .masthead-title{font-size:1.8rem}
-            main{grid-template-columns:1fr}
-            .toolbar{flex-direction:column}#search{width:100%}
-            .masthead-inner{flex-direction:column;text-align:center}
-        }
+        footer{background:var(--card);text-align:center;padding:1.5rem 1rem;border-top:1px solid var(--border);font-size:.8rem;color:var(--meta);margin-top:2rem}
+        footer a{color:var(--accent);text-decoration:none}
+        @media(max-width:600px){.header-content{flex-direction:column;text-align:center}.header-text{text-align:center}.header-text h1{font-size:1.4rem}.toolbar{flex-direction:column}#search{width:100%}}
     </style>
 </head>
 <body>
-<div class="masthead">
-    <div class="masthead-inner">
-        <img class="masthead-photo" src="cover.jpg" alt="Alejandro Apo">
-        <div>
-            <div class="masthead-title">Los cuentos de<br>Alejandro Apo</div>
-            <div class="masthead-sub">Colección independiente de cuentos narrados desde radios argentinas</div>
-        </div>
-    </div>
-    <div class="masthead-date" id="masthead-date">Edición del ···</div>
-    <div class="masthead-links">
-        <a href="rss.xml">RSS Feed</a>
-        <a href="podcast.opml">OPML</a>
-        <a href="https://podcasts.apple.com/us/podcast/id1508165282">Apple Podcasts</a>
-        <a href="https://open.spotify.com/show/alejandro-apo-am750">Spotify</a>
-        <a href="https://pca.st/itunes/1508165282">Pocket Casts</a>
-        <a href="https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fmauric75.github.io%2Fapo-rss%2Frss.xml">Validar RSS</a>
-    </div>
+<header>
+<div class="header-content">
+<img class="header-photo" src="cover.jpg" alt="Alejandro Apo" title="Click para agrandar">
+<div class="header-text">
+    <h1>Los cuentos de Alejandro Apo</h1>
+    <p>Colección automática de cuentos narrados por Alejandro Apo desde fuentes públicas argentinas.</p>
 </div>
-<div class="stats-bar">
-    <span id="stat-episodes">··· cuentos</span> ·
-    <span id="stat-authors">··· autores</span> ·
-    <span id="stat-sources">··· fuentes</span> ·
-    <span id="stat-range">···· – ····</span> ·
-    <span class="update" id="stat-updated">Actualizado: ···</span>
 </div>
+<div class="subscribe">
+    <a href="rss.xml">📻 RSS Feed</a>
+    <a href="podcast.opml">📋 OPML</a>
+    <a href="https://podcasts.apple.com/us/podcast/id1508165282">🎧 Apple Podcasts</a>
+    <a href="https://open.spotify.com/show/alejandro-apo-am750">🟢 Spotify</a>
+    <a href="https://pca.st/itunes/1508165282">📱 Pocket Casts</a>
+    <a href="https://podcastaddict.com/podcast/3315176">🎙 Podcast Addict</a>
+    <a href="https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fmauric75.github.io%2Fapo-rss%2Frss.xml" target="_blank">✅ Validar RSS</a>
+</div>
+<div class="stats">
+    <span id="stat-episodes">···</span>
+    <span id="stat-authors">···</span>
+    <span id="stat-sources">···</span>
+    <span id="stat-range">····–····</span>
+    <span id="stat-updated" style="background:rgba(29,185,84,.2)">Actualizado: ···</span>
+</div>
+</header>
 <div class="top-bar">
-    <button class="icon-btn" id="theme-btn" onclick="toggleTheme()">☀</button>
-    <button class="icon-btn" id="random-btn" onclick="randomEpisode()">Al azar</button>
-    <button class="icon-btn" id="audio-mode-btn" onclick="toggleAudioMode()">Solo audio</button>
-    <button class="icon-btn" id="listened-filter-btn" onclick="toggleListenedFilter()">No escuchados</button>
+    <button class="icon-btn" id="theme-btn" title="Modo claro/oscuro" onclick="toggleTheme()">☀️</button>
+    <button class="icon-btn" id="random-btn" title="Cuento aleatorio" onclick="randomEpisode()">🎲</button>
+    <button class="icon-btn" id="audio-mode-btn" title="Modo solo audio" onclick="toggleAudioMode()">🎧</button>
+    <button class="icon-btn" id="listened-filter-btn" title="Ocultar escuchados" onclick="toggleListenedFilter()">✅</button>
 </div>
 <div class="toolbar">
-    <input type="text" id="search" placeholder="Buscar por título, autor o fuente...">
-    <select id="sort"><option value="newest">Más nuevos</option><option value="oldest">Más viejos</option><option value="az">Autor A–Z</option><option value="longest">Más largos</option></select>
+    <input type="text" id="search" placeholder="🔍 Buscar por título, autor, fuente...">
+    <select id="sort"><option value="newest">Más nuevos</option><option value="oldest">Más viejos</option><option value="az">Autor A-Z</option><option value="longest">Más largos</option></select>
     <select id="source-filter"><option value="all">Todas las fuentes</option></select>
 </div>
-<div class="chip-bar" id="timeline"></div>
-<div class="chip-bar" id="authors-bar"></div>
+<div class="timeline" id="timeline"></div>
+<div class="authors-bar" id="authors-bar"></div>
 <main id="episodes"></main>
-<div class="no-results" id="no-results" style="display:none">No se encontraron episodios con esos filtros.</div>
+<div class="no-results" id="no-results" style="display:none">😕 No se encontraron episodios.</div>
 <div class="top-authors" id="top-authors"></div>
-<button id="top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<button id="top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Ir arriba">⬆</button>
 <div class="toast" id="toast"></div>
 <div class="queue-panel" id="queue-panel">
-    <h4>Cola de reproducción <button onclick="toggleQueue()">×</button></h4>
-    <div id="queue-list" style="font-size:.7rem;color:var(--meta);padding:1rem;text-align:center;font-style:italic">Agregue episodios con el botón + Cola</div>
+    <h4>🎵 Cola de reproducción <button onclick="toggleQueue()">✕</button></h4>
+    <div id="queue-list" style="font-size:.75rem;color:var(--meta);padding:1rem;text-align:center">Agregá episodios con el botón ➕</div>
 </div>
-<button class="queue-badge" id="queue-badge" onclick="toggleQueue()">Cola<span class="queue-count" id="queue-count" style="display:none">0</span></button>
+<button class="queue-badge" id="queue-badge" onclick="toggleQueue()" title="Cola de reproducción">📋<span class="queue-count" id="queue-count" style="display:none">0</span></button>
 <footer>
-    <span>Feed independiente — Cuentos en dominio público radial —</span>
-    <a href="https://github.com/mauric75/apo-rss">GitHub</a>
-    <span>·</span>
-    <span style="cursor:pointer" onclick="randomEpisode()">Cuento al azar</span>
+    Feed independiente — <a href="https://github.com/mauric75/apo-rss">GitHub</a> · 
+    <span style="cursor:pointer" onclick="randomEpisode()">🎲 Cuento aleatorio</span>
 </footer>
 <script>
 const PER_PAGE=25;
 let allEpisodes=[],filtered=[],shown=0,authorFilter=null,yearFilter=null,currentAudio=null;
 
-function sourceDot(fuente){
-    const f=fuente.toLowerCase();
-    if(f.includes("radio nacional"))return'<span class="source-dot source-rn" title="Radio Nacional"></span> RN';
-    if(f.includes("anchor"))return'<span class="source-dot source-anchor" title="Anchor.fm"></span> Anchor';
-    if(f.includes("radiocut"))return'<span class="source-dot source-rc" title="RadioCut"></span> RadioCut';
-    if(f.includes("youtube"))return'<span class="source-dot source-yt" title="YouTube"></span> YT';
+function sourceBadge(f){
+    const l=f.toLowerCase();
+    if(l.includes("radio nacional"))return'<span class="badge badge-rn">RN</span>';
+    if(l.includes("anchor"))return'<span class="badge badge-anchor">Anchor</span>';
+    if(l.includes("radiocut"))return'<span class="badge badge-rc">RadioCut</span>';
+    if(l.includes("youtube"))return'<span class="badge badge-yt">YT</span>';
     return'';
 }
 function fmtDuration(s){
@@ -314,24 +308,26 @@ function renderEpisode(ep,i){
     const id='ep-'+i;
     const listened=listenedSet.has(ep.guid||ep.mp3_url);
     const cls=listened?' listened':'';
-    const lBadge=listened?' <span class="listened-badge">Escuchado</span>':'';
+    const lBadge=listened?' <span class="listened-badge">✅ Escuchado</span>':'';
     const audio=ep.mp3_url?`<audio id="${id}" controls preload="none" onplay="onAudioPlay(this)" onended="onAudioEnded(this)"><source src="${ep.mp3_url}" type="audio/mpeg"></audio>`:'';
-    const autor=ep.autor_cuento?`<span>— ${ep.autor_cuento}</span>`:'';
-    const dot=sourceDot(ep.fuente);
+    const autor=ep.autor_cuento?`<span>✍ ${ep.autor_cuento}</span>`:'';
+    const badge=sourceBadge(ep.fuente);
+    const shareUrl=encodeURIComponent(ep.fuente_url||'');
+    const shareTitle=encodeURIComponent(ep.titulo);
     return`<article class="ep${cls}" data-guid="${ep.guid||ep.mp3_url||''}">
         <h3>${ep.titulo}${lBadge}</h3>
-        <div class="meta">${dot} ${autor} &nbsp; ${ep.fecha||'?'} &nbsp; ${fmtDuration(ep.duracion)}</div>
+        <div class="meta">${badge} ${autor} <span>📅 ${ep.fecha||'?'}</span> <span>⏱ ${fmtDuration(ep.duracion)}</span></div>
         <p>${ep.descripcion||''}</p>
         ${audio}
         <div class="ep-actions">
-            <a href="${ep.mp3_url||'#'}" download>Descargar</a>
-            <select class="speed-select" onchange="changeSpeed('${id}',this.value)"><option value="1">1x</option><option value="1.25">1.25x</option><option value="1.5">1.5x</option><option value="2">2x</option></select>
-            <a href="https://wa.me/?text=${encodeURIComponent(ep.titulo)}%20${encodeURIComponent(ep.fuente_url||'')}" target="_blank">WhatsApp</a>
-            <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(ep.titulo)}&url=${encodeURIComponent(ep.fuente_url||'')}" target="_blank">Twitter</a>
-            <button onclick="copyLink('${ep.fuente_url||''}')">Copiar link</button>
-            <button onclick="addToQueue('${id}','${ep.titulo.replace(/'/g,"\\'")}','${ep.autor_cuento||''}')">+ Cola</button>
-            ${listened?'<button onclick="markUnlistened(\''+(ep.guid||ep.mp3_url)+'\')">No escuchado</button>':'<button onclick="markListened(\''+(ep.guid||ep.mp3_url)+'\')">Escuchado</button>'}
-            <a href="${ep.fuente_url||'#'}" target="_blank">Fuente</a>
+            <a href="${ep.mp3_url||'#'}" download title="Descargar MP3">⬇ Descargar</a>
+            <select class="speed-select" onchange="changeSpeed('${id}',this.value)" title="Velocidad"><option value="1">1x</option><option value="1.25">1.25x</option><option value="1.5">1.5x</option><option value="2">2x</option></select>
+            <a href="https://wa.me/?text=${shareTitle}%20${shareUrl}" target="_blank" title="Compartir WhatsApp">💬</a>
+            <a href="https://twitter.com/intent/tweet?text=${shareTitle}&url=${shareUrl}" target="_blank" title="Compartir Twitter">🐦</a>
+            <button onclick="copyLink('${ep.fuente_url||''}')" title="Copiar link">📋</button>
+            <button onclick="addToQueue('${id}','${ep.titulo.replace(/'/g,"\\'")}','${ep.autor_cuento||''}')" title="Agregar a la cola">➕ Cola</button>
+            ${listened?'<button onclick="markUnlistened(\''+(ep.guid||ep.mp3_url)+'\')" title="Marcar no escuchado">↩</button>':'<button onclick="markListened(\''+(ep.guid||ep.mp3_url)+'\')" title="Marcar escuchado">✅</button>'}
+            <a href="${ep.fuente_url||'#'}" target="_blank" style="color:var(--accent)">🔗 Fuente</a>
         </div>
     </article>`;
 }
@@ -348,17 +344,28 @@ function onAudioEnded(audio){
         allAudio[idx+1].play();
     }
 }
-function changeSpeed(id,val){const a=document.getElementById(id);if(a)a.playbackRate=parseFloat(val);}
-function copyLink(url){navigator.clipboard.writeText(url).then(()=>toast('Link copiado'));}
+function changeSpeed(id,val){
+    const a=document.getElementById(id);
+    if(a)a.playbackRate=parseFloat(val);
+}
+function copyLink(url){
+    navigator.clipboard.writeText(url).then(()=>toast('✅ Link copiado!'));
+}
 function randomEpisode(){
     if(!filtered.length)return;
     const ep=filtered[Math.floor(Math.random()*filtered.length)];
     document.getElementById("search").value='';
-    authorFilter=null;yearFilter=null;updateButtons();filterAndSort();
+    authorFilter=null;yearFilter=null;
+    updateButtons();
+    filterAndSort();
     setTimeout(()=>{
         const audios=[...document.querySelectorAll('main audio')];
         const idx=allEpisodes.indexOf(ep);
-        if(idx>=0&&audios[idx]){audios[idx].scrollIntoView({behavior:'smooth',block:'center'});audios[idx].play();toast(ep.titulo.substring(0,60)+'...');}
+        if(idx>=0&&audios[idx]){
+            audios[idx].scrollIntoView({behavior:'smooth',block:'center'});
+            audios[idx].play();
+            toast('🎲 '+ep.titulo.substring(0,60)+'...');
+        }
     },300);
 }
 function filterAndSort(){
@@ -368,7 +375,13 @@ function filterAndSort(){
     filtered=allEpisodes.filter(ep=>{
         if(authorFilter&&ep.autor_cuento!==authorFilter)return false;
         if(yearFilter&&(ep.fecha||'').substring(0,4)!==yearFilter)return false;
-        if(srcFilter!=='all'){const f=ep.fuente.toLowerCase();if(srcFilter==='rn'&&!f.includes('radio nacional'))return false;if(srcFilter==='anchor'&&!f.includes('anchor'))return false;if(srcFilter==='rc'&&!f.includes('radiocut'))return false;if(srcFilter==='yt'&&!f.includes('youtube'))return false;}
+        if(srcFilter!=='all'){
+            const f=ep.fuente.toLowerCase();
+            if(srcFilter==='rn'&&!f.includes('radio nacional'))return false;
+            if(srcFilter==='anchor'&&!f.includes('anchor'))return false;
+            if(srcFilter==='rc'&&!f.includes('radiocut'))return false;
+            if(srcFilter==='yt'&&!f.includes('youtube'))return false;
+        }
         if(q){const t=(ep.titulo+' '+ep.autor_cuento+' '+ep.fuente+' '+ep.descripcion).toLowerCase();if(!t.includes(q))return false;}
         if(hideListened&&listenedSet.has(ep.guid||ep.mp3_url))return false;
         return true;
@@ -383,19 +396,23 @@ function filterAndSort(){
 }
 function loadMore(){
     const c=document.getElementById("episodes");
-    const startIdx=shown,toShow=filtered.slice(shown,shown+PER_PAGE);
+    const startIdx=shown;
+    const toShow=filtered.slice(shown,shown+PER_PAGE);
     toShow.forEach((ep,i)=>c.innerHTML+=renderEpisode(ep,startIdx+i));
     shown+=toShow.length;
     document.getElementById("no-results").style.display=(filtered.length===0&&shown===0)?'':'none';
 }
+// Infinite scroll
 let scrollTimeout;
 window.addEventListener('scroll',()=>{
     clearTimeout(scrollTimeout);
     scrollTimeout=setTimeout(()=>{
-        document.getElementById("top-btn").style.display=window.scrollY>500?'':'none';
+        const btn=document.getElementById("top-btn");
+        btn.style.display=window.scrollY>500?'':'none';
         if(shown<filtered.length&&window.innerHeight+window.scrollY>=document.body.offsetHeight-400)loadMore();
     },100);
 });
+// Keyboard shortcuts
 document.addEventListener('keydown',e=>{
     if(e.target.tagName==='INPUT'||e.target.tagName==='SELECT')return;
     if(e.key==='r'||e.key==='R')randomEpisode();
@@ -405,7 +422,7 @@ document.addEventListener('keydown',e=>{
 });
 function toggleTheme(){
     const isLight=document.body.classList.toggle('light');
-    document.getElementById("theme-btn").textContent=isLight?'☾':'☀';
+    document.getElementById("theme-btn").textContent=isLight?'🌙':'☀️';
     localStorage.setItem('theme',isLight?'light':'dark');
 }
 function buildTimeline(){
@@ -413,7 +430,7 @@ function buildTimeline(){
     allEpisodes.forEach(ep=>{const y=(ep.fecha||'????').substring(0,4);years[y]=(years[y]||0)+1;});
     const sorted=Object.keys(years).sort().reverse();
     const t=document.getElementById("timeline");
-    t.innerHTML='<button class="active" onclick="yearFilter=null;updateButtons();filterAndSort()">Todos los años</button>';
+    t.innerHTML='<button class="active" onclick="yearFilter=null;updateButtons();filterAndSort()">Todos</button>';
     sorted.forEach(y=>{t.innerHTML+=`<button onclick="yearFilter='${y}';updateButtons();filterAndSort()">${y} (${years[y]})</button>`;});
 }
 function buildAuthorBar(){
@@ -421,15 +438,17 @@ function buildAuthorBar(){
     allEpisodes.forEach(ep=>{if(ep.autor_cuento)authors[ep.autor_cuento]=(authors[ep.autor_cuento]||0)+1;});
     const sorted=Object.entries(authors).sort((a,b)=>b[1]-a[1]);
     const bar=document.getElementById("authors-bar");
-    bar.innerHTML='<button class="active" onclick="authorFilter=null;updateButtons();filterAndSort()">Todos los autores</button>';
+    bar.innerHTML='<button class="active" onclick="authorFilter=null;updateButtons();filterAndSort()">Todos</button>';
     sorted.forEach(([a,c])=>{bar.innerHTML+=`<button onclick="authorFilter='${a.replace(/'/g,"\\'")}';updateButtons();filterAndSort()">${a} (${c})</button>`;});
+    // Top 10
     const top=document.getElementById("top-authors");
-    top.innerHTML='<h3>Autores con más cuentos</h3><ol>'+sorted.slice(0,10).map(([a,c])=>`<li onclick="authorFilter='${a.replace(/'/g,"\\'")}';updateButtons();filterAndSort();window.scrollTo({top:300,behavior:'smooth'})">${a} (${c})</li>`).join('')+'</ol>';
+    top.innerHTML='<h3>🏆 Autores con más cuentos</h3><ol>'+sorted.slice(0,10).map(([a,c])=>`<li onclick="authorFilter='${a.replace(/'/g,"\\'")}';updateButtons();filterAndSort();window.scrollTo({top:300,behavior:'smooth'})">${a} (${c})</li>`).join('')+'</ol>';
 }
 function updateButtons(){
-    document.querySelectorAll("#authors-bar button,#timeline button").forEach(b=>{
+    document.querySelectorAll("#authors-bar button,.timeline button").forEach(b=>{
         const t=b.textContent;
-        b.classList.toggle("active",t.startsWith(authorFilter||'Todos')||t.startsWith(yearFilter||'Todos'));
+        const match=(t.startsWith(authorFilter||'Todos'))||(t.startsWith(yearFilter||'Todos'));
+        b.classList.toggle("active",match);
     });
 }
 function buildSourceFilter(){
@@ -447,50 +466,64 @@ function buildSourceFilter(){
     if(s['rc'])sel.innerHTML+='<option value="rc">RadioCut ('+s['rc']+')</option>';
     if(s['yt'])sel.innerHTML+='<option value="yt">YouTube ('+s['yt']+')</option>';
 }
+// ── Cola de reproducción ──
 let queue=[];
-function addToQueue(audioId,title,author){queue.push({audioId,title,author});renderQueue();document.getElementById("queue-badge").style.display='';toast('Agregado a la cola: '+title.substring(0,50));}
+function addToQueue(audioId,title,author){
+    queue.push({audioId,title,author});renderQueue();
+    document.getElementById("queue-badge").style.display='';
+    toast('➕ '+title.substring(0,50));
+}
 function removeFromQueue(idx){queue.splice(idx,1);renderQueue();if(!queue.length)document.getElementById("queue-badge").style.display='none';}
 function renderQueue(){
     const list=document.getElementById("queue-list"),count=document.getElementById("queue-count");
-    if(!queue.length){list.innerHTML='<div style="padding:1rem;text-align:center;color:var(--meta);font-style:italic">Cola vacía</div>';count.style.display='none';}
-    else{list.innerHTML=queue.map((q,i)=>`<div class="queue-item" onclick="playFromQueue(${i})"><span class="remove" onclick="event.stopPropagation();removeFromQueue(${i})">×</span><span style="flex:1">${q.title.substring(0,50)}</span><span style="color:var(--meta);font-size:.6rem;text-transform:uppercase;letter-spacing:.05em">${(q.author||'').substring(0,20)}</span></div>`).join('');count.textContent=queue.length;count.style.display='';}
+    if(!queue.length){list.innerHTML='<div style="padding:1rem;text-align:center;color:var(--meta)">Cola vacía</div>';count.style.display='none';}
+    else{list.innerHTML=queue.map((q,i)=>`<div class="queue-item" onclick="playFromQueue(${i})"><span class="remove" onclick="event.stopPropagation();removeFromQueue(${i})">✕</span><span style="flex:1">${q.title.substring(0,50)}</span><span style="color:var(--meta);font-size:.7rem">${(q.author||'').substring(0,20)}</span></div>`).join('');count.textContent=queue.length;count.style.display='';}
 }
-function playFromQueue(idx){const q=queue[idx];const a=document.getElementById(q.audioId);if(a){a.scrollIntoView({behavior:'smooth',block:'center'});a.play();}queue.splice(idx,1);renderQueue();}
+function playFromQueue(idx){
+    const q=queue[idx];const a=document.getElementById(q.audioId);
+    if(a){a.scrollIntoView({behavior:'smooth',block:'center'});a.play();}
+    queue.splice(idx,1);renderQueue();
+}
 function toggleQueue(){document.getElementById("queue-panel").classList.toggle("open");}
+// ── Modo solo audio ──
 function toggleAudioMode(){
     const isOn=document.body.classList.toggle("audio-only");
-    document.getElementById("audio-mode-btn").textContent=isOn?'Vista completa':'Solo audio';
+    document.getElementById("audio-mode-btn").textContent=isOn?'📖':'🎧';
     localStorage.setItem('audioOnly',isOn?'1':'0');
 }
+// ── Marcar escuchados ──
 let listenedSet=new Set(JSON.parse(localStorage.getItem('listened')||'[]'));
 let hideListened=false;
 function markListened(guid){listenedSet.add(guid);saveListened();refreshDisplay();}
 function markUnlistened(guid){listenedSet.delete(guid);saveListened();refreshDisplay();}
 function saveListened(){localStorage.setItem('listened',JSON.stringify([...listenedSet]));}
-function toggleListenedFilter(){hideListened=!hideListened;document.getElementById("listened-filter-btn").textContent=hideListened?'Mostrar todos':'No escuchados';refreshDisplay();}
+function toggleListenedFilter(){hideListened=!hideListened;document.getElementById("listened-filter-btn").textContent=hideListened?'☑️':'✅';refreshDisplay();}
 function refreshDisplay(){filterAndSort();renderQueue();}
 async function init(){
     try{const r=await fetch('episodes.json');allEpisodes=await r.json();}catch(e){
-        document.getElementById("episodes").innerHTML='<div class="no-results">Error al cargar episodios.</div>';return;
+        document.getElementById("episodes").innerHTML='<div class="no-results">Error al cargar episodios 😞</div>';return;
     }
     const autores=new Set(allEpisodes.map(e=>e.autor_cuento).filter(Boolean));
     const fuentes=new Set(allEpisodes.map(e=>e.fuente.split(' - ')[0]));
     const dates=allEpisodes.map(e=>e.fecha).filter(Boolean).sort();
-    document.getElementById("stat-episodes").textContent=allEpisodes.length+' cuentos';
+    document.getElementById("stat-episodes").textContent=allEpisodes.length+' episodios';
     document.getElementById("stat-authors").textContent=autores.size+' autores';
     document.getElementById("stat-sources").textContent=fuentes.size+' fuentes';
     document.getElementById("stat-range").textContent=(dates[0]||'?')+' – '+(dates[dates.length-1]||'?');
-    const extraidos=allEpisodes.map(e=>e.extraido).filter(Boolean).sort().reverse();
-    const lastUpdate=extraidos[0];
-    let updateText='Actualizado: ';
-    if(lastUpdate){const diff=Date.now()-new Date(lastUpdate).getTime();const hours=Math.floor(diff/3600000);const days=Math.floor(hours/24);updateText+=days>0?'hace '+days+' día'+(days>1?'s':''):hours>0?'hace '+hours+'h':'ahora';}
-    else{updateText+='desconocido';}
-    document.getElementById("stat-updated").textContent=updateText;
-    const today=new Date();
-    const meses=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
-    document.getElementById("masthead-date").textContent='Edición del '+today.getDate()+' de '+meses[today.getMonth()]+' de '+today.getFullYear();
-    if(localStorage.getItem('theme')==='light'){document.body.classList.add('light');document.getElementById("theme-btn").textContent='☾';}
-    if(localStorage.getItem('audioOnly')==='1'){document.body.classList.add('audio-only');document.getElementById("audio-mode-btn").textContent='Vista completa';}
+    // Theme
+    if(localStorage.getItem('theme')==='light'){document.body.classList.add('light');document.getElementById("theme-btn").textContent='🌙';}
+    if(localStorage.getItem('audioOnly')==='1'){document.body.classList.add('audio-only');document.getElementById("audio-mode-btn").textContent='📖';}
+    const extraidos = allEpisodes.map(e=>e.extraido).filter(Boolean).sort().reverse();
+    const lastUpdate = extraidos[0];
+    let updateText = 'Actualizado: ';
+    if(lastUpdate){
+        const diff = Date.now() - new Date(lastUpdate).getTime();
+        const hours = Math.floor(diff/3600000);
+        const days = Math.floor(hours/24);
+        updateText += days>0 ? 'hace '+days+' día'+(days>1?'s':'') : hours>0 ? 'hace '+hours+'h' : 'ahora';
+    } else { updateText += 'desconocido'; }
+    document.getElementById("stat-updated").textContent = updateText;
+    
     buildTimeline();buildAuthorBar();buildSourceFilter();filterAndSort();
     document.getElementById("search").addEventListener("input",filterAndSort);
     document.getElementById("sort").addEventListener("change",filterAndSort);
@@ -501,6 +534,7 @@ init();
 </body>
 </html>'''
     Path("index.html").write_text(html, encoding="utf-8")
+
 
 
 def main():
