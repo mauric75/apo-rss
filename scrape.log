@@ -1,64 +1,184 @@
-2026-07-13 00:47:13,655 [INFO] === Inicio de scraping ===
-2026-07-13 00:47:13,655 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/
-2026-07-13 00:47:15,349 [INFO]   OK RN Feed: 'Pena' de Carlos Ferreira
-2026-07-13 00:47:16,617 [INFO]   OK RN Feed: 'El cuadro de Raulito' de Eduardo Sacheri
-2026-07-13 00:47:17,710 [INFO]   OK RN Feed: 'Los traidores', de Eduardo Sacheri
-2026-07-13 00:47:18,957 [INFO]   OK RN Feed: 'De chilena', de Eduardo Sacheri
-2026-07-13 00:47:20,170 [INFO]   OK RN Feed: 'El álbum', de Héctor Sánchez
-2026-07-13 00:47:21,491 [INFO]   OK RN Feed: 'Un gol asegurado' de Fernando Musa
-2026-07-13 00:47:22,707 [INFO]   OK RN Feed: 'El Pampa' de Roberto Fontanarrosa
-2026-07-13 00:47:23,989 [INFO]   OK RN Feed: 'Chau Mono' de Alfredo Carlino
-2026-07-13 00:47:25,287 [INFO]   OK RN Feed: 'Finito' de Guillermo Blanco
-2026-07-13 00:47:26,288 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=2
-2026-07-13 00:47:26,852 [INFO]   OK RN Feed: 'Todo mientras Diego' de Ariel Scher
-2026-07-13 00:47:28,079 [INFO]   OK RN Feed: 'Relatores' de Alejandro Dolina
-2026-07-13 00:47:29,805 [INFO]   OK RN Feed: 'El último centrojás' de Juan Sasturain
-2026-07-13 00:47:30,998 [INFO]   OK RN Feed: 'Apuntes acerca de una mala mujer' de Sergio Ranieri
-2026-07-13 00:47:32,326 [INFO]   OK RN Feed: 'Señor Labruna' de Rodolfo Braceli
-2026-07-13 00:47:33,643 [INFO]   OK RN Feed: 'Esperándolo a Tito' de Eduardo Sacheri
-2026-07-13 00:47:34,947 [INFO]   OK RN Feed: 'Oración por un gol' de Vicente Gaos
-2026-07-13 00:47:36,251 [INFO]   OK RN Feed: 'Tenemos un arquero que es una maravilla' de Eduardo Maicas
-2026-07-13 00:47:37,251 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=3
-2026-07-13 00:47:37,775 [INFO]   OK RN Feed: "El Chango Agüero, Schopenhauer y el descenso", de Osvaldo Soriano
-2026-07-13 00:47:39,084 [INFO]   OK RN Feed: "De Chilena", de Eduardo Sacheri
-2026-07-13 00:47:40,397 [INFO]   OK RN Feed: “Creo, vieja, que tu hijo la cagó”, de Jorge Valdano
-2026-07-13 00:47:41,718 [INFO]   OK RN Feed: "El pichón de Cristo", de Roberto Fontanarrosa
-2026-07-13 00:47:43,043 [INFO]   OK RN Feed: “Una sonrisa exactamente así”, de Eduardo Sacheri
-2026-07-13 00:47:44,303 [INFO]   OK RN Feed: "El hombre que murió dos veces", de Juan Villoro
-2026-07-13 00:47:45,641 [INFO]   OK RN Feed: Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'
-2026-07-13 00:47:47,008 [INFO]   OK RN Feed: "Transmisión diferida", de Jaime Muñoz Vargas
-2026-07-13 00:47:48,009 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=4
-2026-07-13 00:47:48,736 [INFO]   OK RN Feed: "De chilena", de Eduardo Sacheri
-2026-07-13 00:47:50,034 [INFO]   OK RN Feed: “La posibilidad sublime”, de Pablo Ramos
-2026-07-13 00:47:51,350 [INFO]   OK RN Feed: "Viejo con árbol", de Roberto Fontanarrosa
-2026-07-13 00:47:52,416 [INFO]   OK RN Feed: "Un trapo: Inmortal radiografía de las almas nobles" de Mario Giannotti
-2026-07-13 00:47:53,758 [INFO]   OK RN Feed: El "Pichón de Cristo" de Roberto Fontanarrosa
-2026-07-13 00:47:54,759 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=5
-2026-07-13 00:47:55,319 [INFO]   OK RN Feed: “Inside derecho”, de Humberto
-2026-07-13 00:47:56,613 [INFO]   OK RN Feed: "Banderín solferino", de Juan Sasturain
-2026-07-13 00:47:58,884 [INFO] Procesando: https://www.pagina12.com.ar/tags/7116-alejandro-apo#main
-2026-07-13 00:48:00,102 [INFO] Procesando: https://www.pagina12.com.ar/
-2026-07-13 00:48:01,588 [INFO] Procesando: https://www.pagina12.com.ar/tags/seleccion-argentina
-2026-07-13 00:48:03,327 [INFO] Procesando: https://www.pagina12.com.ar/tags/suiza
-2026-07-13 00:48:04,887 [INFO] Procesando: https://www.pagina12.com.ar/tags/lionel-messi
-2026-07-13 00:48:06,727 [INFO] Procesando: https://www.pagina12.com.ar/tags/futbol
-2026-07-13 00:48:08,478 [INFO] Procesando: https://www.pagina12.com.ar/tags/lionel-scaloni
-2026-07-13 00:48:10,220 [INFO] Procesando: https://www.pagina12.com.ar/tags/emiliano-martinez
-2026-07-13 00:48:11,932 [INFO] Procesando: https://www.pagina12.com.ar/tags/julian-alvarez
-2026-07-13 00:48:13,653 [INFO] Procesando: https://www.pagina12.com.ar/am750
-2026-07-13 00:48:15,339 [INFO] Procesando: https://www.pagina12.com.ar/no
-2026-07-13 00:48:17,047 [INFO] Procesando: https://socios.pagina12.com.ar/
-2026-07-13 00:48:18,799 [INFO] Procesando: https://www.pagina12.com.ar/especiales-pagina12
-2026-07-13 00:48:20,480 [INFO] Procesando: https://www.pagina12.com.ar/860299-apo-lee-inside-derecho-de-humberto-costantini
-2026-07-13 00:48:23,133 [INFO] Procesando: https://www.pagina12.com.ar/824368-apo-lee-entrevista-de-humberto-costantini
-2026-07-13 00:48:25,902 [INFO] Procesando: https://www.pagina12.com.ar/822673-david-vinas-en-la-voz-de-alejandro-apo-tanda-de-repuesto
-2026-07-13 00:48:28,444 [INFO] Procesando: https://www.pagina12.com.ar/822425-las-exquisitas-lecturas-de-alejandro-apo
-2026-07-13 00:48:31,312 [INFO] Procesando: https://www.pagina12.com.ar/821675-apo-lee-la-verdad-esta-triste-de-enrique-estrazulas
-2026-07-13 00:48:33,983 [INFO] Procesando: https://www.pagina12.com.ar/820959-apo-lee-poesia-vertical-de-roberto-juarroz
-2026-07-13 00:48:36,743 [INFO] Procesando: https://www.pagina12.com.ar/820577-las-exquisitas-lecturas-de-alejandro-apo
-2026-07-13 00:48:39,441 [INFO] Procesando: https://www.pagina12.com.ar/820275-las-lecturas-de-alejandro-apo-cura-sin-sotana-de-felix-luna
-2026-07-13 00:48:42,129 [INFO] Procesando: https://www.pagina12.com.ar/819153-alejandro-apo-lee-el-pichon-de-cristo-de-fontanarrosa
-2026-07-13 00:48:44,735 [INFO] Procesando: https://www.pagina12.com.ar/tags/alejandro-apo/1
-2026-07-13 00:48:46,917 [INFO] Procesando: https://www.pagina12.com.ar/terminos-y-condiciones
-2026-07-13 00:48:48,744 [INFO] Sin episodios nuevos.
-2026-07-13 00:48:48,744 [INFO] === Fin ===
+2026-07-13 02:14:48,476 [INFO] === Inicio de scraping ===
+2026-07-13 02:14:48,477 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/
+2026-07-13 02:14:50,286 [INFO]   OK RN Feed: 'Pena' de Carlos Ferreira
+2026-07-13 02:14:51,746 [INFO]   OK RN Feed: 'El cuadro de Raulito' de Eduardo Sacheri
+2026-07-13 02:14:53,216 [INFO]   OK RN Feed: 'Los traidores', de Eduardo Sacheri
+2026-07-13 02:14:54,688 [INFO]   OK RN Feed: 'De chilena', de Eduardo Sacheri
+2026-07-13 02:14:56,143 [INFO]   OK RN Feed: 'El álbum', de Héctor Sánchez
+2026-07-13 02:14:57,457 [INFO]   OK RN Feed: 'Un gol asegurado' de Fernando Musa
+2026-07-13 02:14:58,909 [INFO]   OK RN Feed: 'El Pampa' de Roberto Fontanarrosa
+2026-07-13 02:15:00,388 [INFO]   OK RN Feed: 'Chau Mono' de Alfredo Carlino
+2026-07-13 02:15:01,906 [INFO]   OK RN Feed: 'Finito' de Guillermo Blanco
+2026-07-13 02:15:03,384 [INFO]   OK RN Feed: 'Todo mientras Diego' de Ariel Scher
+2026-07-13 02:15:04,848 [INFO]   OK RN Feed: 'Relatores' de Alejandro Dolina
+2026-07-13 02:15:06,303 [INFO]   OK RN Feed: 'El último centrojás' de Juan Sasturain
+2026-07-13 02:15:07,776 [INFO]   OK RN Feed: 'Apuntes acerca de una mala mujer' de Sergio Ranieri
+2026-07-13 02:15:09,248 [INFO]   OK RN Feed: 'Señor Labruna' de Rodolfo Braceli
+2026-07-13 02:15:10,715 [INFO]   OK RN Feed: 'Esperándolo a Tito' de Eduardo Sacheri
+2026-07-13 02:15:12,168 [INFO]   OK RN Feed: 'Oración por un gol' de Vicente Gaos
+2026-07-13 02:15:13,466 [INFO]   OK RN Feed: 'Tenemos un arquero que es una maravilla' de Eduardo Maicas
+2026-07-13 02:15:14,925 [INFO]   OK RN Feed: "El Chango Agüero, Schopenhauer y el descenso", de Osvaldo Soriano
+2026-07-13 02:15:16,377 [INFO]   OK RN Feed: "De Chilena", de Eduardo Sacheri
+2026-07-13 02:15:17,737 [INFO]   OK RN Feed: “Creo, vieja, que tu hijo la cagó”, de Jorge Valdano
+2026-07-13 02:15:19,195 [INFO]   OK RN Feed: "El pichón de Cristo", de Roberto Fontanarrosa
+2026-07-13 02:15:20,671 [INFO]   OK RN Feed: “Una sonrisa exactamente así”, de Eduardo Sacheri
+2026-07-13 02:15:22,144 [INFO]   OK RN Feed: "El hombre que murió dos veces", de Juan Villoro
+2026-07-13 02:15:23,590 [INFO]   OK RN Feed: Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'
+2026-07-13 02:15:24,904 [INFO]   OK RN Feed: "Transmisión diferida", de Jaime Muñoz Vargas
+2026-07-13 02:15:26,365 [INFO]   OK RN Feed: "De chilena", de Eduardo Sacheri
+2026-07-13 02:15:27,650 [INFO]   OK RN Feed: “La posibilidad sublime”, de Pablo Ramos
+2026-07-13 02:15:29,115 [INFO]   OK RN Feed: "Viejo con árbol", de Roberto Fontanarrosa
+2026-07-13 02:15:30,642 [INFO]   OK RN Feed: "Un trapo: Inmortal radiografía de las almas nobles" de Mario Giannotti
+2026-07-13 02:15:32,064 [INFO]   OK RN Feed: El "Pichón de Cristo" de Roberto Fontanarrosa
+2026-07-13 02:15:33,541 [INFO]   OK RN Feed: “Inside derecho”, de Humberto
+2026-07-13 02:15:34,971 [INFO]   OK RN Feed: "Banderín solferino", de Juan Sasturain
+2026-07-13 02:15:36,068 [INFO]   OK RN Feed: "Todo mientras Diego", de Ariel Scher
+2026-07-13 02:15:37,232 [INFO]   OK RN Feed: "Creo, vieja, que tu hijo la cagó", de Jorge Valdano
+2026-07-13 02:15:38,899 [INFO]   OK RN Feed: "Cuentos de los años felices", de Osvaldo Soriano
+2026-07-13 02:15:40,065 [INFO]   OK RN Feed: "Pura verdad", de Ángel Cappa
+2026-07-13 02:15:41,739 [INFO]   OK RN Feed: "De chilena", de Eduardo Sacheri
+2026-07-13 02:15:42,903 [INFO]   OK RN Feed: “Milagro en Parque Chas”, de Inés Fernández Moreno
+2026-07-13 02:15:44,215 [INFO]   OK RN Feed: "Puntero izquierdo", de Mario Benedetti
+2026-07-13 02:15:45,415 [INFO]   OK RN Feed: "Aventura", de Ariel Scher
+2026-07-13 02:15:46,578 [INFO]   OK RN Feed: "El referí demasiado justo", de Alejandro Dolina
+2026-07-13 02:15:47,738 [INFO]   OK RN Feed: "La barrera", de Roberto Fontanarrosa
+2026-07-13 02:15:49,197 [INFO]   OK RN Feed: "Un verano italiano", de Eduardo Sacheri
+2026-07-13 02:15:51,140 [INFO]   OK RN Feed: Ese gol, ese relato, ese recuerdo: 36 años del gol de Maradona a los ingleses
+2026-07-13 02:15:52,567 [INFO]   OK RN Feed: "Sin fecha de vencimiento", de Magdalena Aicega
+2026-07-13 02:15:53,727 [INFO]   OK RN Feed: “Jugar con una Tango”, de Eduardo Sacheri
+2026-07-13 02:15:54,890 [INFO]   OK RN Feed: "Señor Pastoriza", de Eduardo Sacheri
+2026-07-13 02:15:56,051 [INFO]   OK RN Feed: "Fútbol", de Juan José Manauta
+2026-07-13 02:15:57,693 [INFO]   OK RN Feed: "Romance de barrio", de Rafael Bielsa
+2026-07-13 02:15:58,856 [INFO]   OK RN Feed: “Los últimos salileros”, de Roberto Fontanarrosa
+2026-07-13 02:16:00,032 [INFO]   OK RN Feed: “Ambrois no llenó el álbum”, de Carlos Abin
+2026-07-13 02:16:01,481 [INFO]   OK RN Feed: "El Patio de las Pelotas Perdidas" y "El Tipo que pasaba por ahí", dos cuentos de Alejandro Dolina
+2026-07-13 02:16:02,815 [INFO]   OK RN Feed: "Fútbol", de Juan José Manauta
+2026-07-13 02:16:04,008 [INFO]   OK RN Feed: “El príncipe idiota”, de Aldo Riera
+2026-07-13 02:16:05,170 [INFO]   OK RN Feed: “Torito” de Julio Cortázar
+2026-07-13 02:16:06,328 [INFO]   OK RN Feed: "Tigre, una fiera de primera" de Juan Roberto Presta
+2026-07-13 02:16:07,528 [INFO]   OK RN Feed: "Maradona sí, Galtieri no" de Osvaldo Soriano
+2026-07-13 02:16:09,215 [INFO]   OK RN Feed: "El arco de Noé", de Roberto Braceli
+2026-07-13 02:16:10,375 [INFO]   OK RN Feed: “Un duende que jugaba a la pelota”, de Rodolfo Braceli
+2026-07-13 02:16:11,533 [INFO]   OK RN Feed: “El cuadro de Raulito”, de Eduardo Sacheri
+2026-07-13 02:16:13,183 [INFO]   OK RN Feed: "Maradona, el unicornio del fútbol", de Etin Ponce
+2026-07-13 02:16:14,383 [INFO]   OK RN Feed: "Gol de Dostoyevski", de Ariel Scher
+2026-07-13 02:16:15,546 [INFO]   OK RN Feed: “El crack”, de Augusto Roa Bastos
+2026-07-13 02:16:16,708 [INFO]   OK RN Feed: “La máquina”, de Eduardo Galeano
+2026-07-13 02:16:17,873 [INFO]   OK RN Feed: "Cumpleaños con historia", de Guillermo Ronnow
+2026-07-13 02:16:19,040 [INFO]   OK RN Feed: "Un domingo de fútbol", de Mario Sábato
+2026-07-13 02:16:20,204 [INFO]   OK RN Feed: "Insai izquierdo", de Humberto Costantini
+2026-07-13 02:16:21,869 [INFO]   OK RN Feed: “Nueve y diez”, de Abel Antonio Ponse
+2026-07-13 02:16:23,066 [INFO]   OK RN Feed: "La pelota me eligió a mí", de Silvio Velo
+2026-07-13 02:16:24,736 [INFO]   OK RN Feed: "La observación de los pájaros", de Roberto Fontanarrosa
+2026-07-13 02:16:25,900 [INFO]   OK RN Feed: “Una sonrisa exactamente así”, de Eduardo Sacheri
+2026-07-13 02:16:27,067 [INFO]   OK RN Feed: “Último hombre”, de Eduardo Sacheri
+2026-07-13 02:16:28,267 [INFO]   OK RN Feed: “El locutor de tanda más rápido del mundo”, de Pedro Saborido
+2026-07-13 02:16:29,578 [INFO]   OK RN Feed: "El rulo y la muerte", de Eduardo Sacheri
+2026-07-13 02:16:30,768 [INFO]   OK RN Feed: "Lacus vendelinus", de Roberto Fontanarrosa
+2026-07-13 02:16:31,957 [INFO]   OK RN Feed: "La fiesta", de Tato Contissa
+2026-07-13 02:16:33,145 [INFO]   OK RN Feed: "Muérete Ringo", de Juan José Becerra
+2026-07-13 02:16:34,830 [INFO]   OK RN Feed: "El penal a Conigliaro", de Rafael Bielsa
+2026-07-13 02:16:36,019 [INFO]   OK RN Feed: "El equipo de mis sueños", de Pedro Saborido
+2026-07-13 02:16:37,205 [INFO]   OK RN Feed: "A los 27 minutos", de Rodolfo Braceli
+2026-07-13 02:16:38,878 [INFO]   OK RN Feed: "La promesa", de Eduardo Sacheri
+2026-07-13 02:16:40,101 [INFO]   OK RN Feed: "¿Por qué no lo sacás, Sarlanga?", de Pedro Saborido
+2026-07-13 02:16:41,325 [INFO]   OK RN Feed: "Habilidosos y troncos", de Juan Carlos Muñiz y Raúl Fortín
+2026-07-13 02:16:43,003 [INFO]   OK RN Feed: “Jugador de fútbol”, de Ignacio Bogino
+2026-07-13 02:16:44,190 [INFO]   OK RN Feed: "Picado de patio", de Juan Carlos Muñiz
+2026-07-13 02:16:45,380 [INFO]   OK RN Feed: “En paz descansa”, de Eduardo Sacheri
+2026-07-13 02:16:47,501 [INFO]   OK RN Feed: "Señor Labruna", de Rodolfo Braceli
+2026-07-13 02:16:49,055 [INFO]   OK RN Feed: "Los puestos ingratos", de Juan Carlos Muñiz y Raúl Fortín
+2026-07-13 02:16:50,633 [INFO]   OK RN Feed: "El cuadrito de mi amor", de Delfina Corti
+2026-07-13 02:16:52,525 [INFO]   OK RN Feed: "Maradona, el violín del pie", de Alfredo Carlino
+2026-07-13 02:16:53,956 [INFO]   OK RN Feed: "El álbum", de Héctor Sánchez
+2026-07-13 02:16:55,344 [INFO]   OK RN Feed: El homenaje para Osvaldo Wehbe en el día en que hubiese cumplido 64 años
+2026-07-13 02:16:56,869 [INFO]   OK RN Feed: “Los últimos salileros”, de Roberto Fontanarrosa
+2026-07-13 02:16:58,631 [INFO]   OK RN Feed: Víctor Hugo Morales, maestro del periodismo y el relato deportivo
+2026-07-13 02:17:00,499 [INFO]   OK RN Feed: "19 de diciembre de 1971", de Roberto Fontanarrosa
+2026-07-13 02:17:02,311 [INFO]   OK RN Feed: "El ocho era Moacyr", de Roberto Fontanarrosa
+2026-07-13 02:17:04,152 [INFO]   OK RN Feed: "Relatores", de Alejandro Dolina
+2026-07-13 02:17:06,068 [INFO]   OK RN Feed: "Me van a tener que disculpar", de Eduardo Sacheri
+2026-07-13 02:17:07,838 [INFO]   OK RN Feed: Los 60 años de Diego Maradona: cuentos, mensajes y anécdotas del Diez
+2026-07-13 02:17:09,588 [INFO]   OK RN Feed: "Aprendiz del barro", de Enrique Estrázulas
+2026-07-13 02:17:11,374 [INFO]   OK RN Feed: "Apuntes del fútbol en Flores", de Alejandro Dolina
+2026-07-13 02:17:12,375 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=2
+2026-07-13 02:17:13,754 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=3
+2026-07-13 02:17:15,334 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=4
+2026-07-13 02:17:17,223 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=5
+2026-07-13 02:17:19,024 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=6
+2026-07-13 02:17:20,484 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=7
+2026-07-13 02:17:21,870 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=8
+2026-07-13 02:17:23,305 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=9
+2026-07-13 02:17:24,746 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=10
+2026-07-13 02:17:26,224 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=11
+2026-07-13 02:17:27,305 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=12
+2026-07-13 02:17:28,803 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=13
+2026-07-13 02:17:29,906 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=14
+2026-07-13 02:17:31,372 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=15
+2026-07-13 02:17:32,934 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=16
+2026-07-13 02:17:34,127 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=17
+2026-07-13 02:17:36,096 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=18
+2026-07-13 02:17:38,242 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=19
+2026-07-13 02:17:39,595 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=20
+2026-07-13 02:17:41,074 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=21
+2026-07-13 02:17:42,338 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=22
+2026-07-13 02:17:43,561 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=23
+2026-07-13 02:17:44,839 [INFO] Leyendo feed RN: https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=24
+2026-07-13 02:17:45,057 [WARNING] Intento 1/3 fallo para https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=24
+2026-07-13 02:17:50,371 [WARNING] Intento 2/3 fallo para https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=24
+2026-07-13 02:17:55,549 [WARNING] Intento 3/3 fallo para https://www.radionacional.com.ar/category/todo-con-afecto/feed/?paged=24
+2026-07-13 02:17:55,552 [INFO] Leyendo feed Anchor.fm: https://anchor.fm/s/612a6550/podcast/rss
+2026-07-13 02:17:55,633 [INFO] Feed Anchor.fm: 51 items encontrados
+2026-07-13 02:17:55,634 [INFO]   OK Anchor.fm: La noche de Mantequilla, de Julio Cortázar
+2026-07-13 02:17:55,835 [INFO]   OK Anchor.fm: La fruta en el fondo del tazón, de Ray Bradbury
+2026-07-13 02:17:56,036 [INFO]   OK Anchor.fm: Un agujero esconde una casa, de Agustina Bazterrica
+2026-07-13 02:17:56,237 [INFO]   OK Anchor.fm: Un verano italiano, de Eduardo Sacheri
+2026-07-13 02:17:56,439 [INFO]   OK Anchor.fm: Un día de la bandera, de Roberto Fontanarrosa
+2026-07-13 02:17:56,640 [INFO]   OK Anchor.fm: La música de los domingos, de Liliana Heker
+2026-07-13 02:17:56,841 [INFO]   OK Anchor.fm: Silencio, de Edgar Allan Poe
+2026-07-13 02:17:57,043 [INFO]   OK Anchor.fm: Pájaros en la boca de Samanta Schweblin
+2026-07-13 02:17:57,244 [INFO]   OK Anchor.fm: Las puertas del cielo, de Julio Cortázar
+2026-07-13 02:17:57,445 [INFO]   OK Anchor.fm: Las tres noches de Isaias Blum, de Rodolfo Walsh
+2026-07-13 02:17:57,647 [INFO]   OK Anchor.fm: La promesa, de Eric Nepomuceno
+2026-07-13 02:17:57,848 [INFO]   OK Anchor.fm: La muerte y la doncella, de Ray Bradbury
+2026-07-13 02:17:58,049 [INFO]   OK Anchor.fm: La guerra de Malvinas, de Patricia Suárez
+2026-07-13 02:17:58,250 [INFO]   OK Anchor.fm: Silencio, de Clarice Lispector
+2026-07-13 02:17:58,452 [INFO]   OK Anchor.fm: Los tres anillos de Giovanni Boccaccio
+2026-07-13 02:17:58,653 [INFO]   OK Anchor.fm: Amor en el Parque Rivadavia de Roberto Arlt
+2026-07-13 02:17:58,854 [INFO]   OK Anchor.fm: Casa Tomada de Julio Cortázar
+2026-07-13 02:17:59,055 [INFO]   OK Anchor.fm: El fin de Jorge Luis Borges
+2026-07-13 02:17:59,257 [INFO]   OK Anchor.fm: Todo el verano en un día de Ray Bradbury
+2026-07-13 02:17:59,458 [INFO]   OK Anchor.fm: Sennin, de Ryunosuke Akutagawa
+2026-07-13 02:17:59,660 [INFO]   OK Anchor.fm: El primer beso de Clarice Lispector
+2026-07-13 02:17:59,861 [INFO]   OK Anchor.fm: La santa, de Gabriel García Márquez
+2026-07-13 02:18:00,062 [INFO]   OK Anchor.fm: Las doce a bragado de Haroldo Conti
+2026-07-13 02:18:00,264 [INFO]   OK Anchor.fm: Los peligros de fumar en la cama de Mariana Enriquez
+2026-07-13 02:18:00,465 [INFO]   OK Anchor.fm: La soga de Silvina Ocampo
+2026-07-13 02:18:00,666 [INFO]   OK Anchor.fm: La última batalla, de Gervasio Noailles
+2026-07-13 02:18:00,867 [INFO]   OK Anchor.fm: La madre de Ernesto de Abelardo Castillo
+2026-07-13 02:18:01,069 [INFO]   OK Anchor.fm: Conversación con el borracho, de Franz Kafka
+2026-07-13 02:18:01,270 [INFO]   OK Anchor.fm: La loca y el relato del crimen de Ricardo Piglia
+2026-07-13 02:18:01,471 [INFO]   OK Anchor.fm: Mi amigo Mickey de Roberto Fontanarrosa
+2026-07-13 02:18:01,673 [INFO]   OK Anchor.fm: Felicidad clandestina de Clarice Lispector
+2026-07-13 02:18:01,874 [INFO]   OK Anchor.fm: La intrusa de Jorge Luis Borges
+2026-07-13 02:18:02,075 [INFO]   OK Anchor.fm: Lejana de Julio Cortázar
+2026-07-13 02:18:02,277 [INFO]   OK Anchor.fm: Los nueve minutos de Claudia, de Dalmiro Sáenz
+2026-07-13 02:18:02,478 [INFO]   OK Anchor.fm: El miedo de Guy de Maupassant
+2026-07-13 02:18:02,680 [INFO]   OK Anchor.fm: La muerte de Mario Benedetti
+2026-07-13 02:18:02,881 [INFO]   OK Anchor.fm: Otoño del 53, de Osvaldo Soriano
+2026-07-13 02:18:03,082 [INFO]   OK Anchor.fm: La gambeta más larga del mundo, de Pedro Saborido
+2026-07-13 02:18:03,283 [INFO]   OK Anchor.fm: Remedio para melancólicos de Ray Bradbury
+2026-07-13 02:18:03,484 [INFO]   OK Anchor.fm: El romance del aniceto de Zuhair Jury
+2026-07-13 02:18:03,685 [INFO]   OK Anchor.fm: Barbosa, el hombre que murió dos veces de Juan Villoro
+2026-07-13 02:18:03,886 [INFO]   OK Anchor.fm: Vidrios rotos de Osvaldo Soriano
+2026-07-13 02:18:04,087 [INFO]   OK Anchor.fm: Encuentro nocturno de Ray Bradbury
+2026-07-13 02:18:04,288 [INFO]   OK Anchor.fm: Tierna es la noche de Ricardo Piglia
+2026-07-13 02:18:04,489 [INFO]   OK Anchor.fm: Instrucciones para buscar aventuras de Alejandro Dolina
+2026-07-13 02:18:04,690 [INFO]   OK Anchor.fm: Almendros de Antonio Dal Masetto
+2026-07-13 02:18:04,892 [INFO]   OK Anchor.fm: Cielo de los argentinos de Roberto Fontanarrosa
+2026-07-13 02:18:05,093 [INFO]   OK Anchor.fm: La fiesta ajena de Liliana Heker
+2026-07-13 02:18:05,295 [INFO]   OK Anchor.fm: Un señor muy viejo y con unas alas enormes de Gabriel Garcia Márquez
+2026-07-13 02:18:05,496 [INFO]   OK Anchor.fm: Un hombre sin suerte de Samanta Schweblin
+2026-07-13 02:18:05,697 [INFO]   OK Anchor.fm: La trampa, de Rodolfo Walsh
+2026-07-13 02:18:05,901 [INFO] Se agregaron 79 episodios nuevos.
+2026-07-13 02:18:05,901 [INFO] === Fin ===
