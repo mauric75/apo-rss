@@ -335,7 +335,9 @@ function toast(msg){const t=document.getElementById("toast");t.textContent=msg;t
 function renderEpisode(ep,i){
 const id='ep-'+i,listened=listenedSet.has(ep.guid||ep.mp3_url),cls=listened?' listened':'';
 const lBadge=listened?' <span class="listened-badge">Escuchado</span>':'';
-const audio=ep.mp3_url?`<audio id="${id}" controls preload="none" onplay="onAudioPlay(this)" onended="onAudioEnded(this)"><source src="${ep.mp3_url}" type="audio/mpeg"></audio>`:'';
+const isRC=ep.fuente.toLowerCase().includes('radiocut');
+const rcSlug=isRC?(ep.fuente_url||'').split('/audiocut/')[1]?.replace(/\/$/,''):'';
+const audio=isRC?`<iframe src="https://radiocut.fm/audiocut/embed/mini/${rcSlug}/" width="100%" height="65" frameborder="0" scrolling="no" style="margin-top:.5rem"></iframe>`:(ep.mp3_url?`<audio id="${id}" controls preload="none" onplay="onAudioPlay(this)" onended="onAudioEnded(this)"><source src="${ep.mp3_url}" type="audio/mpeg"></audio>`:'');
 const autor=ep.autor_cuento?`<span>— ${ep.autor_cuento}</span>`:'',dot=sourceDot(ep.fuente);
 return`<article class="ep${cls}" data-guid="${ep.guid||ep.mp3_url||''}"><div class="ep-body">
 <h3>${ep.titulo}${lBadge}</h3>
