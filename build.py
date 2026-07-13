@@ -42,6 +42,9 @@ def build_rss(eps):
     fg.podcast.itunes_summary(PODCAST_DESCRIPTION)
     fg.podcast.itunes_type("episodic")
     fg.podcast.itunes_author(PODCAST_AUTHOR)
+    fg.lastBuildDate(datetime.now(timezone.utc))
+    fg.pubDate(datetime.now(timezone.utc))
+    fg.generator("apo-rss (python-feedgen)")
     
     for ep in eps:
         fe = fg.add_entry()
@@ -242,12 +245,14 @@ def build_html(eps):
     <a href="https://open.spotify.com/show/alejandro-apo-am750">🟢 Spotify</a>
     <a href="https://pca.st/itunes/1508165282">📱 Pocket Casts</a>
     <a href="https://podcastaddict.com/podcast/3315176">🎙 Podcast Addict</a>
+    <a href="https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fmauric75.github.io%2Fapo-rss%2Frss.xml" target="_blank">✅ Validar RSS</a>
 </div>
 <div class="stats">
     <span id="stat-episodes">···</span>
     <span id="stat-authors">···</span>
     <span id="stat-sources">···</span>
     <span id="stat-range">····–····</span>
+    <span id="stat-updated" style="background:rgba(29,185,84,.2)">Actualizado: ···</span>
 </div>
 </header>
 <div class="top-bar">
@@ -508,6 +513,17 @@ async function init(){
     // Theme
     if(localStorage.getItem('theme')==='light'){document.body.classList.add('light');document.getElementById("theme-btn").textContent='🌙';}
     if(localStorage.getItem('audioOnly')==='1'){document.body.classList.add('audio-only');document.getElementById("audio-mode-btn").textContent='📖';}
+    const extraidos = allEpisodes.map(e=>e.extraido).filter(Boolean).sort().reverse();
+    const lastUpdate = extraidos[0];
+    let updateText = 'Actualizado: ';
+    if(lastUpdate){
+        const diff = Date.now() - new Date(lastUpdate).getTime();
+        const hours = Math.floor(diff/3600000);
+        const days = Math.floor(hours/24);
+        updateText += days>0 ? 'hace '+days+' día'+(days>1?'s':'') : hours>0 ? 'hace '+hours+'h' : 'ahora';
+    } else { updateText += 'desconocido'; }
+    document.getElementById("stat-updated").textContent = updateText;
+    
     buildTimeline();buildAuthorBar();buildSourceFilter();filterAndSort();
     document.getElementById("search").addEventListener("input",filterAndSort);
     document.getElementById("sort").addEventListener("change",filterAndSort);
