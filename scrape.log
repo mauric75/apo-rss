@@ -1,324 +1,58 @@
-2026-07-13 00:08:11,785 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/category/buenos-aires/lra-1-buenos-aires/todo-con-afecto/feed/podcast/
-2026-07-13 00:08:14,726 [INFO] Feed podcast: 300 items en pagina 1
-2026-07-13 00:08:14,737 [INFO]   OK Radio Nacional Argentina: 'Pena' de Carlos Ferreira
-2026-07-13 00:08:14,740 [INFO]   OK Radio Nacional Argentina: 'El cuadro de Raulito' de Eduardo Sacheri
-2026-07-13 00:08:14,742 [INFO]   OK Radio Nacional Argentina: 'Los traidores', de Eduardo Sacheri
-2026-07-13 00:08:14,744 [INFO]   OK Radio Nacional Argentina: 'De chilena', de Eduardo Sacheri
-2026-07-13 00:08:14,746 [INFO]   OK Radio Nacional Argentina: 'El álbum', de Héctor Sánchez
-2026-07-13 00:08:14,749 [INFO]   OK Radio Nacional Argentina: 'Un gol asegurado' de Fernando Musa
-2026-07-13 00:08:14,752 [INFO]   OK Radio Nacional Argentina: 'El Pampa' de Roberto Fontanarrosa
-2026-07-13 00:08:14,754 [INFO]   OK Radio Nacional Argentina: 'Chau Mono' de Alfredo Carlino
-2026-07-13 00:08:14,758 [INFO]   OK Radio Nacional Argentina: "'La risa no se jubila' ni tampoco se privatiza"
-2026-07-13 00:08:14,763 [INFO]   OK Radio Nacional Argentina: 'Finito' de Guillermo Blanco
-2026-07-13 00:08:14,770 [INFO]   OK Radio Nacional Argentina: 'Todo mientras Diego' de Ariel Scher
-2026-07-13 00:08:14,774 [INFO]   OK Radio Nacional Argentina: 'Relatores' de Alejandro Dolina
-2026-07-13 00:08:14,779 [INFO]   OK Radio Nacional Argentina: 'El último centrojás' de Juan Sasturain
-2026-07-13 00:08:14,783 [INFO]   OK Radio Nacional Argentina: 'Apuntes acerca de una mala mujer' de Sergio Ranieri
-2026-07-13 00:08:14,788 [INFO]   OK Radio Nacional Argentina: 'Señor Labruna' de Rodolfo Braceli
-2026-07-13 00:08:14,792 [INFO]   OK Radio Nacional Argentina: 'Esperándolo a Tito' de Eduardo Sacheri
-2026-07-13 00:08:14,798 [INFO]   OK Radio Nacional Argentina: 'Oración por un gol' de Vicente Gaos
-2026-07-13 00:08:14,800 [INFO]   OK Radio Nacional Argentina: 'Tenemos un arquero que es una maravilla' de Eduardo Maicas
-2026-07-13 00:08:14,806 [INFO]   OK Radio Nacional Argentina: "El Chango Agüero, Schopenhauer y el descenso", de Osvaldo Soriano
-2026-07-13 00:08:14,809 [INFO]   OK Radio Nacional Argentina: “100 años de boxeo argentino”, el libro con las epopeyas arriba del ri
-2026-07-13 00:08:14,811 [INFO]   OK Radio Nacional Argentina: "De Chilena", de Eduardo Sacheri
-2026-07-13 00:08:14,813 [INFO]   OK Radio Nacional Argentina: “Creo, vieja, que tu hijo la cagó”, de Jorge Valdano
-2026-07-13 00:08:14,815 [INFO]   OK Radio Nacional Argentina: "El pichón de Cristo", de Roberto Fontanarrosa
-2026-07-13 00:08:14,818 [INFO]   OK Radio Nacional Argentina: “Una sonrisa exactamente así”, de Eduardo Sacheri
-2026-07-13 00:08:14,821 [INFO]   OK Radio Nacional Argentina: "El hombre que murió dos veces", de Juan Villoro
-2026-07-13 00:08:14,824 [INFO]   OK Radio Nacional Argentina: Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'
-2026-07-13 00:08:14,826 [INFO]   OK Radio Nacional Argentina: "Transmisión diferida", de Jaime Muñoz Vargas
-2026-07-13 00:08:14,833 [INFO]   OK Radio Nacional Argentina: "De chilena", de Eduardo Sacheri
-2026-07-13 00:08:14,843 [INFO]   OK Radio Nacional Argentina: “La posibilidad sublime”, de Pablo Ramos
-2026-07-13 00:08:14,849 [INFO]   OK Radio Nacional Argentina: "Viejo con árbol", de Roberto Fontanarrosa
-2026-07-13 00:08:14,854 [INFO]   OK Radio Nacional Argentina: "Un trapo: Inmortal radiografía de las almas nobles" de Mario Giannott
-2026-07-13 00:08:14,857 [INFO]   OK Radio Nacional Argentina: El "Pichón de Cristo" de Roberto Fontanarrosa
-2026-07-13 00:08:14,861 [INFO]   OK Radio Nacional Argentina: Gustavo Vergara recordó a Roberto Perfumo y a Ángel Labruna
-2026-07-13 00:08:14,863 [INFO]   OK Radio Nacional Argentina: “Inside derecho”, de Humberto
-2026-07-13 00:08:14,867 [INFO]   OK Radio Nacional Argentina: "Banderín solferino", de Juan Sasturain
-2026-07-13 00:08:14,876 [INFO]   OK Radio Nacional Argentina: "Todo mientras Diego", de Ariel Scher
-2026-07-13 00:08:14,878 [INFO]   OK Radio Nacional Argentina: "Creo, vieja, que tu hijo la cagó", de Jorge Valdano
-2026-07-13 00:08:14,882 [INFO]   OK Radio Nacional Argentina: "Cuentos de los años felices", de Osvaldo Soriano
-2026-07-13 00:08:14,886 [INFO]   OK Radio Nacional Argentina: "Pura verdad", de Ángel Cappa
-2026-07-13 00:08:14,888 [INFO]   OK Radio Nacional Argentina: "De chilena", de Eduardo Sacheri
-2026-07-13 00:08:14,893 [INFO]   OK Radio Nacional Argentina: “Milagro en Parque Chas”, de Inés Fernández Moreno
-2026-07-13 00:08:14,896 [INFO]   OK Radio Nacional Argentina: "Puntero izquierdo", de Mario Benedetti
-2026-07-13 00:08:14,900 [INFO]   OK Radio Nacional Argentina: "Aventura", de Ariel Scher
-2026-07-13 00:08:14,903 [INFO]   OK Radio Nacional Argentina: "El referí demasiado justo", de Alejandro Dolina
-2026-07-13 00:08:14,907 [INFO]   OK Radio Nacional Argentina: "La barrera", de Roberto Fontanarrosa
-2026-07-13 00:08:14,910 [INFO]   OK Radio Nacional Argentina: "Un verano italiano", de Eduardo Sacheri
-2026-07-13 00:08:14,912 [INFO]   OK Radio Nacional Argentina: Ese gol, ese relato, ese recuerdo: 36 años del gol de Maradona a los i
-2026-07-13 00:08:14,920 [INFO]   OK Radio Nacional Argentina: "Sin fecha de vencimiento", de Magdalena Aicega
-2026-07-13 00:08:14,923 [INFO]   OK Radio Nacional Argentina: “Jugar con una Tango”, de Eduardo Sacheri
-2026-07-13 00:08:14,930 [INFO]   OK Radio Nacional Argentina: "Señor Pastoriza", de Eduardo Sacheri
-2026-07-13 00:08:14,932 [INFO]   OK Radio Nacional Argentina: "Fútbol", de Juan José Manauta
-2026-07-13 00:08:14,934 [INFO]   OK Radio Nacional Argentina: "Romance de barrio", de Rafael Bielsa
-2026-07-13 00:08:14,936 [INFO]   OK Radio Nacional Argentina: “Los últimos salileros”, de Roberto Fontanarrosa
-2026-07-13 00:08:14,939 [INFO]   OK Radio Nacional Argentina: “Ambrois no llenó el álbum”, de Carlos Abin
-2026-07-13 00:08:14,941 [INFO]   OK Radio Nacional Argentina: "El Patio de las Pelotas Perdidas" y "El Tipo que pasaba por ahí", dos
-2026-07-13 00:08:14,952 [INFO]   OK Radio Nacional Argentina: "Fútbol", de Juan José Manauta
-2026-07-13 00:08:14,955 [INFO]   OK Radio Nacional Argentina: “El príncipe idiota”, de Aldo Riera
-2026-07-13 00:08:14,962 [INFO]   OK Radio Nacional Argentina: “Torito” de Julio Cortázar
-2026-07-13 00:08:14,967 [INFO]   OK Radio Nacional Argentina: "Tigre, una fiera de primera" de Juan Roberto Presta
-2026-07-13 00:08:14,972 [INFO]   OK Radio Nacional Argentina: "Maradona sí, Galtieri no" de Osvaldo Soriano
-2026-07-13 00:08:14,974 [INFO]   OK Radio Nacional Argentina: "El arco de Noé", de Roberto Braceli
-2026-07-13 00:08:14,976 [INFO]   OK Radio Nacional Argentina: “Un duende que jugaba a la pelota”, de Rodolfo Braceli
-2026-07-13 00:08:14,983 [INFO]   OK Radio Nacional Argentina: “El cuadro de Raulito”, de Eduardo Sacheri
-2026-07-13 00:08:14,987 [INFO]   OK Radio Nacional Argentina: "Maradona, el unicornio del fútbol", de Etin Ponce
-2026-07-13 00:08:14,995 [INFO]   OK Radio Nacional Argentina: "Gol de Dostoyevski", de Ariel Scher
-2026-07-13 00:08:15,005 [INFO]   OK Radio Nacional Argentina: El día que Charly García fue a ver a Maradona en su regreso a Boca
-2026-07-13 00:08:15,025 [INFO]   OK Radio Nacional Argentina: “El crack”, de Augusto Roa Bastos
-2026-07-13 00:08:15,028 [INFO]   OK Radio Nacional Argentina: “La máquina”, de Eduardo Galeano
-2026-07-13 00:08:15,036 [INFO]   OK Radio Nacional Argentina: "Cumpleaños con historia", de Guillermo Ronnow
-2026-07-13 00:08:15,044 [INFO]   OK Radio Nacional Argentina: "Un domingo de fútbol", de Mario Sábato
-2026-07-13 00:08:15,046 [INFO]   OK Radio Nacional Argentina: "Insai izquierdo", de Humberto Costantini
-2026-07-13 00:08:15,053 [INFO]   OK Radio Nacional Argentina: “Nueve y diez”, de Abel Antonio Ponse
-2026-07-13 00:08:15,055 [INFO]   OK Radio Nacional Argentina: "La pelota me eligió a mí", de Silvio Velo
-2026-07-13 00:08:15,056 [INFO]   OK Radio Nacional Argentina: "La observación de los pájaros", de Roberto Fontanarrosa
-2026-07-13 00:08:15,057 [INFO]   OK Radio Nacional Argentina: “Una sonrisa exactamente así”, de Eduardo Sacheri
-2026-07-13 00:08:15,061 [INFO]   OK Radio Nacional Argentina: “Último hombre”, de Eduardo Sacheri
-2026-07-13 00:08:15,063 [INFO]   OK Radio Nacional Argentina: “El locutor de tanda más rápido del mundo”, de Pedro Saborido
-2026-07-13 00:08:15,069 [INFO]   OK Radio Nacional Argentina: "El rulo y la muerte", de Eduardo Sacheri
-2026-07-13 00:08:15,071 [INFO]   OK Radio Nacional Argentina: "Lacus vendelinus", de Roberto Fontanarrosa
-2026-07-13 00:08:15,073 [INFO]   OK Radio Nacional Argentina: "La fiesta", de Tato Contissa
-2026-07-13 00:08:15,076 [INFO]   OK Radio Nacional Argentina: "Muérete Ringo", de Juan José Becerra
-2026-07-13 00:08:15,078 [INFO]   OK Radio Nacional Argentina: "El penal a Conigliaro", de Rafael Bielsa
-2026-07-13 00:08:15,080 [INFO]   OK Radio Nacional Argentina: "El equipo de mis sueños", de Pedro Saborido
-2026-07-13 00:08:15,081 [INFO]   OK Radio Nacional Argentina: "A los 27 minutos", de Rodolfo Braceli
-2026-07-13 00:08:15,084 [INFO]   OK Radio Nacional Argentina: "La promesa", de Eduardo Sacheri
-2026-07-13 00:08:15,088 [INFO]   OK Radio Nacional Argentina: "¿Por qué no lo sacás, Sarlanga?", de Pedro Saborido
-2026-07-13 00:08:15,090 [INFO]   OK Radio Nacional Argentina: "Habilidosos y troncos", de Juan Carlos Muñiz y Raúl Fortín
-2026-07-13 00:08:15,092 [INFO]   OK Radio Nacional Argentina: “Jugador de fútbol”, de Ignacio Bogino
-2026-07-13 00:08:15,094 [INFO]   OK Radio Nacional Argentina: "Picado de patio", de Juan Carlos Muñiz
-2026-07-13 00:08:15,095 [INFO]   OK Radio Nacional Argentina: “En paz descansa”, de Eduardo Sacheri
-2026-07-13 00:08:15,098 [INFO]   OK Radio Nacional Argentina: "Señor Labruna", de Rodolfo Braceli
-2026-07-13 00:08:15,099 [INFO]   OK Radio Nacional Argentina: "Los puestos ingratos", de Juan Carlos Muñiz y Raúl Fortín
-2026-07-13 00:08:15,101 [INFO]   OK Radio Nacional Argentina: "El cuadrito de mi amor", de Delfina Corti
-2026-07-13 00:08:15,103 [INFO]   OK Radio Nacional Argentina: La historia del periodista deportivo al que una carta le cambió la vid
-2026-07-13 00:08:15,105 [INFO]   OK Radio Nacional Argentina: "Maradona, el violín del pie", de Alfredo Carlino
-2026-07-13 00:08:15,107 [INFO]   OK Radio Nacional Argentina: "El álbum", de Héctor Sánchez
-2026-07-13 00:08:15,109 [INFO]   OK Radio Nacional Argentina: El homenaje para Osvaldo Wehbe en el día en que hubiese cumplido 64 añ
-2026-07-13 00:08:15,111 [INFO]   OK Radio Nacional Argentina: “Los últimos salileros”, de Roberto Fontanarrosa
-2026-07-13 00:08:15,113 [INFO]   OK Radio Nacional Argentina: Víctor Hugo Morales, maestro del periodismo y el relato deportivo
-2026-07-13 00:08:15,116 [INFO]   OK Radio Nacional Argentina: "19 de diciembre de 1971", de Roberto Fontanarrosa
-2026-07-13 00:08:15,118 [INFO]   OK Radio Nacional Argentina: "El ocho era Moacyr", de Roberto Fontanarrosa
-2026-07-13 00:08:15,122 [INFO]   OK Radio Nacional Argentina: "Relatores", de Alejandro Dolina
-2026-07-13 00:08:15,126 [INFO]   OK Radio Nacional Argentina: "Me van a tener que disculpar", de Eduardo Sacheri
-2026-07-13 00:08:15,127 [INFO]   OK Radio Nacional Argentina: Los 60 años de Diego Maradona: cuentos, mensajes y anécdotas del Diez
-2026-07-13 00:08:15,132 [INFO]   OK Radio Nacional Argentina: "Aprendiz del barro", de Enrique Estrázulas
-2026-07-13 00:08:15,134 [INFO]   OK Radio Nacional Argentina: "Apuntes del fútbol en Flores", de Alejandro Dolina
-2026-07-13 00:08:15,139 [INFO]   OK Radio Nacional Argentina: "Todo mientras Diego", de Ariel Scher
-2026-07-13 00:08:15,142 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/
-2026-07-13 00:08:15,594 [INFO] Feed podcast: 15 items en pagina 1
-2026-07-13 00:08:15,596 [INFO]   OK Radio Nacional Argentina: 'Pena' de Carlos Ferreira
-2026-07-13 00:08:15,598 [INFO]   OK Radio Nacional Argentina: 'El cuadro de Raulito' de Eduardo Sacheri
-2026-07-13 00:08:15,599 [INFO]   OK Radio Nacional Argentina: 'Los traidores', de Eduardo Sacheri
-2026-07-13 00:08:15,600 [INFO]   OK Radio Nacional Argentina: 'De chilena', de Eduardo Sacheri
-2026-07-13 00:08:15,601 [INFO]   OK Radio Nacional Argentina: 'El álbum', de Héctor Sánchez
-2026-07-13 00:08:15,602 [INFO]   OK Radio Nacional Argentina: 'Un gol asegurado' de Fernando Musa
-2026-07-13 00:08:15,603 [INFO]   OK Radio Nacional Argentina: 'El Pampa' de Roberto Fontanarrosa
-2026-07-13 00:08:15,604 [INFO]   OK Radio Nacional Argentina: 'Chau Mono' de Alfredo Carlino
-2026-07-13 00:08:15,606 [INFO]   OK Radio Nacional Argentina: 'Finito' de Guillermo Blanco
-2026-07-13 00:08:15,606 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=2
-2026-07-13 00:08:16,049 [INFO]   OK Radio Nacional Argentina: 'Todo mientras Diego' de Ariel Scher
-2026-07-13 00:08:16,052 [INFO]   OK Radio Nacional Argentina: 'Relatores' de Alejandro Dolina
-2026-07-13 00:08:16,054 [INFO]   OK Radio Nacional Argentina: 'El último centrojás' de Juan Sasturain
-2026-07-13 00:08:16,057 [INFO]   OK Radio Nacional Argentina: 'Apuntes acerca de una mala mujer' de Sergio Ranieri
-2026-07-13 00:08:16,059 [INFO]   OK Radio Nacional Argentina: 'Señor Labruna' de Rodolfo Braceli
-2026-07-13 00:08:16,061 [INFO]   OK Radio Nacional Argentina: 'Esperándolo a Tito' de Eduardo Sacheri
-2026-07-13 00:08:16,065 [INFO]   OK Radio Nacional Argentina: 'Oración por un gol' de Vicente Gaos
-2026-07-13 00:08:16,067 [INFO]   OK Radio Nacional Argentina: 'Tenemos un arquero que es una maravilla' de Eduardo Maicas
-2026-07-13 00:08:16,067 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=3
-2026-07-13 00:08:16,588 [INFO]   OK Radio Nacional Argentina: "El Chango Agüero, Schopenhauer y el descenso", de Osvaldo Soriano
-2026-07-13 00:08:16,589 [INFO]   OK Radio Nacional Argentina: "De Chilena", de Eduardo Sacheri
-2026-07-13 00:08:16,590 [INFO]   OK Radio Nacional Argentina: “Creo, vieja, que tu hijo la cagó”, de Jorge Valdano
-2026-07-13 00:08:16,591 [INFO]   OK Radio Nacional Argentina: "El pichón de Cristo", de Roberto Fontanarrosa
-2026-07-13 00:08:16,592 [INFO]   OK Radio Nacional Argentina: “Una sonrisa exactamente así”, de Eduardo Sacheri
-2026-07-13 00:08:16,593 [INFO]   OK Radio Nacional Argentina: "El hombre que murió dos veces", de Juan Villoro
-2026-07-13 00:08:16,595 [INFO]   OK Radio Nacional Argentina: Jaime Muñoz Vargas habló sobre su cuento 'Transmisión diferida'
-2026-07-13 00:08:16,596 [INFO]   OK Radio Nacional Argentina: "Transmisión diferida", de Jaime Muñoz Vargas
-2026-07-13 00:08:16,596 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=4
-2026-07-13 00:08:16,987 [INFO]   OK Radio Nacional Argentina: "De chilena", de Eduardo Sacheri
-2026-07-13 00:08:16,990 [INFO]   OK Radio Nacional Argentina: “La posibilidad sublime”, de Pablo Ramos
-2026-07-13 00:08:16,991 [INFO]   OK Radio Nacional Argentina: "Viejo con árbol", de Roberto Fontanarrosa
-2026-07-13 00:08:16,993 [INFO]   OK Radio Nacional Argentina: "Un trapo: Inmortal radiografía de las almas nobles" de Mario Giannott
-2026-07-13 00:08:16,994 [INFO]   OK Radio Nacional Argentina: El "Pichón de Cristo" de Roberto Fontanarrosa
-2026-07-13 00:08:16,995 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=5
-2026-07-13 00:08:17,436 [INFO]   OK Radio Nacional Argentina: “Inside derecho”, de Humberto
-2026-07-13 00:08:17,437 [INFO]   OK Radio Nacional Argentina: "Banderín solferino", de Juan Sasturain
-2026-07-13 00:08:17,441 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=6
-2026-07-13 00:08:17,869 [INFO]   OK Radio Nacional Argentina: "Todo mientras Diego", de Ariel Scher
-2026-07-13 00:08:17,871 [INFO]   OK Radio Nacional Argentina: "Creo, vieja, que tu hijo la cagó", de Jorge Valdano
-2026-07-13 00:08:17,873 [INFO]   OK Radio Nacional Argentina: "Cuentos de los años felices", de Osvaldo Soriano
-2026-07-13 00:08:17,875 [INFO]   OK Radio Nacional Argentina: "Pura verdad", de Ángel Cappa
-2026-07-13 00:08:17,876 [INFO]   OK Radio Nacional Argentina: "De chilena", de Eduardo Sacheri
-2026-07-13 00:08:17,877 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=7
-2026-07-13 00:08:18,329 [INFO]   OK Radio Nacional Argentina: “Milagro en Parque Chas”, de Inés Fernández Moreno
-2026-07-13 00:08:18,331 [INFO]   OK Radio Nacional Argentina: "Aventura", de Ariel Scher
-2026-07-13 00:08:18,332 [INFO]   OK Radio Nacional Argentina: "El referí demasiado justo", de Alejandro Dolina
-2026-07-13 00:08:18,335 [INFO]   OK Radio Nacional Argentina: "La barrera", de Roberto Fontanarrosa
-2026-07-13 00:08:18,336 [INFO]   OK Radio Nacional Argentina: "Un verano italiano", de Eduardo Sacheri
-2026-07-13 00:08:18,337 [INFO]   OK Radio Nacional Argentina: "Sin fecha de vencimiento", de Magdalena Aicega
-2026-07-13 00:08:18,338 [INFO]   OK Radio Nacional Argentina: “Jugar con una Tango”, de Eduardo Sacheri
-2026-07-13 00:08:18,340 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=8
-2026-07-13 00:08:18,852 [INFO]   OK Radio Nacional Argentina: "Señor Pastoriza", de Eduardo Sacheri
-2026-07-13 00:08:18,856 [INFO]   OK Radio Nacional Argentina: "Fútbol", de Juan José Manauta
-2026-07-13 00:08:18,859 [INFO]   OK Radio Nacional Argentina: "Romance de barrio", de Rafael Bielsa
-2026-07-13 00:08:18,864 [INFO]   OK Radio Nacional Argentina: “Los últimos salileros”, de Roberto Fontanarrosa
-2026-07-13 00:08:18,871 [INFO]   OK Radio Nacional Argentina: “Ambrois no llenó el álbum”, de Carlos Abin
-2026-07-13 00:08:18,885 [INFO]   OK Radio Nacional Argentina: “El príncipe idiota”, de Aldo Riera
-2026-07-13 00:08:18,889 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=9
-2026-07-13 00:08:19,510 [INFO]   OK Radio Nacional Argentina: “Torito” de Julio Cortázar
-2026-07-13 00:08:19,514 [INFO]   OK Radio Nacional Argentina: "Tigre, una fiera de primera" de Juan Roberto Presta
-2026-07-13 00:08:19,516 [INFO]   OK Radio Nacional Argentina: "Maradona sí, Galtieri no" de Osvaldo Soriano
-2026-07-13 00:08:19,518 [INFO]   OK Radio Nacional Argentina: "El arco de Noé", de Roberto Braceli
-2026-07-13 00:08:19,520 [INFO]   OK Radio Nacional Argentina: “Un duende que jugaba a la pelota”, de Rodolfo Braceli
-2026-07-13 00:08:19,527 [INFO]   OK Radio Nacional Argentina: “El cuadro de Raulito”, de Eduardo Sacheri
-2026-07-13 00:08:19,527 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=10
-2026-07-13 00:08:20,001 [INFO]   OK Radio Nacional Argentina: "Maradona, el unicornio del fútbol", de Etin Ponce
-2026-07-13 00:08:20,007 [INFO]   OK Radio Nacional Argentina: "Gol de Dostoyevski", de Ariel Scher
-2026-07-13 00:08:20,011 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=11
-2026-07-13 00:08:20,558 [INFO]   OK Radio Nacional Argentina: “El crack”, de Augusto Roa Bastos
-2026-07-13 00:08:20,561 [INFO]   OK Radio Nacional Argentina: “La máquina”, de Eduardo Galeano
-2026-07-13 00:08:20,561 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=12
-2026-07-13 00:08:21,090 [INFO]   OK Radio Nacional Argentina: "Cumpleaños con historia", de Guillermo Ronnow
-2026-07-13 00:08:21,094 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=13
-2026-07-13 00:08:21,533 [INFO]   OK Radio Nacional Argentina: "Un domingo de fútbol", de Mario Sábato
-2026-07-13 00:08:21,537 [INFO]   OK Radio Nacional Argentina: "Insai izquierdo", de Humberto Costantini
-2026-07-13 00:08:21,548 [INFO]   OK Radio Nacional Argentina: “Nueve y diez”, de Abel Antonio Ponse
-2026-07-13 00:08:21,554 [INFO]   OK Radio Nacional Argentina: "La pelota me eligió a mí", de Silvio Velo
-2026-07-13 00:08:21,558 [INFO]   OK Radio Nacional Argentina: "La observación de los pájaros", de Roberto Fontanarrosa
-2026-07-13 00:08:21,561 [INFO]   OK Radio Nacional Argentina: “Una sonrisa exactamente así”, de Eduardo Sacheri
-2026-07-13 00:08:21,562 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=14
-2026-07-13 00:08:21,957 [INFO]   OK Radio Nacional Argentina: "Fue una enorme victoria de la Selección Argentina”
-2026-07-13 00:08:21,960 [INFO]   OK Radio Nacional Argentina: “Último hombre”, de Eduardo Sacheri
-2026-07-13 00:08:21,964 [INFO]   OK Radio Nacional Argentina: “El locutor de tanda más rápido del mundo”, de Pedro Saborido
-2026-07-13 00:08:21,972 [INFO] Leyendo feed podcast: https://www.radionacional.com.ar/tag/alejandro-apo/feed/?paged=15
-2026-07-13 00:08:22,461 [INFO]   OK Radio Nacional Argentina: "El rulo y la muerte", de Eduardo Sacheri
-2026-07-13 00:08:22,466 [INFO]   OK Radio Nacional Argentina: "Lacus vendelinus", de Roberto Fontanarrosa
-2026-07-13 00:08:22,471 [INFO]   OK Radio Nacional Argentina: "La fiesta", de Tato Contissa
-2026-07-13 00:08:22,476 [INFO]   OK Radio Nacional Argentina: "Muérete Ringo", de Juan José Becerra
-2026-07-13 00:08:22,481 [INFO]   OK Radio Nacional Argentina: "El penal a Conigliaro", de Rafael Bielsa
-2026-07-13 00:08:22,490 [INFO]   OK Radio Nacional Argentina: "El equipo de mis sueños", de Pedro Saborido
-2026-07-13 00:08:22,495 [INFO]   OK Radio Nacional Argentina: "A los 27 minutos", de Rodolfo Braceli
-2026-07-13 00:08:22,507 [INFO] Leyendo feed Anchor.fm: https://anchor.fm/s/612a6550/podcast/rss
-2026-07-13 00:08:23,205 [INFO] Feed Anchor.fm: 51 items encontrados
-2026-07-13 00:08:23,208 [INFO]   OK Anchor.fm: La noche de Mantequilla, de Julio Cortázar
-2026-07-13 00:08:23,411 [INFO]   OK Anchor.fm: La fruta en el fondo del tazón, de Ray Bradbury
-2026-07-13 00:08:23,614 [INFO]   OK Anchor.fm: Un agujero esconde una casa, de Agustina Bazterrica
-2026-07-13 00:08:23,819 [INFO]   OK Anchor.fm: Un verano italiano, de Eduardo Sacheri
-2026-07-13 00:08:24,021 [INFO]   OK Anchor.fm: Un día de la bandera, de Roberto Fontanarrosa
-2026-07-13 00:08:24,226 [INFO]   OK Anchor.fm: La música de los domingos, de Liliana Heker
-2026-07-13 00:08:24,428 [INFO]   OK Anchor.fm: Silencio, de Edgar Allan Poe
-2026-07-13 00:08:24,631 [INFO]   OK Anchor.fm: Pájaros en la boca de Samanta Schweblin
-2026-07-13 00:08:24,834 [INFO]   OK Anchor.fm: Las puertas del cielo, de Julio Cortázar
-2026-07-13 00:08:25,037 [INFO]   OK Anchor.fm: Las tres noches de Isaias Blum, de Rodolfo Walsh
-2026-07-13 00:08:25,243 [INFO]   OK Anchor.fm: La promesa, de Eric Nepomuceno
-2026-07-13 00:08:25,448 [INFO]   OK Anchor.fm: La muerte y la doncella, de Ray Bradbury
-2026-07-13 00:08:25,649 [INFO]   OK Anchor.fm: La guerra de Malvinas, de Patricia Suárez
-2026-07-13 00:08:25,852 [INFO]   OK Anchor.fm: Silencio, de Clarice Lispector
-2026-07-13 00:08:26,053 [INFO]   OK Anchor.fm: Los tres anillos de Giovanni Boccaccio
-2026-07-13 00:08:26,258 [INFO]   OK Anchor.fm: Amor en el Parque Rivadavia de Roberto Arlt
-2026-07-13 00:08:26,462 [INFO]   OK Anchor.fm: Casa Tomada de Julio Cortázar
-2026-07-13 00:08:26,667 [INFO]   OK Anchor.fm: El fin de Jorge Luis Borges
-2026-07-13 00:08:26,872 [INFO]   OK Anchor.fm: Todo el verano en un día de Ray Bradbury
-2026-07-13 00:08:27,076 [INFO]   OK Anchor.fm: Sennin, de Ryunosuke Akutagawa
-2026-07-13 00:08:27,281 [INFO]   OK Anchor.fm: El primer beso de Clarice Lispector
-2026-07-13 00:08:27,486 [INFO]   OK Anchor.fm: La santa, de Gabriel García Márquez
-2026-07-13 00:08:27,693 [INFO]   OK Anchor.fm: Las doce a bragado de Haroldo Conti
-2026-07-13 00:08:27,896 [INFO]   OK Anchor.fm: Los peligros de fumar en la cama de Mariana Enriquez
-2026-07-13 00:08:28,099 [INFO]   OK Anchor.fm: La soga de Silvina Ocampo
-2026-07-13 00:08:28,303 [INFO]   OK Anchor.fm: La última batalla, de Gervasio Noailles
-2026-07-13 00:08:28,509 [INFO]   OK Anchor.fm: La madre de Ernesto de Abelardo Castillo
-2026-07-13 00:08:28,711 [INFO]   OK Anchor.fm: Conversación con el borracho, de Franz Kafka
-2026-07-13 00:08:28,913 [INFO]   OK Anchor.fm: La loca y el relato del crimen de Ricardo Piglia
-2026-07-13 00:08:29,116 [INFO]   OK Anchor.fm: Mi amigo Mickey de Roberto Fontanarrosa
-2026-07-13 00:08:29,318 [INFO]   OK Anchor.fm: Felicidad clandestina de Clarice Lispector
-2026-07-13 00:08:29,521 [INFO]   OK Anchor.fm: La intrusa de Jorge Luis Borges
-2026-07-13 00:08:29,723 [INFO]   OK Anchor.fm: Lejana de Julio Cortázar
-2026-07-13 00:08:29,926 [INFO]   OK Anchor.fm: Los nueve minutos de Claudia, de Dalmiro Sáenz
-2026-07-13 00:08:30,129 [INFO]   OK Anchor.fm: El miedo de Guy de Maupassant
-2026-07-13 00:08:30,331 [INFO]   OK Anchor.fm: La muerte de Mario Benedetti
-2026-07-13 00:08:30,534 [INFO]   OK Anchor.fm: Otoño del 53, de Osvaldo Soriano
-2026-07-13 00:08:30,738 [INFO]   OK Anchor.fm: La gambeta más larga del mundo, de Pedro Saborido
-2026-07-13 00:08:30,942 [INFO]   OK Anchor.fm: Remedio para melancólicos de Ray Bradbury
-2026-07-13 00:08:31,144 [INFO]   OK Anchor.fm: El romance del aniceto de Zuhair Jury
-2026-07-13 00:08:31,347 [INFO]   OK Anchor.fm: Barbosa, el hombre que murió dos veces de Juan Villoro
-2026-07-13 00:08:31,551 [INFO]   OK Anchor.fm: Vidrios rotos de Osvaldo Soriano
-2026-07-13 00:08:31,754 [INFO]   OK Anchor.fm: Encuentro nocturno de Ray Bradbury
-2026-07-13 00:08:31,960 [INFO]   OK Anchor.fm: Tierna es la noche de Ricardo Piglia
-2026-07-13 00:08:32,162 [INFO]   OK Anchor.fm: Instrucciones para buscar aventuras de Alejandro Dolina
-2026-07-13 00:08:32,365 [INFO]   OK Anchor.fm: Almendros de Antonio Dal Masetto
-2026-07-13 00:08:32,568 [INFO]   OK Anchor.fm: Cielo de los argentinos de Roberto Fontanarrosa
-2026-07-13 00:08:32,773 [INFO]   OK Anchor.fm: La fiesta ajena de Liliana Heker
-2026-07-13 00:08:32,977 [INFO]   OK Anchor.fm: Un señor muy viejo y con unas alas enormes de Gabriel Garcia Márquez
-2026-07-13 00:08:33,180 [INFO]   OK Anchor.fm: Un hombre sin suerte de Samanta Schweblin
-2026-07-13 00:08:33,383 [INFO]   OK Anchor.fm: La trampa, de Rodolfo Walsh
-2026-07-13 00:08:33,589 [INFO] Leyendo playlist YouTube: Alejandro Apo, El Cuento de la tarde
-2026-07-13 00:08:35,121 [INFO] Playlist 'Alejandro Apo, El Cuento de la tarde': 15 videos
-2026-07-13 00:08:37,090 [INFO]   OK YT: La Guerra y la Paz" de Mario Benedetti
-2026-07-13 00:08:39,757 [INFO]   OK YT: La puerta y el pino”, de Robert Louis Stevenson
-2026-07-13 00:08:42,400 [INFO]   OK YT: Cuentos de la India" Relatos tradicionales
-2026-07-13 00:08:44,983 [INFO]   OK YT: Palizas" de Osvaldo Soriano
-2026-07-13 00:08:47,509 [INFO]   OK YT: Trenes" de Osvaldo Soriano
-2026-07-13 00:08:50,801 [INFO]   OK YT: El potro salvaje" de Horacio Quiroga
-2026-07-13 00:08:53,156 [INFO]   OK YT: El Piloto de Combate" de Eduardo Sacheri
-2026-07-13 00:08:55,776 [INFO]   OK YT: Una noticia que sorprende". de Roberto Fontanarrosa
-2026-07-13 00:08:58,193 [INFO]   OK YT: Un fantasma en el baño" de Sebastián Wainraich
-2026-07-13 00:09:00,590 [INFO]   OK YT: Casa tomada" de Julio Cortázar
-2026-07-13 00:09:03,045 [INFO]   OK YT: Entrevista" de Humberto Costantini
-2026-07-13 00:09:05,410 [INFO]   OK YT: Muérete Ringo" de Juan Jose Becerra
-2026-07-13 00:09:07,974 [INFO]   OK YT: El hijo del Sheik" de Roberto Fontarrosa
-2026-07-13 00:09:10,649 [INFO]   OK YT: La Felicidad" de Isidoro Blaisten
-2026-07-13 00:09:13,321 [INFO]   OK YT: El prostíbulo" de Dalmiro Sáenz
-2026-07-13 00:09:14,323 [INFO] Leyendo playlist YouTube: Y el fútbol contó un cuento
-2026-07-13 00:09:14,720 [INFO] Playlist 'Y el fútbol contó un cuento': 14 videos
-2026-07-13 00:09:16,924 [INFO]   OK YT: Me van a tener que disculpar - VIDEO ORIGINAL - Sacheri, Apo, Maradona
-2026-07-13 00:09:19,404 [INFO]   OK YT: Descansa en paz-de Eduardo Sacheri, narrado por Alejandro Apo.flv
-2026-07-13 00:09:21,834 [INFO]   OK YT: GEOGRAFIA DE TERCERO-Eduardo Sacheri- Relatado por Apo
-2026-07-13 00:09:24,600 [INFO]   OK YT: El apocalipsis segun el Chato
-2026-07-13 00:09:25,601 [INFO] Leyendo playlist YouTube: Cuentos por Alejandro Apo
-2026-07-13 00:09:25,910 [INFO] Playlist 'Cuentos por Alejandro Apo': 9 videos
-2026-07-13 00:09:27,611 [INFO]   OK YT: Donde quiera que estés: Te cuento un cuento de Babalú. Alejandro Apo (
-2026-07-13 00:09:30,472 [INFO]   OK YT: Donde quiera que estés: Los asesinos. Alejandro Apo (Radio 750)
-2026-07-13 00:09:33,235 [INFO]   OK YT: Donde quiera que estés: La Verdad Sobre el Transbordador Columbia. Ale
-2026-07-13 00:09:35,848 [INFO]   OK YT: Donde quiera que estés: El Discípulo (Fontanarrosa). Alejandro Apo (Ra
-2026-07-13 00:09:38,339 [INFO]   OK YT: Todo con afecto: Todo mientras Diego (Ariel Scher). Alejandro Apo (Rad
-2026-07-13 00:09:41,110 [INFO]   OK YT: Donde quiera que estés: Instrucciones Para Buscar Aventuras (Dolina). 
-2026-07-13 00:09:43,781 [INFO]   OK YT: Donde quiera que estés: Atlas del Infierno (Dolina). Alejandro Apo (Ra
-2026-07-13 00:09:46,150 [INFO]   OK YT: Donde quiera que estés: Silencio (Edgar Allan Poe). Alejandro Apo (Rad
-2026-07-13 00:09:48,798 [INFO]   OK YT: Donde quiera que estés: El fin (Jorge Luis Borges). Alejandro Apo (Rad
-2026-07-13 00:09:49,799 [INFO] Leyendo playlist YouTube: Fontanarrosa por Apo
-2026-07-13 00:09:50,117 [INFO] Playlist 'Fontanarrosa por Apo': 15 videos
-2026-07-13 00:09:51,687 [INFO]   OK YT: La Verdad Sobre el Transbordador Columbia" de Roberto Fontanarrosa
-2026-07-13 00:09:54,151 [INFO]   OK YT: Maud Emprende el Vuelo" de Roberto Fontanarrosa
-2026-07-13 00:09:56,590 [INFO]   OK YT: Una Interesante Observación Sobre las Narigonas" de Roberto Fontanarro
-2026-07-13 00:09:59,388 [INFO]   OK YT: El discipulo" de Roberto Fontanarrosa
-2026-07-13 00:10:02,070 [INFO]   OK YT: La observación de los pájaros" de Roberto Fontanarrosa
-2026-07-13 00:10:04,732 [INFO]   OK YT: Cumpleaños feliz" de Roberto Fontanarrosa
-2026-07-13 00:10:07,042 [INFO]   OK YT: Gnomos en Bariloche" de Roberto Fontanarrosa
-2026-07-13 00:10:10,088 [INFO]   OK YT: Julito   de Roberto Fontanarosa en la voz de Alejandro Apo
-2026-07-13 00:10:12,580 [INFO]   OK YT: Una noticia que sorprende". de Roberto Fontanarrosa
-2026-07-13 00:10:15,311 [INFO]   OK YT: Lo que se dice jugador al fulbo", de Roberto Fontanarrosa - por Alejan
-2026-07-13 00:10:17,876 [INFO]   OK YT: ROBERTO FONTANARROSA - DEFENSA DE LA DERROTA POR ALEJANDRO APO (SUBTIT
-2026-07-13 00:10:20,950 [INFO]   OK YT: Cábalas - por Alejandro Apo
-2026-07-13 00:10:21,954 [INFO] Leyendo playlist YouTube: Todo con Afecto - Cuentos de fútbol
-2026-07-13 00:10:22,538 [INFO] Playlist 'Todo con Afecto - Cuentos de fútbol': 15 videos
-2026-07-13 00:10:23,800 [INFO]   OK YT: Descansa en paz-de Eduardo Sacheri, narrado por Alejandro Apo.flv
-2026-07-13 00:10:26,474 [INFO]   OK YT: Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 1/2
-2026-07-13 00:10:29,199 [INFO]   OK YT: Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 2/2
-2026-07-13 00:10:30,201 [INFO] Leyendo playlist YouTube: Todo con afecto (Apo)
-2026-07-13 00:10:30,678 [INFO] Playlist 'Todo con afecto (Apo)': 15 videos
-2026-07-13 00:10:32,203 [INFO]   OK YT: LA DECADENCIA DE LA AMISTAD ALEJANRO DOLINA POR ALEJO APO
-2026-07-13 00:10:35,116 [INFO]   OK YT: El Hincha - Por Alejandro Apo (Mempo Giardinelli) 1/2
-2026-07-13 00:10:36,117 [INFO] Leyendo playlist YouTube: Cuentos y Relatos
-2026-07-13 00:10:36,566 [INFO] Playlist 'Cuentos y Relatos': 10 videos
-2026-07-13 00:10:37,995 [INFO]   OK YT: Señor Pastoriza”, el cuento de Eduardo Sacheri por Alejandro Apo
-2026-07-13 00:10:40,730 [INFO]   OK YT: Ahí viene caminando Andrés - por Alejando Apo
-2026-07-13 00:10:43,156 [INFO]   OK YT: Un cuento de futbol - La Promesa de Eduardo Sacheri en la Voz de Aleja
-2026-07-13 00:10:44,158 [INFO] Leyendo playlist YouTube: Cuentos (varios)
-2026-07-13 00:10:44,544 [INFO] Playlist 'Cuentos (varios)': 15 videos
-2026-07-13 00:10:46,099 [INFO]   OK YT: Tenemos un arquero que es una maravilla - por Alejandro Apo
-2026-07-13 00:10:48,718 [INFO]   OK YT: Me van a tener que disculpar - VIDEO ORIGINAL - Sacheri, Apo, Maradona
-2026-07-13 00:10:51,184 [INFO]   OK YT: Reuniones de Egresados - Sacheri (Voz: Alejandro Apo)
-2026-07-13 00:10:53,572 [INFO]   OK YT: El Hincha - Por Alejandro Apo (Mempo Giardinelli) 1/2
-2026-07-13 00:10:56,076 [INFO]   OK YT: El Hincha - Por Alejandro Apo (Mempo Giardinelli) 2/2
+2026-07-13 00:33:06,344 [INFO] Leyendo playlist YouTube: Textos: Cuentos y Poemas
+2026-07-13 00:33:07,266 [INFO] Playlist 'Textos: Cuentos y Poemas': 14 videos
+2026-07-13 00:33:09,080 [INFO]   OK YT: La carta robada - Edgar Allan Poe - por Alejandro Apo
+2026-07-13 00:33:12,390 [INFO]   OK YT: El corazón delator - Edgar Allan Poe - por Alejandro Apo
+2026-07-13 00:33:15,672 [INFO]   OK YT: Berenice - Edgar Allan Poe - Por Alejandro Apo
+2026-07-13 00:33:19,593 [INFO]   OK YT: Cuento "Todo el verano en un día" Ray Bradbury - Alejandro Apo - Audio
+2026-07-13 00:33:22,913 [INFO]   OK YT: Cuento "Emma Zunz" Jorge Luis Borges - Alejandro Apo - Audiolibros
+2026-07-13 00:33:26,149 [INFO]   OK YT: Cuento "Desde un Alfiler a un Elefante" Manuel Vazquez Montalbán - Ale
+2026-07-13 00:33:29,763 [INFO]   OK YT: Cuento "La felicidad" Isidoro Blaistein - Alejandro Apo - Audiolibros
+2026-07-13 00:33:32,834 [WARNING] yt-dlp fallo para https://www.youtube.com/watch?v=xi1CB2OTZaw: ERROR: [youtube] xi1CB2OTZaw: Video unavailable. This video is not available
+2026-07-13 00:33:34,962 [INFO]   OK YT: Carta abierta a la patria" - Julio Cortázar - Alejandro Apo - Audiolib
+2026-07-13 00:33:37,645 [INFO]   OK YT: Cuento "El fin" Jorge Luis Borges - Alejandro Apo - Audiolibro
+2026-07-13 00:33:40,121 [INFO]   OK YT: Cuento "Gorilas" Osvaldo Soriano - Alejandro Apo - Audiolibro
+2026-07-13 00:33:42,805 [INFO]   OK YT: Cuento "Ellos" Eduardo Belgrano Rawson - Alejandro Apo - Audiolibro
+2026-07-13 00:33:45,584 [INFO]   OK YT: Poema "De mis tiempos" María Elena Walsh - Leído por Alejandro Apo - A
+2026-07-13 00:33:46,586 [INFO] Leyendo playlist YouTube: Un cuento de futbol
+2026-07-13 00:33:46,619 [INFO] Playlist 'Un cuento de futbol': 11 videos
+2026-07-13 00:33:48,169 [INFO]   OK YT: Un cuento de futbol - Un verano Italiano de Eduardo Sacheri por Alejan
+2026-07-13 00:33:50,595 [INFO]   OK YT: Un Cuento de futbol - El penal mas largo del mundo, de Osvaldo Soriano
+2026-07-13 00:33:53,087 [INFO]   OK YT: Un cuento de futbol - Una sonrisa exactamente así de Eduardo Sacheri p
+2026-07-13 00:33:55,506 [INFO]   OK YT: Un Cuento de futbol - Los traidores de Eduardo Sacheri por Alejandro A
+2026-07-13 00:33:57,960 [INFO]   OK YT: Un cuento de futbol - Por achaval nadie daba dos mangos de Eduardo Sac
+2026-07-13 00:34:00,323 [INFO]   OK YT: Un cuento de futbol - Reuniones de Egresados de Eduardo Sacheri en la 
+2026-07-13 00:34:02,864 [INFO]   OK YT: Un cuento de futbol - Independiente mi viejo y yo de Eduardo Sacheri e
+2026-07-13 00:34:05,558 [INFO]   OK YT: Un cuento de futbol - De Chilena de Eduardo Sacheri en la Voz de Aleja
+2026-07-13 00:34:08,086 [INFO]   OK YT: Un cuento de futbol - La Promesa de Eduardo Sacheri en la Voz de Aleja
+2026-07-13 00:34:10,664 [INFO]   OK YT: Un cuento de futbol - Usted no me lo va a creer de Roberto Fontanarros
+2026-07-13 00:34:13,128 [INFO]   OK YT: Un cuento de futbol - El cuadro de Raulito de Eduardo Sacheri en la Vo
+2026-07-13 00:34:14,131 [INFO] Leyendo playlist YouTube: Detrás de la Red - Cuentos de Fútbol
+2026-07-13 00:34:14,156 [INFO] Playlist 'Detrás de la Red - Cuentos de Fútbol': 8 videos
+2026-07-13 00:34:15,966 [INFO]   OK YT: Último Hombre-Cuento de Eduardo Sacheri- Narración Alejandro Apo
+2026-07-13 00:34:18,515 [INFO]   OK YT: Independiente, mi viejo y yo - Cuento de Eduardo Sacheri - Narración A
+2026-07-13 00:34:21,077 [INFO]   OK YT: La Promesa- Cuento de Eduardo Sacheri- Narración Alejandro Apo
+2026-07-13 00:34:23,683 [INFO]   OK YT: Lo Raro Empezó Después - Cuento de Eduardo Sacheri- Narración Alejandr
+2026-07-13 00:34:26,437 [INFO]   OK YT: El Cuadro de Raulito - Cuento de Eduardo Sacheri - Narración Alejandro
+2026-07-13 00:34:29,005 [INFO]   OK YT: Los Traidores - Cuento de Eduardo Sacheri - Narración Alejandro Apo
+2026-07-13 00:34:31,488 [INFO]   OK YT: Por Achaval nadie daba dos mangos - Cuento de Eduardo Sacheri - Narrac
+2026-07-13 00:34:34,569 [INFO]   OK YT: Hipotética Resurrección de Baltasar Quiñones - Cuento de Eduardo Sache
+2026-07-13 00:34:35,571 [INFO] Leyendo playlist YouTube: Alejandro Apo y Futbol
+2026-07-13 00:34:35,881 [INFO] Playlist 'Alejandro Apo y Futbol': 9 videos
+2026-07-13 00:34:37,170 [INFO]   OK YT: Cuento de Eduardo Sacheri - Frio (narrado por Alejandro Apo) 2º part
+2026-07-13 00:34:38,171 [INFO] Leyendo playlist YouTube: ALEJANDRO APO
+2026-07-13 00:34:38,490 [INFO] Playlist 'ALEJANDRO APO': 12 videos
+2026-07-13 00:34:41,094 [WARNING] yt-dlp fallo para https://www.youtube.com/shorts/pLzjZw9fU_8: ERROR: [youtube] pLzjZw9fU_8: This video is not available
+2026-07-13 00:34:43,970 [WARNING] yt-dlp fallo para https://www.youtube.com/shorts/uwB_8mIdxcQ: ERROR: [youtube] uwB_8mIdxcQ: This video is not available
+2026-07-13 00:34:46,713 [WARNING] yt-dlp fallo para https://www.youtube.com/shorts/90SzfmbTdT4: ERROR: [youtube] 90SzfmbTdT4: This video is not available
+2026-07-13 00:34:49,361 [WARNING] yt-dlp fallo para https://www.youtube.com/shorts/7MuSTUp81WU: ERROR: [youtube] 7MuSTUp81WU: This video is not available
+2026-07-13 00:34:51,802 [WARNING] yt-dlp fallo para https://www.youtube.com/shorts/gaaXIY9flv4: ERROR: [youtube] gaaXIY9flv4: This video is not available
+2026-07-13 00:34:54,264 [WARNING] yt-dlp fallo para https://www.youtube.com/shorts/D8MG3FiTYzA: ERROR: [youtube] D8MG3FiTYzA: This video is not available
+2026-07-13 00:34:56,679 [WARNING] yt-dlp fallo para https://www.youtube.com/shorts/CVwv67nivD0: ERROR: [youtube] CVwv67nivD0: This video is not available
+2026-07-13 00:34:59,231 [WARNING] yt-dlp fallo para https://www.youtube.com/shorts/uuMOSOWcuqA: ERROR: [youtube] uuMOSOWcuqA: This video is not available
+2026-07-13 00:35:01,791 [WARNING] yt-dlp fallo para https://www.youtube.com/shorts/EVRe6xA-Ch0: ERROR: [youtube] EVRe6xA-Ch0: This video is not available
+2026-07-13 00:35:04,449 [WARNING] yt-dlp fallo para https://www.youtube.com/shorts/Zqz0r-Kmknw: ERROR: [youtube] Zqz0r-Kmknw: This video is not available
+2026-07-13 00:35:07,631 [WARNING] yt-dlp fallo para https://www.youtube.com/shorts/d_amD1OY4P0: ERROR: [youtube] d_amD1OY4P0: This video is not available
+2026-07-13 00:35:10,031 [WARNING] yt-dlp fallo para https://www.youtube.com/watch?v=VC1FJmc3bQs: ERROR: [youtube] VC1FJmc3bQs: This video is not available
+2026-07-13 00:35:10,034 [INFO] Leyendo playlist YouTube: Y el fútbol contó un cuento
+2026-07-13 00:35:10,059 [INFO] Playlist 'Y el fútbol contó un cuento': 8 videos
+2026-07-13 00:35:11,443 [INFO]   OK YT: Reuniones de Egresados - Sacheri (Voz: Alejandro Apo)

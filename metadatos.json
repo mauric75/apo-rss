@@ -2,13 +2,13 @@
   "podcast": {
     "titulo": "Los cuentos de Alejandro Apo",
     "rss": "https://mauric75.github.io/apo-rss/rss.xml",
-    "generado": "2026-07-13T03:32:28.712261+00:00"
+    "generado": "2026-07-13T03:35:21.796229+00:00"
   },
   "estadisticas": {
-    "total_episodios": 405,
+    "total_episodios": 436,
     "autores_unicos": 94,
-    "fuentes": 11,
-    "duracion_total_segundos": 388798.0
+    "fuentes": 15,
+    "duracion_total_segundos": 423923.0
   },
   "autores": [
     "Abel Antonio Ponse",
@@ -110,13 +110,17 @@
     "Los cuentos de Apo (Anchor.fm / Grupo Octubre)",
     "Radio Nacional Argentina",
     "RadioCut.fm",
+    "YouTube - Alejandro Apo y Futbol",
     "YouTube - Alejandro Apo, El Cuento de la tarde",
     "YouTube - Cuentos (varios)",
     "YouTube - Cuentos por Alejandro Apo",
     "YouTube - Cuentos y Relatos",
+    "YouTube - Detrás de la Red - Cuentos de Fútbol",
     "YouTube - Fontanarrosa por Apo",
+    "YouTube - Textos: Cuentos y Poemas",
     "YouTube - Todo con Afecto - Cuentos de fútbol",
     "YouTube - Todo con afecto (Apo)",
+    "YouTube - Un cuento de futbol",
     "YouTube - Y el fútbol contó un cuento"
   ]
 }
