@@ -284,76 +284,87 @@ def scrape_wp_tag_feed(feed_url, fuente, max_pages=5):
 # todos los episodios en un solo XML, sin paginacion. No verifica cada MP3
 # porque son feeds oficiales y confiables.
 
-def scrape_podcast_feed(feed_url, fuente):
-    """Lee un feed RSS de podcast completo (un solo XML, sin paginacion).
-    Extrae titulo, audio, fecha, duracion, y descripcion de cada item.
+def scrape_podcast_feed(feed_url, fuente, max_pages=1):
+    """Lee un feed RSS de podcast. Si max_pages > 1, pagina con ?paged=N.
     No verifica el audio (se asume que el feed oficial es confiable)."""
     results = []
-    log.info("Leyendo feed podcast: %s", feed_url)
-    resp = safe_get(feed_url)
-    if not resp:
-        log.error("No se pudo acceder al feed: %s", feed_url)
-        return results
+    seen_guids = set()
     
-    soup = BeautifulSoup(resp.text, "xml")
-    items = soup.find_all("item")
-    log.info("Feed podcast: %d items encontrados", len(items))
-    
-    for item in items:
-        titulo_el = item.find("title")
-        titulo = titulo_el.get_text(strip=True) if titulo_el else ""
-        if not titulo:
-            continue
+    for page in range(1, max_pages + 1):
+        url = feed_url if page == 1 else f"{feed_url}?paged={page}"
+        log.info("Leyendo feed podcast: %s", url)
+        resp = safe_get(url)
+        if not resp:
+            if page == 1:
+                log.error("No se pudo acceder al feed: %s", feed_url)
+            break
         
-        desc_el = item.find("description")
-        body_text = text_clean(desc_el.get_text()) if desc_el else ""
+        soup = BeautifulSoup(resp.text, "xml")
+        items = soup.find_all("item")
+        if not items:
+            break
         
-        # Filtrar con matches_apo para descartar entrevistas y contenido no relevante
-        if not matches_apo(f"{titulo} {body_text}", titulo):
-            continue
+        if page == 1:
+            log.info("Feed podcast: %d items en pagina 1", len(items))
         
-        audio_url = _item_audio(item, feed_url)
-        if not audio_url:
-            continue
-        
-        pubdate_el = item.find("pubDate")
-        fecha = parse_fecha(pubdate_el.get_text(strip=True)) if pubdate_el else ""
-        
-        dur_el = item.find("itunes:duration")
-        dur_secs = 0.0
-        if dur_el:
-            dur_str = dur_el.get_text(strip=True)
-            parts = dur_str.split(":")
-            if len(parts) == 3:
-                dur_secs = int(parts[0]) * 3600 + int(parts[1]) * 60 + int(parts[2])
-            elif len(parts) == 2:
-                dur_secs = int(parts[0]) * 60 + int(parts[1])
-            elif dur_str.isdigit():
-                dur_secs = float(dur_str)
-        
-        autor_cuento = _guess_author(titulo, body_text)
-        
-        guid_el = item.find("guid")
-        item_guid = guid_el.get_text(strip=True) if guid_el else ""
-        
-        link_el = item.find("link")
-        ep_link = link_el.get_text(strip=True) if link_el else feed_url
-        
-        log.info("  OK %s: %s", fuente, titulo[:70])
-        results.append({
-            "titulo": titulo,
-            "autor_cuento": autor_cuento,
-            "narrador": "Alejandro Apo",
-            "descripcion": body_text[:800],
-            "fecha": fecha,
-            "duracion": round(dur_secs, 1),
-            "imagen": COVER_URL,
-            "mp3_url": audio_url,
-            "fuente": fuente,
-            "fuente_url": ep_link,
-            "guid": item_guid or make_guid(titulo, autor_cuento),
-            "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        })
+        for item in items:
+            titulo_el = item.find("title")
+            titulo = titulo_el.get_text(strip=True) if titulo_el else ""
+            if not titulo:
+                continue
+            
+            guid_el = item.find("guid")
+            item_guid = guid_el.get_text(strip=True) if guid_el else ""
+            if item_guid and item_guid in seen_guids:
+                continue
+            if item_guid:
+                seen_guids.add(item_guid)
+            
+            desc_el = item.find("description")
+            body_text = text_clean(desc_el.get_text()) if desc_el else ""
+            
+            if not matches_apo(f"{titulo} {body_text}", titulo):
+                continue
+            
+            audio_url = _item_audio(item, url)
+            if not audio_url:
+                continue
+            
+            pubdate_el = item.find("pubDate")
+            fecha = parse_fecha(pubdate_el.get_text(strip=True)) if pubdate_el else ""
+            
+            dur_el = item.find("itunes:duration")
+            dur_secs = 0.0
+            if dur_el:
+                dur_str = dur_el.get_text(strip=True)
+                parts = dur_str.split(":")
+                if len(parts) == 3:
+                    dur_secs = int(parts[0]) * 3600 + int(parts[1]) * 60 + int(parts[2])
+                elif len(parts) == 2:
+                    dur_secs = int(parts[0]) * 60 + int(parts[1])
+                elif dur_str.isdigit():
+                    dur_secs = float(dur_str)
+            
+            autor_cuento = _guess_author(titulo, body_text)
+            
+            link_el = item.find("link")
+            ep_link = link_el.get_text(strip=True) if link_el else url
+            
+            log.info("  OK %s: %s", fuente, titulo[:70])
+            results.append({
+                "titulo": titulo,
+                "autor_cuento": autor_cuento,
+                "narrador": "Alejandro Apo",
+                "descripcion": body_text[:800],
+                "fecha": fecha,
+                "duracion": round(dur_secs, 1),
+                "imagen": COVER_URL,
+                "mp3_url": audio_url,
+                "fuente": fuente,
+                "fuente_url": ep_link,
+                "guid": item_guid or make_guid(titulo, autor_cuento),
+                "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            })
     
     return results
 
@@ -537,7 +548,15 @@ def main():
     except Exception as e:
         log.error("Error en Radio Nacional (feed podcast): %s", e)
 
-    # 2. Anchor.fm (Spotify for Creators) — feed oficial del podcast
+    # 2. Radio Nacional — feed del tag "alejandro-apo".
+    # Complementa al feed podcast: cubre hasta abril 2024 (vs dic 2023 del otro).
+    # Mismos episodios en su mayoria, pero el dedup se encarga.
+    try:
+        _agregar(scrape_podcast_feed("https://www.radionacional.com.ar/tag/alejandro-apo/feed/", "Radio Nacional Argentina", max_pages=15))
+    except Exception as e:
+        log.error("Error en Radio Nacional (feed tag): %s", e)
+
+    # 3. Anchor.fm (Spotify for Creators) — feed oficial del podcast
     # "Los cuentos de Apo" por Grupo Octubre. Contiene 51 episodios (2021).
     # Es la fuente original que TuneIn agrega en:
     #   https://tunein.com/podcasts/Books--Literature/Los-cuentos-de-Apo-p2783793/

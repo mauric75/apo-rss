@@ -110,63 +110,64 @@
 | 106 | Todo el verano en un día de Ray Bradbury | Ray Bradbury | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 17:58 |
 | 107 | Sennin, de Ryunosuke Akutagawa | Ryunosuke Akutagawa | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 32:23 |
 | 108 | El primer beso de Clarice Lispector | Clarice Lispector | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 07:41 |
-| 109 | “Último hombre”, de Eduardo Sacheri | Eduardo Sacheri | Radio Nacional Argentina | 11:02 |
-| 110 | La santa, de Gabriel García Márquez | Gabriel García Márquez | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 31:59 |
-| 111 | Las doce a bragado de Haroldo Conti | Haroldo Conti | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 31:34 |
-| 112 | Los peligros de fumar en la cama de Mariana Enriquez | Mariana Enriquez | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 11:42 |
-| 113 | La soga de Silvina Ocampo | Silvina Ocampo | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 06:13 |
-| 114 | La última batalla, de Gervasio Noailles | Gervasio Noailles | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 13:09 |
-| 115 | La madre de Ernesto de Abelardo Castillo | Abelardo Castillo | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 15:43 |
-| 116 | Conversación con el borracho, de Franz Kafka | Franz Kafka | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 12:46 |
-| 117 | La loca y el relato del crimen de Ricardo Piglia | Ricardo Piglia | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 19:38 |
-| 118 | Mi amigo Mickey de Roberto Fontanarrosa | Roberto Fontanarrosa | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 33:55 |
-| 119 | Felicidad clandestina de Clarice Lispector | Clarice Lispector | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 09:10 |
-| 120 | La intrusa de Jorge Luis Borges | Jorge Luis Borges | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 12:14 |
-| 121 | Lejana de Julio Cortázar | Julio Cortázar | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 24:18 |
-| 122 | Los nueve minutos de Claudia, de Dalmiro Sáenz | Dalmiro Sáenz | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 18:25 |
-| 123 | El miedo de Guy de Maupassant | Maupassant | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 16:56 |
-| 124 | La muerte de Mario Benedetti | Mario Benedetti | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 17:55 |
-| 125 | Otoño del 53, de Osvaldo Soriano | Osvaldo Soriano | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 14:23 |
-| 126 | La gambeta más larga del mundo, de Pedro Saborido | Pedro Saborido | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 08:52 |
-| 127 | Remedio para melancólicos de Ray Bradbury | Ray Bradbury | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 18:30 |
-| 128 | El romance del aniceto de Zuhair Jury | Zuhair Jury | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 37:12 |
-| 129 | Barbosa, el hombre que murió dos veces de Juan Villoro | Juan Villoro | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 12:45 |
-| 130 | Vidrios rotos de Osvaldo Soriano | Osvaldo Soriano | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 11:52 |
-| 131 | Encuentro nocturno de Ray Bradbury | Ray Bradbury | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 24:25 |
-| 132 | Tierna es la noche de Ricardo Piglia | Ricardo Piglia | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 21:58 |
-| 133 | Instrucciones para buscar aventuras de Alejandro Dolina | Alejandro Dolina | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 04:30 |
-| 134 | Almendros de Antonio Dal Masetto | Antonio Dal Masetto | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 17:35 |
-| 135 | Cielo de los argentinos de Roberto Fontanarrosa | Roberto Fontanarrosa | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 28:00 |
-| 136 | La fiesta ajena de Liliana Heker | Liliana Heker | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 15:19 |
-| 137 | Un señor muy viejo y con unas alas enormes de Gabriel Garcia Márquez | Gabriel Garcia Márquez | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 22:11 |
-| 138 | Un hombre sin suerte de Samanta Schweblin | Samanta Schweblin | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 21:26 |
-| 139 | “El locutor de tanda más rápido del mundo”, de Pedro Saborido | Pedro Saborido | Radio Nacional Argentina | 03:47 |
-| 140 | La trampa, de Rodolfo Walsh | Rodolfo Walsh | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 26:00 |
-| 141 | "El rulo y la muerte", de Eduardo Sacheri | Eduardo Sacheri | Radio Nacional Argentina | 22:38 |
-| 142 | "Lacus vendelinus", de Roberto Fontanarrosa | Roberto Fontanarrosa | Radio Nacional Argentina | 17:56 |
-| 143 | "La fiesta", de Tato Contissa | Tato Contissa | Radio Nacional Argentina | 04:09 |
-| 144 | "Muérete Ringo", de Juan José Becerra | Juan José Becerra | Radio Nacional Argentina | 15:43 |
-| 145 | "El penal a Conigliaro", de Rafael Bielsa | Rafael Bielsa | Radio Nacional Argentina | 15:41 |
-| 146 | "El equipo de mis sueños", de Pedro Saborido | Pedro Saborido | Radio Nacional Argentina | 06:19 |
-| 147 | "A los 27 minutos", de Rodolfo Braceli | Rodolfo Braceli | Radio Nacional Argentina | 03:51 |
-| 148 | "La promesa", de Eduardo Sacheri | Eduardo Sacheri | Radio Nacional Argentina | 21:15 |
-| 149 | "¿Por qué no lo sacás, Sarlanga?", de Pedro Saborido | Pedro Saborido | Radio Nacional Argentina | 09:16 |
-| 150 | "Habilidosos y troncos", de Juan Carlos Muñiz y Raúl Fortín | Juan Carlos Muñiz | Radio Nacional Argentina | 08:11 |
-| 151 | “Jugador de fútbol”, de Ignacio Bogino | Ignacio Bogino | Radio Nacional Argentina | 28:39 |
-| 152 | "Picado de patio", de Juan Carlos Muñiz | Juan Carlos Muñiz | Radio Nacional Argentina | 05:02 |
-| 153 | “En paz descansa”, de Eduardo Sacheri | Eduardo Sacheri | Radio Nacional Argentina | 14:13 |
-| 154 | "Señor Labruna", de Rodolfo Braceli | Rodolfo Braceli | Radio Nacional Argentina | 09:44 |
-| 155 | "Los puestos ingratos", de Juan Carlos Muñiz y Raúl Fortín | Juan Carlos Muñiz | Radio Nacional Argentina | 04:42 |
-| 156 | "El cuadrito de mi amor", de Delfina Corti | Delfina Corti | Radio Nacional Argentina | 08:57 |
-| 157 | La historia del periodista deportivo al que una carta le cambió la vida |  | Radio Nacional Argentina | 32:58 |
-| 158 | "Maradona, el violín del pie", de Alfredo Carlino | Alfredo Carlino | Radio Nacional Argentina | 02:58 |
-| 159 | "El álbum", de Héctor Sánchez | Héctor Sánchez | Radio Nacional Argentina | 10:14 |
-| 160 | El homenaje para Osvaldo Wehbe en el día en que hubiese cumplido 64 años |  | Radio Nacional Argentina | 05:14 |
-| 161 | Víctor Hugo Morales, maestro del periodismo y el relato deportivo |  | Radio Nacional Argentina | 19:25 |
-| 162 | "19 de diciembre de 1971", de Roberto Fontanarrosa | Roberto Fontanarrosa | Radio Nacional Argentina | 26:36 |
-| 163 | "El ocho era Moacyr", de Roberto Fontanarrosa | Roberto Fontanarrosa | Radio Nacional Argentina | 14:12 |
-| 164 | "Relatores", de Alejandro Dolina | Alejandro Dolina | Radio Nacional Argentina | 09:10 |
-| 165 | "Me van a tener que disculpar", de Eduardo Sacheri | Eduardo Sacheri | Radio Nacional Argentina | 19:40 |
-| 166 | Los 60 años de Diego Maradona: cuentos, mensajes y anécdotas del Diez |  | Radio Nacional Argentina | 02:01:34 |
-| 167 | "Aprendiz del barro", de Enrique Estrázulas | Enrique Estrázulas | Radio Nacional Argentina | 14:00 |
-| 168 | "Apuntes del fútbol en Flores", de Alejandro Dolina | Alejandro Dolina | Radio Nacional Argentina | 10:52 |
+| 109 | "Fue una enorme victoria de la Selección Argentina” |  | Radio Nacional Argentina |  |
+| 110 | “Último hombre”, de Eduardo Sacheri | Eduardo Sacheri | Radio Nacional Argentina | 11:02 |
+| 111 | La santa, de Gabriel García Márquez | Gabriel García Márquez | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 31:59 |
+| 112 | Las doce a bragado de Haroldo Conti | Haroldo Conti | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 31:34 |
+| 113 | Los peligros de fumar en la cama de Mariana Enriquez | Mariana Enriquez | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 11:42 |
+| 114 | La soga de Silvina Ocampo | Silvina Ocampo | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 06:13 |
+| 115 | La última batalla, de Gervasio Noailles | Gervasio Noailles | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 13:09 |
+| 116 | La madre de Ernesto de Abelardo Castillo | Abelardo Castillo | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 15:43 |
+| 117 | Conversación con el borracho, de Franz Kafka | Franz Kafka | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 12:46 |
+| 118 | La loca y el relato del crimen de Ricardo Piglia | Ricardo Piglia | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 19:38 |
+| 119 | Mi amigo Mickey de Roberto Fontanarrosa | Roberto Fontanarrosa | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 33:55 |
+| 120 | Felicidad clandestina de Clarice Lispector | Clarice Lispector | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 09:10 |
+| 121 | La intrusa de Jorge Luis Borges | Jorge Luis Borges | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 12:14 |
+| 122 | Lejana de Julio Cortázar | Julio Cortázar | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 24:18 |
+| 123 | Los nueve minutos de Claudia, de Dalmiro Sáenz | Dalmiro Sáenz | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 18:25 |
+| 124 | El miedo de Guy de Maupassant | Maupassant | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 16:56 |
+| 125 | La muerte de Mario Benedetti | Mario Benedetti | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 17:55 |
+| 126 | Otoño del 53, de Osvaldo Soriano | Osvaldo Soriano | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 14:23 |
+| 127 | La gambeta más larga del mundo, de Pedro Saborido | Pedro Saborido | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 08:52 |
+| 128 | Remedio para melancólicos de Ray Bradbury | Ray Bradbury | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 18:30 |
+| 129 | El romance del aniceto de Zuhair Jury | Zuhair Jury | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 37:12 |
+| 130 | Barbosa, el hombre que murió dos veces de Juan Villoro | Juan Villoro | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 12:45 |
+| 131 | Vidrios rotos de Osvaldo Soriano | Osvaldo Soriano | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 11:52 |
+| 132 | Encuentro nocturno de Ray Bradbury | Ray Bradbury | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 24:25 |
+| 133 | Tierna es la noche de Ricardo Piglia | Ricardo Piglia | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 21:58 |
+| 134 | Instrucciones para buscar aventuras de Alejandro Dolina | Alejandro Dolina | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 04:30 |
+| 135 | Almendros de Antonio Dal Masetto | Antonio Dal Masetto | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 17:35 |
+| 136 | Cielo de los argentinos de Roberto Fontanarrosa | Roberto Fontanarrosa | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 28:00 |
+| 137 | La fiesta ajena de Liliana Heker | Liliana Heker | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 15:19 |
+| 138 | Un señor muy viejo y con unas alas enormes de Gabriel Garcia Márquez | Gabriel Garcia Márquez | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 22:11 |
+| 139 | Un hombre sin suerte de Samanta Schweblin | Samanta Schweblin | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 21:26 |
+| 140 | “El locutor de tanda más rápido del mundo”, de Pedro Saborido | Pedro Saborido | Radio Nacional Argentina | 03:47 |
+| 141 | La trampa, de Rodolfo Walsh | Rodolfo Walsh | Los cuentos de Apo (Anchor.fm / Grupo Octubre) | 26:00 |
+| 142 | "El rulo y la muerte", de Eduardo Sacheri | Eduardo Sacheri | Radio Nacional Argentina | 22:38 |
+| 143 | "Lacus vendelinus", de Roberto Fontanarrosa | Roberto Fontanarrosa | Radio Nacional Argentina | 17:56 |
+| 144 | "La fiesta", de Tato Contissa | Tato Contissa | Radio Nacional Argentina | 04:09 |
+| 145 | "Muérete Ringo", de Juan José Becerra | Juan José Becerra | Radio Nacional Argentina | 15:43 |
+| 146 | "El penal a Conigliaro", de Rafael Bielsa | Rafael Bielsa | Radio Nacional Argentina | 15:41 |
+| 147 | "El equipo de mis sueños", de Pedro Saborido | Pedro Saborido | Radio Nacional Argentina | 06:19 |
+| 148 | "A los 27 minutos", de Rodolfo Braceli | Rodolfo Braceli | Radio Nacional Argentina | 03:51 |
+| 149 | "La promesa", de Eduardo Sacheri | Eduardo Sacheri | Radio Nacional Argentina | 21:15 |
+| 150 | "¿Por qué no lo sacás, Sarlanga?", de Pedro Saborido | Pedro Saborido | Radio Nacional Argentina | 09:16 |
+| 151 | "Habilidosos y troncos", de Juan Carlos Muñiz y Raúl Fortín | Juan Carlos Muñiz | Radio Nacional Argentina | 08:11 |
+| 152 | “Jugador de fútbol”, de Ignacio Bogino | Ignacio Bogino | Radio Nacional Argentina | 28:39 |
+| 153 | "Picado de patio", de Juan Carlos Muñiz | Juan Carlos Muñiz | Radio Nacional Argentina | 05:02 |
+| 154 | “En paz descansa”, de Eduardo Sacheri | Eduardo Sacheri | Radio Nacional Argentina | 14:13 |
+| 155 | "Señor Labruna", de Rodolfo Braceli | Rodolfo Braceli | Radio Nacional Argentina | 09:44 |
+| 156 | "Los puestos ingratos", de Juan Carlos Muñiz y Raúl Fortín | Juan Carlos Muñiz | Radio Nacional Argentina | 04:42 |
+| 157 | "El cuadrito de mi amor", de Delfina Corti | Delfina Corti | Radio Nacional Argentina | 08:57 |
+| 158 | La historia del periodista deportivo al que una carta le cambió la vida |  | Radio Nacional Argentina | 32:58 |
+| 159 | "Maradona, el violín del pie", de Alfredo Carlino | Alfredo Carlino | Radio Nacional Argentina | 02:58 |
+| 160 | "El álbum", de Héctor Sánchez | Héctor Sánchez | Radio Nacional Argentina | 10:14 |
+| 161 | El homenaje para Osvaldo Wehbe en el día en que hubiese cumplido 64 años |  | Radio Nacional Argentina | 05:14 |
+| 162 | Víctor Hugo Morales, maestro del periodismo y el relato deportivo |  | Radio Nacional Argentina | 19:25 |
+| 163 | "19 de diciembre de 1971", de Roberto Fontanarrosa | Roberto Fontanarrosa | Radio Nacional Argentina | 26:36 |
+| 164 | "El ocho era Moacyr", de Roberto Fontanarrosa | Roberto Fontanarrosa | Radio Nacional Argentina | 14:12 |
+| 165 | "Relatores", de Alejandro Dolina | Alejandro Dolina | Radio Nacional Argentina | 09:10 |
+| 166 | "Me van a tener que disculpar", de Eduardo Sacheri | Eduardo Sacheri | Radio Nacional Argentina | 19:40 |
+| 167 | Los 60 años de Diego Maradona: cuentos, mensajes y anécdotas del Diez |  | Radio Nacional Argentina | 02:01:34 |
+| 168 | "Aprendiz del barro", de Enrique Estrázulas | Enrique Estrázulas | Radio Nacional Argentina | 14:00 |
+| 169 | "Apuntes del fútbol en Flores", de Alejandro Dolina | Alejandro Dolina | Radio Nacional Argentina | 10:52 |
