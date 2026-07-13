@@ -516,6 +516,13 @@ YT_PLAYLISTS = [
     ("PLvnTVNZIelOs32hx35Y1X8SnDGwP6MOfC",  "Todo con afecto (Apo)"),
     ("PLDHL1yN56dYj4VdHfFXbZH2S1OUUJMF1t",  "Cuentos y Relatos"),
     ("PLTaR_galnfke4wBGOmWmXozEGNF55Z4YH",  "Cuentos (varios)"),
+    # Nuevas playlists descubiertas Jul 2026
+    ("PLLyLbC_ogAAnkkUq1kmZyMUS6oUhI_upC", "Textos: Cuentos y Poemas"),
+    ("PLUFV5AyZUZBNl1smaVulLxZh2-JpuE4ed", "Un cuento de futbol"),
+    ("PLWvIyAjX0z3bJjMjRchx3FNP0Y6XfAQoO", "Detrás de la Red - Cuentos de Fútbol"),
+    ("PLdh4DfiUr1LXpXvP5GWJAfXBQ2SUv3vJ8", "Alejandro Apo y Futbol"),
+    ("PLkqWGWgjhlTRpQb5aePCoM47yo6sGLz2r", "ALEJANDRO APO"),
+    ("PLpOyvRgjpkJ4UI-mS4JxgQpPcr8fdjV5j", "Y el fútbol contó un cuento"),
 ]
 
 YT_FUENTE = "YouTube"
