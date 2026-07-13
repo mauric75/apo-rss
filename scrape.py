@@ -279,6 +279,89 @@ def scrape_wp_tag_feed(feed_url, fuente, max_pages=5):
             time.sleep(1)
     return results
 
+# --- Scraper Genérico de Feed RSS de Podcast ---
+# Para feeds RSS completos tipo podcast (Apple Podcasts, etc.) que incluyen
+# todos los episodios en un solo XML, sin paginacion. No verifica cada MP3
+# porque son feeds oficiales y confiables.
+
+def scrape_podcast_feed(feed_url, fuente):
+    """Lee un feed RSS de podcast completo (un solo XML, sin paginacion).
+    Extrae titulo, audio, fecha, duracion, y descripcion de cada item.
+    No verifica el audio (se asume que el feed oficial es confiable)."""
+    results = []
+    log.info("Leyendo feed podcast: %s", feed_url)
+    resp = safe_get(feed_url)
+    if not resp:
+        log.error("No se pudo acceder al feed: %s", feed_url)
+        return results
+    
+    soup = BeautifulSoup(resp.text, "xml")
+    items = soup.find_all("item")
+    log.info("Feed podcast: %d items encontrados", len(items))
+    
+    for item in items:
+        titulo_el = item.find("title")
+        titulo = titulo_el.get_text(strip=True) if titulo_el else ""
+        if not titulo:
+            continue
+        
+        desc_el = item.find("description")
+        body_text = text_clean(desc_el.get_text()) if desc_el else ""
+        
+        # Filtrar con matches_apo para descartar entrevistas y contenido no relevante
+        if not matches_apo(f"{titulo} {body_text}", titulo):
+            continue
+        
+        audio_url = _item_audio(item, feed_url)
+        if not audio_url:
+            continue
+        
+        pubdate_el = item.find("pubDate")
+        fecha = parse_fecha(pubdate_el.get_text(strip=True)) if pubdate_el else ""
+        
+        dur_el = item.find("itunes:duration")
+        dur_secs = 0.0
+        if dur_el:
+            dur_str = dur_el.get_text(strip=True)
+            parts = dur_str.split(":")
+            if len(parts) == 3:
+                dur_secs = int(parts[0]) * 3600 + int(parts[1]) * 60 + int(parts[2])
+            elif len(parts) == 2:
+                dur_secs = int(parts[0]) * 60 + int(parts[1])
+            elif dur_str.isdigit():
+                dur_secs = float(dur_str)
+        
+        autor_cuento = _guess_author(titulo, body_text)
+        
+        guid_el = item.find("guid")
+        item_guid = guid_el.get_text(strip=True) if guid_el else ""
+        
+        link_el = item.find("link")
+        ep_link = link_el.get_text(strip=True) if link_el else feed_url
+        
+        log.info("  OK %s: %s", fuente, titulo[:70])
+        results.append({
+            "titulo": titulo,
+            "autor_cuento": autor_cuento,
+            "narrador": "Alejandro Apo",
+            "descripcion": body_text[:800],
+            "fecha": fecha,
+            "duracion": round(dur_secs, 1),
+            "imagen": COVER_URL,
+            "mp3_url": audio_url,
+            "fuente": fuente,
+            "fuente_url": ep_link,
+            "guid": item_guid or make_guid(titulo, autor_cuento),
+            "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        })
+    
+    return results
+
+# URL del feed podcast oficial de Radio Nacional (Apple Podcasts).
+# Contiene 300 episodios en un solo XML, mucho mas completo y rapido
+# que el feed paginado del blog.
+RN_PODCAST_FEED = "https://www.radionacional.com.ar/category/buenos-aires/lra-1-buenos-aires/todo-con-afecto/feed/podcast/"
+
 # --- Scraper Anchor.fm (Spotify for Creators) ---
 # El feed original de "Los cuentos de Apo" en Anchor.fm, con 51 episodios.
 # Fuente: https://anchor.fm/s/612a6550/podcast/rss
@@ -445,16 +528,14 @@ def main():
                 ep["descripcion"] = f'Alejandro Apo lee "{ep["titulo"]}"{f", cuento de {a}" if a else ""}.\n\nFuente original:\n{ep["fuente"]}.\n\n{ep["descripcion"]}'
                 all_new.append(ep)
 
-    # 1. Radio Nacional. Se lee la CATEGORIA completa "todo-con-afecto", no
-    # solo el tag "alejandro-apo": la categoria llega hasta la pagina 43 (con
-    # contenido desde 2020), mientras que el tag especifico solo tenia 5
-    # paginas (desde fines de 2023). El filtro de titulo/entrevista ya
-    # existente se encarga de descartar las notas de entrevistas de futbol
-    # que tambien viven en esta categoria, igual que ya hacia con el tag.
+    # 1. Radio Nacional — feed podcast oficial (Apple Podcasts).
+    # 300 episodios en un solo XML (2020-2023), sin paginacion y sin
+    # necesidad de verify_mp3 porque es el feed oficial de podcasting.
+    # Mucho mas rapido y completo que el viejo feed /feed/ paginado.
     try:
-        _agregar(scrape_wp_tag_feed("https://www.radionacional.com.ar/category/todo-con-afecto/feed/", "Radio Nacional Argentina", max_pages=45))
+        _agregar(scrape_podcast_feed(RN_PODCAST_FEED, "Radio Nacional Argentina"))
     except Exception as e:
-        log.error("Error en Radio Nacional (Feed categoria): %s", e)
+        log.error("Error en Radio Nacional (feed podcast): %s", e)
 
     # 2. Anchor.fm (Spotify for Creators) — feed oficial del podcast
     # "Los cuentos de Apo" por Grupo Octubre. Contiene 51 episodios (2021).
