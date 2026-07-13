@@ -156,7 +156,7 @@ def build_html(eps):
             --bg:#f8f5ee;--ink:#1a1a1a;--accent:#b71c1c;--card:#fff;--meta:#5c5c5c;--border:#d4cec4;--hairline:#e0dbd2;
             --paper:#f8f5ee;--red:#b71c1c;--warm:#faf7f0;
         }
-        body.night{--bg:#1a1a1a;--ink:#e0dbd2;--card:#252525;--meta:#9c9c9c;--border:#3a3a3a;--hairline:#333;--paper:#1a1a1a;--warm:#222}
+        body.light{--bg:#f8f5ee;--ink:#1a1a1a;--card:#fff;--meta:#5c5c5c;--border:#d4cec4;--hairline:#e0dbd2;--paper:#f8f5ee;--warm:#faf7f0}
         *{margin:0;padding:0;box-sizing:border-box}
         body{background:var(--bg);color:var(--ink);font-family:"Source Serif 4",Georgia,serif;line-height:1.7;transition:background .4s,color .4s;font-weight:350}
         .masthead{border-bottom:4px double var(--ink);padding:2rem 1rem 1.5rem;text-align:center;max-width:1000px;margin:0 auto}
@@ -260,7 +260,7 @@ def build_html(eps):
     <span class="update" id="stat-updated">Actualizado: ···</span>
 </div>
 <div class="top-bar">
-    <button class="icon-btn" id="theme-btn" onclick="toggleTheme()">Nocturno</button>
+    <button class="icon-btn on" id="theme-btn" onclick="toggleTheme()">Claro</button>
     <button class="icon-btn" id="random-btn" onclick="randomEpisode()">Al azar</button>
     <button class="icon-btn" id="audio-mode-btn" onclick="toggleAudioMode()">Solo audio</button>
     <button class="icon-btn" id="listened-filter-btn" onclick="toggleListenedFilter()">No escuchados</button>
@@ -404,9 +404,10 @@ document.addEventListener('keydown',e=>{
     if(e.key==='ArrowRight')window.scrollBy({top:400,behavior:'smooth'});
 });
 function toggleTheme(){
-    const isNight=document.body.classList.toggle('night');
-    document.getElementById("theme-btn").textContent=isNight?'Diurno':'Nocturno';
-    localStorage.setItem('theme',isNight?'night':'day');
+    const isLight=document.body.classList.toggle('light');
+    document.getElementById("theme-btn").textContent=isLight?'Oscuro':'Claro';
+    document.getElementById("theme-btn").classList.toggle('on',!isLight);
+    localStorage.setItem('theme',isLight?'light':'dark');
 }
 function buildTimeline(){
     const years={};
@@ -489,7 +490,7 @@ async function init(){
     const today=new Date();
     const meses=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
     document.getElementById("masthead-date").textContent='Edición del '+today.getDate()+' de '+meses[today.getMonth()]+' de '+today.getFullYear();
-    if(localStorage.getItem('theme')==='night'){document.body.classList.add('night');document.getElementById("theme-btn").textContent='Diurno';}
+    if(localStorage.getItem('theme')==='light'){document.body.classList.add('light');document.getElementById("theme-btn").textContent='Oscuro';}else{document.getElementById("theme-btn").classList.add('on');}
     if(localStorage.getItem('audioOnly')==='1'){document.body.classList.add('audio-only');document.getElementById("audio-mode-btn").textContent='Vista completa';}
     buildTimeline();buildAuthorBar();buildSourceFilter();filterAndSort();
     document.getElementById("search").addEventListener("input",filterAndSort);
