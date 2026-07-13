@@ -2,7 +2,7 @@ name: Actualizar RSS
 
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 9 * * *"   # 6 AM Argentina (9 UTC)
   workflow_dispatch:
 
 permissions:
@@ -21,7 +21,9 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar dependencias
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install yt-dlp
 
       - name: Ejecutar scraping
         run: python scrape.py
@@ -29,7 +31,7 @@ jobs:
       - name: Generar archivos
         run: python build.py
 
-      - name: Forzar y subir archivos
+      - name: Commit y push
         run: |
           git config user.name "RSS Bot"
           git config user.email "bot@users.noreply.github.com"

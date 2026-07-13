@@ -714,19 +714,24 @@ def scrape_radiocut_url(audiocut_url):
         "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
 
-# URLs de audiocuts de Apo descubiertas via sitemaps de RadioCut
-RC_APO_URLS = [
-    "https://radiocut.fm/audiocut/te-digo-mas-roberto-fontanarrosa-por-alejandro-apo/",
-    "https://radiocut.fm/audiocut/alejandro-apo-lee-a-eduardo-sacheri/",
-    "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-una-sonrisa-exactamente-asi-eduardo-sacheri/",
-    "https://radiocut.fm/audiocut/alejandro-apo-dondequiera-estes-lecturas-y-cuentos-jueves-19-10-2023/",
-    "https://radiocut.fm/audiocut/dama-del-perrito-griselda-gambaro/",
-    "https://radiocut.fm/audiocut/el-mundo-ha-vivido-equivocado-de-roberto-fontanarrosa-por-alejandro-apo/",
-    "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-por-am750-hoy-sur-viejo-de-dalmiro-saenz/",
-    "https://radiocut.fm/audiocut/un-senor-cuento-en-la-casa-invita-am-750-por-alejandro-apo-torito-de-julio-cortazar/",
-    "https://radiocut.fm/audiocut/unsenorcuento-con-alejandroapo-en-lacasainvita-por-am750-hoy-juan-murana-jorge-luis-borges/",
-    "https://radiocut.fm/audiocut/cuento-del-diario-intimo-un-chico-rubio/",
-]
+# URLs de audiocuts de Apo descubiertas via sitemaps de RadioCut.
+# Se cargan desde radiocut_urls.json (generado con scrape_sitemaps.py).
+RC_URLS_FILE = Path("radiocut_urls.json")
+
+def load_radiocut_urls():
+    """Carga la lista de URLs de RadioCut desde el archivo JSON."""
+    if RC_URLS_FILE.exists():
+        try:
+            return json.loads(RC_URLS_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    # Fallback: lista minima hardcodeada
+    return [
+        "https://radiocut.fm/audiocut/te-digo-mas-roberto-fontanarrosa-por-alejandro-apo/",
+        "https://radiocut.fm/audiocut/alejandro-apo-lee-a-eduardo-sacheri/",
+        "https://radiocut.fm/audiocut/unsenorcuento-en-la-casa-invita-por-am750-hoy-una-sonrisa-exactamente-asi-eduardo-sacheri/",
+        "https://radiocut.fm/audiocut/alejandro-apo-dondequiera-estes-lecturas-y-cuentos-jueves-19-10-2023/",
+    ]
 
 # --- Scraper Genérico (AM750 y Página/12) ---
 # Nota: "am750" y "tags" fueron sacados de esta lista. AM750 ahora vive DENTRO
@@ -824,7 +829,7 @@ def main():
     # 4. RadioCut.fm — audiocuts individuales descubiertos via sitemaps.
     # Contiene contenido reciente (2024-2025) de AM750 no disponible en RSS.
     try:
-        for rc_url in RC_APO_URLS:
+        for rc_url in load_radiocut_urls():
             ep = scrape_radiocut_url(rc_url)
             if ep and not dedup(existing, ep) and not dedup(all_new, ep):
                 a = ep["autor_cuento"]
