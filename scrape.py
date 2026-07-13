@@ -658,11 +658,10 @@ def scrape_radiocut_url(audiocut_url):
     seconds = re.findall(r'<li class="audio_seconds">([^<]+)</li>', html)
     base_url = re.findall(r'<li class="audio_base_url">([^<]+)</li>', html)
     
-    # URL de audio desde JSON-LD (preferido) o construido
-    audio_url = ""
-    ld_urls = re.findall(r'"contentUrl"\s*:\s*"([^"]+)"', html)
-    if ld_urls:
-        audio_url = ld_urls[0]
+    # URL de audio desde JSON-LD. Los audios de RadioCut expiran
+    # (~30-60 dias), asi que NO los guardamos como enclosures.
+    # Solo metadata + link a la pagina de RadioCut.
+    audio_url = ""  # Deshabilitado: los chunkserver URLs expiran
     elif station and seconds and base_url:
         # Fallback: construir URL (menos preciso pero funciona)
         dur_match = re.findall(r'<li class="audio_duration">([^<]+)</li>', html)
@@ -670,7 +669,8 @@ def scrape_radiocut_url(audiocut_url):
         audio_url = f"{base_url[0]}/server/get_unified_file/{station[0]}/{seconds[0]}.0/{dur}"
     
     if not audio_url:
-        return None
+        # Sin audio directo: no es un error, RadioCut no permite hotlinking
+        pass
     
     # Fecha desde JSON-LD o meta
     fecha = ""
