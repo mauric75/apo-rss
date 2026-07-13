@@ -327,11 +327,16 @@ def main():
                 ep["descripcion"] = f'Alejandro Apo lee "{ep["titulo"]}"{f", cuento de {a}" if a else ""}.\n\nFuente original:\n{ep["fuente"]}.\n\n{ep["descripcion"]}'
                 all_new.append(ep)
 
-    # 1. Radio Nacional (Feed RSS nativo - Ultra eficiente)
+    # 1. Radio Nacional. Se lee la CATEGORIA completa "todo-con-afecto", no
+    # solo el tag "alejandro-apo": la categoria llega hasta la pagina 43 (con
+    # contenido desde 2020), mientras que el tag especifico solo tenia 5
+    # paginas (desde fines de 2023). El filtro de titulo/entrevista ya
+    # existente se encarga de descartar las notas de entrevistas de futbol
+    # que tambien viven en esta categoria, igual que ya hacia con el tag.
     try:
-        _agregar(scrape_wp_tag_feed("https://www.radionacional.com.ar/tag/alejandro-apo/feed/", "Radio Nacional Argentina"))
+        _agregar(scrape_wp_tag_feed("https://www.radionacional.com.ar/category/todo-con-afecto/feed/", "Radio Nacional Argentina", max_pages=45))
     except Exception as e:
-        log.error("Error en Radio Nacional (Feed): %s", e)
+        log.error("Error en Radio Nacional (Feed categoria): %s", e)
 
     # 2. Pagina/12 (incluye AM750): DESHABILITADO otra vez, esta vez por un
     # motivo distinto y definitivo. El dominio am750.com.ar murio y su
