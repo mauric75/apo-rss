@@ -124,76 +124,232 @@ def build_indice(eps):
     Path("INDICE.md").write_text("\n".join(lines), encoding="utf-8")
 
 def build_html(eps):
-    html = f'''<!DOCTYPE html>
+    # Versión interactiva: la página carga episodes.json vía JS
+    # para tener búsqueda, filtros, paginación y más.
+    html = r'''<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>{PODCAST_TITLE}</title>
+    <title>Los cuentos de Alejandro Apo</title>
     <style>
-        :root {{
-            --bg: #0d0d0d;
-            --fg: #e8e8e8;
-            --accent: #ff6b35;
-        }}
-        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-        body {{
-            background: var(--bg);
-            color: var(--fg);
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            line-height: 1.6;
-        }}
-        header {{
-            background: linear-gradient(135deg, var(--accent) 0%, #ff8c42 100%);
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }}
-        header h1 {{ font-size: 2.5rem; margin-bottom: 0.5rem; }}
-        header p {{ opacity: 0.9; font-size: 1.1rem; }}
-        main {{ max-width: 900px; margin: 0 auto; padding: 2rem; }}
-        .ep {{
-            background: #1a1a1a;
-            border-left: 4px solid var(--accent);
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            border-radius: 4px;
-        }}
-        .ep h3 {{ color: var(--accent); margin-bottom: 0.5rem; }}
-        .meta {{ font-size: 0.9rem; color: #999; margin-bottom: 1rem; }}
-        .ep p {{ margin-bottom: 1rem; }}
-        .ep audio {{ width: 100%; margin-top: 1rem; }}
-        footer {{
-            background: #1a1a1a;
-            text-align: center;
-            padding: 1rem;
-            border-top: 1px solid #333;
-            font-size: 0.9rem;
-            color: #666;
-        }}
+        :root {
+            --bg: #0d0d0d; --fg: #e8e8e8; --accent: #ff6b35;
+            --card: #1a1a1a; --meta: #999; --border: #2a2a2a;
+            --rn: #ff6b35; --anchor: #1db954; --rc: #3b82f6; --yt: #ef4444;
+        }
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+        header{background:linear-gradient(135deg,var(--accent)0%,#ff8c42 100%);color:#fff;padding:2rem;text-align:center}
+        header h1{font-size:2rem;margin-bottom:.25rem}
+        header p{opacity:.9;font-size:1rem}
+        .subscribe{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;margin-top:1rem}
+        .subscribe a{background:rgba(255,255,255,.15);color:#fff;padding:.5rem 1.2rem;border-radius:50px;text-decoration:none;font-size:.85rem;border:1px solid rgba(255,255,255,.25);transition:all .2s}
+        .subscribe a:hover{background:rgba(255,255,255,.3)}
+        .stats{max-width:900px;margin:1.5rem auto 0;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;font-size:.85rem;opacity:.8}
+        .stats span{background:var(--card);padding:.3rem .8rem;border-radius:50px}
+        .toolbar{max-width:900px;margin:1.5rem auto;padding:0 1rem;display:flex;gap:.75rem;flex-wrap:wrap;align-items:center}
+        #search{flex:1;min-width:180px;background:var(--card);border:1px solid var(--border);color:var(--fg);padding:.6rem 1rem;border-radius:8px;font-size:.9rem;outline:none}
+        #search:focus{border-color:var(--accent)}
+        select{background:var(--card);border:1px solid var(--border);color:var(--fg);padding:.6rem .8rem;border-radius:8px;font-size:.85rem;cursor:pointer;outline:none}
+        select:focus{border-color:var(--accent)}
+        .authors-bar{max-width:900px;margin:0 auto 1rem;padding:0 1rem;display:flex;gap:.4rem;flex-wrap:wrap;max-height:120px;overflow-y:auto}
+        .authors-bar button{background:var(--card);border:1px solid var(--border);color:var(--meta);padding:.2rem .7rem;border-radius:50px;font-size:.75rem;cursor:pointer;white-space:nowrap;transition:all .2s}
+        .authors-bar button:hover,.authors-bar button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+        main{max-width:900px;margin:0 auto;padding:1rem}
+        .ep{background:var(--card);border-left:4px solid var(--accent);padding:1.25rem;margin-bottom:1rem;border-radius:0 6px 6px 0;transition:transform .15s}
+        .ep:hover{transform:translateX(2px)}
+        .ep h3{font-size:1.05rem;margin-bottom:.4rem;color:var(--fg)}
+        .ep .meta{font-size:.8rem;color:var(--meta);margin-bottom:.6rem;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center}
+        .badge{font-size:.65rem;padding:.15rem .5rem;border-radius:50px;color:#fff;font-weight:600;text-transform:uppercase;letter-spacing:.3px}
+        .badge-rn{background:var(--rn)}.badge-anchor{background:var(--anchor)}.badge-rc{background:var(--rc)}.badge-yt{background:var(--yt)}
+        .ep p{font-size:.85rem;color:var(--meta);margin-bottom:.75rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+        .ep audio{width:100%;height:32px;margin-top:.5rem;border-radius:6px}
+        .ep audio::-webkit-media-controls-panel{background:var(--border)}
+        .load-more{text-align:center;margin:1.5rem 0}
+        .load-more button{background:var(--accent);color:#fff;border:none;padding:.7rem 2rem;border-radius:50px;font-size:.9rem;cursor:pointer;transition:opacity .2s}
+        .load-more button:hover{opacity:.85}
+        .no-results{text-align:center;color:var(--meta);padding:3rem}
+        footer{background:var(--card);text-align:center;padding:1rem;border-top:1px solid var(--border);font-size:.8rem;color:var(--meta);margin-top:2rem}
+        footer a{color:var(--accent);text-decoration:none}
+        @media(max-width:600px){header h1{font-size:1.5rem}.toolbar{flex-direction:column}#search{width:100%}}
     </style>
 </head>
 <body>
-    <header>
-        <h1>{PODCAST_TITLE}</h1>
-        <p>{PODCAST_SUBTITLE}</p>
-    </header>
-    <main>
-'''
-    for ep in eps:
-        audio_html = ""
-        if ep.get("mp3_url"):
-            audio_html = f'<audio controls style="width: 100%;"><source src="{ep["mp3_url"]}" type="audio/mpeg">Tu navegador no soporta audio.</audio>'
-        html += f'''        <article class="ep">
-            <h3>{ep["titulo"]}</h3>
-            <div class="meta">{ep.get("autor_cuento", "-")} | {ep.get("fecha", "-")} | {duracion_str(ep.get("duracion", 0))}</div>
-            <p>{ep.get("descripcion", "")}</p>
-            {audio_html}
-            <p><strong>Fuente:</strong> <a href="{ep.get("fuente_url", "#")}" style="color: var(--accent);">{ep.get("fuente", "N/A")}</a></p>
-        </article>
-'''
-    html += '''    </main>
-    <footer>Feed independiente. Crédito a fuentes originales en cada episodio.</footer>
+<header>
+    <h1>Los cuentos de Alejandro Apo</h1>
+    <p>Colección automática de cuentos narrados por Alejandro Apo desde fuentes públicas argentinas.</p>
+    <div class="subscribe">
+        <a href="rss.xml">📻 RSS Feed</a>
+        <a href="podcast.opml">📋 OPML</a>
+        <a href="https://podcasts.apple.com/us/podcast/id1508165282">🎧 Apple Podcasts</a>
+        <a href="https://open.spotify.com/show/alejandro-apo-am750">🟢 Spotify</a>
+    </div>
+    <div class="stats">
+        <span id="stat-episodes">··· episodios</span>
+        <span id="stat-authors">··· autores</span>
+        <span id="stat-sources">··· fuentes</span>
+        <span id="stat-range">····–····</span>
+    </div>
+</header>
+<div class="toolbar">
+    <input type="text" id="search" placeholder="🔍 Buscar por título, autor, fuente...">
+    <select id="sort"><option value="newest">Más nuevos</option><option value="oldest">Más viejos</option><option value="az">Autor A-Z</option><option value="longest">Más largos</option></select>
+    <select id="source-filter"><option value="all">Todas las fuentes</option></select>
+</div>
+<div class="authors-bar" id="authors-bar"></div>
+<main id="episodes"></main>
+<div class="load-more" id="load-more" style="display:none"><button onclick="loadMore()">Cargar más episodios</button></div>
+<div class="no-results" id="no-results" style="display:none">😕 No se encontraron episodios con esos filtros.</div>
+<footer>
+    Feed independiente — <a href="https://github.com/mauric75/apo-rss">GitHub</a>
+</footer>
+<script>
+const PER_PAGE = 25;
+let allEpisodes = [];
+let filtered = [];
+let shown = 0;
+let authorFilter = null;
+
+function sourceBadge(fuente){
+    const f = fuente.toLowerCase();
+    if(f.includes("radio nacional")) return '<span class="badge badge-rn">RN</span>';
+    if(f.includes("anchor")) return '<span class="badge badge-anchor">Anchor</span>';
+    if(f.includes("radiocut")) return '<span class="badge badge-rc">RadioCut</span>';
+    if(f.includes("youtube")) return '<span class="badge badge-yt">YT</span>';
+    return '';
+}
+
+function fmtDuration(s){
+    if(!s||s<=0)return'';
+    const h=Math.floor(s/3600),m=Math.floor(s%3600/60);
+    return h?h+':'+String(m).padStart(2,'0'):m+' min';
+}
+
+function renderEpisode(ep){
+    const audio = ep.mp3_url ? `<audio controls preload="none"><source src="${ep.mp3_url}" type="audio/mpeg"></audio>` : '';
+    const autor = ep.autor_cuento ? `<span>✍ ${ep.autor_cuento}</span>` : '';
+    const badge = sourceBadge(ep.fuente);
+    return `<article class="ep">
+        <h3>${ep.titulo}</h3>
+        <div class="meta">${badge} ${autor} <span>📅 ${ep.fecha||'?'}</span> <span>⏱ ${fmtDuration(ep.duracion)}</span></div>
+        <p>${ep.descripcion||''}</p>
+        ${audio}
+        <div class="meta" style="margin-top:.5rem"><a href="${ep.fuente_url||'#'}" target="_blank" style="color:var(--accent);text-decoration:none">🔗 ${ep.fuente}</a></div>
+    </article>`;
+}
+
+function filterAndSort(){
+    const q = document.getElementById("search").value.toLowerCase();
+    const srcFilter = document.getElementById("source-filter").value;
+    const sort = document.getElementById("sort").value;
+    
+    filtered = allEpisodes.filter(ep => {
+        if(authorFilter && ep.autor_cuento !== authorFilter) return false;
+        if(srcFilter !== 'all'){
+            const f = ep.fuente.toLowerCase();
+            if(srcFilter === 'rn' && !f.includes('radio nacional')) return false;
+            if(srcFilter === 'anchor' && !f.includes('anchor')) return false;
+            if(srcFilter === 'rc' && !f.includes('radiocut')) return false;
+            if(srcFilter === 'yt' && !f.includes('youtube')) return false;
+        }
+        if(q){
+            const txt = (ep.titulo+' '+ep.autor_cuento+' '+ep.fuente+' '+ep.descripcion).toLowerCase();
+            if(!txt.includes(q)) return false;
+        }
+        return true;
+    });
+    
+    if(sort === 'newest') filtered.sort((a,b) => (b.fecha||'').localeCompare(a.fecha||''));
+    else if(sort === 'oldest') filtered.sort((a,b) => (a.fecha||'').localeCompare(b.fecha||''));
+    else if(sort === 'az') filtered.sort((a,b) => (a.titulo||'').localeCompare(b.titulo||''));
+    else if(sort === 'longest') filtered.sort((a,b) => (b.duracion||0)-(a.duracion||0));
+    
+    shown = 0;
+    document.getElementById("episodes").innerHTML = '';
+    document.getElementById("no-results").style.display = 'none';
+    loadMore();
+}
+
+function loadMore(){
+    const container = document.getElementById("episodes");
+    const toShow = filtered.slice(shown, shown + PER_PAGE);
+    toShow.forEach(ep => container.innerHTML += renderEpisode(ep));
+    shown += toShow.length;
+    
+    document.getElementById("load-more").style.display = shown < filtered.length ? '' : 'none';
+    if(filtered.length === 0 && shown === 0){
+        document.getElementById("no-results").style.display = '';
+        document.getElementById("load-more").style.display = 'none';
+    }
+}
+
+function buildAuthorBar(){
+    const authors = {};
+    allEpisodes.forEach(ep => {
+        if(ep.autor_cuento){
+            authors[ep.autor_cuento] = (authors[ep.autor_cuento]||0)+1;
+        }
+    });
+    const sorted = Object.entries(authors).sort((a,b) => b[1]-a[1]);
+    const bar = document.getElementById("authors-bar");
+    bar.innerHTML = '<button class="active" onclick="authorFilter=null;updateAuthorButtons();filterAndSort()">Todos</button>';
+    sorted.forEach(([author, count]) => {
+        bar.innerHTML += `<button onclick="authorFilter='${author.replace(/'/g,"\\'")}';updateAuthorButtons();filterAndSort()">${author} (${count})</button>`;
+    });
+}
+
+function updateAuthorButtons(){
+    document.querySelectorAll("#authors-bar button").forEach(btn => {
+        btn.classList.toggle("active", btn.textContent.startsWith(authorFilter||'Todos'));
+    });
+}
+
+function buildSourceFilter(){
+    const sources = {};
+    allEpisodes.forEach(ep => {
+        const f = ep.fuente.toLowerCase();
+        if(f.includes('radio nacional')) sources['rn'] = (sources['rn']||0)+1;
+        else if(f.includes('anchor')) sources['anchor'] = (sources['anchor']||0)+1;
+        else if(f.includes('radiocut')) sources['rc'] = (sources['rc']||0)+1;
+        else if(f.includes('youtube')) sources['yt'] = (sources['yt']||0)+1;
+    });
+    const sel = document.getElementById("source-filter");
+    if(sources['rn']) sel.innerHTML += `<option value="rn">Radio Nacional (${sources['rn']})</option>`;
+    if(sources['anchor']) sel.innerHTML += `<option value="anchor">Anchor.fm (${sources['anchor']})</option>`;
+    if(sources['rc']) sel.innerHTML += `<option value="rc">RadioCut (${sources['rc']})</option>`;
+    if(sources['yt']) sel.innerHTML += `<option value="yt">YouTube (${sources['yt']})</option>`;
+}
+
+async function init(){
+    try{
+        const resp = await fetch('episodes.json');
+        allEpisodes = await resp.json();
+    }catch(e){
+        document.getElementById("episodes").innerHTML = '<div class="no-results">Error al cargar episodios 😞</div>';
+        return;
+    }
+    
+    // Stats
+    const autores = new Set(allEpisodes.map(e=>e.autor_cuento).filter(Boolean));
+    const fuentes = new Set(allEpisodes.map(e=>e.fuente.split(' - ')[0]));
+    const dates = allEpisodes.map(e=>e.fecha).filter(Boolean).sort();
+    document.getElementById("stat-episodes").textContent = allEpisodes.length+' episodios';
+    document.getElementById("stat-authors").textContent = autores.size+' autores';
+    document.getElementById("stat-sources").textContent = fuentes.size+' fuentes';
+    document.getElementById("stat-range").textContent = (dates[0]||'?')+' – '+(dates[dates.length-1]||'?');
+    
+    buildAuthorBar();
+    buildSourceFilter();
+    filterAndSort();
+    
+    document.getElementById("search").addEventListener("input", filterAndSort);
+    document.getElementById("sort").addEventListener("change", filterAndSort);
+    document.getElementById("source-filter").addEventListener("change", filterAndSort);
+}
+
+init();
+</script>
 </body>
 </html>'''
     Path("index.html").write_text(html, encoding="utf-8")
