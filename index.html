@@ -12,9 +12,12 @@
         }
         *{margin:0;padding:0;box-sizing:border-box}
         body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
-        header{background:linear-gradient(135deg,var(--accent)0%,#ff8c42 100%);color:#fff;padding:2rem;text-align:center}
-        header h1{font-size:2rem;margin-bottom:.25rem}
-        header p{opacity:.9;font-size:1rem}
+        header{background:linear-gradient(135deg,var(--accent)0%,#ff8c42 100%);color:#fff;padding:2.5rem 2rem 2rem;text-align:center}
+        .header-content{display:flex;align-items:center;justify-content:center;gap:1.5rem;flex-wrap:wrap;max-width:700px;margin:0 auto}
+        .header-photo{width:100px;height:100px;border-radius:50%;border:3px solid rgba(255,255,255,.5);object-fit:cover;box-shadow:0 4px 20px rgba(0,0,0,.3)}
+        .header-text{text-align:left}
+        .header-text h1{font-size:2rem;margin-bottom:.2rem}
+        .header-text p{opacity:.9;font-size:1rem}
         .subscribe{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;margin-top:1rem}
         .subscribe a{background:rgba(255,255,255,.15);color:#fff;padding:.5rem 1.2rem;border-radius:50px;text-decoration:none;font-size:.85rem;border:1px solid rgba(255,255,255,.25);transition:all .2s}
         .subscribe a:hover{background:rgba(255,255,255,.3)}
@@ -44,13 +47,18 @@
         .no-results{text-align:center;color:var(--meta);padding:3rem}
         footer{background:var(--card);text-align:center;padding:1rem;border-top:1px solid var(--border);font-size:.8rem;color:var(--meta);margin-top:2rem}
         footer a{color:var(--accent);text-decoration:none}
-        @media(max-width:600px){header h1{font-size:1.5rem}.toolbar{flex-direction:column}#search{width:100%}}
+        @media(max-width:600px){.header-content{flex-direction:column;text-align:center}.header-text{text-align:center}.header-text h1{font-size:1.4rem}.toolbar{flex-direction:column}#search{width:100%}}
     </style>
 </head>
 <body>
 <header>
+<div class="header-content">
+<img class="header-photo" src="cover.jpg" alt="Alejandro Apo">
+<div class="header-text">
     <h1>Los cuentos de Alejandro Apo</h1>
     <p>Colección automática de cuentos narrados por Alejandro Apo desde fuentes públicas argentinas.</p>
+</div>
+</div>
     <div class="subscribe">
         <a href="rss.xml">📻 RSS Feed</a>
         <a href="podcast.opml">📋 OPML</a>
