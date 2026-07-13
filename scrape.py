@@ -333,21 +333,20 @@ def main():
     except Exception as e:
         log.error("Error en Radio Nacional (Feed): %s", e)
 
-    # 2. Pagina/12 (incluye AM750: el dominio am750.com.ar quedo dado de baja,
-    # y su contenido ahora vive DENTRO de pagina12.com.ar/am750/).
-    # El buscador (?q=... / ?s=...) es 100% client-side y nunca devuelve
-    # resultados reales via HTML plano -- confirmado en corridas reales del
-    # 2026-07-12, donde recorria el menu generico del sitio sin encontrar
-    # nada. En cambio, la pagina de TAG real (con id numerico propio del CMS
-    # de Pagina/12) si lista contenido real con fecha, y cubre tanto notas de
-    # Pagina/12 como de AM750 porque ambos comparten el mismo sistema de tags.
-    scrapers = [
-        ("https://www.pagina12.com.ar/tags/7116-alejandro-apo", "pagina12.com.ar", "Página/12 / AM750"),
-    ]
-    for url, dom, name in scrapers:
-        try:
-            _agregar(scrape_source(url, dom, name))
-        except Exception as e: log.error("Error en %s: %s", name, e)
+    # 2. Pagina/12 (incluye AM750): DESHABILITADO otra vez, esta vez por un
+    # motivo distinto y definitivo. El dominio am750.com.ar murio y su
+    # contenido se mudo a pagina12.com.ar/am750/, y la pagina de tag real
+    # (pagina12.com.ar/tags/7116-alejandro-apo) SI lista notas reales sobre
+    # los cuentos de Apo (a diferencia del buscador, que nunca funciono).
+    # Pero se verifico bajando el HTML completo de una de esas notas
+    # (819153-alejandro-apo-lee-el-pichon-de-cristo-de-fontanarrosa) y NO hay
+    # ningun reproductor de audio ni link a mp3: son notas de texto que
+    # acompañan la lectura al aire, no el archivo de audio en si. El audio
+    # real de "Donde quiera que estes" vive unicamente en Radio Nacional, que
+    # ya se cubre bien con el feed RSS. No es un bug de extraccion (no es que
+    # el mp3 este cargado por JS y no se vea): no hay audio para extraer en
+    # esa pagina, nunca lo hubo. No tiene sentido re-habilitar esto salvo que
+    # aparezca evidencia de que alguna nota puntual si incluya audio propio.
     
     if all_new:
         existing.extend(all_new)
