@@ -35,12 +35,13 @@ def build_rss(eps):
     fg.language(PODCAST_LANGUAGE)
     fg.copyright(PODCAST_COPYRIGHT)
     fg.image(url=PODCAST_IMAGE, title=PODCAST_TITLE, link=PODCAST_LINK)
-    fg.podcast.itunes_category("Arts", "Literature")
+    fg.podcast.itunes_category("Arts", "Books")
     fg.podcast.itunes_owner(name=PODCAST_AUTHOR, email=PODCAST_EMAIL)
     fg.podcast.itunes_explicit("no")
     fg.podcast.itunes_image(PODCAST_IMAGE)
     fg.podcast.itunes_summary(PODCAST_DESCRIPTION)
     fg.podcast.itunes_type("episodic")
+    fg.podcast.itunes_author(PODCAST_AUTHOR)
     
     for ep in eps:
         fe = fg.add_entry()
@@ -48,18 +49,27 @@ def build_rss(eps):
         fe.title(ep["titulo"])
         desc = ep.get("descripcion", "")
         fe.description(desc)
-        fe.content(desc)
         fe.published(datetime.fromisoformat(ep["fecha"]).replace(tzinfo=timezone.utc) if ep.get("fecha") else datetime.now(timezone.utc))
-        if ep.get("mp3_url"): fe.enclosure(ep["mp3_url"], str(ep.get("duracion", 0)), "audio/mpeg")
+        if ep.get("mp3_url"): fe.enclosure(ep["mp3_url"], str(int(ep.get("duracion", 0))), "audio/mpeg")
         fe.podcast.itunes_duration(duracion_str(ep.get("duracion", 0)))
         fe.podcast.itunes_summary(desc)
         fe.podcast.itunes_episode_type("full")
+        if ep.get("autor_cuento"):
+            fe.podcast.itunes_author(ep["autor_cuento"])
+        else:
+            fe.podcast.itunes_author(PODCAST_AUTHOR)
         img = ep.get("imagen", PODCAST_IMAGE)
         if img: fe.podcast.itunes_image(img)
-        html_c = f'<img src="{img}" alt="" /><p>{desc}</p>'
-        if ep.get("autor_cuento"): html_c += f'<p>Autor: <strong>{ep["autor_cuento"]}</strong></p>'
-        html_c += f'<p>Fuente: <a href="{ep.get("fuente_url","")}">{ep.get("fuente","")}</a></p>'
-        fe.content(html_c, type="html")
+        # Contenido HTML enriquecido
+        html_parts = [f'<img src="{img}" alt="" style="max-width:100%;border-radius:8px" />'] if img else []
+        html_parts.append(f'<p style="font-size:1.1em">{desc}</p>')
+        if ep.get("autor_cuento"):
+            html_parts.append(f'<p>✍ <strong>{ep["autor_cuento"]}</strong></p>')
+        html_parts.append(f'<p>📅 {ep.get("fecha","")} · ⏱ {duracion_str(ep.get("duracion", 0))}</p>')
+        if ep.get("fuente_url"):
+            html_parts.append(f'<p>🔗 <a href="{ep["fuente_url"]}">{ep.get("fuente","")}</a></p>')
+        html_parts.append(f'<hr><p><small>Narrado por Alejandro Apo · Feed independiente · <a href="{PODCAST_LINK}">{PODCAST_TITLE}</a></small></p>')
+        fe.content("\n".join(html_parts), type="html")
         
     fg.rss_file("rss.xml", encoding="utf-8", xml_declaration=True)
 
@@ -230,6 +240,8 @@ def build_html(eps):
     <a href="podcast.opml">📋 OPML</a>
     <a href="https://podcasts.apple.com/us/podcast/id1508165282">🎧 Apple Podcasts</a>
     <a href="https://open.spotify.com/show/alejandro-apo-am750">🟢 Spotify</a>
+    <a href="https://pca.st/itunes/1508165282">📱 Pocket Casts</a>
+    <a href="https://podcastaddict.com/podcast/3315176">🎙 Podcast Addict</a>
 </div>
 <div class="stats">
     <span id="stat-episodes">···</span>
