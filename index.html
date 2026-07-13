@@ -4,48 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Los cuentos de Alejandro Apo</title>
+    <meta name="description" content="Colección de 400+ cuentos narrados por Alejandro Apo desde radios argentinas. Feed RSS independiente.">
+    <meta property="og:title" content="Los cuentos de Alejandro Apo">
+    <meta property="og:description" content="Colección de 400+ cuentos narrados por Alejandro Apo. RSS, Apple Podcasts, Spotify.">
+    <meta property="og:image" content="https://mauric75.github.io/apo-rss/cover.jpg">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/jpeg" href="cover.jpg">
     <style>
-        :root {
-            --bg: #0d0d0d; --fg: #e8e8e8; --accent: #ff6b35;
-            --card: #1a1a1a; --meta: #999; --border: #2a2a2a;
-            --rn: #ff6b35; --anchor: #1db954; --rc: #3b82f6; --yt: #ef4444;
+        :root{
+            --bg:#0d0d0d;--fg:#e8e8e8;--accent:#ff6b35;--card:#1a1a1a;--meta:#999;--border:#2a2a2a;
+            --rn:#ff6b35;--anchor:#1db954;--rc:#3b82f6;--yt:#ef4444;
         }
+        body.light{--bg:#f5f5f5;--fg:#1a1a1a;--card:#fff;--meta:#666;--border:#ddd}
         *{margin:0;padding:0;box-sizing:border-box}
-        body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
-        header{background:linear-gradient(135deg,var(--accent)0%,#ff8c42 100%);color:#fff;padding:2.5rem 2rem 2rem;text-align:center}
+        body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6;transition:background .3s,color .3s}
+        header{background:linear-gradient(135deg,var(--accent)0%,#ff8c42 100%);color:#fff;padding:2.5rem 1.5rem 2rem;text-align:center}
         .header-content{display:flex;align-items:center;justify-content:center;gap:1.5rem;flex-wrap:wrap;max-width:700px;margin:0 auto}
-        .header-photo{width:100px;height:100px;border-radius:50%;border:3px solid rgba(255,255,255,.5);object-fit:cover;box-shadow:0 4px 20px rgba(0,0,0,.3)}
+        .header-photo{width:100px;height:100px;border-radius:50%;border:3px solid rgba(255,255,255,.5);object-fit:cover;box-shadow:0 4px 20px rgba(0,0,0,.3);cursor:pointer;transition:transform .3s}
+        .header-photo:hover{transform:scale(2.5);z-index:10;position:relative}
         .header-text{text-align:left}
         .header-text h1{font-size:2rem;margin-bottom:.2rem}
         .header-text p{opacity:.9;font-size:1rem}
+        .top-bar{display:flex;justify-content:flex-end;max-width:900px;margin:.5rem auto 0;padding:0 1rem;gap:.5rem}
+        .icon-btn{background:var(--card);border:1px solid var(--border);color:var(--fg);width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:1rem;display:flex;align-items:center;justify-content:center;transition:all .2s}
+        .icon-btn:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
         .subscribe{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;margin-top:1rem}
         .subscribe a{background:rgba(255,255,255,.15);color:#fff;padding:.5rem 1.2rem;border-radius:50px;text-decoration:none;font-size:.85rem;border:1px solid rgba(255,255,255,.25);transition:all .2s}
         .subscribe a:hover{background:rgba(255,255,255,.3)}
         .stats{max-width:900px;margin:1.5rem auto 0;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;font-size:.85rem;opacity:.8}
-        .stats span{background:var(--card);padding:.3rem .8rem;border-radius:50px}
-        .toolbar{max-width:900px;margin:1.5rem auto;padding:0 1rem;display:flex;gap:.75rem;flex-wrap:wrap;align-items:center}
-        #search{flex:1;min-width:180px;background:var(--card);border:1px solid var(--border);color:var(--fg);padding:.6rem 1rem;border-radius:8px;font-size:.9rem;outline:none}
+        .stats span{background:rgba(255,255,255,.1);padding:.3rem .8rem;border-radius:50px}
+        .toolbar{max-width:900px;margin:1rem auto;padding:0 1rem;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center}
+        #search{flex:1;min-width:160px;background:var(--card);border:1px solid var(--border);color:var(--fg);padding:.5rem .8rem;border-radius:8px;font-size:.85rem;outline:none}
         #search:focus{border-color:var(--accent)}
-        select{background:var(--card);border:1px solid var(--border);color:var(--fg);padding:.6rem .8rem;border-radius:8px;font-size:.85rem;cursor:pointer;outline:none}
+        select{background:var(--card);border:1px solid var(--border);color:var(--fg);padding:.5rem .6rem;border-radius:8px;font-size:.8rem;cursor:pointer;outline:none}
         select:focus{border-color:var(--accent)}
-        .authors-bar{max-width:900px;margin:0 auto 1rem;padding:0 1rem;display:flex;gap:.4rem;flex-wrap:wrap;max-height:120px;overflow-y:auto}
-        .authors-bar button{background:var(--card);border:1px solid var(--border);color:var(--meta);padding:.2rem .7rem;border-radius:50px;font-size:.75rem;cursor:pointer;white-space:nowrap;transition:all .2s}
+        .timeline{max-width:900px;margin:0 auto .5rem;padding:0 1rem;display:flex;gap:.25rem;flex-wrap:wrap;justify-content:center}
+        .timeline button{background:var(--card);border:1px solid var(--border);color:var(--meta);padding:.15rem .6rem;border-radius:50px;font-size:.7rem;cursor:pointer;transition:all .2s}
+        .timeline button:hover,.timeline button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+        .authors-bar{max-width:900px;margin:0 auto .5rem;padding:0 1rem;display:flex;gap:.3rem;flex-wrap:wrap;max-height:100px;overflow-y:auto}
+        .authors-bar button{background:var(--card);border:1px solid var(--border);color:var(--meta);padding:.15rem .5rem;border-radius:50px;font-size:.7rem;cursor:pointer;white-space:nowrap;transition:all .2s}
         .authors-bar button:hover,.authors-bar button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-        main{max-width:900px;margin:0 auto;padding:1rem}
-        .ep{background:var(--card);border-left:4px solid var(--accent);padding:1.25rem;margin-bottom:1rem;border-radius:0 6px 6px 0;transition:transform .15s}
-        .ep:hover{transform:translateX(2px)}
-        .ep h3{font-size:1.05rem;margin-bottom:.4rem;color:var(--fg)}
-        .ep .meta{font-size:.8rem;color:var(--meta);margin-bottom:.6rem;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center}
-        .badge{font-size:.65rem;padding:.15rem .5rem;border-radius:50px;color:#fff;font-weight:600;text-transform:uppercase;letter-spacing:.3px}
+        main{max-width:900px;margin:0 auto;padding:1rem;min-height:50vh}
+        .ep{background:var(--card);border-left:4px solid var(--accent);padding:1rem 1.25rem;margin-bottom:.8rem;border-radius:0 6px 6px 0;transition:transform .15s,box-shadow .15s}
+        .ep:hover{transform:translateX(2px);box-shadow:0 2px 12px rgba(0,0,0,.2)}
+        .ep h3{font-size:1rem;margin-bottom:.3rem;color:var(--fg)}
+        .ep .meta{font-size:.75rem;color:var(--meta);margin-bottom:.5rem;display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}
+        .badge{font-size:.6rem;padding:.1rem .4rem;border-radius:50px;color:#fff;font-weight:600;text-transform:uppercase;letter-spacing:.3px}
         .badge-rn{background:var(--rn)}.badge-anchor{background:var(--anchor)}.badge-rc{background:var(--rc)}.badge-yt{background:var(--yt)}
-        .ep p{font-size:.85rem;color:var(--meta);margin-bottom:.75rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-        .ep audio{width:100%;height:32px;margin-top:.5rem;border-radius:6px}
+        .ep p{font-size:.8rem;color:var(--meta);margin-bottom:.6rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+        .ep audio{width:100%;height:30px;margin-top:.4rem;border-radius:6px}
         .ep audio::-webkit-media-controls-panel{background:var(--border)}
-        .load-more{text-align:center;margin:1.5rem 0}
-        .load-more button{background:var(--accent);color:#fff;border:none;padding:.7rem 2rem;border-radius:50px;font-size:.9rem;cursor:pointer;transition:opacity .2s}
-        .load-more button:hover{opacity:.85}
+        .ep-actions{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-top:.5rem}
+        .ep-actions a,.ep-actions button{font-size:.7rem;color:var(--meta);text-decoration:none;background:var(--border);padding:.2rem .6rem;border-radius:50px;border:none;cursor:pointer;transition:all .2s}
+        .ep-actions a:hover,.ep-actions button:hover{background:var(--accent);color:#fff}
+        .speed-select{font-size:.7rem;padding:.15rem .3rem;border-radius:4px;background:var(--border);color:var(--meta);border:none;cursor:pointer}
+        #top-btn{position:fixed;bottom:1.5rem;right:1.5rem;background:var(--accent);color:#fff;border:none;width:40px;height:40px;border-radius:50%;font-size:1.2rem;cursor:pointer;display:none;box-shadow:0 2px 10px rgba(0,0,0,.3);z-index:100;transition:opacity .3s}
         .no-results{text-align:center;color:var(--meta);padding:3rem}
-        footer{background:var(--card);text-align:center;padding:1rem;border-top:1px solid var(--border);font-size:.8rem;color:var(--meta);margin-top:2rem}
+        .top-authors{max-width:900px;margin:2rem auto 0;padding:0 1rem}
+        .top-authors h3{font-size:.9rem;color:var(--meta);margin-bottom:.5rem;text-align:center}
+        .top-authors ol{display:flex;flex-wrap:wrap;gap:.3rem 1.5rem;justify-content:center;list-style:none;font-size:.75rem;color:var(--meta)}
+        .top-authors li{cursor:pointer;transition:color .2s}
+        .top-authors li:hover{color:var(--accent)}
+        .toast{position:fixed;bottom:5rem;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;padding:.5rem 1.2rem;border-radius:50px;font-size:.85rem;z-index:200;opacity:0;transition:opacity .3s;pointer-events:none}
+        .toast.show{opacity:1}
+        footer{background:var(--card);text-align:center;padding:1.5rem 1rem;border-top:1px solid var(--border);font-size:.8rem;color:var(--meta);margin-top:2rem}
         footer a{color:var(--accent);text-decoration:none}
         @media(max-width:600px){.header-content{flex-direction:column;text-align:center}.header-text{text-align:center}.header-text h1{font-size:1.4rem}.toolbar{flex-direction:column}#search{width:100%}}
     </style>
@@ -53,181 +76,241 @@
 <body>
 <header>
 <div class="header-content">
-<img class="header-photo" src="cover.jpg" alt="Alejandro Apo">
+<img class="header-photo" src="cover.jpg" alt="Alejandro Apo" title="Click para agrandar">
 <div class="header-text">
     <h1>Los cuentos de Alejandro Apo</h1>
     <p>Colección automática de cuentos narrados por Alejandro Apo desde fuentes públicas argentinas.</p>
 </div>
 </div>
-    <div class="subscribe">
-        <a href="rss.xml">📻 RSS Feed</a>
-        <a href="podcast.opml">📋 OPML</a>
-        <a href="https://podcasts.apple.com/us/podcast/id1508165282">🎧 Apple Podcasts</a>
-        <a href="https://open.spotify.com/show/alejandro-apo-am750">🟢 Spotify</a>
-    </div>
-    <div class="stats">
-        <span id="stat-episodes">··· episodios</span>
-        <span id="stat-authors">··· autores</span>
-        <span id="stat-sources">··· fuentes</span>
-        <span id="stat-range">····–····</span>
-    </div>
+<div class="subscribe">
+    <a href="rss.xml">📻 RSS Feed</a>
+    <a href="podcast.opml">📋 OPML</a>
+    <a href="https://podcasts.apple.com/us/podcast/id1508165282">🎧 Apple Podcasts</a>
+    <a href="https://open.spotify.com/show/alejandro-apo-am750">🟢 Spotify</a>
+</div>
+<div class="stats">
+    <span id="stat-episodes">···</span>
+    <span id="stat-authors">···</span>
+    <span id="stat-sources">···</span>
+    <span id="stat-range">····–····</span>
+</div>
 </header>
+<div class="top-bar">
+    <button class="icon-btn" id="theme-btn" title="Modo claro/oscuro" onclick="toggleTheme()">☀️</button>
+    <button class="icon-btn" id="random-btn" title="Cuento aleatorio" onclick="randomEpisode()">🎲</button>
+</div>
 <div class="toolbar">
     <input type="text" id="search" placeholder="🔍 Buscar por título, autor, fuente...">
     <select id="sort"><option value="newest">Más nuevos</option><option value="oldest">Más viejos</option><option value="az">Autor A-Z</option><option value="longest">Más largos</option></select>
     <select id="source-filter"><option value="all">Todas las fuentes</option></select>
 </div>
+<div class="timeline" id="timeline"></div>
 <div class="authors-bar" id="authors-bar"></div>
 <main id="episodes"></main>
-<div class="load-more" id="load-more" style="display:none"><button onclick="loadMore()">Cargar más episodios</button></div>
-<div class="no-results" id="no-results" style="display:none">😕 No se encontraron episodios con esos filtros.</div>
+<div class="no-results" id="no-results" style="display:none">😕 No se encontraron episodios.</div>
+<div class="top-authors" id="top-authors"></div>
+<button id="top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Ir arriba">⬆</button>
+<div class="toast" id="toast"></div>
 <footer>
-    Feed independiente — <a href="https://github.com/mauric75/apo-rss">GitHub</a>
+    Feed independiente — <a href="https://github.com/mauric75/apo-rss">GitHub</a> · 
+    <span style="cursor:pointer" onclick="randomEpisode()">🎲 Cuento aleatorio</span>
 </footer>
 <script>
-const PER_PAGE = 25;
-let allEpisodes = [];
-let filtered = [];
-let shown = 0;
-let authorFilter = null;
+const PER_PAGE=25;
+let allEpisodes=[],filtered=[],shown=0,authorFilter=null,yearFilter=null,currentAudio=null;
 
-function sourceBadge(fuente){
-    const f = fuente.toLowerCase();
-    if(f.includes("radio nacional")) return '<span class="badge badge-rn">RN</span>';
-    if(f.includes("anchor")) return '<span class="badge badge-anchor">Anchor</span>';
-    if(f.includes("radiocut")) return '<span class="badge badge-rc">RadioCut</span>';
-    if(f.includes("youtube")) return '<span class="badge badge-yt">YT</span>';
-    return '';
+function sourceBadge(f){
+    const l=f.toLowerCase();
+    if(l.includes("radio nacional"))return'<span class="badge badge-rn">RN</span>';
+    if(l.includes("anchor"))return'<span class="badge badge-anchor">Anchor</span>';
+    if(l.includes("radiocut"))return'<span class="badge badge-rc">RadioCut</span>';
+    if(l.includes("youtube"))return'<span class="badge badge-yt">YT</span>';
+    return'';
 }
-
 function fmtDuration(s){
     if(!s||s<=0)return'';
-    const h=Math.floor(s/3600),m=Math.floor(s%3600/60);
-    return h?h+':'+String(m).padStart(2,'0'):m+' min';
+    const h=Math.floor(s/3600),m=Math.floor(s%3600/60),sec=Math.floor(s%60);
+    return h?h+':'+String(m).padStart(2,'0')+'h':m+':'+String(sec).padStart(2,'0')+' min';
 }
-
-function renderEpisode(ep){
-    const audio = ep.mp3_url ? `<audio controls preload="none"><source src="${ep.mp3_url}" type="audio/mpeg"></audio>` : '';
-    const autor = ep.autor_cuento ? `<span>✍ ${ep.autor_cuento}</span>` : '';
-    const badge = sourceBadge(ep.fuente);
-    return `<article class="ep">
+function toast(msg){
+    const t=document.getElementById("toast");
+    t.textContent=msg;t.classList.add("show");
+    setTimeout(()=>t.classList.remove("show"),2000);
+}
+function renderEpisode(ep,i){
+    const id='ep-'+i;
+    const audio=ep.mp3_url?`<audio id="${id}" controls preload="none" onplay="onAudioPlay(this)" onended="onAudioEnded(this)"><source src="${ep.mp3_url}" type="audio/mpeg"></audio>`:'';
+    const autor=ep.autor_cuento?`<span>✍ ${ep.autor_cuento}</span>`:'';
+    const badge=sourceBadge(ep.fuente);
+    const shareUrl=encodeURIComponent(ep.fuente_url||'');
+    const shareTitle=encodeURIComponent(ep.titulo);
+    return`<article class="ep">
         <h3>${ep.titulo}</h3>
         <div class="meta">${badge} ${autor} <span>📅 ${ep.fecha||'?'}</span> <span>⏱ ${fmtDuration(ep.duracion)}</span></div>
         <p>${ep.descripcion||''}</p>
         ${audio}
-        <div class="meta" style="margin-top:.5rem"><a href="${ep.fuente_url||'#'}" target="_blank" style="color:var(--accent);text-decoration:none">🔗 ${ep.fuente}</a></div>
+        <div class="ep-actions">
+            <a href="${ep.mp3_url||'#'}" download title="Descargar MP3">⬇ Descargar</a>
+            <select class="speed-select" onchange="changeSpeed('${id}',this.value)" title="Velocidad"><option value="1">1x</option><option value="1.25">1.25x</option><option value="1.5">1.5x</option><option value="2">2x</option></select>
+            <a href="https://wa.me/?text=${shareTitle}%20${shareUrl}" target="_blank" title="Compartir WhatsApp">💬</a>
+            <a href="https://twitter.com/intent/tweet?text=${shareTitle}&url=${shareUrl}" target="_blank" title="Compartir Twitter">🐦</a>
+            <button onclick="copyLink('${ep.fuente_url||''}')" title="Copiar link">📋</button>
+            <a href="${ep.fuente_url||'#'}" target="_blank" style="color:var(--accent)">🔗 Fuente</a>
+        </div>
     </article>`;
 }
-
+function onAudioPlay(audio){
+    if(currentAudio&&currentAudio!==audio){currentAudio.pause();}
+    currentAudio=audio;
+}
+function onAudioEnded(audio){
+    currentAudio=null;
+    const allAudio=[...document.querySelectorAll('main audio')];
+    const idx=allAudio.indexOf(audio);
+    if(idx>=0&&idx<allAudio.length-1){
+        allAudio[idx+1].scrollIntoView({behavior:'smooth',block:'center'});
+        allAudio[idx+1].play();
+    }
+}
+function changeSpeed(id,val){
+    const a=document.getElementById(id);
+    if(a)a.playbackRate=parseFloat(val);
+}
+function copyLink(url){
+    navigator.clipboard.writeText(url).then(()=>toast('✅ Link copiado!'));
+}
+function randomEpisode(){
+    if(!filtered.length)return;
+    const ep=filtered[Math.floor(Math.random()*filtered.length)];
+    document.getElementById("search").value='';
+    authorFilter=null;yearFilter=null;
+    updateButtons();
+    filterAndSort();
+    setTimeout(()=>{
+        const audios=[...document.querySelectorAll('main audio')];
+        const idx=allEpisodes.indexOf(ep);
+        if(idx>=0&&audios[idx]){
+            audios[idx].scrollIntoView({behavior:'smooth',block:'center'});
+            audios[idx].play();
+            toast('🎲 '+ep.titulo.substring(0,60)+'...');
+        }
+    },300);
+}
 function filterAndSort(){
-    const q = document.getElementById("search").value.toLowerCase();
-    const srcFilter = document.getElementById("source-filter").value;
-    const sort = document.getElementById("sort").value;
-    
-    filtered = allEpisodes.filter(ep => {
-        if(authorFilter && ep.autor_cuento !== authorFilter) return false;
-        if(srcFilter !== 'all'){
-            const f = ep.fuente.toLowerCase();
-            if(srcFilter === 'rn' && !f.includes('radio nacional')) return false;
-            if(srcFilter === 'anchor' && !f.includes('anchor')) return false;
-            if(srcFilter === 'rc' && !f.includes('radiocut')) return false;
-            if(srcFilter === 'yt' && !f.includes('youtube')) return false;
+    const q=document.getElementById("search").value.toLowerCase();
+    const srcFilter=document.getElementById("source-filter").value;
+    const sort=document.getElementById("sort").value;
+    filtered=allEpisodes.filter(ep=>{
+        if(authorFilter&&ep.autor_cuento!==authorFilter)return false;
+        if(yearFilter&&(ep.fecha||'').substring(0,4)!==yearFilter)return false;
+        if(srcFilter!=='all'){
+            const f=ep.fuente.toLowerCase();
+            if(srcFilter==='rn'&&!f.includes('radio nacional'))return false;
+            if(srcFilter==='anchor'&&!f.includes('anchor'))return false;
+            if(srcFilter==='rc'&&!f.includes('radiocut'))return false;
+            if(srcFilter==='yt'&&!f.includes('youtube'))return false;
         }
-        if(q){
-            const txt = (ep.titulo+' '+ep.autor_cuento+' '+ep.fuente+' '+ep.descripcion).toLowerCase();
-            if(!txt.includes(q)) return false;
-        }
+        if(q){const t=(ep.titulo+' '+ep.autor_cuento+' '+ep.fuente+' '+ep.descripcion).toLowerCase();if(!t.includes(q))return false;}
         return true;
     });
-    
-    if(sort === 'newest') filtered.sort((a,b) => (b.fecha||'').localeCompare(a.fecha||''));
-    else if(sort === 'oldest') filtered.sort((a,b) => (a.fecha||'').localeCompare(b.fecha||''));
-    else if(sort === 'az') filtered.sort((a,b) => (a.titulo||'').localeCompare(b.titulo||''));
-    else if(sort === 'longest') filtered.sort((a,b) => (b.duracion||0)-(a.duracion||0));
-    
-    shown = 0;
-    document.getElementById("episodes").innerHTML = '';
-    document.getElementById("no-results").style.display = 'none';
+    if(sort==='newest')filtered.sort((a,b)=>(b.fecha||'').localeCompare(a.fecha||''));
+    else if(sort==='oldest')filtered.sort((a,b)=>(a.fecha||'').localeCompare(b.fecha||''));
+    else if(sort==='az')filtered.sort((a,b)=>(a.titulo||'').localeCompare(b.titulo||''));
+    else if(sort==='longest')filtered.sort((a,b)=>(b.duracion||0)-(a.duracion||0));
+    shown=0;document.getElementById("episodes").innerHTML='';
+    document.getElementById("no-results").style.display='none';currentAudio=null;
     loadMore();
 }
-
 function loadMore(){
-    const container = document.getElementById("episodes");
-    const toShow = filtered.slice(shown, shown + PER_PAGE);
-    toShow.forEach(ep => container.innerHTML += renderEpisode(ep));
-    shown += toShow.length;
-    
-    document.getElementById("load-more").style.display = shown < filtered.length ? '' : 'none';
-    if(filtered.length === 0 && shown === 0){
-        document.getElementById("no-results").style.display = '';
-        document.getElementById("load-more").style.display = 'none';
-    }
+    const c=document.getElementById("episodes");
+    const startIdx=shown;
+    const toShow=filtered.slice(shown,shown+PER_PAGE);
+    toShow.forEach((ep,i)=>c.innerHTML+=renderEpisode(ep,startIdx+i));
+    shown+=toShow.length;
+    document.getElementById("no-results").style.display=(filtered.length===0&&shown===0)?'':'none';
 }
-
+// Infinite scroll
+let scrollTimeout;
+window.addEventListener('scroll',()=>{
+    clearTimeout(scrollTimeout);
+    scrollTimeout=setTimeout(()=>{
+        const btn=document.getElementById("top-btn");
+        btn.style.display=window.scrollY>500?'':'none';
+        if(shown<filtered.length&&window.innerHeight+window.scrollY>=document.body.offsetHeight-400)loadMore();
+    },100);
+});
+// Keyboard shortcuts
+document.addEventListener('keydown',e=>{
+    if(e.target.tagName==='INPUT'||e.target.tagName==='SELECT')return;
+    if(e.key==='r'||e.key==='R')randomEpisode();
+    if(e.key==='f'||e.key==='F')document.getElementById("search").focus();
+    if(e.key==='ArrowLeft')window.scrollBy({top:-400,behavior:'smooth'});
+    if(e.key==='ArrowRight')window.scrollBy({top:400,behavior:'smooth'});
+});
+function toggleTheme(){
+    const isLight=document.body.classList.toggle('light');
+    document.getElementById("theme-btn").textContent=isLight?'🌙':'☀️';
+    localStorage.setItem('theme',isLight?'light':'dark');
+}
+function buildTimeline(){
+    const years={};
+    allEpisodes.forEach(ep=>{const y=(ep.fecha||'????').substring(0,4);years[y]=(years[y]||0)+1;});
+    const sorted=Object.keys(years).sort().reverse();
+    const t=document.getElementById("timeline");
+    t.innerHTML='<button class="active" onclick="yearFilter=null;updateButtons();filterAndSort()">Todos</button>';
+    sorted.forEach(y=>{t.innerHTML+=`<button onclick="yearFilter='${y}';updateButtons();filterAndSort()">${y} (${years[y]})</button>`;});
+}
 function buildAuthorBar(){
-    const authors = {};
-    allEpisodes.forEach(ep => {
-        if(ep.autor_cuento){
-            authors[ep.autor_cuento] = (authors[ep.autor_cuento]||0)+1;
-        }
-    });
-    const sorted = Object.entries(authors).sort((a,b) => b[1]-a[1]);
-    const bar = document.getElementById("authors-bar");
-    bar.innerHTML = '<button class="active" onclick="authorFilter=null;updateAuthorButtons();filterAndSort()">Todos</button>';
-    sorted.forEach(([author, count]) => {
-        bar.innerHTML += `<button onclick="authorFilter='${author.replace(/'/g,"\\'")}';updateAuthorButtons();filterAndSort()">${author} (${count})</button>`;
+    const authors={};
+    allEpisodes.forEach(ep=>{if(ep.autor_cuento)authors[ep.autor_cuento]=(authors[ep.autor_cuento]||0)+1;});
+    const sorted=Object.entries(authors).sort((a,b)=>b[1]-a[1]);
+    const bar=document.getElementById("authors-bar");
+    bar.innerHTML='<button class="active" onclick="authorFilter=null;updateButtons();filterAndSort()">Todos</button>';
+    sorted.forEach(([a,c])=>{bar.innerHTML+=`<button onclick="authorFilter='${a.replace(/'/g,"\\'")}';updateButtons();filterAndSort()">${a} (${c})</button>`;});
+    // Top 10
+    const top=document.getElementById("top-authors");
+    top.innerHTML='<h3>🏆 Autores con más cuentos</h3><ol>'+sorted.slice(0,10).map(([a,c])=>`<li onclick="authorFilter='${a.replace(/'/g,"\\'")}';updateButtons();filterAndSort();window.scrollTo({top:300,behavior:'smooth'})">${a} (${c})</li>`).join('')+'</ol>';
+}
+function updateButtons(){
+    document.querySelectorAll("#authors-bar button,.timeline button").forEach(b=>{
+        const t=b.textContent;
+        const match=(t.startsWith(authorFilter||'Todos'))||(t.startsWith(yearFilter||'Todos'));
+        b.classList.toggle("active",match);
     });
 }
-
-function updateAuthorButtons(){
-    document.querySelectorAll("#authors-bar button").forEach(btn => {
-        btn.classList.toggle("active", btn.textContent.startsWith(authorFilter||'Todos'));
-    });
-}
-
 function buildSourceFilter(){
-    const sources = {};
-    allEpisodes.forEach(ep => {
-        const f = ep.fuente.toLowerCase();
-        if(f.includes('radio nacional')) sources['rn'] = (sources['rn']||0)+1;
-        else if(f.includes('anchor')) sources['anchor'] = (sources['anchor']||0)+1;
-        else if(f.includes('radiocut')) sources['rc'] = (sources['rc']||0)+1;
-        else if(f.includes('youtube')) sources['yt'] = (sources['yt']||0)+1;
+    const s={};
+    allEpisodes.forEach(ep=>{
+        const f=ep.fuente.toLowerCase();
+        if(f.includes('radio nacional'))s['rn']=(s['rn']||0)+1;
+        else if(f.includes('anchor'))s['anchor']=(s['anchor']||0)+1;
+        else if(f.includes('radiocut'))s['rc']=(s['rc']||0)+1;
+        else if(f.includes('youtube'))s['yt']=(s['yt']||0)+1;
     });
-    const sel = document.getElementById("source-filter");
-    if(sources['rn']) sel.innerHTML += `<option value="rn">Radio Nacional (${sources['rn']})</option>`;
-    if(sources['anchor']) sel.innerHTML += `<option value="anchor">Anchor.fm (${sources['anchor']})</option>`;
-    if(sources['rc']) sel.innerHTML += `<option value="rc">RadioCut (${sources['rc']})</option>`;
-    if(sources['yt']) sel.innerHTML += `<option value="yt">YouTube (${sources['yt']})</option>`;
+    const sel=document.getElementById("source-filter");
+    if(s['rn'])sel.innerHTML+='<option value="rn">Radio Nacional ('+s['rn']+')</option>';
+    if(s['anchor'])sel.innerHTML+='<option value="anchor">Anchor.fm ('+s['anchor']+')</option>';
+    if(s['rc'])sel.innerHTML+='<option value="rc">RadioCut ('+s['rc']+')</option>';
+    if(s['yt'])sel.innerHTML+='<option value="yt">YouTube ('+s['yt']+')</option>';
 }
-
 async function init(){
-    try{
-        const resp = await fetch('episodes.json');
-        allEpisodes = await resp.json();
-    }catch(e){
-        document.getElementById("episodes").innerHTML = '<div class="no-results">Error al cargar episodios 😞</div>';
-        return;
+    try{const r=await fetch('episodes.json');allEpisodes=await r.json();}catch(e){
+        document.getElementById("episodes").innerHTML='<div class="no-results">Error al cargar episodios 😞</div>';return;
     }
-    
-    // Stats
-    const autores = new Set(allEpisodes.map(e=>e.autor_cuento).filter(Boolean));
-    const fuentes = new Set(allEpisodes.map(e=>e.fuente.split(' - ')[0]));
-    const dates = allEpisodes.map(e=>e.fecha).filter(Boolean).sort();
-    document.getElementById("stat-episodes").textContent = allEpisodes.length+' episodios';
-    document.getElementById("stat-authors").textContent = autores.size+' autores';
-    document.getElementById("stat-sources").textContent = fuentes.size+' fuentes';
-    document.getElementById("stat-range").textContent = (dates[0]||'?')+' – '+(dates[dates.length-1]||'?');
-    
-    buildAuthorBar();
-    buildSourceFilter();
-    filterAndSort();
-    
-    document.getElementById("search").addEventListener("input", filterAndSort);
-    document.getElementById("sort").addEventListener("change", filterAndSort);
-    document.getElementById("source-filter").addEventListener("change", filterAndSort);
+    const autores=new Set(allEpisodes.map(e=>e.autor_cuento).filter(Boolean));
+    const fuentes=new Set(allEpisodes.map(e=>e.fuente.split(' - ')[0]));
+    const dates=allEpisodes.map(e=>e.fecha).filter(Boolean).sort();
+    document.getElementById("stat-episodes").textContent=allEpisodes.length+' episodios';
+    document.getElementById("stat-authors").textContent=autores.size+' autores';
+    document.getElementById("stat-sources").textContent=fuentes.size+' fuentes';
+    document.getElementById("stat-range").textContent=(dates[0]||'?')+' – '+(dates[dates.length-1]||'?');
+    // Theme
+    if(localStorage.getItem('theme')==='light'){document.body.classList.add('light');document.getElementById("theme-btn").textContent='🌙';}
+    buildTimeline();buildAuthorBar();buildSourceFilter();filterAndSort();
+    document.getElementById("search").addEventListener("input",filterAndSort);
+    document.getElementById("sort").addEventListener("change",filterAndSort);
+    document.getElementById("source-filter").addEventListener("change",filterAndSort);
 }
-
 init();
 </script>
 </body>
