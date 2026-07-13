@@ -196,15 +196,13 @@ select{background:var(--surface);border:1px solid var(--border);color:var(--fg);
 .chip-bar button{background:var(--surface);border:1px solid var(--border);color:var(--muted);padding:.15rem .7rem;font-size:.65rem;cursor:pointer;font-family:"DM Sans",sans-serif;transition:all .2s;letter-spacing:.03em}
 .chip-bar button:hover,.chip-bar button.active{background:var(--accent);color:#000;border-color:var(--accent);font-weight:600}
 /* Episodes grid */
-main{max-width:1100px;margin:1.5rem auto;padding:0 1.5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem;position:relative;z-index:1}
+main{max-width:1100px;margin:1.5rem auto;padding:0 1.5rem;display:flex;flex-direction:column;gap:.5rem;position:relative;z-index:1}
 .ep{background:var(--card);border:1px solid var(--border);padding:1.2rem;transition:all .25s;position:relative;overflow:hidden}
 .ep::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:0;transition:opacity .3s}
 .ep:hover::before{opacity:1}
 .ep:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,0,0,.3)}
-.ep:first-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:center}
-.ep:first-child h3{font-size:1.3rem}
-.ep:first-child .ep-body{display:flex;flex-direction:column}
-@media(max-width:700px){.ep:first-child{grid-column:span 1;display:block}}
+.ep:first-child h3{font-size:1.15rem}
+
 .ep h3{font-family:"Playfair Display",Georgia,serif;font-size:1rem;font-weight:700;line-height:1.3;margin-bottom:.4rem;color:var(--fg)}
 .ep h3 a{color:inherit;text-decoration:none}
 .ep .meta{font-size:.65rem;color:var(--muted);margin-bottom:.6rem;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;letter-spacing:.03em}
@@ -239,7 +237,7 @@ main{max-width:1100px;margin:1.5rem auto;padding:0 1.5rem;display:grid;grid-temp
 body.audio-only .ep .desc,body.audio-only .ep .meta,body.audio-only .ep-actions,body.audio-only .toolbar,body.audio-only #timeline,body.audio-only #authors-bar,body.audio-only #top-authors,body.audio-only .masthead-links,body.audio-only .stats-bar,body.audio-only footer{display:none!important}
 body.audio-only main{padding-top:.3rem;display:block;max-width:700px}
 body.audio-only .ep{padding:.6rem 1rem;margin-bottom:.3rem}
-body.audio-only .ep:first-child{display:block}
+
 body.audio-only .ep h3{font-size:.85rem}
 /* Top authors */
 .top-authors{max-width:1100px;margin:2rem auto 0;padding:1.5rem 1.5rem 0;border-top:1px solid var(--border);position:relative;z-index:1}
