@@ -422,19 +422,20 @@
 | 418 | Cuento "Gorilas" Osvaldo Soriano - Alejandro Apo - Audiolibro |  | YouTube - Textos: Cuentos y Poemas | 10:16 |
 | 419 | Cuento "Ellos" Eduardo Belgrano Rawson - Alejandro Apo - Audiolibro |  | YouTube - Textos: Cuentos y Poemas | 09:55 |
 | 420 | Poema "De mis tiempos" María Elena Walsh - Leído por Alejandro Apo - Audiolibro |  | YouTube - Textos: Cuentos y Poemas | 02:54 |
-| 421 | Cábalas - por Alejandro Apo |  | YouTube - Fontanarrosa por Apo | 02:16 |
-| 422 | Ahí viene caminando Andrés - por Alejando Apo |  | YouTube - Cuentos y Relatos | 07:53 |
-| 423 | Tenemos un arquero que es una maravilla - por Alejandro Apo |  | YouTube - Cuentos (varios) | 09:22 |
-| 424 | GEOGRAFIA DE TERCERO-Eduardo Sacheri- Relatado por Apo |  | YouTube - Y el fútbol contó un cuento | 23:25 |
-| 425 | Cuento de Eduardo Sacheri - Frio (narrado por Alejandro Apo) 2º part |  | YouTube - Alejandro Apo y Futbol | 07:58 |
-| 426 | La carta robada - Edgar Allan Poe - por Alejandro Apo |  | YouTube - Textos: Cuentos y Poemas | 37:54 |
-| 427 | El corazón delator - Edgar Allan Poe - por Alejandro Apo |  | YouTube - Textos: Cuentos y Poemas | 13:25 |
-| 428 | Berenice - Edgar Allan Poe - Por Alejandro Apo |  | YouTube - Textos: Cuentos y Poemas | 22:59 |
-| 429 | LA DECADENCIA DE LA AMISTAD ALEJANRO DOLINA POR ALEJO APO |  | YouTube - Todo con afecto (Apo) | 11:22 |
-| 430 | Descansa en paz-de Eduardo Sacheri, narrado por Alejandro Apo.flv |  | YouTube - Y el fútbol contó un cuento | 13:06 |
-| 431 | Me van a tener que disculpar - VIDEO ORIGINAL - Sacheri, Apo, Maradona |  | YouTube - Y el fútbol contó un cuento | 15:59 |
-| 432 | ROBERTO FONTANARROSA - DEFENSA DE LA DERROTA POR ALEJANDRO APO (SUBTITULADO - VIDEO) |  | YouTube - Fontanarrosa por Apo | 05:13 |
-| 433 | Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 1/2 |  | YouTube - Todo con Afecto - Cuentos de fútbol | 13:35 |
-| 434 | Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 2/2 |  | YouTube - Todo con Afecto - Cuentos de fútbol | 08:33 |
-| 435 | El Hincha - Por Alejandro Apo (Mempo Giardinelli) 1/2 |  | YouTube - Todo con afecto (Apo) | 09:04 |
-| 436 | El Hincha - Por Alejandro Apo (Mempo Giardinelli) 2/2 |  | YouTube - Cuentos (varios) | 09:09 |
+| 421 | Cuento "Entreteniendo a Lito" Roberto Fontanarrosa - Alejandro Apo - Audiolibros |  | YouTube - Textos: Cuentos y Poemas | 10:21 |
+| 422 | Cábalas - por Alejandro Apo |  | YouTube - Fontanarrosa por Apo | 02:16 |
+| 423 | Ahí viene caminando Andrés - por Alejando Apo |  | YouTube - Cuentos y Relatos | 07:53 |
+| 424 | Tenemos un arquero que es una maravilla - por Alejandro Apo |  | YouTube - Cuentos (varios) | 09:22 |
+| 425 | GEOGRAFIA DE TERCERO-Eduardo Sacheri- Relatado por Apo |  | YouTube - Y el fútbol contó un cuento | 23:25 |
+| 426 | Cuento de Eduardo Sacheri - Frio (narrado por Alejandro Apo) 2º part |  | YouTube - Alejandro Apo y Futbol | 07:58 |
+| 427 | La carta robada - Edgar Allan Poe - por Alejandro Apo |  | YouTube - Textos: Cuentos y Poemas | 37:54 |
+| 428 | El corazón delator - Edgar Allan Poe - por Alejandro Apo |  | YouTube - Textos: Cuentos y Poemas | 13:25 |
+| 429 | Berenice - Edgar Allan Poe - Por Alejandro Apo |  | YouTube - Textos: Cuentos y Poemas | 22:59 |
+| 430 | LA DECADENCIA DE LA AMISTAD ALEJANRO DOLINA POR ALEJO APO |  | YouTube - Todo con afecto (Apo) | 11:22 |
+| 431 | Descansa en paz-de Eduardo Sacheri, narrado por Alejandro Apo.flv |  | YouTube - Y el fútbol contó un cuento | 13:06 |
+| 432 | Me van a tener que disculpar - VIDEO ORIGINAL - Sacheri, Apo, Maradona |  | YouTube - Y el fútbol contó un cuento | 15:59 |
+| 433 | ROBERTO FONTANARROSA - DEFENSA DE LA DERROTA POR ALEJANDRO APO (SUBTITULADO - VIDEO) |  | YouTube - Fontanarrosa por Apo | 05:13 |
+| 434 | Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 1/2 |  | YouTube - Todo con Afecto - Cuentos de fútbol | 13:35 |
+| 435 | Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 2/2 |  | YouTube - Todo con Afecto - Cuentos de fútbol | 08:33 |
+| 436 | El Hincha - Por Alejandro Apo (Mempo Giardinelli) 1/2 |  | YouTube - Todo con afecto (Apo) | 09:04 |
+| 437 | El Hincha - Por Alejandro Apo (Mempo Giardinelli) 2/2 |  | YouTube - Cuentos (varios) | 09:09 |

@@ -2,13 +2,13 @@
   "podcast": {
     "titulo": "Los cuentos de Alejandro Apo",
     "rss": "https://mauric75.github.io/apo-rss/rss.xml",
-    "generado": "2026-07-13T03:35:21.796229+00:00"
+    "generado": "2026-07-13T03:42:12.285471+00:00"
   },
   "estadisticas": {
-    "total_episodios": 436,
+    "total_episodios": 437,
     "autores_unicos": 94,
     "fuentes": 15,
-    "duracion_total_segundos": 423923.0
+    "duracion_total_segundos": 424544.0
   },
   "autores": [
     "Abel Antonio Ponse",
