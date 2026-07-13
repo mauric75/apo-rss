@@ -7,7 +7,7 @@ from feedgen.feed import FeedGenerator
 DATA_FILE = Path("episodes.json")
 PODCAST_TITLE = "Los cuentos de Alejandro Apo"
 PODCAST_SUBTITLE = "RSS independiente"
-PODCAST_DESCRIPTION = "Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina, AM 750 y Pagina/12."
+PODCAST_DESCRIPTION = "Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina y Los cuentos de Apo (Anchor.fm / Grupo Octubre)."
 PODCAST_AUTHOR = "Alejandro Apo"
 PODCAST_EMAIL = "contacto@ejemplo.com"
 PODCAST_LINK = "https://mauric75.github.io/apo-rss/"

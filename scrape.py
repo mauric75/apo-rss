@@ -169,8 +169,17 @@ def _find_date(soup):
     return ""
 
 def _guess_author(titulo, body):
+    # Patron con coma: "'El Pampa', de Roberto Fontanarrosa"
     m = re.search(r",\s*de\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){0,3})", titulo)
     if m: return m.group(1).strip()
+    # Patron sin coma: "Amor en el Parque Rivadavia de Roberto Arlt"
+    m = re.search(r"\s+de\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){0,3})$", titulo)
+    if m:
+        candidate = m.group(1).strip()
+        # Verificar que no sea parte del titulo (ej: "El fin de Jorge Luis Borges" -> ok,
+        # pero "La guerra de Malvinas" -> no)
+        if not re.search(rf"\b{candidate}\b", titulo[:-len(candidate)-4], re.I):
+            return candidate
     for pattern in [r"cuento\s+de\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){0,3})", r"relato\s+de\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){0,3})"]:
         m = re.search(pattern, body[:1500])
         if m:
@@ -211,15 +220,22 @@ def _rss_items(xml_text):
     soup = BeautifulSoup(xml_text, "xml")
     return soup.find_all("item")
 
-def _item_mp3(item, base_url):
+def _item_audio(item, base_url):
+    """Extrae URL de audio del item RSS (soporta .mp3 y .m4a)."""
     enclosure = item.find("enclosure")
-    if enclosure and enclosure.get("url") and ".mp3" in enclosure["url"].lower():
-        return urljoin(base_url, enclosure["url"])
+    if enclosure and enclosure.get("url"):
+        enc_url = enclosure["url"].lower()
+        if ".mp3" in enc_url or ".m4a" in enc_url or ".m4b" in enc_url:
+            return urljoin(base_url, enclosure["url"])
     content = item.find("encoded") or item.find("description")
     if content:
-        m = re.search(r'https?://[^\s"\'<>]+\.mp3[^\s"\'<>]*', content.get_text())
+        m = re.search(r'https?://[^\s"\'<>]+\.(mp3|m4a|m4b)[^\s"\'<>]*', content.get_text(), re.I)
         if m: return m.group(0)
     return ""
+
+def _item_mp3(item, base_url):
+    """Compatibilidad hacia atrás: usa _item_audio internamente."""
+    return _item_audio(item, base_url)
 
 def scrape_wp_tag_feed(feed_url, fuente, max_pages=5):
     """Lee el feed RSS nativo de WordPress del tag de Apo en Radio Nacional."""
@@ -261,6 +277,108 @@ def scrape_wp_tag_feed(feed_url, fuente, max_pages=5):
                 "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             })
             time.sleep(1)
+    return results
+
+# --- Scraper Anchor.fm (Spotify for Creators) ---
+# El feed original de "Los cuentos de Apo" en Anchor.fm, con 51 episodios.
+# Fuente: https://anchor.fm/s/612a6550/podcast/rss
+# Vinculado desde TuneIn: https://tunein.com/podcasts/Books--Literature/Los-cuentos-de-Apo-p2783793/
+
+ANCHOR_RSS_URL = "https://anchor.fm/s/612a6550/podcast/rss"
+ANCHOR_FUENTE = "Los cuentos de Apo (Anchor.fm / Grupo Octubre)"
+
+def _parse_anchor_title(full_title, body_text=""):
+    """Extrae titulo del cuento y autor desde el titulo de Anchor.fm.
+    
+    Formato tipico:
+      "Los cuentos de Apo - La noche de Mantequilla, de Julio Cortazar"
+      "Los cuentos de Apo- La trampa, de Rodolfo Walsh"
+      "Los cuentos de Apo - Un señor muy viejo... de Gabriel Garcia Marquez"
+    
+    Retorna (titulo_cuento, autor_cuento).
+    """
+    # Quitar prefijo "Los cuentos de Apo" con posibles variantes
+    titulo = re.sub(r'^Los\s+cuentos\s+de\s+Apo\s*[-–—]\s*', '', full_title, flags=re.IGNORECASE).strip()
+    autor = _guess_author(titulo, body_text)
+    return titulo, autor
+
+def scrape_anchor_feed():
+    """Lee el feed RSS de Anchor.fm (Spotify for Creators) del podcast
+    'Los cuentos de Apo' y devuelve los episodios encontrados."""
+    results = []
+    log.info("Leyendo feed Anchor.fm: %s", ANCHOR_RSS_URL)
+    resp = safe_get(ANCHOR_RSS_URL)
+    if not resp:
+        log.error("No se pudo acceder al feed de Anchor.fm")
+        return results
+    
+    soup = BeautifulSoup(resp.text, "xml")
+    items = soup.find_all("item")
+    log.info("Feed Anchor.fm: %d items encontrados", len(items))
+    
+    for item in items:
+        titulo_el = item.find("title")
+        full_title = titulo_el.get_text(strip=True) if titulo_el else ""
+        if not full_title:
+            continue
+        
+        # Parsear titulo del cuento y autor
+        desc_el = item.find("description")
+        body_text = text_clean(desc_el.get_text()) if desc_el else ""
+        titulo, autor_cuento = _parse_anchor_title(full_title, body_text)
+        if not matches_apo(f"{full_title} {body_text}", full_title):
+            continue
+        
+        # Obtener audio (.m4a via Anchor.fm proxy)
+        audio_url = _item_audio(item, ANCHOR_RSS_URL)
+        if not audio_url:
+            continue
+        
+        # Fecha desde pubDate (formato RFC 2822)
+        pubdate_el = item.find("pubDate")
+        fecha = parse_fecha(pubdate_el.get_text(strip=True)) if pubdate_el else ""
+        
+        # Duracion desde <itunes:duration> (formato HH:MM:SS)
+        dur_el = item.find("itunes:duration")
+        dur_secs = 0.0
+        if dur_el:
+            dur_str = dur_el.get_text(strip=True)
+            parts = dur_str.split(":")
+            if len(parts) == 3:
+                dur_secs = int(parts[0]) * 3600 + int(parts[1]) * 60 + int(parts[2])
+            elif len(parts) == 2:
+                dur_secs = int(parts[0]) * 60 + int(parts[1])
+            elif dur_str.isdigit():
+                dur_secs = float(dur_str)
+        
+        # El feed de Anchor es confiable: ya incluye duracion en <itunes:duration>.
+        # No verificamos el audio con HEAD/verify_mp3 para no ralentizar.
+        
+        # GUID
+        guid_el = item.find("guid")
+        item_guid = guid_el.get_text(strip=True) if guid_el else ""
+        
+        # Link al episodio en Spotify for Creators
+        link_el = item.find("link")
+        ep_link = link_el.get_text(strip=True) if link_el else ""
+        
+        log.info("  OK Anchor.fm: %s", titulo)
+        results.append({
+            "titulo": titulo,
+            "autor_cuento": autor_cuento,
+            "narrador": "Alejandro Apo",
+            "descripcion": body_text[:800],
+            "fecha": fecha,
+            "duracion": round(dur_secs, 1),
+            "imagen": COVER_URL,
+            "mp3_url": audio_url,
+            "fuente": ANCHOR_FUENTE,
+            "fuente_url": ep_link or ANCHOR_RSS_URL,
+            "guid": item_guid or make_guid(titulo, autor_cuento),
+            "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        })
+        time.sleep(0.2)  # Ser amable con el servidor, pero el feed es ligero
+    
     return results
 
 # --- Scraper Genérico (AM750 y Página/12) ---
@@ -338,7 +456,16 @@ def main():
     except Exception as e:
         log.error("Error en Radio Nacional (Feed categoria): %s", e)
 
-    # 2. Pagina/12 (incluye AM750): DESHABILITADO otra vez, esta vez por un
+    # 2. Anchor.fm (Spotify for Creators) — feed oficial del podcast
+    # "Los cuentos de Apo" por Grupo Octubre. Contiene 51 episodios (2021).
+    # Es la fuente original que TuneIn agrega en:
+    #   https://tunein.com/podcasts/Books--Literature/Los-cuentos-de-Apo-p2783793/
+    try:
+        _agregar(scrape_anchor_feed())
+    except Exception as e:
+        log.error("Error en Anchor.fm: %s", e)
+
+    # 3. Pagina/12 (incluye AM750): DESHABILITADO otra vez, esta vez por un
     # motivo distinto y definitivo. El dominio am750.com.ar murio y su
     # contenido se mudo a pagina12.com.ar/am750/, y la pagina de tag real
     # (pagina12.com.ar/tags/7116-alejandro-apo) SI lista notas reales sobre

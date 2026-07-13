@@ -2,28 +2,58 @@
   "podcast": {
     "titulo": "Los cuentos de Alejandro Apo",
     "rss": "https://mauric75.github.io/apo-rss/rss.xml",
-    "generado": "2026-07-13T00:48:48.861855+00:00"
+    "generado": "2026-07-13T02:12:14.430332+00:00"
   },
   "estadisticas": {
-    "total_episodios": 31,
-    "autores_unicos": 11,
-    "fuentes": 1,
-    "duracion_total_segundos": 0.0
+    "total_episodios": 82,
+    "autores_unicos": 40,
+    "fuentes": 2,
+    "duracion_total_segundos": 56364.0
   },
   "autores": [
+    "Abelardo Castillo",
+    "Agustina Bazterrica",
     "Alejandro Dolina",
+    "Antonio Dal Masetto",
+    "Clarice Lispector",
+    "Dalmiro Sáenz",
+    "Edgar Allan Poe",
     "Eduardo Sacheri",
+    "Eric Nepomuceno",
+    "Franz Kafka",
+    "Gabriel Garcia Márquez",
+    "Gabriel García Márquez",
+    "Gervasio Noailles",
+    "Giovanni Boccaccio",
+    "Haroldo Conti",
     "Humberto",
     "Héctor Sánchez",
     "Jaime Muñoz Vargas",
+    "Jorge Luis Borges",
     "Jorge Valdano",
     "Juan Sasturain",
     "Juan Villoro",
+    "Julio Cortázar",
+    "Liliana Heker",
+    "Mariana Enriquez",
+    "Mario Benedetti",
+    "Maupassant",
     "Osvaldo Soriano",
     "Pablo Ramos",
-    "Roberto Fontanarrosa"
+    "Patricia Suárez",
+    "Pedro Saborido",
+    "Ray Bradbury",
+    "Ricardo Piglia",
+    "Roberto Arlt",
+    "Roberto Fontanarrosa",
+    "Rodolfo Walsh",
+    "Ryunosuke Akutagawa",
+    "Samanta Schweblin",
+    "Silvina Ocampo",
+    "Zuhair Jury"
   ],
   "fuentes": [
+    "Los cuentos de Apo (Anchor.fm / Grupo Octubre)",
     "Radio Nacional Argentina"
   ]
 }

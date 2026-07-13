@@ -3,7 +3,7 @@
   "title": "Los cuentos de Alejandro Apo",
   "home_page_url": "https://mauric75.github.io/apo-rss/",
   "feed_url": "https://mauric75.github.io/apo-rss/feed.json",
-  "description": "Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina, AM 750 y Pagina/12.",
+  "description": "Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina y Los cuentos de Apo (Anchor.fm / Grupo Octubre).",
   "items": [
     {
       "id": "'pena'-de-carlos-ferreira",
@@ -466,6 +466,771 @@
           "url": "https://www.podtrac.com/pts/redirect.mp3/cdn.radionacional.com.ar/wp-content/uploads/2023/02/banderin-solferino.mp3",
           "mime_type": "audio/mpeg",
           "duration_in_seconds": 0.0
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "1383f619-b166-4a1c-b72c-0062b46c7f5e",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-noche-de-Mantequilla--de-Julio-Cortzar-e14oc2t",
+      "title": "La noche de Mantequilla, de Julio Cortázar",
+      "content_html": "Alejandro Apo lee \"La noche de Mantequilla, de Julio Cortázar\", cuento de Julio Cortázar.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"La noche de Mantequilla\", de Julio Cortázar. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37547549/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-20%2F12b8c708-689a-8ed8-ff79-1fb5d4e167e8.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1761
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "b19d08f5-84ba-474a-ae41-d32cbc0c7022",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-fruta-en-el-fondo-del-tazn--de-Ray-Bradbury-e14obmf",
+      "title": "La fruta en el fondo del tazón, de Ray Bradbury",
+      "content_html": "Alejandro Apo lee \"La fruta en el fondo del tazón, de Ray Bradbury\", cuento de Ray Bradbury.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “La fruta en el fondo del tazón”, de Ray Bradbury. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37547151/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-20%2Fc68a1508-8704-c580-e957-59d4371b2658.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1466
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "3791af63-c1c2-4fe4-b647-b9f71250a3bc",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Un-agujero-esconde-una-casa--de-Agustina-Bazterrica-e14obf3",
+      "title": "Un agujero esconde una casa, de Agustina Bazterrica",
+      "content_html": "Alejandro Apo lee \"Un agujero esconde una casa, de Agustina Bazterrica\", cuento de Agustina Bazterrica.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “Un agujero esconde una casa”, de Agustina Bazterrica. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37546915/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-20%2F955da11c-d5e2-6027-9e55-e31a100dc5c3.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 465
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "f5695af9-fc00-4e6a-9ff3-60df7b5224ab",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Un-verano-italiano--de-Eduardo-Sacheri-e14obas",
+      "title": "Un verano italiano, de Eduardo Sacheri",
+      "content_html": "Alejandro Apo lee \"Un verano italiano, de Eduardo Sacheri\", cuento de Eduardo Sacheri.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “Un verano italiano”, de Eduardo Sacheri. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37546780/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-20%2F21ef5a58-8d7d-1fc9-7d64-011b14002be8.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1575
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "5cba7b8d-d850-4f85-8e8c-4342117c1fe1",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Un-da-de-la-bandera--de-Roberto-Fontanarrosa-e14ob43",
+      "title": "Un día de la bandera, de Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"Un día de la bandera, de Roberto Fontanarrosa\", cuento de Roberto Fontanarrosa.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Un día de la bandera\", de Roberto Fontanarrosa. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37546563/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-20%2F2bf3a2dd-34ef-f1a6-519c-c83c78976124.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1245
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "89a5cbd2-fff6-4ed9-8538-e0b47dcc6635",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-msica-de-los-domingos--de-Liliana-Heker-e14oalm",
+      "title": "La música de los domingos, de Liliana Heker",
+      "content_html": "Alejandro Apo lee \"La música de los domingos, de Liliana Heker\", cuento de Liliana Heker.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"La música de los domingos\" de Liliana Heker. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37546102/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-20%2F73deec25-25f3-668c-c387-ccb6ce51a56e.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 815
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "eee96990-65db-4116-8c7c-f7a3313a9d61",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Silencio--de-Edgar-Allan-Poe-e14oag7",
+      "title": "Silencio, de Edgar Allan Poe",
+      "content_html": "Alejandro Apo lee \"Silencio, de Edgar Allan Poe\", cuento de Edgar Allan Poe.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “Silencio”, de Edgar Allan Poe. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37545927/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-20%2F34591324-1185-5d81-de35-760fb1d290ed.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 686
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "9274beb4-a12e-4034-9e7c-d719796e6140",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Pjaros-en-la-boca-de-Samanta-Schweblin-e14oa22",
+      "title": "Pájaros en la boca de Samanta Schweblin",
+      "content_html": "Alejandro Apo lee \"Pájaros en la boca de Samanta Schweblin\", cuento de Samanta Schweblin.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Pájaros en la boca\", de Samanta Schweblin. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-20T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37545474/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-20%2Ffb9c5eb8-3b49-2963-06a0-7268eacfc44c.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1471
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "83620448-94bb-4e7e-be4f-5f5071a67eca",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Las-puertas-del-cielo--de-Julio-Cortzar-e14d4nm",
+      "title": "Las puertas del cielo, de Julio Cortázar",
+      "content_html": "Alejandro Apo lee \"Las puertas del cielo, de Julio Cortázar\", cuento de Julio Cortázar.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Las puertas del cielo\", de Julio Cortázar. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-13T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37179574/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-13%2F9df6b068-73cf-d529-5843-1231d4f96a7b.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1711
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "b30f069b-7306-408a-a69d-b5b87514c40e",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Las-tres-noches-de-Isaias-Blum--de-Rodolfo-Walsh-e14cvm7",
+      "title": "Las tres noches de Isaias Blum, de Rodolfo Walsh",
+      "content_html": "Alejandro Apo lee \"Las tres noches de Isaias Blum, de Rodolfo Walsh\", cuento de Rodolfo Walsh.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Las tres noches de Isaias Blum”, de Rodolfo Walsh. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-13T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37174407/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-13%2F83289a34-9962-dac6-b6b4-64fc88363d72.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 906
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "a53e0c9d-ffd4-4bce-b606-308678ee5096",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-promesa--de-Eric-Nepomuceno-e14cvfv",
+      "title": "La promesa, de Eric Nepomuceno",
+      "content_html": "Alejandro Apo lee \"La promesa, de Eric Nepomuceno\", cuento de Eric Nepomuceno.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “La promesa”, de Eric Nepomuceno. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-13T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37174207/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-13%2F0d774371-eccd-574a-5f56-6a7174acf4f3.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1583
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "f1a8e25e-a322-471a-b854-69ab031c3637",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-muerte-y-la-doncella--de-Ray-Bradbury-e14cvbc",
+      "title": "La muerte y la doncella, de Ray Bradbury",
+      "content_html": "Alejandro Apo lee \"La muerte y la doncella, de Ray Bradbury\", cuento de Ray Bradbury.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"La muerte y la doncella\", de Ray Bradbury. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-13T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37174060/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-13%2Fcd512add-1930-98a5-fe9e-286a9759ddca.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1433
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "9d8f42c9-cb21-4f62-8684-b4483a330283",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-guerra-de-Malvinas--de-Patricia-Surez-e14cv28",
+      "title": "La guerra de Malvinas, de Patricia Suárez",
+      "content_html": "Alejandro Apo lee \"La guerra de Malvinas, de Patricia Suárez\", cuento de Patricia Suárez.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “La guerra de Malvinas”, de Patricia Suárez. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-13T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37173768/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-13%2F7b870192-66f0-1bb1-24a4-39d8399b83e5.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1023
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "c10e0129-1c59-4eee-961d-fef21895a27e",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Silencio--de-Clarice-Lispector-e14cun7",
+      "title": "Silencio, de Clarice Lispector",
+      "content_html": "Alejandro Apo lee \"Silencio, de Clarice Lispector\", cuento de Clarice Lispector.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Silencio\", de Clarice Lispector. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-13T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37173415/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-13%2Ff720830e-6f74-fa35-a80b-4d73a6066f69.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 529
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "566b482c-f3b5-438d-9430-399ae5940bd4",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Los-tres-anillos-de-Giovanni-Boccaccio-e14b626",
+      "title": "Los tres anillos de Giovanni Boccaccio",
+      "content_html": "Alejandro Apo lee \"Los tres anillos de Giovanni Boccaccio\", cuento de Giovanni Boccaccio.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Los tres anillos”, de Giovanni Boccaccio. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-12T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37115398/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-12%2Fdf414294-3200-eb58-7bde-2dfdcfa5704c.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 612
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "d6ed6090-c558-428c-89f9-a401154e0805",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Amor-en-el-Parque-Rivadavia-de-Roberto-Arlt-e14b5ii",
+      "title": "Amor en el Parque Rivadavia de Roberto Arlt",
+      "content_html": "Alejandro Apo lee \"Amor en el Parque Rivadavia de Roberto Arlt\", cuento de Roberto Arlt.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “Amor en el Parque Rivadavia”, de Roberto Arlt. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-12T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37114898/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-12%2F3b47d38d-c011-cda7-0fad-4e5d1309306e.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 517
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "e3756cbd-382c-4657-b637-8be1eba2225e",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Casa-Tomada-de-Julio-Cortzar-e14b3qq",
+      "title": "Casa Tomada de Julio Cortázar",
+      "content_html": "Alejandro Apo lee \"Casa Tomada de Julio Cortázar\", cuento de Julio Cortázar.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Casa Tomada\", de Julio Cortázar. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-12T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37113114/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-12%2F8f30df5d-b2f4-fd85-def8-8cfb7f1511bc.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 866
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "5a53aa21-e5a4-4760-91ac-4012fa7ff52e",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---El-fin-de-Jorge-Luis-Borges-e14b3k5",
+      "title": "El fin de Jorge Luis Borges",
+      "content_html": "Alejandro Apo lee \"El fin de Jorge Luis Borges\", cuento de Jorge Luis Borges.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “El fin”, de Jorge Luis Borges. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-12T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37112901/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-12%2F93e27dab-ca91-9f14-bff7-f34bd483ff60.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 583
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "3e1662cc-fd40-4edd-a2ad-8a6c2b5ca351",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Todo-el-verano-en-un-da-de-Ray-Bradbury-e14b3aq",
+      "title": "Todo el verano en un día de Ray Bradbury",
+      "content_html": "Alejandro Apo lee \"Todo el verano en un día de Ray Bradbury\", cuento de Ray Bradbury.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Todo el verano en un día”, de Ray Bradbury. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-12T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37112602/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-12%2F1fe7af10-edfd-3c49-f89c-a1c5f43c5b74.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1078
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "cd7170df-6a98-4d8d-8a27-0544aa95c22c",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Sennin--de-Ryunosuke-Akutagawa-e14b33k",
+      "title": "Sennin, de Ryunosuke Akutagawa",
+      "content_html": "Alejandro Apo lee \"Sennin, de Ryunosuke Akutagawa\", cuento de Ryunosuke Akutagawa.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee lee “Sennin”, de Ryunosuke Akutagawa. Escuchá más en el programa Donde quiera que estés en AM750.",
+      "date_published": "2021-07-12T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37112372/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-12%2F9ce8c437-b57d-a2ba-0a7e-63fcc4854e9f.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1943
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "7df0bba3-5c28-4ef9-ad17-1978792ca1af",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---El-primer-beso-de-Clarice-Lispector-e14b267",
+      "title": "El primer beso de Clarice Lispector",
+      "content_html": "Alejandro Apo lee \"El primer beso de Clarice Lispector\", cuento de Clarice Lispector.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “El primer beso”, de Clarice Lispector. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-12T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/37111431/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-12%2F025b2d13-24f9-e3ce-b9ab-000b21e97ed1.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 461
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "ef185971-e06e-4047-86e4-bfbc08f3b9f4",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-santa--de-Gabriel-Garca-Mrquez-e13vdek",
+      "title": "La santa, de Gabriel García Márquez",
+      "content_html": "Alejandro Apo lee \"La santa, de Gabriel García Márquez\", cuento de Gabriel García Márquez.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"La santa\", de Gabriel García Márquez. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36729748/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2F35078641-86a4-b82f-166f-2763d6ef7444.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1919
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "21ecd063-04ae-4924-945f-13288ef96211",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Las-doce-a-bragado-de-Haroldo-Conti-e13vd75",
+      "title": "Las doce a bragado de Haroldo Conti",
+      "content_html": "Alejandro Apo lee \"Las doce a bragado de Haroldo Conti\", cuento de Haroldo Conti.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \" Las doce a bragado \", de Haroldo Conti . Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36729509/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2Fb8c31f6c-3035-7f2d-98bf-1400365525e0.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1894
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "7c7a4cdd-00ea-4063-b285-f7da92f63191",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Los-peligros-de-fumar-en-la-cama-de-Mariana-Enriquez-e13vcur",
+      "title": "Los peligros de fumar en la cama de Mariana Enriquez",
+      "content_html": "Alejandro Apo lee \"Los peligros de fumar en la cama de Mariana Enriquez\", cuento de Mariana Enriquez.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Los peligros de fumar en la cama\", de Mariana Enríquez. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36729243/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2F9ab14e07-82aa-2dcf-6bd4-a544b9f52cf7.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 702
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "f0d40d4e-4474-4017-bc6e-fb9a88e03c2c",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-soga-de-Silvina-Ocampo-e13vcqj",
+      "title": "La soga de Silvina Ocampo",
+      "content_html": "Alejandro Apo lee \"La soga de Silvina Ocampo\", cuento de Silvina Ocampo.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “ La soga ”, de Silvina Ocampo . Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36729107/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2Fc5ec4fea-d40e-0a16-6582-456fb5f10813.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 373
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "b5666461-7d8d-4b32-a1be-68c7af04b95d",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-ltima-batalla--de-Gervasio-Noailles-e13vcnl",
+      "title": "La última batalla, de Gervasio Noailles",
+      "content_html": "Alejandro Apo lee \"La última batalla, de Gervasio Noailles\", cuento de Gervasio Noailles.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"La última batalla\", de Gervasio Noailles. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36729013/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2Fdf7aea09-51af-bbcf-74ff-9b79033517a3.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 789
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "f5de9fd1-6a4b-44cf-a9c4-8faf6efaa41a",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-madre-de-Ernesto-de-Abelardo-Castillo-e13vckf",
+      "title": "La madre de Ernesto de Abelardo Castillo",
+      "content_html": "Alejandro Apo lee \"La madre de Ernesto de Abelardo Castillo\", cuento de Abelardo Castillo.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"La Madre de Ernesto\", de Abelardo Castillo. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36728911/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2F459dd23c-2405-07b4-bc63-5ee17cbc067a.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 943
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "5f9300bf-27a2-4194-8047-c6b4ebe4a372",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Conversacin-con-el-borracho--de-Franz-Kafka-e13vc8t",
+      "title": "Conversación con el borracho, de Franz Kafka",
+      "content_html": "Alejandro Apo lee \"Conversación con el borracho, de Franz Kafka\", cuento de Franz Kafka.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Conversación con el borracho\", de Franz Kafka. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36728541/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2F58676a60-7ae2-615b-2b06-8851e5d08fc7.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 766
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "a24e6119-7c09-4bcf-b11e-8781faa235ed",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-loca-y-el-relato-del-crimen-de-Ricardo-Piglia-e13vc2v",
+      "title": "La loca y el relato del crimen de Ricardo Piglia",
+      "content_html": "Alejandro Apo lee \"La loca y el relato del crimen de Ricardo Piglia\", cuento de Ricardo Piglia.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"La loca y el relato del crimen\", de Ricardo Piglia.  Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36728351/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2F6eaab252-5772-90e6-82be-1bd77f60bb8e.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1178
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "cf82e89b-e038-459d-a4c9-897478d0ec04",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Mi-amigo-Mickey-de-Roberto-Fontanarrosa-e13vbeb",
+      "title": "Mi amigo Mickey de Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"Mi amigo Mickey de Roberto Fontanarrosa\", cuento de Roberto Fontanarrosa.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “Mi amigo Mickey”, de Roberto Fontanarrosa. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36727691/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2F3cddc061-7214-5785-012e-084887f79a01.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 2035
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "36dc9fb8-ec42-4d68-9fe4-c3059f84bea4",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Felicidad-clandestina-de-Clarice-Lispector-e13vb6o",
+      "title": "Felicidad clandestina de Clarice Lispector",
+      "content_html": "Alejandro Apo lee \"Felicidad clandestina de Clarice Lispector\", cuento de Clarice Lispector.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “ Felicidad clandestina ”, de Clarice Lispector . Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36727448/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2F0ee8ad37-d53e-385f-7aca-2b5c8787eff9.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 550
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "28675252-014b-4ae9-9fe0-be287a81025b",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-intrusa-de-Jorge-Luis-Borges-e13vav4",
+      "title": "La intrusa de Jorge Luis Borges",
+      "content_html": "Alejandro Apo lee \"La intrusa de Jorge Luis Borges\", cuento de Jorge Luis Borges.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “ La intrusa ”, de Jorge Luis Borges . Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36727204/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2F4b5b0f4e-c5ae-ddaa-421f-13e6043604fa.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 734
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "532e0e66-8722-411a-b68d-e018f995e8be",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Lejana-de-Julio-Cortzar-e13varc",
+      "title": "Lejana de Julio Cortázar",
+      "content_html": "Alejandro Apo lee \"Lejana de Julio Cortázar\", cuento de Julio Cortázar.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Lejana\", de Julio Cortázar. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36727084/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2Fcd1f0586-c2d9-92c9-aca1-7e3bb6a94782.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1458
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "735e8508-04be-4e33-a055-db186adc74a5",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Los-nueve-minutos-de-Claudia--de-Dalmiro-Senz-e13vanv",
+      "title": "Los nueve minutos de Claudia, de Dalmiro Sáenz",
+      "content_html": "Alejandro Apo lee \"Los nueve minutos de Claudia, de Dalmiro Sáenz\", cuento de Dalmiro Sáenz.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “Los nueve minutos de Claudia”, de Dalmiro Sáenz. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36726975/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2Fb0dfc899-2a52-218b-417c-674608037db9.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1105
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "f4f64d7e-7db0-447a-bb8d-22986db6679c",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---El-miedo-de-Guy-de-Maupassant-e13vajk",
+      "title": "El miedo de Guy de Maupassant",
+      "content_html": "Alejandro Apo lee \"El miedo de Guy de Maupassant\", cuento de Maupassant.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “ El miedo ”, de Guy de Maupassant . Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36726836/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2Fe6c191a6-7d68-69d8-efda-b4b6e4d7f1e4.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1016
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "e268e6ba-aacd-41a7-8306-1a4a923638cd",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-muerte-de-Mario-Benedetti-e13vag3",
+      "title": "La muerte de Mario Benedetti",
+      "content_html": "Alejandro Apo lee \"La muerte de Mario Benedetti\", cuento de Mario Benedetti.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “ La muerte ”, de Mario Benedetti . Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36726723/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2Fec98bb31-3863-2332-5e97-62af64c004ba.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1075
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "a2917f2c-9a3f-452e-bf61-28b18b98670e",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Otoo-del-53--de-Osvaldo-Soriano-e13vab8",
+      "title": "Otoño del 53, de Osvaldo Soriano",
+      "content_html": "Alejandro Apo lee \"Otoño del 53, de Osvaldo Soriano\", cuento de Osvaldo Soriano.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Otoño del 53\", de Osvaldo Soriano. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36726568/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2F3ffccbf7-5020-b2a0-60c5-384f9cdcd0f9.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 863
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "8d9f1a28-bad5-4da3-ae87-1688dcabf07b",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-gambeta-ms-larga-del-mundo--de-Pedro-Saborido-e13va75",
+      "title": "La gambeta más larga del mundo, de Pedro Saborido",
+      "content_html": "Alejandro Apo lee \"La gambeta más larga del mundo, de Pedro Saborido\", cuento de Pedro Saborido.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “La gambeta más larga del mundo”, de Pedro Saborido. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36726437/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2F4d79857f-11ea-48d6-4d3a-bc8c16df0726.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 532
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "b9a63518-9c7e-418e-ad21-246a57633458",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Remedio-para-melanclicos-de-Ray-Bradbury-e13va15",
+      "title": "Remedio para melancólicos de Ray Bradbury",
+      "content_html": "Alejandro Apo lee \"Remedio para melancólicos de Ray Bradbury\", cuento de Ray Bradbury.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “Remedio para melancólicos”, de Ray Bradbury . Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36726245/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2F4b4620a7-0f86-b6cf-360c-3e7dcfb89e6f.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1110
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "f34348dc-6d90-490f-9d2a-d36e575fb760",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---El-romance-del-aniceto-de-Zuhair-Jury-e13v9si",
+      "title": "El romance del aniceto de Zuhair Jury",
+      "content_html": "Alejandro Apo lee \"El romance del aniceto de Zuhair Jury\", cuento de Zuhair Jury.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “El romance del aniceto”, de Zuhair Jury. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-07-05T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36726098/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-5%2F14d0b9cf-d6b1-380f-e4a1-399767f6f78d.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 2232
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "664bb971-f5c6-4a58-a547-625efbeb7a0a",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Barbosa--el-hombre-que-muri-dos-veces-de-Juan-Villoro-e13lhed",
+      "title": "Barbosa, el hombre que murió dos veces de Juan Villoro",
+      "content_html": "Alejandro Apo lee \"Barbosa, el hombre que murió dos veces de Juan Villoro\", cuento de Juan Villoro.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “Barbosa, el hombre que murió dos veces”, de Juan Villoro. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-06-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36406157/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-29%2Fc0cb7f04-8691-2580-d6e0-e5932a16c036.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 765
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "e67c1de5-92cb-4aab-81f7-3b2179f91aa6",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Vidrios-rotos-de-Osvaldo-Soriano-e13lh23",
+      "title": "Vidrios rotos de Osvaldo Soriano",
+      "content_html": "Alejandro Apo lee \"Vidrios rotos de Osvaldo Soriano\", cuento de Osvaldo Soriano.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “ Vidrios rotos ”, de Osvaldo Soriano . Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-06-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36405763/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-29%2F5e4b7b05-8fa9-13b7-2f81-2e14a98e8cd5.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 712
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "e3260180-ded2-480e-a92d-ce62dbf4c466",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Encuentro-nocturno-de-Ray-Bradbury-e13lguh",
+      "title": "Encuentro nocturno de Ray Bradbury",
+      "content_html": "Alejandro Apo lee \"Encuentro nocturno de Ray Bradbury\", cuento de Ray Bradbury.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “Encuentro nocturno”, de las Crónicas Marcianas de Ray Bradbury. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-06-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36405649/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-29%2Fb3079d04-548d-0c4c-5a70-fc15e322d16a.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1465
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "fcd1a73f-bc71-422c-a4f2-38d88f512d3f",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Tierna-es-la-noche-de-Ricardo-Piglia-e13ldna",
+      "title": "Tierna es la noche de Ricardo Piglia",
+      "content_html": "Alejandro Apo lee \"Tierna es la noche de Ricardo Piglia\", cuento de Ricardo Piglia.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “ Tierna es la noche ”, de Ricardo Piglia . Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-06-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36402346/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-29%2Fe12c0247-88da-84a8-44ac-453d9021360e.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1318
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "07bc075d-02a3-4a0f-a9bd-6eb9ee0b96a8",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Instrucciones-para-buscar-aventuras-de-Alejandro-Dolina-e13ld54",
+      "title": "Instrucciones para buscar aventuras de Alejandro Dolina",
+      "content_html": "Alejandro Apo lee \"Instrucciones para buscar aventuras de Alejandro Dolina\", cuento de Alejandro Dolina.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “ Instrucciones para buscar aventuras” , de Alejandro Dolina . Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-06-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36401764/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-29%2F5b5b1681-1825-5895-bdad-4abba9220f21.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 270
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "2271cffb-89a7-432f-bae5-5c9d52b599cd",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Almendros-de-Antonio-Dal-Masetto-e13ld2b",
+      "title": "Almendros de Antonio Dal Masetto",
+      "content_html": "Alejandro Apo lee \"Almendros de Antonio Dal Masetto\", cuento de Antonio Dal Masetto.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “ Almendros” , de Antonio Dal Masetto. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-06-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36401675/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-29%2Fcc866540-c556-38ac-d436-17cc1d9f3b13.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1055
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "2a39778f-311e-4774-9787-7d3faabc8f6e",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Cielo-de-los-argentinos-de-Roberto-Fontanarrosa-e13lcso",
+      "title": "Cielo de los argentinos de Roberto Fontanarrosa",
+      "content_html": "Alejandro Apo lee \"Cielo de los argentinos de Roberto Fontanarrosa\", cuento de Roberto Fontanarrosa.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “Cielo de los argentinos”, de Roberto Fontanarrosa. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-06-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36401496/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-29%2Ffb48e515-6dbe-565a-0b93-21e4761eae40.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1680
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "af49f814-cba5-400e-a03d-bbdbb674eb8c",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---La-fiesta-ajena-de-Liliana-Heker-e13la5h",
+      "title": "La fiesta ajena de Liliana Heker",
+      "content_html": "Alejandro Apo lee \"La fiesta ajena de Liliana Heker\", cuento de Liliana Heker.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “La fiesta ajena”, de Liliana Heker. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-06-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36398705/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-29%2Ffd26d852-84aa-a5b9-27b5-a1009a0ed208.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 919
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "3573463c-e1e2-40fa-8538-d39318f5bb6e",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Un-seor-muy-viejo-y-con-unas-alas-enormes-de-Gabriel-Garcia-Mrquez-e13l9mj",
+      "title": "Un señor muy viejo y con unas alas enormes de Gabriel Garcia Márquez",
+      "content_html": "Alejandro Apo lee \"Un señor muy viejo y con unas alas enormes de Gabriel Garcia Márquez\", cuento de Gabriel Garcia Márquez.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “Un señor muy viejo y con unas alas enormes”, de Gabriel Garcia Márquez. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-06-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36398227/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-29%2F5b7f3a4e-1373-b646-6188-581fd434e1dd.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1331
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "b704f878-ff74-4dd2-ade5-9f1ad6226cd1",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo---Un-hombre-sin-suerte-de-Samanta-Schweblin-e13l909",
+      "title": "Un hombre sin suerte de Samanta Schweblin",
+      "content_html": "Alejandro Apo lee \"Un hombre sin suerte de Samanta Schweblin\", cuento de Samanta Schweblin.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee \"Un hombre sin suerte\" de Samanta Schweblin. Escuchá más en el programa Donde quiera que estés en AM 750.",
+      "date_published": "2021-06-29T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36397513/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-29%2F3252a04f-abc0-a930-6ed8-bd33f4235566.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1286
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
+    },
+    {
+      "id": "d399b6c1-96e0-414e-bcda-d90f3237c8a2",
+      "url": "https://podcasters.spotify.com/pod/show/alejandro-apo-am750/episodes/Los-cuentos-de-Apo--La-trampa--de-Rodolfo-Walsh-e13a2bo",
+      "title": "La trampa, de Rodolfo Walsh",
+      "content_html": "Alejandro Apo lee \"La trampa, de Rodolfo Walsh\", cuento de Rodolfo Walsh.\n\nFuente original:\nLos cuentos de Apo (Anchor.fm / Grupo Octubre).\n\nAlejandro Apo lee “La trampa”, de Rodolfo Walsh. Escuchá más en el programa Donde quiera que estés en AM 750 .",
+      "date_published": "2021-06-23T00:00:00",
+      "attachments": [
+        {
+          "url": "https://anchor.fm/s/612a6550/podcast/play/36030264/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-23%2Fce05eab5-db9e-64ad-ef00-a0dccc9ede5c.m4a",
+          "mime_type": "audio/mpeg",
+          "duration_in_seconds": 1560
         }
       ],
       "image": "https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"
