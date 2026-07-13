@@ -1,5 +1,848 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Los cuentos de Alejandro Apo</title><link>https://mauric75.github.io/apo-rss/rss.xml</link><description>Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina y Los cuentos de Apo (Anchor.fm / Grupo Octubre).</description><atom:link href="https://mauric75.github.io/apo-rss/rss.xml" rel="self" type="application/rss+xml"/><copyright>CC BY-NC-SA 4.0</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://mauric75.github.io/apo-rss/cover.jpg</url><title>Los cuentos de Alejandro Apo</title><link>https://mauric75.github.io/apo-rss/</link></image><language>es-ar</language><lastBuildDate>Mon, 13 Jul 2026 02:36:23 +0000</lastBuildDate><itunes:category text="Arts"><itunes:category text="Literature"/></itunes:category><itunes:image href="https://mauric75.github.io/apo-rss/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:owner><itunes:name>Alejandro Apo</itunes:name><itunes:email>contacto@ejemplo.com</itunes:email></itunes:owner><itunes:summary>Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina y Los cuentos de Apo (Anchor.fm / Grupo Octubre).</itunes:summary><itunes:type>episodic</itunes:type><item><title>"Apuntes del fútbol en Flores", de Alejandro Dolina</title><description>Alejandro Apo lee ""Apuntes del fútbol en Flores", de Alejandro Dolina", cuento de Alejandro Dolina.
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Los cuentos de Alejandro Apo</title><link>https://mauric75.github.io/apo-rss/rss.xml</link><description>Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina y Los cuentos de Apo (Anchor.fm / Grupo Octubre).</description><atom:link href="https://mauric75.github.io/apo-rss/rss.xml" rel="self" type="application/rss+xml"/><copyright>CC BY-NC-SA 4.0</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://mauric75.github.io/apo-rss/cover.jpg</url><title>Los cuentos de Alejandro Apo</title><link>https://mauric75.github.io/apo-rss/</link></image><language>es-ar</language><lastBuildDate>Mon, 13 Jul 2026 02:54:26 +0000</lastBuildDate><itunes:category text="Arts"><itunes:category text="Literature"/></itunes:category><itunes:image href="https://mauric75.github.io/apo-rss/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:owner><itunes:name>Alejandro Apo</itunes:name><itunes:email>contacto@ejemplo.com</itunes:email></itunes:owner><itunes:summary>Coleccion automatica de cuentos narrados por Alejandro Apo, reunidos desde fuentes publicas: Radio Nacional Argentina y Los cuentos de Apo (Anchor.fm / Grupo Octubre).</itunes:summary><itunes:type>episodic</itunes:type><item><title>El Hincha - Por Alejandro Apo (Mempo Giardinelli) 2/2</title><description>Alejandro Apo lee "El Hincha - Por Alejandro Apo (Mempo Giardinelli) 2/2".
+
+Fuente original:
+YouTube - Cuentos (varios).
+
+Excelente cuento de Mempo Giardinelli contado por el maestro Alejandro Apo.. Realmente un cuento para emocionarse hasta las lagrimas
+Descargalo en audio MP3.. http://freakshare.com/files/7hfvhkxf/El-Hincha---Mempo-Giardinelli.mp3.html</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "El Hincha - Por Alejandro Apo (Mempo Giardinelli) 2/2".
+
+Fuente original:
+YouTube - Cuentos (varios).
+
+Excelente cuento de Mempo Giardinelli contado por el maestro Alejandro Apo.. Realmente un cuento para emocionarse hasta las lagrimas
+Descargalo en audio MP3.. http://freakshare.com/files/7hfvhkxf/El-Hincha---Mempo-Giardinelli.mp3.html&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=0TVVniMrf-g"&gt;YouTube - Cuentos (varios)&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-0TVVniMrf-g</guid><enclosure url="https://rr2---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932810&amp;ei=KlNUao73IK2P-LAPubi-oQ8&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AJxdea_FLpdqtiE39qNRS7cK1wRfZx5c1_wMdRipcM4o&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=200&amp;met=1783911210%2C&amp;mh=sO&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qel%2Csn-x1x7dn7s&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=2&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1962500&amp;bui=AZFlqhMqgjfiW9Ga0P8dju73M6jPziUxG_I5RYMNbWNUndJxWzloe2q_SECa1EkZ7kRIee2bBumASctS&amp;spc=SQ-umihcGklWVK-NmmBEjFHLXsuCvgP3a9DGsG2jKt-p&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=8619761&amp;dur=549.421&amp;lmt=1738327048929492&amp;mt=1783910963&amp;fvip=5&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIhAKjMpHvqOLjna860s6WIWMfJJPGFpAyukcdhUGIEE0JbAiAQ79tGKsqlREX3zuRCTEMwk5dQtFm5mmC54WiR08icUA%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAIa5Drn-rxqU9h8OJpEXJIHaNy_B4iJhImPNQLgytLPWAiBKrFHppc9Sw8skiXumVt1sLUDY7vBVMEcnnZ5Q7cuxyA%3D%3D" length="549.0" type="audio/mpeg"/><pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>09:09</itunes:duration><itunes:summary>Alejandro Apo lee "El Hincha - Por Alejandro Apo (Mempo Giardinelli) 2/2".
+
+Fuente original:
+YouTube - Cuentos (varios).
+
+Excelente cuento de Mempo Giardinelli contado por el maestro Alejandro Apo.. Realmente un cuento para emocionarse hasta las lagrimas
+Descargalo en audio MP3.. http://freakshare.com/files/7hfvhkxf/El-Hincha---Mempo-Giardinelli.mp3.html</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>El Hincha - Por Alejandro Apo (Mempo Giardinelli) 1/2</title><description>Alejandro Apo lee "El Hincha - Por Alejandro Apo (Mempo Giardinelli) 1/2".
+
+Fuente original:
+YouTube - Todo con afecto (Apo).
+
+Excelente cuento de Mempo Giardinelli contado por el maestro Alejandro Apo.. Realmente un cuento para emocionarse hasta las lagrimas
+Descargalo en audio MP3... http://freakshare.com/files/7hfvhkxf/El-Hincha---Mempo-Giardinelli.mp3.html</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "El Hincha - Por Alejandro Apo (Mempo Giardinelli) 1/2".
+
+Fuente original:
+YouTube - Todo con afecto (Apo).
+
+Excelente cuento de Mempo Giardinelli contado por el maestro Alejandro Apo.. Realmente un cuento para emocionarse hasta las lagrimas
+Descargalo en audio MP3... http://freakshare.com/files/7hfvhkxf/El-Hincha---Mempo-Giardinelli.mp3.html&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=QVM3_-Nxfeo"&gt;YouTube - Todo con afecto (Apo)&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-QVM3_-Nxfeo</guid><enclosure url="https://rr1---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932782&amp;ei=DlNUaqWWE96G1sQPi-bgsAM&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AF1jvnjJeuooeYb7RAL3ZZXab8JS61xgqIrr6iT7Xt9l&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=188&amp;met=1783911182%2C&amp;mh=Fm&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qel%2Csn-u1x1x5-55&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1962500&amp;bui=ARmQxEUwyvTTZM5mACN71K84d92wIw_GfYd-dAq8op291UwIKDCDc3vg53d7nbAlEGMSawOwXwMDq5lJ&amp;spc=SQ-umtZzYU4Y_MjpILiaISiDP6Xnt18cEI2BdgrNm9uR&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=8530526&amp;dur=543.641&amp;lmt=1741649646047385&amp;mt=1783910963&amp;fvip=2&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIgPLWUtj3xST3q3kx2sa2csWfHjTVqy7LWh4uL1NlsmkQCIB2iR0UET45rxNUMcCuXrlc49y-woI4Bo_qtbdMXdMnO&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIgBZK_dLXrbh6PiaxG0oGJF19MKb92CRWfRgf62xV0Y6wCIQClz3bwEhQ7uqkv7acWhgYyL6Xm2O63kL8_z9xaaOOVng%3D%3D" length="544.0" type="audio/mpeg"/><pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>09:04</itunes:duration><itunes:summary>Alejandro Apo lee "El Hincha - Por Alejandro Apo (Mempo Giardinelli) 1/2".
+
+Fuente original:
+YouTube - Todo con afecto (Apo).
+
+Excelente cuento de Mempo Giardinelli contado por el maestro Alejandro Apo.. Realmente un cuento para emocionarse hasta las lagrimas
+Descargalo en audio MP3... http://freakshare.com/files/7hfvhkxf/El-Hincha---Mempo-Giardinelli.mp3.html</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 2/2</title><description>Alejandro Apo lee "Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 2/2".
+
+Fuente original:
+YouTube - Todo con Afecto - Cuentos de fútbol.
+
+Excelente narracion de Alejandro Apo del cuento Esperandolo a Tito escrito por Eduardo Sacheri..
+Descargalo en audio MP3... http://freakshare.com/files/5ej5w1kj/Esperandolo-a-Tito-Eduardo-Sacheri.mp3.html</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 2/2".
+
+Fuente original:
+YouTube - Todo con Afecto - Cuentos de fútbol.
+
+Excelente narracion de Alejandro Apo del cuento Esperandolo a Tito escrito por Eduardo Sacheri..
+Descargalo en audio MP3... http://freakshare.com/files/5ej5w1kj/Esperandolo-a-Tito-Eduardo-Sacheri.mp3.html&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=jFJiApVHzgo"&gt;YouTube - Todo con Afecto - Cuentos de fútbol&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-jFJiApVHzgo</guid><enclosure url="https://rr9---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932775&amp;ei=B1NUao2iE4H8-LAP2LOb4AY&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AFgf4xtO8RItEcOvdo0e__PsJt4y_FlDSNlKaX9E0hHZ&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=211&amp;met=1783911175%2C&amp;mh=ZC&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qes%2Csn-x1x7dn7s&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=9&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1992500&amp;bui=AZFlqhOl_Ro_8wNlCrJaelpYhuv6l9eAqqeu66kCzloYL0HIve3Qc67Q7A4AAZLfP7zRYPh5z5Lt-EH3&amp;spc=SQ-umqWKnayTq7baLP6BZ-v-2sADMju8ccml1bWSDHe1&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=8633358&amp;dur=512.661&amp;lmt=1746383171114427&amp;mt=1783910725&amp;fvip=4&amp;keepalive=yes&amp;fexp=51565115%2C51946837%2C51992868%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIgNOPiAaeieaCufid91h6dplSr5E2i8ZhXxAn7UteE5L0CIAb_JibpRjLAW_qGPemJBrUqZ95lcnKBih6utWM8RLcS&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRgIhAPS8-pXcs6RyDlzoznN7JrU7T8fq8xFKFCZF6l-ifLDdAiEA-829nitBv2KRdL_I2PHDLftFRdZTpahVz51Y2uHbXpA%3D" length="513.0" type="audio/mpeg"/><pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>08:33</itunes:duration><itunes:summary>Alejandro Apo lee "Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 2/2".
+
+Fuente original:
+YouTube - Todo con Afecto - Cuentos de fútbol.
+
+Excelente narracion de Alejandro Apo del cuento Esperandolo a Tito escrito por Eduardo Sacheri..
+Descargalo en audio MP3... http://freakshare.com/files/5ej5w1kj/Esperandolo-a-Tito-Eduardo-Sacheri.mp3.html</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 1/2</title><description>Alejandro Apo lee "Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 1/2".
+
+Fuente original:
+YouTube - Todo con Afecto - Cuentos de fútbol.
+
+Excelente narracion de Alejandro Apo del cuento Esperandolo a Tito escrito por Eduardo Sacheri..
+Descargalo en audio MP3... http://freakshare.com/files/5ej5w1kj/Esperandolo-a-Tito-Eduardo-Sacheri.mp3.html</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 1/2".
+
+Fuente original:
+YouTube - Todo con Afecto - Cuentos de fútbol.
+
+Excelente narracion de Alejandro Apo del cuento Esperandolo a Tito escrito por Eduardo Sacheri..
+Descargalo en audio MP3... http://freakshare.com/files/5ej5w1kj/Esperandolo-a-Tito-Eduardo-Sacheri.mp3.html&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=NJS8QVMOU_4"&gt;YouTube - Todo con Afecto - Cuentos de fútbol&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-NJS8QVMOU_4</guid><enclosure url="https://rr7---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932772&amp;ei=BFNUaqbgBJ2P4dUPqM_60AM&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AGT0WMwB3mZ-7otCIC0RqfJmtPLXFDxXqpoEknJzxCOu&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=179&amp;met=1783911172%2C&amp;mh=Nv&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qes%2Csn-x1xe7nez&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=7&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1992500&amp;bui=ARmQxEV_Q6s6zuOwK8QxKmyMfxyhX6pycNwbzKZq_PkkUzYzv3BcR2ulGsUXbIBgMI-rConEz49onvVE&amp;spc=SQ-ummT7JiGxaLlyKo0Q9soUWMlxcIXppMkelMOgMneJ&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=13882130&amp;dur=814.681&amp;lmt=1737518972090144&amp;mt=1783910725&amp;fvip=3&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIgJh-kx1kxfg0jfsQEvg7yCqWaSy1rzi-A3-qp3LKAr1QCIQDwd_mbvKHRyDxYPgwPSFr_A0205kXmDtbj63shO8dkGA%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIgRJXzbgB8zJwYdcJCvUFfzoNDYTIG6sTTHJS66_wGfrMCIQDJ6gW30g_CWUGXshbTJegF-53o8aT1hTyANZ3LH8qXRw%3D%3D" length="815.0" type="audio/mpeg"/><pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>13:35</itunes:duration><itunes:summary>Alejandro Apo lee "Esperandolo A Tito - Por Alejando Apo (Eduardo Sacheri) 1/2".
+
+Fuente original:
+YouTube - Todo con Afecto - Cuentos de fútbol.
+
+Excelente narracion de Alejandro Apo del cuento Esperandolo a Tito escrito por Eduardo Sacheri..
+Descargalo en audio MP3... http://freakshare.com/files/5ej5w1kj/Esperandolo-a-Tito-Eduardo-Sacheri.mp3.html</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>ROBERTO FONTANARROSA - DEFENSA DE LA DERROTA POR ALEJANDRO APO (SUBTITULADO - VIDEO)</title><description>Alejandro Apo lee "ROBERTO FONTANARROSA - DEFENSA DE LA DERROTA POR ALEJANDRO APO (SUBTITULADO - VIDEO)".
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+http://braianseyfarth.com.ar/</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "ROBERTO FONTANARROSA - DEFENSA DE LA DERROTA POR ALEJANDRO APO (SUBTITULADO - VIDEO)".
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+http://braianseyfarth.com.ar/&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=CwZlKDsoZF0"&gt;YouTube - Fontanarrosa por Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-CwZlKDsoZF0</guid><enclosure url="https://rr9---sn-5ouxa-h8qee.googlevideo.com/videoplayback?expire=1783932762&amp;ei=-lJUar2bKNuY1sQPqbK8mQI&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-APLr3lKU5V5_o5NpP5OoVW_kt_mo-Neoen7Vl-peJ6tQ&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=252&amp;met=1783911162%2C&amp;mh=xh&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qee%2Csn-x1xe7ne6&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=9&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1890000&amp;bui=ARmQxEUTPo7CQ-vAR8Q_3H1D9w3CIOXgfYdwSeBXQQ-KKgwGpB3wJDFG-VXH4PKgbqzIPMMukOV9oiGs&amp;spc=SQ-ummwlZZo-ZESRvSm20vZCJjOIxJYfETSN2fTWGI1N&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=4888794&amp;dur=313.061&amp;lmt=1741242959246705&amp;mt=1783910725&amp;fvip=5&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRgIhALznpmmhK0iyj36N09Gj3KdUxo18mqBfaZ2ziVf4b62bAiEA7xhNHLcsKGrVZWeZs1iJeXXN83c_zvf1nlH1pKQc-bc%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRgIhAKv5MCsmpU9oqYzVmc6P2ZIZiaAf_HTTfVKjU-p6FGVsAiEAxDORQhs-LysS37uAWLLSHSDQ0NnGXfdXXPYOx3bZa6g%3D" length="313.0" type="audio/mpeg"/><pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>05:13</itunes:duration><itunes:summary>Alejandro Apo lee "ROBERTO FONTANARROSA - DEFENSA DE LA DERROTA POR ALEJANDRO APO (SUBTITULADO - VIDEO)".
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+http://braianseyfarth.com.ar/</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Me van a tener que disculpar - VIDEO ORIGINAL - Sacheri, Apo, Maradona</title><description>Alejandro Apo lee "Me van a tener que disculpar - VIDEO ORIGINAL - Sacheri, Apo, Maradona".
+
+Fuente original:
+YouTube - Y el fútbol contó un cuento.
+
+Cuento "Me van a tener que disculpar" de Eduardo Sacheri del libro "Esperando a Tito y otros cuentos de fútbol", narrado por Alejandro Alejo Apo y con relatos de Víctor Hugo Morales.
+#Maradona 
+#Malvinas
+#GuerraMalvinas
+#GolIngleses
+#GolDelSiglo
+#MeVanATenerQueDisculpar
+#Falkland
+#ManoDeDios
+#Sacheri
+#Apo
+#GolDelSiglo
+#VictorHugoMorales
+#Napoli</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Me van a tener que disculpar - VIDEO ORIGINAL - Sacheri, Apo, Maradona".
+
+Fuente original:
+YouTube - Y el fútbol contó un cuento.
+
+Cuento "Me van a tener que disculpar" de Eduardo Sacheri del libro "Esperando a Tito y otros cuentos de fútbol", narrado por Alejandro Alejo Apo y con relatos de Víctor Hugo Morales.
+#Maradona 
+#Malvinas
+#GuerraMalvinas
+#GolIngleses
+#GolDelSiglo
+#MeVanATenerQueDisculpar
+#Falkland
+#ManoDeDios
+#Sacheri
+#Apo
+#GolDelSiglo
+#VictorHugoMorales
+#Napoli&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=FIL3K-2Ocgg"&gt;YouTube - Y el fútbol contó un cuento&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-FIL3K-2Ocgg</guid><enclosure url="https://rr10---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932687&amp;ei=r1JUavCxD-mYobIP9s_XiAo&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AFuwXCYqWPo6NhWyHT6-L1_1CqbDWC9gCcCanS_f5p4m&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=515&amp;met=1783911087%2C&amp;mh=mt&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qes%2Csn-x1xe7ne6&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=10&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1992500&amp;bui=ARmQxEXFbOEjQOkXnqTYJVTgc4sZG-M-sHeBTkD4c35ctgpwNR3fTynDC-Trz5Tgfm5HiQSm_UHXAL9J&amp;spc=SQ-umoMJrjW5gv2Zbkf6rCDQCvyBby4kov2ar7DE1jEK&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=15025332&amp;dur=958.761&amp;lmt=1720557465750318&amp;mt=1783910725&amp;fvip=5&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=1532434&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIgBYrwz_UJ5vHDR5-lDdIGH_sXSDnDYsWS05NXDz4TSWkCICaNAOWtF7OKiXnNpmBSbftaJVUwzfx_4RC30ZVm_GIA&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAPXr9vzJQyhmmPRyYeaXHY5Nly3b2M_Ji3ZAMAskwbo-AiAcPQ6eKJ4gxpFZ9qXsHFLVAstocIle5wdmaz-wH_GxEA%3D%3D" length="959.0" type="audio/mpeg"/><pubDate>Sun, 25 Sep 2011 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>15:59</itunes:duration><itunes:summary>Alejandro Apo lee "Me van a tener que disculpar - VIDEO ORIGINAL - Sacheri, Apo, Maradona".
+
+Fuente original:
+YouTube - Y el fútbol contó un cuento.
+
+Cuento "Me van a tener que disculpar" de Eduardo Sacheri del libro "Esperando a Tito y otros cuentos de fútbol", narrado por Alejandro Alejo Apo y con relatos de Víctor Hugo Morales.
+#Maradona 
+#Malvinas
+#GuerraMalvinas
+#GolIngleses
+#GolDelSiglo
+#MeVanATenerQueDisculpar
+#Falkland
+#ManoDeDios
+#Sacheri
+#Apo
+#GolDelSiglo
+#VictorHugoMorales
+#Napoli</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Descansa en paz-de Eduardo Sacheri, narrado por Alejandro Apo.flv</title><description>Alejandro Apo lee "Descansa en paz-de Eduardo Sacheri, narrado por Alejandro Apo.flv".
+
+Fuente original:
+YouTube - Y el fútbol contó un cuento.
+
+</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Descansa en paz-de Eduardo Sacheri, narrado por Alejandro Apo.flv".
+
+Fuente original:
+YouTube - Y el fútbol contó un cuento.
+
+&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=hQ8fJONJAHg"&gt;YouTube - Y el fútbol contó un cuento&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-hQ8fJONJAHg</guid><enclosure url="https://rr3---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932690&amp;ei=slJUaqaUJ_ilobIP2K2H8Q4&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-APDXHNYvYm-pWoiNT_gu2tctRyrv3lFoASwDGOOJjnbB&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=285&amp;met=1783911090%2C&amp;mh=w2&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qes%2Csn-x1x7dne6&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=3&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1992500&amp;bui=ARmQxEWa84o591cF1-q2Hu5HBtRr_FldD5KeEthiyYQ4Hw57PMFtqfcneCKIG_SyGRm2gxmJchSiD7Jp&amp;spc=SQ-umjkbO5Vz7VRQkKLKFz6YPcXw3Be6Lo3P-L2IjvY1&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=12871756&amp;dur=786.381&amp;lmt=1746460073086640&amp;mt=1783910725&amp;fvip=4&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=8208224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wQwIgHv5Mi6L_hEsLaBQrxJLKeu7RhXGfJ4GRpq7ANiXzWwkCH2S6o_WolCW8kq5J5SsN14MXhTpfNtxAArdyC3d3sXg%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRgIhAMPptLIKrKXiW60LAnTzCPOHr4CTircyC54JcxUR83S6AiEAmzWcg4Zovl2tSzNzQwID3RRNgf1cOdbwzBmCMkQe6v8%3D" length="786.0" type="audio/mpeg"/><pubDate>Sat, 12 Nov 2011 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>13:06</itunes:duration><itunes:summary>Alejandro Apo lee "Descansa en paz-de Eduardo Sacheri, narrado por Alejandro Apo.flv".
+
+Fuente original:
+YouTube - Y el fútbol contó un cuento.
+
+</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>LA DECADENCIA DE LA AMISTAD ALEJANRO DOLINA POR ALEJO APO</title><description>Alejandro Apo lee "LA DECADENCIA DE LA AMISTAD ALEJANRO DOLINA POR ALEJO APO".
+
+Fuente original:
+YouTube - Todo con afecto (Apo).
+
+La Amistad como solo alejandro dolina la puede describir y Alejandro Apo Relatar.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "LA DECADENCIA DE LA AMISTAD ALEJANRO DOLINA POR ALEJO APO".
+
+Fuente original:
+YouTube - Todo con afecto (Apo).
+
+La Amistad como solo alejandro dolina la puede describir y Alejandro Apo Relatar.&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=Ny9cCzS9vz8"&gt;YouTube - Todo con afecto (Apo)&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-Ny9cCzS9vz8</guid><enclosure url="https://rr6---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932778&amp;ei=ClNUatGpNbaI1sQP7ovs4AI&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AD1p6TsxvserDO3tYC285uvGjjaN3yPKT4AgvBeYvcHT&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=149&amp;met=1783911178%2C&amp;mh=AO&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qes%2Csn-x1x7dned&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=6&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1992500&amp;bui=ARmQxEV06Vaabd_rj8-3KVq-KfOYC2PpCLL4SK8Xl-VdFJEm7BIcM_673aTE2aIytGnNG23mfwN3cbSs&amp;spc=SQ-umhPf0JHbG4emiGa4NeQcdQkrXFSox0mAv_yBzHg6&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=11521655&amp;dur=681.521&amp;lmt=1742175296806408&amp;mt=1783910725&amp;fvip=1&amp;keepalive=yes&amp;fexp=51565115%2C51946837%2C52017147&amp;c=ANDROID_VR&amp;txp=8208224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRgIhAOPAP8X8f_1J2tGN_2eZ1103cG3O1XknRGJ_Js9gkl0EAiEA6Su8DrEw2c41kAWVq2ga6-kJCp_E7sa_oZhXy62M_wg%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAJ4pfYmqfkvqXTrrZJGq70GhC6JrVRYfOY65cU1_o2RcAiB2zl8HAI4c27a2pssKASTV7iA4I0HDFtQ6mlBaP4hXGA%3D%3D" length="682.0" type="audio/mpeg"/><pubDate>Tue, 18 Dec 2012 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>11:22</itunes:duration><itunes:summary>Alejandro Apo lee "LA DECADENCIA DE LA AMISTAD ALEJANRO DOLINA POR ALEJO APO".
+
+Fuente original:
+YouTube - Todo con afecto (Apo).
+
+La Amistad como solo alejandro dolina la puede describir y Alejandro Apo Relatar.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>GEOGRAFIA DE TERCERO-Eduardo Sacheri- Relatado por Apo</title><description>Alejandro Apo lee "GEOGRAFIA DE TERCERO-Eduardo Sacheri- Relatado por Apo".
+
+Fuente original:
+YouTube - Y el fútbol contó un cuento.
+
+</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "GEOGRAFIA DE TERCERO-Eduardo Sacheri- Relatado por Apo".
+
+Fuente original:
+YouTube - Y el fútbol contó un cuento.
+
+&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=yMTH_WAjC1o"&gt;YouTube - Y el fútbol contó un cuento&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-yMTH_WAjC1o</guid><enclosure url="https://rr7---sn-5ouxa-h8qee.googlevideo.com/videoplayback?expire=1783932693&amp;ei=tVJUavrPI8z21sQPrtGa2Aw&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AK9BUU2rmjd81mtuiMR51Dic3tb5bpQgFoUy7F0tSmec&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=214&amp;met=1783911093%2C&amp;mh=j5&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qee%2Csn-u1x1x5-5j&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=7&amp;pcm2cms=yes&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1890000&amp;bui=ARmQxEV77cGZ885c0zNyvwxtaSn-Yv9MFopouFEWsWRrD3TNWnP6JGVbDS3HBu9ew_FG7LBspjkDvXUh&amp;spc=SQ-umj4mpHCkIlFgTIUPrzM39QsUDHquvGev3yUoHh_Z&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=24110123&amp;dur=1404.841&amp;lmt=1749477169408029&amp;mt=1783910725&amp;fvip=3&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIge_xdfeFcJxBBnIJ7vT6QOoK-XCfgsFiWQErALGCVqskCIDrJLE9Qelryiwccq7QUHlsxe_xxaqdGL5JHeFt5d5yz&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIgLnuNRXqr_GMCYr74MaG9Yanps6l-i0h45X_p9kYDfFkCIQDGZk_dgYoOZG9aNMKKeksjo2GlOa1KWf_XGcrKQjTM7g%3D%3D" length="1405.0" type="audio/mpeg"/><pubDate>Tue, 05 Mar 2013 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>23:25</itunes:duration><itunes:summary>Alejandro Apo lee "GEOGRAFIA DE TERCERO-Eduardo Sacheri- Relatado por Apo".
+
+Fuente original:
+YouTube - Y el fútbol contó un cuento.
+
+</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Tenemos un arquero que es una maravilla - por Alejandro Apo</title><description>Alejandro Apo lee "Tenemos un arquero que es una maravilla - por Alejandro Apo".
+
+Fuente original:
+YouTube - Cuentos (varios).
+
+Audio libro: Tenemos un arquero que es una maravilla
+Autor:  Eduardo Maicas
+Narración: Alejandro Apo</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Tenemos un arquero que es una maravilla - por Alejandro Apo".
+
+Fuente original:
+YouTube - Cuentos (varios).
+
+Audio libro: Tenemos un arquero que es una maravilla
+Autor:  Eduardo Maicas
+Narración: Alejandro Apo&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=M_0EdJyECVw"&gt;YouTube - Cuentos (varios)&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-M_0EdJyECVw</guid><enclosure url="https://rr6---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932796&amp;ei=HFNUatOKIbGjobIPwevXkQ4&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AH70su_dr_ogPJIZdjICCJnl0VtL_Pc5Aw6zKUzD_7Um&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=139&amp;met=1783911196%2C&amp;mh=mm&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qel%2Csn-x1x7dn7s&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=6&amp;pcm2cms=yes&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1913750&amp;bui=ARmQxEWO6snFVmelCloGRjylu97-cPkb-TB8oZR1TsrlhL4Pjdl5ZU38P8zPf0YNDUN1teeYDWVjcJxV&amp;spc=SQ-umvUM4BOAYKMljasz5berGsP3Pp3zpJFfSTeEJ55O&amp;vprv=1&amp;svpuc=1&amp;xtags=acont%3Doriginal%3Alang%3Des-US&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=9753663&amp;dur=561.661&amp;lmt=1782784638939269&amp;mt=1783910725&amp;fvip=3&amp;keepalive=yes&amp;fexp=51565115%2C51992868%2C52017147&amp;c=ANDROID_VR&amp;txp=8208224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRgIhANOvuQR_vpnvOnHXMXM7TsD2vRinWRX8m4Diry_r-qGkAiEA72HhDY3pT65c6pOB3GXePAB9gngdTCz9pzcJbMYP1oU%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhANVzFc3kjDl_Ng2DOeutocoW78_4btODBPHdMYDU77oYAiA0IvVxvqjbiq0_jPEb1GG4Egg9CBBBghnoHgESUW1f4w%3D%3D" length="562.0" type="audio/mpeg"/><pubDate>Tue, 26 Mar 2013 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>09:22</itunes:duration><itunes:summary>Alejandro Apo lee "Tenemos un arquero que es una maravilla - por Alejandro Apo".
+
+Fuente original:
+YouTube - Cuentos (varios).
+
+Audio libro: Tenemos un arquero que es una maravilla
+Autor:  Eduardo Maicas
+Narración: Alejandro Apo</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Ahí viene caminando Andrés - por Alejando Apo</title><description>Alejandro Apo lee "Ahí viene caminando Andrés - por Alejando Apo".
+
+Fuente original:
+YouTube - Cuentos y Relatos.
+
+Audio libro: Ahí viene caminando Andrés
+Libro: Te conozco Mendizaval
+Autor: Eduardo Sacheri
+Narración: Alejandro Apo</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Ahí viene caminando Andrés - por Alejando Apo".
+
+Fuente original:
+YouTube - Cuentos y Relatos.
+
+Audio libro: Ahí viene caminando Andrés
+Libro: Te conozco Mendizaval
+Autor: Eduardo Sacheri
+Narración: Alejandro Apo&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=kiYnley9O4A"&gt;YouTube - Cuentos y Relatos&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-kiYnley9O4A</guid><enclosure url="https://rr1---sn-5ouxa-h8qee.googlevideo.com/videoplayback?expire=1783932788&amp;ei=FFNUao-6OvWLwrcPsuySuAc&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-APPCYg0J1qPy7ODEbVAvq6cFgEmzeuowzUZIY9kuG2Iu&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=195&amp;met=1783911188%2C&amp;mh=t0&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qee%2Csn-x1x7dn7s&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1890000&amp;bui=ARmQxEW1vDVCL2AWjYHXWpvgcFjfgMnpqjwsZSG17_F2BuAU4cZtAy8PQ3x71gJAhXP6JfTIMut5AaaN&amp;spc=SQ-umqGMBrpcoANOfE6SF-gxeavt5VqdkvIevZych_Zz&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=7372136&amp;dur=473.041&amp;lmt=1749454517891843&amp;mt=1783910725&amp;fvip=4&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=8208224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIhAJYD8_sOa1kWRg8EiMxKwWeS1acMcIxXN22YB-BFLwlhAiA0pw9cBwHBWH2u30nOrAeIk-GhQCI35hHO4N5PLWM2-A%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRAIgfgD-PNzfoue5JDJm0zSNqmaiOwvOow86LVPW2Du_zaYCIFHiw7l7BT9Fonf04i2ndyoN1xHIj5G1hq14ukd3CmeP" length="473.0" type="audio/mpeg"/><pubDate>Tue, 26 Mar 2013 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>07:53</itunes:duration><itunes:summary>Alejandro Apo lee "Ahí viene caminando Andrés - por Alejando Apo".
+
+Fuente original:
+YouTube - Cuentos y Relatos.
+
+Audio libro: Ahí viene caminando Andrés
+Libro: Te conozco Mendizaval
+Autor: Eduardo Sacheri
+Narración: Alejandro Apo</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Cábalas - por Alejandro Apo</title><description>Alejandro Apo lee "Cábalas - por Alejandro Apo".
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Cabalas.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Cábalas - por Alejandro Apo".
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Cabalas.&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=-kUT-z3VNFE"&gt;YouTube - Fontanarrosa por Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt--kUT-z3VNFE</guid><enclosure url="https://rr8---sn-5ouxa-h8qee.googlevideo.com/videoplayback?expire=1783932765&amp;ei=_VJUapWOKvCdobIPlei-gA4&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ANrYobmA_ET1OWTLTOe_AnLmlIWmOuvi96seWFMgLXiQ&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=218&amp;met=1783911165%2C&amp;mh=Rm&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qee%2Csn-x1x7dn7s&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=8&amp;pl=42&amp;rms=au%2Cau&amp;pcm2=no&amp;initcwndbps=1890000&amp;bui=ARmQxEUNDQ2Dvgo6FGh57bL2bljokEUZYRqFrzhQVJoS8TjeWZ3ZRD9A8jRJUrZsEaXyiSgXq0KRd9Po&amp;spc=SQ-umla4DTQQ7Sk_TBcc6BH2Z5VxswA4krKgskM0MqxT&amp;vprv=1&amp;svpuc=1&amp;xtags=acont%3Doriginal%3Alang%3Des-US&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=2267783&amp;dur=136.301&amp;lmt=1782251879521480&amp;mt=1783910725&amp;fvip=5&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRgIhALxy6HUCtnI6pwcZV1t2Ewr86InjNHuk5WFmj2WZ4EmgAiEA_LsvkLKhlwZg0y1iyyVc3tMU_hTlHSUlAtEWiFS8KOs%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAIitqUv9fxBHMDa7H8_oLfR2-BOhJztq1MwXZ9k57v0aAiAekw5KEcz4kLqkoXQElc3YZR_OSLCOI4h_HNJe65bYSA%3D%3D" length="136.0" type="audio/mpeg"/><pubDate>Tue, 26 Mar 2013 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>02:16</itunes:duration><itunes:summary>Alejandro Apo lee "Cábalas - por Alejandro Apo".
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Cabalas.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Reuniones de Egresados - Sacheri (Voz: Alejandro Apo)</title><description>Alejandro Apo lee "Reuniones de Egresados - Sacheri (Voz: Alejandro Apo)".
+
+Fuente original:
+YouTube - Cuentos (varios).
+
+</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Reuniones de Egresados - Sacheri (Voz: Alejandro Apo)".
+
+Fuente original:
+YouTube - Cuentos (varios).
+
+&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=Bxrp2D5LUzA"&gt;YouTube - Cuentos (varios)&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-Bxrp2D5LUzA</guid><enclosure url="https://rr11---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932803&amp;ei=I1NUap7HK6uZg-UP1Y-I6AY&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ANXOL8v6iTi-eXy1hJ5HTO2PCJN4mzYd83MVflNZiWBJ&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=254&amp;met=1783911203%2C&amp;mh=EY&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qes%2Csn-x1xe7nez&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=11&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1992500&amp;bui=AZFlqhNzPFJjq8_MsLNf6_AxMWELm4O-mfY7CQ5Gb75M266U9_o_7GofzZyTeYPM8n1iV1d3eDucP5rV&amp;spc=SQ-umqr67VgPh0vNsMB4OHX6eyI3gDG2C20aHVf9-e1o&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=24300267&amp;dur=1414.861&amp;lmt=1740414243587173&amp;mt=1783910725&amp;fvip=1&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AE0s2JYwRgIhALh2IipXQ8NFiZyEgU1CV22PmT73Nr2kQKpQGlRv7X6CAiEAriqSLllmGA1gsgVtmKmsscDdsnSdnX6eIglyfhGvZr0%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRAIgWZBPUQ9vo1HbleILnvhvSN180sy-5Cvdx-WCguXVbPECIBs7fsLdI0mBCrUJM8SDIi8kPJoGdaOTqRQ7_gQWT1sP" length="1415.0" type="audio/mpeg"/><pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>23:35</itunes:duration><itunes:summary>Alejandro Apo lee "Reuniones de Egresados - Sacheri (Voz: Alejandro Apo)".
+
+Fuente original:
+YouTube - Cuentos (varios).
+
+</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Julito   de Roberto Fontanarosa en la voz de Alejandro Apo</title><description>Alejandro Apo lee "Julito   de Roberto Fontanarosa en la voz de Alejandro Apo", cuento de Alejandro Apo.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+un cuentazo...crudo...real...humano...genial...</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Julito   de Roberto Fontanarosa en la voz de Alejandro Apo", cuento de Alejandro Apo.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+un cuentazo...crudo...real...humano...genial...&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Alejandro Apo&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=hJWkMItIcfY"&gt;YouTube - Fontanarrosa por Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-hJWkMItIcfY</guid><enclosure url="https://rr2---sn-5ouxa-h8qee.googlevideo.com/videoplayback?expire=1783932752&amp;ei=8FJUaqShNYvf1sQP7o_j8AM&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AAo4aWXzP88OtyXHir9sAQymZxmAbCkAN4sdrJ55C4GR&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=141&amp;met=1783911152%2C&amp;mh=TW&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qee%2Csn-x1x7dn7s&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=2&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1890000&amp;bui=ARmQxEWOKO23vTGnSFlBvromPIeUSLjEWqE63zmxb_6ND8ku1d5AO9NorUb4iYh09iaIHAY7dh_1RP_G&amp;spc=SQ-umkBpx9Bb0jFeAqeox59XGLdVNwgXFgZYuJTVD7_z&amp;vprv=1&amp;svpuc=1&amp;xtags=acont%3Doriginal%3Alang%3Des-US&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=38917890&amp;dur=2122.881&amp;lmt=1773953175780590&amp;mt=1783910725&amp;fvip=5&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRgIhAOnApFpFcZz40fXHQ9_8yq6FSu1aTTNuFshe96aErBHOAiEA-fKyWvCfXkbpXSfeORuIYNHApCgRHn-Jv85pffrLA04%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRAIgaU58xdTjBPuLG3hzddawAjD7IPg-nfyqZ9Mx-IIaucoCIEf62yHmQKsnkTGigaw6qoQd35W9gOwK_H-vz0wwnvfa" length="2123.0" type="audio/mpeg"/><pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>35:23</itunes:duration><itunes:summary>Alejandro Apo lee "Julito   de Roberto Fontanarosa en la voz de Alejandro Apo", cuento de Alejandro Apo.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+un cuentazo...crudo...real...humano...genial...</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>El apocalipsis segun el Chato</title><description>Alejandro Apo lee "El apocalipsis segun el Chato".
+
+Fuente original:
+YouTube - Y el fútbol contó un cuento.
+
+Corazón hecho pelota
+De Eduardo sacheri, por Alejandro Apo.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "El apocalipsis segun el Chato".
+
+Fuente original:
+YouTube - Y el fútbol contó un cuento.
+
+Corazón hecho pelota
+De Eduardo sacheri, por Alejandro Apo.&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=duC0gfHAg8I"&gt;YouTube - Y el fútbol contó un cuento&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-duC0gfHAg8I</guid><enclosure url="https://rr1---sn-5ouxa-h8qez.googlevideo.com/videoplayback?expire=1783932696&amp;ei=uFJUavP1N-zo1sQPwNm0sQM&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AH1Q4iq89aIkQBRSv_Qa1ViidwrjSicrV6mKnMRcEiJf&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=266&amp;met=1783911096%2C&amp;mh=Bh&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qez%2Csn-ajx1x5-5c&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1998750&amp;bui=ARmQxEVhkgHN83fuor4Wurg-CqU7NaR-bj-yJ67-tsvJbexu9UMHe89NEmt9cDYNEF2LSCXYVAAZZGvL&amp;spc=SQ-umiCur8hhEQeG_vxLIm8JTNnvKoyMULWs7X79PsUW&amp;vprv=1&amp;svpuc=1&amp;xtags=acont%3Doriginal%3Alang%3Des-US&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=35264102&amp;dur=2144.821&amp;lmt=1761805195789040&amp;mt=1783910725&amp;fvip=4&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=8208224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRgIhALm9TgaqFKkmRCE7DgYuuHnoulyoyH35cfF31A3fkaqxAiEAqUaEjTS90CfuHpiAvgh-wHE9HQqwZ1_Ro_42AMJpQus%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIgHQ10V9OZasG82CzWPtYI7XxjyGacOVCckMWdFHfTlVkCIQCEiCvavRdH2t7GRV0fVwdzpMDy__rNpXW-aDz8fowWDQ%3D%3D" length="2145.0" type="audio/mpeg"/><pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>35:45</itunes:duration><itunes:summary>Alejandro Apo lee "El apocalipsis segun el Chato".
+
+Fuente original:
+YouTube - Y el fútbol contó un cuento.
+
+Corazón hecho pelota
+De Eduardo sacheri, por Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Palizas" de Osvaldo Soriano</title><description>Alejandro Apo lee "Palizas" de Osvaldo Soriano", cuento de Osvaldo Soriano.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Palizas" de Osvaldo Soriano", cuento de Osvaldo Soriano.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Osvaldo Soriano&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=LYPE9BW6Io8"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-LYPE9BW6Io8</guid><enclosure url="https://rr6---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932644&amp;ei=hFJUas3eEsDx1sQPpfvamQ8&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AFyzx_imXDp9CTb1nDkH3Butp4tu_nGWxtywe3ZM4ut8&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=291&amp;met=1783911044%2C&amp;mh=Fw&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qel%2Csn-x1x7dned&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=6&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1913750&amp;bui=ARmQxEWnBSMSfWGtdIWSl_UzUzVkxBCwiWJLSa1dWfBAOScXdK6V-aze9AAWI3t_elYWbaWmeF1WNeIT&amp;spc=SQ-umobZ4CwQ3ya9H4LV6oPCJuozIT8O-VT9VwZ7GRDj&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=9237627&amp;dur=603.321&amp;lmt=1568972840294897&amp;mt=1783910725&amp;fvip=3&amp;keepalive=yes&amp;fexp=51565115%2C51946837%2C52017147&amp;c=ANDROID_VR&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIhAPxpv-rIkEEWb82S6cEmPJhf-RsOayFGhJXxbeDzCG7-AiBC7_CAkPZIIrT49nKdjFzARuQ6NJZ3qb4jDyQMf5vgwQ%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRgIhALAPIstuaGuqRlIzJXGroCuv0EzIVfZazoIPdCuvtcF-AiEA7eA3TqjmJwFN56OALReZGsq_Q0TmdZhAkOGzJ8TUpXk%3D" length="603.0" type="audio/mpeg"/><pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>10:03</itunes:duration><itunes:summary>Alejandro Apo lee "Palizas" de Osvaldo Soriano", cuento de Osvaldo Soriano.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Trenes" de Osvaldo Soriano</title><description>Alejandro Apo lee "Trenes" de Osvaldo Soriano", cuento de Osvaldo Soriano.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Trenes" de Osvaldo Soriano", cuento de Osvaldo Soriano.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Osvaldo Soriano&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=0pjfKeh8n6g"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-0pjfKeh8n6g</guid><enclosure url="https://rr11---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932647&amp;ei=h1JUaurLHfq2obIP0_y02AQ&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AJUGNReloX4AZf-wjtAgEAN-elpG6UBaUyMAwdbTUhRr&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=184&amp;met=1783911047%2C&amp;mh=pX&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qes%2Csn-ajx1x5-5c&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=11&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1992500&amp;bui=ARmQxEU8C_sgeUTRY0kUH-DDs9NwQGzDhlR0YBmW7rOn5SWwDSpK9C_YFOb-Wzkvu8ROwTlB0iUqa-Fq&amp;spc=SQ-uml8lYJdMbcuGZbpLXPfmLX2_1fWMxXTJwyQCyUtR&amp;vprv=1&amp;svpuc=1&amp;xtags=acont%3Doriginal%3Alang%3Des-US&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=9553555&amp;dur=611.541&amp;lmt=1783213238149715&amp;mt=1783910725&amp;fvip=2&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIgRC50XR7hgVZd5GKWvl3nnVT7Ne5st9R0NMowJjWLO9sCIDaCF3t1TFLhw4DKSjsCEU7yoPAO5k_EIyaqnb2JWN9Z&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAN9S-Nlr9tpkNagAfjM-qTzRiq5jVmmEmsfED_dDPDjJAiBVZADvk3lNLbs1dmSNfPVIJbrZqHuA44at98gDcVgPyQ%3D%3D" length="612.0" type="audio/mpeg"/><pubDate>Tue, 11 Oct 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>10:12</itunes:duration><itunes:summary>Alejandro Apo lee "Trenes" de Osvaldo Soriano", cuento de Osvaldo Soriano.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>La Guerra y la Paz" de Mario Benedetti</title><description>Alejandro Apo lee "La Guerra y la Paz" de Mario Benedetti", cuento de Mario Benedetti.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde
+
+https://www.youtube.com/channel/UCQQDwsFf6AbTyF61-JDKIjQ</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "La Guerra y la Paz" de Mario Benedetti", cuento de Mario Benedetti.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde
+
+https://www.youtube.com/channel/UCQQDwsFf6AbTyF61-JDKIjQ&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Mario Benedetti&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=gaEbhBHUMf0"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-gaEbhBHUMf0</guid><enclosure url="https://rr6---sn-5ouxa-h8qe7.googlevideo.com/videoplayback?expire=1783932633&amp;ei=eVJUavbNLKfw1sQPnMPmqAk&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ACKqV8q_Zr2fFUFx3t49TKgiA-efNAYsnZVov4xR1fuN&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=285&amp;met=1783911033%2C&amp;mh=5u&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qe7%2Csn-u1x1x5-5j&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=6&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1873750&amp;bui=ARmQxEXk2yas1uUG9HSS8F_PHDTsDumybuuKai5TZ4iQlCoGw0bKVXAds5whHJlQdUXXJ6k8V40fy16K&amp;spc=SQ-umlrwwGUw9k5uhFRln2OEm1QAAwzFEzyXITjXJ-L5&amp;vprv=1&amp;svpuc=1&amp;xtags=acont%3Doriginal%3Alang%3Des-US&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=4813385&amp;dur=375.401&amp;lmt=1783906459812861&amp;mt=1783910477&amp;fvip=3&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRgIhAJhAaWY100qW6MqVR0ZgJBSnMmbBoCTd9TFca634m13HAiEAwF6wxxa8xyeLY5yNRApsZdewNhXok7kINSmkdvlD2O4%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIgel4DHJG4kM0RvdL8sPprqOrbG7w2qx8zQGxYomUCONsCIQDlCF6e5fl-ovpsArkM9-20ntQjFIyD1Q1Tn66ASXsHiw%3D%3D" length="375.0" type="audio/mpeg"/><pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>06:15</itunes:duration><itunes:summary>Alejandro Apo lee "La Guerra y la Paz" de Mario Benedetti", cuento de Mario Benedetti.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde
+
+https://www.youtube.com/channel/UCQQDwsFf6AbTyF61-JDKIjQ</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>La puerta y el pino”, de Robert Louis Stevenson</title><description>Alejandro Apo lee "La puerta y el pino”, de Robert Louis Stevenson", cuento de Robert Louis Stevenson.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "La puerta y el pino”, de Robert Louis Stevenson", cuento de Robert Louis Stevenson.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Robert Louis Stevenson&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=k1meeu1z0a4"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-k1meeu1z0a4</guid><enclosure url="https://rr6---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932637&amp;ei=fVJUaoWiF76tobIPs7CG8Qk&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AJHu0CP1B-GPQQ7hw3RLC4x1qv5Q0yqsSdNjpta7P1ec&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=252&amp;met=1783911037%2C&amp;mh=dq&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qes%2Csn-u1x1x5-55&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=6&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1992500&amp;bui=ARmQxEXvYj5Ma3rdtTtrSQbc_2bvljZ44slrjoSS0xBvQ-NO1Vf-LAs_whWPGDAIQyIkdqpWkiGMiuuk&amp;spc=SQ-umi87-1jGtuppoZ_t7zn172ykXrTbxorvLcFrqsh1&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=7389140&amp;dur=464.701&amp;lmt=1739275696189107&amp;mt=1783910725&amp;fvip=1&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=1218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIhAIXaissVVx9IwCNyAWzecfE9ok_RBKiNAZwjAJKuOMuaAiA8VczKpRg4M_u4clCuClcjMZUiLGvFEJZAnmt2KNPqSw%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhANpBOMQQkgWvyQIWFIZh7qFfNLeYEeNDA39Ax4qGIo-UAiBc-vrifwhtsfKXp9nYBr47S0h9cUdqbwta-D3Jn8b10Q%3D%3D" length="465.0" type="audio/mpeg"/><pubDate>Mon, 24 Oct 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>07:45</itunes:duration><itunes:summary>Alejandro Apo lee "La puerta y el pino”, de Robert Louis Stevenson", cuento de Robert Louis Stevenson.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Cuentos de la India" Relatos tradicionales</title><description>Alejandro Apo lee "Cuentos de la India" Relatos tradicionales".
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Cuentos de la India" Relatos tradicionales".
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=WbUqsE23KZ8"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-WbUqsE23KZ8</guid><enclosure url="https://rr5---sn-5ouxa-h8qy.googlevideo.com/videoplayback?expire=1783932640&amp;ei=gFJUaquFMpjLnOAP77SiwAk&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AAiwFgdeG8kGO4KfUzAs_FVSuvL43S4e4VWWFNuvB4o7&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=150&amp;met=1783911040%2C&amp;mh=ni&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qy%2Csn-x1x7dned&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=5&amp;pl=42&amp;rms=au%2Cau&amp;pcm2=no&amp;initcwndbps=2060000&amp;bui=ARmQxEUQqC1eZZOrGcE18K_FQtbCDRvBNLFM3cOKOme33OC1TgRIdyfO7Q-edeBjHzkZ3uJzq_EgH36a&amp;spc=SQ-umsN0tkoRORtCshLv_WMp9EonTWpaRlIaX2fJu6FC&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=7061186&amp;dur=477.901&amp;lmt=1569232419273111&amp;mt=1783910477&amp;fvip=5&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIgGnHODM4InWwvGayQ_MnMTSBixZBKKXGSgNkE9r2ohPoCIBu6_Ixme4c5bZSWOmC2kbdXuydH67fA0ICi6EQ78mHa&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRAIgH7R5i5D-ePHRRAfWzIOK6DsZ1m1Z3uBEl70FgIkeuLgCIGb8fjB8vzYkseKsrAiXztk3j_JoGAoMneCBrpVbrm09" length="478.0" type="audio/mpeg"/><pubDate>Sun, 30 Oct 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>07:58</itunes:duration><itunes:summary>Alejandro Apo lee "Cuentos de la India" Relatos tradicionales".
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>El prostíbulo" de Dalmiro Sáenz</title><description>Alejandro Apo lee "El prostíbulo" de Dalmiro Sáenz", cuento de Dalmiro Sáenz.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "El prostíbulo" de Dalmiro Sáenz", cuento de Dalmiro Sáenz.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Dalmiro Sáenz&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=PFcj4j50rQ8"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-PFcj4j50rQ8</guid><enclosure url="https://rr2---sn-5ouxa-h8qee.googlevideo.com/videoplayback?expire=1783932682&amp;ei=qlJUavS5IfCT-LAPs4aI6QU&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AHSJ9WkQckTpPsquzuBGNhK-r9k3JKvABmS2r1lMKMMM&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=286&amp;met=1783911082%2C&amp;mh=NM&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qee%2Csn-x1x7dne6&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=2&amp;pcm2cms=yes&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1890000&amp;bui=AZFlqhML1zPInvfeQWvAuuWnSSzTHUydEnMgicLUkOVksdp9q2qFu1-xO0Q5BcCKi6viZ-hbW9nwcYOS&amp;spc=SQ-umm2nzT5f4ceEWkv62fJQO8_7rllL-V5ZOASodw&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=17770051&amp;dur=1145.801&amp;lmt=1707189703428239&amp;mt=1783910725&amp;fvip=3&amp;keepalive=yes&amp;fexp=51565116%2C51946838%2C51992867%2C52017147&amp;c=ANDROID_VR&amp;txp=1318224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AE0s2JYwRQIgN635TLdYjA-p766GPAVY0qeCAtAxlGe16gbZcibptaECIQCYwx7G3bEFFWdeO3DdCCopgg2Bv8u-ClIPqENqM6XE8g%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIgDuu1wB2ZCtYs9p4jzNDyPnI6bkiPspMELNif6zKuXEUCIQDx57w1EJ1YCuW43pQd3nCJTgZIiTUc1m3HT_cETCdgcQ%3D%3D" length="1146.0" type="audio/mpeg"/><pubDate>Sat, 12 Nov 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>19:06</itunes:duration><itunes:summary>Alejandro Apo lee "El prostíbulo" de Dalmiro Sáenz", cuento de Dalmiro Sáenz.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Una noticia que sorprende". de Roberto Fontanarrosa</title><description>Alejandro Apo lee "Una noticia que sorprende". de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Una noticia que sorprende". de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Roberto Fontanarrosa&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=lY1Vy4E7BbQ"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-lY1Vy4E7BbQ</guid><enclosure url="https://rr8---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932658&amp;ei=klJUaomtCqOWobIP2KO44AI&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AI1W2_hKFwQdT0jw_1AFHXIsV7cABnFoHy8-rVKKIQ14&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=279&amp;met=1783911058%2C&amp;mh=kh&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qel%2Csn-x1xe7nez&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=8&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1873750&amp;bui=ARmQxEX_653arW1eBWHVO5tg7w9_Q2Bei-GSyVa-mj3IAE_4ZzjH7pChut4MWebagYC-CCT0vSzkjjxL&amp;spc=SQ-umogrB3y1aHiuA4DRbMRLw8SidpUaNCq6LhOqy-SU&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=11439638&amp;dur=723.621&amp;lmt=1539582913108111&amp;mt=1783910477&amp;fvip=1&amp;keepalive=yes&amp;fexp=51565116%2C51992867%2C52017147&amp;c=ANDROID_VR&amp;txp=5411222&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRgIhAJEnYQ8_13rJBicZftxgCzcGbMmqzZrvol8LaokhEDqHAiEAlQBTBTBYQJZ6_DXi4HBde1IEqLPVq_X7pSfMXplQlhE%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAPGu6fxloyOpyiFhpz1JV4CVZdsaz1lkN3gUjQEKK8zcAiBgFvyWGqWD0a4d4_xFMyrxxHLFlVRxjkawg72h5gVuTw%3D%3D" length="724.0" type="audio/mpeg"/><pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>12:04</itunes:duration><itunes:summary>Alejandro Apo lee "Una noticia que sorprende". de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Un fantasma en el baño" de Sebastián Wainraich</title><description>Alejandro Apo lee "Un fantasma en el baño" de Sebastián Wainraich", cuento de Sebastián Wainraich.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Un fantasma en el baño" de Sebastián Wainraich", cuento de Sebastián Wainraich.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Sebastián Wainraich&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=xYkt6uvb1eQ"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-xYkt6uvb1eQ</guid><enclosure url="https://rr6---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932661&amp;ei=lVJUav6qLfHp1AGs4DU&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AHniQn0i01wwMocIEKUhq3fx7tmRfGnq6tcNGGRYZjr9&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=240&amp;met=1783911061%2C&amp;mh=9C&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qes%2Csn-x1xe7nez&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=6&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1992500&amp;bui=ARmQxEXihiZe7f9028t9dA3kjf7Wt45usoAWgY5oj4jjNC4DtQ9UsFcHF7of5UjH1GRrzddzLOknzPBb&amp;spc=SQ-umo_OdiFPRINOH9hy03xVKDdgCxlQtBiRYeriuCfE&amp;vprv=1&amp;svpuc=1&amp;xtags=acont%3Doriginal%3Alang%3Des-US&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=12319488&amp;dur=787.841&amp;lmt=1763892568336753&amp;mt=1783910725&amp;fvip=2&amp;keepalive=yes&amp;fexp=51565116%2C51992867%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIgCXS4D5TZO36wDM90hYCyH149iGUBAvNrBTzan7YNtBQCIQD_GP3MaTSYSl8EYFTT92LSe8itw4wdU8s6o-_rfqxKng%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRgIhAJ3iuNUXyc4UbHtAdeXQNIoLfkL-c8QS10kEBoQl8n2EAiEAgPUd7j7F12DHouThQ2TbSl4Tc3fYPezZmTz3LH_RCWs%3D" length="788.0" type="audio/mpeg"/><pubDate>Sat, 19 Nov 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>13:08</itunes:duration><itunes:summary>Alejandro Apo lee "Un fantasma en el baño" de Sebastián Wainraich", cuento de Sebastián Wainraich.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Entrevista" de Humberto Costantini</title><description>Alejandro Apo lee "Entrevista" de Humberto Costantini", cuento de Humberto Costantini.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Entrevista" de Humberto Costantini", cuento de Humberto Costantini.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Humberto Costantini&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=CzcRgu0q6HI"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-CzcRgu0q6HI</guid><enclosure url="https://rr2---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932668&amp;ei=nFJUat6XD6ej1sQPwur3GA&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AMqyzl8-vdnzxgODea8JcTHhyxvyRp_fmTaRuWT5QwxJ&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=289&amp;met=1783911068%2C&amp;mh=Pg&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qel%2Csn-x1xe7nes&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=2&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1873750&amp;bui=ARmQxEXh5vPDsMIyLjFzfSpi31LTQ768oRtbhe9hcibymeQQohDrrdG9LAXrAWzCkPq-nwb8-RYnuoVS&amp;spc=SQ-umuHq39UBYddAZmkyNvZJ4qwLEg2Xdh0vD3Wmci9x&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=12985856&amp;dur=811.581&amp;lmt=1702261616616352&amp;mt=1783910477&amp;fvip=4&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=1318224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIgYXN1cb1yc-e52II4NMH6_JFMjmURXeVosqq__0w_wdkCIGdE58oS0HriO4HlUwucNhyv6ZGKjnUWUBH76oXAJLcJ&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIgGt4feASeSOyA9SwR3BbiwObBXALPR0GBlgWheIMcohACIQC4I_4qr8LahvPLUh-5tUE3MOeRzt8hKOHD0EBhp5BMhQ%3D%3D" length="812.0" type="audio/mpeg"/><pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>13:32</itunes:duration><itunes:summary>Alejandro Apo lee "Entrevista" de Humberto Costantini", cuento de Humberto Costantini.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Casa tomada" de Julio Cortázar</title><description>Alejandro Apo lee "Casa tomada" de Julio Cortázar", cuento de Julio Cortázar.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Casa tomada" de Julio Cortázar", cuento de Julio Cortázar.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Julio Cortázar&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=BJiYFKNzP44"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-BJiYFKNzP44</guid><enclosure url="https://rr3---sn-5ouxa-h8qee.googlevideo.com/videoplayback?expire=1783932665&amp;ei=mFJUaoiwPN6K-LAPka2XMQ&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AG7ZllCUAtke9iBWBV5S14NJrIt5jI4K_jzgWC9ZNWhA&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=261&amp;met=1783911065%2C&amp;mh=7b&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qee%2Csn-u1x1x5-55&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=3&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1890000&amp;bui=AZFlqhPq9MrsMi9e1GLX0-7BELTlBGCEdSWAmDgoRg_Q8AUXuw7xIjyADmqc-XX6CW9EezyfqnqEe-Qd&amp;spc=SQ-umtu8LhIoDgZQmneeyzXUnpt7KqQc90is3Y20h-y1&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=10675297&amp;dur=813.201&amp;lmt=1701070698774674&amp;mt=1783910725&amp;fvip=3&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=1318224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AE0s2JYwRgIhAMUEhxo_86dZYEnNmhomsvj4O9OwJ1Ajotd2ZM-2BDgsAiEA3eGgFkzXcz3t819GIfAchNtjimDapg8bDeD82eXqLQk%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRgIhAM4HkPaA5su3Or_QGME7xeKanG8IMv46q1YRkCVPhTQLAiEA-kHSOWRojEoN0ulk_F2HrDPIY7YrGXzZ51ekq6PIzvA%3D" length="813.0" type="audio/mpeg"/><pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>13:33</itunes:duration><itunes:summary>Alejandro Apo lee "Casa tomada" de Julio Cortázar", cuento de Julio Cortázar.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>El hijo del Sheik" de Roberto Fontarrosa</title><description>Alejandro Apo lee "El hijo del Sheik" de Roberto Fontarrosa", cuento de Roberto Fontarrosa.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "El hijo del Sheik" de Roberto Fontarrosa", cuento de Roberto Fontarrosa.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Roberto Fontarrosa&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=G6r9NVd-bLI"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-G6r9NVd-bLI</guid><enclosure url="https://rr4---sn-5ouxa-h8qr.googlevideo.com/videoplayback?expire=1783932675&amp;ei=o1JUavFN7pvWxA_nioL5BQ&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AGyrywzPhhOyPH8AqM8uUCH952PRY5unvYE34LL298G2&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=160&amp;met=1783911075%2C&amp;mh=63&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qr%2Csn-ajx1x5-5c&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=4&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=2033750&amp;bui=ARmQxEUL9ttnmWdB5MqxlG_ujG5X4XxP_6hjPXh_zsmm9RnjSo-aScbCXoDElvI986E20g7i5-vV6GvA&amp;spc=SQ-umiphQY1glw2PTJ6YmNeWSHQV8-u0IxMXNYfXsK9K&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=12091350&amp;dur=921.861&amp;lmt=1702512404685847&amp;mt=1783910477&amp;fvip=5&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=1318224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRgIhAPfmMOGLL9IwH04wMq8ULdD-IehQvPDM_iF7u4kIyhLcAiEAvbH4wj470ocgH5DD5vmYpFWrBZrLbpOOzzsFflZTjGA%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRAIgB-3y8wZiCrYESt2FTCBDrEk9bHO-ajNarJ8t7JYmKA4CIGub372UtP_j-1COrmnJF5VLp4pstOFU8D9u3eoU9M-c" length="922.0" type="audio/mpeg"/><pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>15:22</itunes:duration><itunes:summary>Alejandro Apo lee "El hijo del Sheik" de Roberto Fontarrosa", cuento de Roberto Fontarrosa.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Muérete Ringo" de Juan Jose Becerra</title><description>Alejandro Apo lee "Muérete Ringo" de Juan Jose Becerra", cuento de Juan Jose Becerra.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Muérete Ringo" de Juan Jose Becerra", cuento de Juan Jose Becerra.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Juan Jose Becerra&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=tKQmz-XAIwg"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-tKQmz-XAIwg</guid><enclosure url="https://rr7---sn-5ouxa-h8qe7.googlevideo.com/videoplayback?expire=1783932671&amp;ei=n1JUauGEGcn4-LAPyO-omQ8&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ADy4Cx5FxW_wFxf_F3B8KaHynvAIhE8iahumjX4ei6ua&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=191&amp;met=1783911071%2C&amp;mh=3w&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qe7%2Csn-x1x7dn7s&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=7&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1873750&amp;bui=AZFlqhOJ4loEsSlG2N6fjOE_DOr5WukjXOiu6gv2781T3GS2XghdYWmCDz_mSOhHmqQWGp6rqnpCbRwF&amp;spc=SQ-umq6kySgvH1_obv9MXUornqttooo3E7rBb3Eu2AF0&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=16741567&amp;dur=961.761&amp;lmt=1709860116944185&amp;mt=1783910477&amp;fvip=1&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=1318224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIgayUFMcK1FND7-uyvafomyJrmI3dBegGu6RDqTL-zPcMCIQDF0z4MrKttwj79NZtnSolaPmLZhnPap_moGFm2lgURNQ%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIgSbA-ZPWVolIOZsU3L0TvRPwy-cFJP1WrDOh_2aRnQjYCIQCKUWAIt7Nn-JyDjRAlGZkexHOMfjJidsF1HxWnP1tVog%3D%3D" length="962.0" type="audio/mpeg"/><pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>16:02</itunes:duration><itunes:summary>Alejandro Apo lee "Muérete Ringo" de Juan Jose Becerra", cuento de Juan Jose Becerra.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>La Felicidad" de Isidoro Blaisten</title><description>Alejandro Apo lee "La Felicidad" de Isidoro Blaisten", cuento de Isidoro Blaisten.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "La Felicidad" de Isidoro Blaisten", cuento de Isidoro Blaisten.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Isidoro Blaisten&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=8a3TvD7-1iI"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-8a3TvD7-1iI</guid><enclosure url="https://rr5---sn-5ouxa-h8qee.googlevideo.com/videoplayback?expire=1783932678&amp;ei=plJUaqSqI-ebobIPy_D9qAQ&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-APtJDtbhJ_Wh9yyNSlwk_f1mko5jlRn8dAFgOb-7-qt7&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=300&amp;met=1783911078%2C&amp;mh=RU&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qee%2Csn-x1xe7nez&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=5&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1871250&amp;bui=AZFlqhOz30nk0kWZircKA3PLAvEImRPDDGgOYDWY4fy0jTGP_ry5L0yj1YUfrrk5vi8g41fl_S0A_3z1&amp;spc=SQ-umlslgz7FZpbEYEpsF_hSmZp9ExnLgrQZLdd8sl5M&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=15261056&amp;dur=1017.001&amp;lmt=1711692455539227&amp;mt=1783910477&amp;fvip=2&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIgSCDqggV-L8RQCjoApj_tU-lbWEAouJ8v0gEJ7t-vnmMCICwuc79GG6vM3CtsdrgYTR_NFDCfptn7zXVOwUeB-UXx&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRgIhAPeohUVVQX5LasqYTZJAUQDLln4DtPWvrXaYO5lr0XavAiEAqk04D78NxWrUdzP1AEpdx5sgf3aYVuWJPL3WffdJ3Bg%3D" length="1017.0" type="audio/mpeg"/><pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>16:57</itunes:duration><itunes:summary>Alejandro Apo lee "La Felicidad" de Isidoro Blaisten", cuento de Isidoro Blaisten.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>El Piloto de Combate" de Eduardo Sacheri</title><description>Alejandro Apo lee "El Piloto de Combate" de Eduardo Sacheri", cuento de Eduardo Sacheri.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "El Piloto de Combate" de Eduardo Sacheri", cuento de Eduardo Sacheri.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Eduardo Sacheri&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=JJZKamFL1JE"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-JJZKamFL1JE</guid><enclosure url="https://rr1---sn-5ouxa-h8qee.googlevideo.com/videoplayback?expire=1783932654&amp;ei=jlJUauH-FaOt1sQP-e-14AQ&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AFTV4HZpzsjAVmb6Cn0K618tSYNC0OH_leYfsj-IY2Oy&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=230&amp;met=1783911054%2C&amp;mh=c9&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qee%2Csn-x1x7dne6&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1871250&amp;bui=ARmQxEVTaaTI1A7Y9O2hpeZCnJR61FIPZLIEnmzjIz4v07QNg3S0L1bOP2inGumtrtYEouV6wq-iqRX1&amp;spc=SQ-ummS6BZ581yTNN3WNxFoHbPNOaNIWM-7M8vjQ7BoT&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=11084486&amp;dur=679.301&amp;lmt=1723226504856220&amp;mt=1783910477&amp;fvip=4&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIhAOyfNcyu9LY8mdfkU5hxi25VVGKntHhxU8bFvWF43XhAAiAXWOfK1RrfL4FxvaBoA-_Qn4gnAFZ9GvY_xInk4KdGzg%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRgIhALWMlAMmGQC0Fyk_RTM-czUox7JdKBZ2RrEYyU_vGIIBAiEAsZWlyxI9zS5WpxrPN1j_FY9fI-bPpz8v3_hU1GapknE%3D" length="679.0" type="audio/mpeg"/><pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>11:19</itunes:duration><itunes:summary>Alejandro Apo lee "El Piloto de Combate" de Eduardo Sacheri", cuento de Eduardo Sacheri.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>El potro salvaje" de Horacio Quiroga</title><description>Alejandro Apo lee "El potro salvaje" de Horacio Quiroga", cuento de Horacio Quiroga.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "El potro salvaje" de Horacio Quiroga", cuento de Horacio Quiroga.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Horacio Quiroga&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=78Nvtqvr95Q"&gt;YouTube - Alejandro Apo, El Cuento de la tarde&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-78Nvtqvr95Q</guid><enclosure url="https://rr5---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932650&amp;ei=ilJUat29ObmV-LAPrvOdyQ4&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AA_3u3nAeVRpIHnhHytisAYhyrC7Rf1Ad89vPl_b2fjm&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=192&amp;met=1783911050%2C&amp;mh=_p&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qes%2Csn-u1x1x5-5j&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=5&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1966250&amp;bui=AZFlqhPvQYBrkqa7wjCRi4irIkQFUFyaMaRAO0cXJSm6QBgOzCKr5wuHWUvzo4rsX4RtWNXbEJhFEbkp&amp;spc=SQ-umiX02OT7Kyuvjn1NE8ZFvm8lS3EySQzXE8iquUew&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=9873635&amp;dur=645.661&amp;lmt=1711426159200147&amp;mt=1783910477&amp;fvip=1&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIgBy5DuzSOjwhnBG01x5v4SBm6k5tlkINrouWRKut3DI0CIFJeQ2Lu1_WVBmnpjQMZdyMe0MuUhZm7zt9u7EYEg1D8&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRAIgSOi2WYUsIcuMTMw2AO9xMDauANT1Agqv9TK_4NM0A1wCICOfczUuQeiZSvlFL8ZWPhkvquArpg9KDV-p-AKGXFTp" length="646.0" type="audio/mpeg"/><pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>10:46</itunes:duration><itunes:summary>Alejandro Apo lee "El potro salvaje" de Horacio Quiroga", cuento de Horacio Quiroga.
+
+Fuente original:
+YouTube - Alejandro Apo, El Cuento de la tarde.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>La observación de los pájaros" de Roberto Fontanarrosa</title><description>Alejandro Apo lee "La observación de los pájaros" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "La observación de los pájaros" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Roberto Fontanarrosa&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=q3234agBqys"&gt;YouTube - Fontanarrosa por Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-q3234agBqys</guid><enclosure url="https://rr3---sn-5ouxa-h8qez.googlevideo.com/videoplayback?expire=1783932744&amp;ei=6FJUaqS3HvSW-LAPldWP2A4&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AFE2Pn2jyoBFw0eLLh4hBBhbr5OWyk_fGW0oYKQI7pLG&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=265&amp;met=1783911144%2C&amp;mh=Tb&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qez%2Csn-u1x1x5-5c&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=3&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1998750&amp;bui=AZFlqhOsR16bK3w4zjfzSsaAq_EQcGvXR9Hb-TjHAPhvu8KuVFxkJYrwH8sKceagrBAqC4oXUiBVYRmg&amp;spc=SQ-umierHB7MN7P_U4i_-xata29peFJ2M8ZEh7TtBHrU&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=16245577&amp;dur=1315.381&amp;lmt=1744254975383159&amp;mt=1783910725&amp;fvip=1&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AE0s2JYwRgIhAPKwwlHVxa08J5cEQmuEO5trU19llKFvFJy03FPmqED0AiEA-u8zw45zi1wVUjX9eOSwdUyv_EM6yuhw-FaUQJRcZpE%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAN9daz-Mi3oKaostLOFywGwEM2K_oHZS0xgn3NskhpEoAiBYGp45G43v71pmnAXQpcKuXIZwgOHScywG1awrMr4unQ%3D%3D" length="1315.0" type="audio/mpeg"/><pubDate>Mon, 19 Dec 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>21:55</itunes:duration><itunes:summary>Alejandro Apo lee "La observación de los pájaros" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>La Verdad Sobre el Transbordador Columbia" de Roberto Fontanarrosa</title><description>Alejandro Apo lee "La Verdad Sobre el Transbordador Columbia" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "La Verdad Sobre el Transbordador Columbia" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Roberto Fontanarrosa&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=ub3uqVoeZyw"&gt;YouTube - Fontanarrosa por Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-ub3uqVoeZyw</guid><enclosure url="https://rr1---sn-5ouxa-h8qy.googlevideo.com/videoplayback?expire=1783932731&amp;ei=21JUaoTPDo-R-LAPsfOjgA4&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AEKO_aYojiBFO6HrqTxxlGHDKPYQ5SQ-CplCJsQ3i4HB&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=231&amp;met=1783911131%2C&amp;mh=v4&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qy%2Csn-x1xe7nez&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1987500&amp;bui=AZFlqhMXjMGi_be8ucYHNOY1yWV6qzZi1n2nrAnQ0HUCip-gLBMl6-C7JHDQFjPR3jfHwH7WRafgfzFs&amp;spc=SQ-umhaeH2KVz7vkavF69aiIhwhDKwMSFBk27M-hMj4y&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=16238456&amp;dur=1245.221&amp;lmt=1709939749885196&amp;mt=1783910725&amp;fvip=1&amp;keepalive=yes&amp;fexp=51565116%2C51946837%2C51992868%2C52017147&amp;c=ANDROID_VR&amp;txp=1318224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIhAOl6sjVHlPmJq4d3JkcbdXJiPyu29Drkje7Dgl0fLtfWAiAV8TLy5IU3QD30WmN2jbL9s15CXTs9YePlcXSLFL5YUw%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAIWbr6zRUsue2Ch4kr1RQcosTJZQa6VuGVurUnH4YCzWAiBLQ70tncWeVfV1-5KlxtBgT28pxd5YjQ4Ww7zC0BLkSg%3D%3D" length="1245.0" type="audio/mpeg"/><pubDate>Mon, 19 Dec 2016 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>20:45</itunes:duration><itunes:summary>Alejandro Apo lee "La Verdad Sobre el Transbordador Columbia" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>El discipulo" de Roberto Fontanarrosa</title><description>Alejandro Apo lee "El discipulo" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "El discipulo" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Roberto Fontanarrosa&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=w9zRJqT_RPc"&gt;YouTube - Fontanarrosa por Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-w9zRJqT_RPc</guid><enclosure url="https://rr7---sn-5ouxa-h8qy.googlevideo.com/videoplayback?expire=1783932741&amp;ei=5VJUarWzDtjv1sQP0MCEsAM&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ABTzj-OP3ggAgY-s7Y8T_anC1BtuLQ-SVeISqTNbhoyr&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=240&amp;met=1783911141%2C&amp;mh=Oz&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qy%2Csn-x1x7dne6&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=7&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1987500&amp;bui=ARmQxEWnn9TtahCXOk7HtZOrEvZCGEY3mGduOcsaH7GKHmK5QutSrZDIXloTkCnuVnqN6Yi-bYV29UPI&amp;spc=SQ-ummZ6697cLXK51N8Brtt-drtcf2z_uJN2KBX-fSZR&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=18033240&amp;dur=1400.061&amp;lmt=1700409807866408&amp;mt=1783910725&amp;fvip=4&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=1318224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIgOjESdnzCYLliprnAWU5rg8K8DSG5eLWY8oQiPLMNta0CIQDbAouKpPdQxUVJdCfW3K09Z3AteRIu8RB-aE9EeJjPaQ%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAMOYufuhCl1q2Q6nD3HL7SmSeyAw6yiOtFJBoyQMDpe3AiBmJrBaeq2fdtP0uoBAL6Gq15YT4Cj7oSs2hjAY_12n6A%3D%3D" length="1400.0" type="audio/mpeg"/><pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>23:20</itunes:duration><itunes:summary>Alejandro Apo lee "El discipulo" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Una Interesante Observación Sobre las Narigonas" de Roberto Fontanarrosa</title><description>Alejandro Apo lee "Una Interesante Observación Sobre las Narigonas" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Una Interesante Observación Sobre las Narigonas" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Roberto Fontanarrosa&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=wFNPRByyIP0"&gt;YouTube - Fontanarrosa por Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-wFNPRByyIP0</guid><enclosure url="https://rr7---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932738&amp;ei=4lJUavXWFI2gobIP8v7IoAo&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ABEIZz0OxsmG2dqeMm-t0slXrAZpHxh4piY7nFl5YO9t&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=318&amp;met=1783911138%2C&amp;mh=cp&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qel%2Csn-u1x1x5-5c&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=7&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1913750&amp;bui=ARmQxEWZJxz6yC4rhcaT5Bz6PpNOzGEwlXm42Naq2QUZ9I1i3HvKjOOhkcQzk_80P5_KHP4oSrpdy0Rw&amp;spc=SQ-umq-9Z1byah7N36TX5ZLTt9WmP7oEEUv4tRzNYE_n&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=16592684&amp;dur=1137.321&amp;lmt=1747975665703743&amp;mt=1783910725&amp;fvip=4&amp;keepalive=yes&amp;fexp=51565115%2C51992867%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIgF0OzPZgph_1AEZPy_woB4LjhVUb6QzZyHVHqiOU6DvQCIG_uUY5bkvhSZBcpY3NXB8k6VPakgv_ZQ5SvaSemWhFn&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRgIhAPls0d1NYmlj_b6-pKXV3i17Ff5oxUCHVwsAc0FHE-M7AiEAj7Yb_kgcTCt0wO7Y9wIqCMepSHQnB2PUrauVpEo0kGo%3D" length="1137.0" type="audio/mpeg"/><pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>18:57</itunes:duration><itunes:summary>Alejandro Apo lee "Una Interesante Observación Sobre las Narigonas" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Maud Emprende el Vuelo" de Roberto Fontanarrosa</title><description>Alejandro Apo lee "Maud Emprende el Vuelo" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+, Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Maud Emprende el Vuelo" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+, Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Roberto Fontanarrosa&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=e4SZxvj0Dxo"&gt;YouTube - Fontanarrosa por Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-e4SZxvj0Dxo</guid><enclosure url="https://rr8---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932734&amp;ei=3lJUapXSHKf41sQP5dGzyA4&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AOiGe367C2RjtEyyqaKMFDQ5iqu1YiiCk1_hTOMkRcon&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=176&amp;met=1783911134%2C&amp;mh=hP&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qel%2Csn-u1x1x5-5j&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=8&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1913750&amp;bui=ARmQxEWM5t7WEQIPatZXCEaVgXALKDUgPC5rQ_xBUtgirEqI7Fsv4Oz4gqZvgCJR5mTDWJZSdyu5mHpF&amp;spc=SQ-umjMyfXnOTCQ0GK8oKUaQ9Sn6dcucupTC6v86vkm7&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=14061511&amp;dur=900.361&amp;lmt=1746175874334024&amp;mt=1783910725&amp;fvip=2&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIhAPg2d1KTPFKZtXiXMCrJW3X0-BFXACLr8y6vLU6QlX0fAiBKPPNKXAS5GYgo5EuD1Mes15fqVMw59CFmcZtE-1pVhg%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRAIgX6B6dmSEBaGWGv9aNDOI7izVff9RQfEH0r9mfjCkX_YCIAUIENNTbPha94bAtKp7kDHwvsnciE8c9FG9jzjW2P_L" length="900.0" type="audio/mpeg"/><pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>15:00</itunes:duration><itunes:summary>Alejandro Apo lee "Maud Emprende el Vuelo" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+, Audio; Radio Madre
+Donde quiera que estés
+Alejandro Apo y Victoria Nardone
+ El Cuento de la tarde</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Gnomos en Bariloche" de Roberto Fontanarrosa</title><description>Alejandro Apo lee "Gnomos en Bariloche" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio: AM 750
+La Casa Invita
+Un Señor Cuento</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Gnomos en Bariloche" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio: AM 750
+La Casa Invita
+Un Señor Cuento&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Roberto Fontanarrosa&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=dQp6iXK9vqY"&gt;YouTube - Fontanarrosa por Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-dQp6iXK9vqY</guid><enclosure url="https://rr1---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932749&amp;ei=7VJUaprvKY6P-LAP3unIqQk&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AH5z1JsENEjnVd-2JrgINFoJKIqE1bDQ6YpFqoLBC6VV&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=204&amp;met=1783911149%2C&amp;mh=6H&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qel%2Csn-x1xe7ne6&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1913750&amp;bui=AZFlqhMaN7g4W_YhI8kgmCTXYc06uCPIVuy6OATUfw7KFNAJSSfSGhMCYKaMHp4XT-OmTANoUdI4LNbo&amp;spc=SQ-umhUToTb3N4wcZQDGBBe83xehNiC_lmi6XKh8ZhrW&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=12102765&amp;dur=855.461&amp;lmt=1745259867303997&amp;mt=1783910725&amp;fvip=1&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=8218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIgald_01iVojokpMmF5jNcCxwwqALrwa_SuNI14gt7klgCICeS-2MvnYYNSaNhp4_LxOqKNhQ8HoEV97_Ng9pDJYWF&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAOrQ8jv8WQyT9ak-YueReSfWc2qs1s2Y9oDlsy2yYWhFAiAb0uR_wkRDU3SsZ67_zQ0RyUA5TQthE0ylb1BzXiw2Pw%3D%3D" length="855.0" type="audio/mpeg"/><pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>14:15</itunes:duration><itunes:summary>Alejandro Apo lee "Gnomos en Bariloche" de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Audio; Radio: AM 750
+La Casa Invita
+Un Señor Cuento</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Lo que se dice jugador al fulbo", de Roberto Fontanarrosa - por Alejandro Apo</title><description>Alejandro Apo lee "Lo que se dice jugador al fulbo", de Roberto Fontanarrosa - por Alejandro Apo", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Sí, sí, claro, por supuesto, usted me menciona todos esos nombres y, lógico, yo no le voy a decir que no. Porque yo también los he visto, los he visto, los he visto
+
+https://www.youtube.com/channel/UCQQDwsFf6AbTyF61-JDKIjQ</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Lo que se dice jugador al fulbo", de Roberto Fontanarrosa - por Alejandro Apo", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Sí, sí, claro, por supuesto, usted me menciona todos esos nombres y, lógico, yo no le voy a decir que no. Porque yo también los he visto, los he visto, los he visto
+
+https://www.youtube.com/channel/UCQQDwsFf6AbTyF61-JDKIjQ&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Roberto Fontanarrosa&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=F2l4V9huzLs"&gt;YouTube - Fontanarrosa por Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-F2l4V9huzLs</guid><enclosure url="https://rr8---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932759&amp;ei=91JUatajFPWQ-LAPre_dsAM&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AEoFbgzBqfbxO_Vh7dEH9_RpZ704YndC8EB9em3K57MX&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=169&amp;met=1783911159%2C&amp;mh=i9&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qes%2Csn-x1xe7nes&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=8&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1992500&amp;bui=AZFlqhNod3o0637raYhQ1aX11goFRlmM07vWoUecV8CWfpsReas40a9PQ1MC3KkksAJOHaxw0zIDlUca&amp;spc=SQ-umpyLgRc-lceiWVzCI_cJgnNglTIP75VifbZrWUJR&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=8918285&amp;dur=679.961&amp;lmt=1562706105889265&amp;mt=1783910725&amp;fvip=4&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=2201222&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIgbn-9qaBU-d0dR9BEL7TdtFlKaIITdzLZ4V3K7I6uyQ0CIQDpSZ9N5Bv657txD5uGrasNsgGKGeXt8IEDLC5BDjM2cg%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRAIgZh04y951h1ChKCMnyJ5ECXuc7QKlR2hFYNZ3AiRljvMCIF5Itp-8JxGXA1abdHuvQqUiP9nglZ7Y6b_6nUI-Wvjh" length="680.0" type="audio/mpeg"/><pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>11:20</itunes:duration><itunes:summary>Alejandro Apo lee "Lo que se dice jugador al fulbo", de Roberto Fontanarrosa - por Alejandro Apo", cuento de Roberto Fontanarrosa.
+
+Fuente original:
+YouTube - Fontanarrosa por Apo.
+
+Sí, sí, claro, por supuesto, usted me menciona todos esos nombres y, lógico, yo no le voy a decir que no. Porque yo también los he visto, los he visto, los he visto
+
+https://www.youtube.com/channel/UCQQDwsFf6AbTyF61-JDKIjQ</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Señor Pastoriza”, el cuento de Eduardo Sacheri por Alejandro Apo</title><description>Alejandro Apo lee "Señor Pastoriza”, el cuento de Eduardo Sacheri por Alejandro Apo".
+
+Fuente original:
+YouTube - Cuentos y Relatos.
+
+El siguiente cuento fue narrado por el periodista Alejandro Apo hace algunos años. Un texto del escritor Eduardo Sacheri sobre el Pato Pastoriza. En el día de su cumpleaños número 78, en Soy del Rojo recordamos al ex DT del Rey de Copas.
+
+Seguí todas las últimas noticias sobre Independiente en https://soydelrojo.com/</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Señor Pastoriza”, el cuento de Eduardo Sacheri por Alejandro Apo".
+
+Fuente original:
+YouTube - Cuentos y Relatos.
+
+El siguiente cuento fue narrado por el periodista Alejandro Apo hace algunos años. Un texto del escritor Eduardo Sacheri sobre el Pato Pastoriza. En el día de su cumpleaños número 78, en Soy del Rojo recordamos al ex DT del Rey de Copas.
+
+Seguí todas las últimas noticias sobre Independiente en https://soydelrojo.com/&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=7QqqYEazHRM"&gt;YouTube - Cuentos y Relatos&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-7QqqYEazHRM</guid><enclosure url="https://rr10---sn-5ouxa-h8qes.googlevideo.com/videoplayback?expire=1783932786&amp;ei=ElNUasXzAemq-LAP5_XysQs&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AA2igQz33sOdorYx1rSUcM05GYkEI5ccEkSujgComvx2&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=152&amp;met=1783911186%2C&amp;mh=tn&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qes%2Csn-x1x7dned&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=10&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1992500&amp;bui=AZFlqhNVkaDP4Mt8I0y0khhCKVQAThjUujRRVbLh3PYNHQmPFhX66Z0FgZMmosqxxxO-zvWLu3Oas2bu&amp;spc=SQ-umnucVd9qRpJ277BJZqBX7X1VwluHOpJqOxShksu3&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=8591841&amp;dur=485.021&amp;lmt=1722621823532054&amp;mt=1783910725&amp;fvip=3&amp;keepalive=yes&amp;fexp=51565116%2C51946837%2C52017147&amp;c=ANDROID_VR&amp;txp=5318224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AE0s2JYwRQIhAOlg4FKjFBR4acpRbbpQoZ-6lIt8jd10lVGzMFAMT3bqAiA0idsrbmeuvHqgoZP5PRPEv4ErrME9BNy59iqWif8RuA%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRAIgNd_Wwu0H37jViW4VNHvSV8Ny23Rl8SDgjQcpBHABwVsCIEKmeBOJqpCNKYV8gbaRA_iO-MYf9ecER6VMhavcpeZV" length="485.0" type="audio/mpeg"/><pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>08:05</itunes:duration><itunes:summary>Alejandro Apo lee "Señor Pastoriza”, el cuento de Eduardo Sacheri por Alejandro Apo".
+
+Fuente original:
+YouTube - Cuentos y Relatos.
+
+El siguiente cuento fue narrado por el periodista Alejandro Apo hace algunos años. Un texto del escritor Eduardo Sacheri sobre el Pato Pastoriza. En el día de su cumpleaños número 78, en Soy del Rojo recordamos al ex DT del Rey de Copas.
+
+Seguí todas las últimas noticias sobre Independiente en https://soydelrojo.com/</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>"Apuntes del fútbol en Flores", de Alejandro Dolina</title><description>Alejandro Apo lee ""Apuntes del fútbol en Flores", de Alejandro Dolina", cuento de Alejandro Dolina.
 
 Fuente original:
 Radio Nacional Argentina.
@@ -1439,7 +2282,28 @@ Radio Nacional Argentina.
 Fuente original:
 Radio Nacional Argentina.
 
-«El arco de Noé» , de Roberto Braceli, en la voz de Alejandro Apo</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>"Maradona sí, Galtieri no" de Osvaldo Soriano</title><description>Alejandro Apo lee ""Maradona sí, Galtieri no" de Osvaldo Soriano", cuento de Osvaldo Soriano.
+«El arco de Noé» , de Roberto Braceli, en la voz de Alejandro Apo</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Todo con afecto: Todo mientras Diego (Ariel Scher). Alejandro Apo (Radio Nacional)</title><description>Alejandro Apo lee "Todo con afecto: Todo mientras Diego (Ariel Scher). Alejandro Apo (Radio Nacional)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Octubre de 2022, Apo lee “Todo mientras Diego" de Ariel Scher, un homenaje a Diego Maradona al cumplirse un nuevo aniversario de su nacimiento. Incluye el relato del gol de Diego a los ingleses por Víctor Hugo Morales.
+
+Un programa único en su género, dedicado al fútbol, la música y la literatura que nació en 1995. En un espacio de expresión en el cual el fútbol, la música y la literatura se entremezclan, poniendo de relieve que, "...el fútbol no es sólo un deporte. Los futboleros no somos perso</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Todo con afecto: Todo mientras Diego (Ariel Scher). Alejandro Apo (Radio Nacional)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Octubre de 2022, Apo lee “Todo mientras Diego" de Ariel Scher, un homenaje a Diego Maradona al cumplirse un nuevo aniversario de su nacimiento. Incluye el relato del gol de Diego a los ingleses por Víctor Hugo Morales.
+
+Un programa único en su género, dedicado al fútbol, la música y la literatura que nació en 1995. En un espacio de expresión en el cual el fútbol, la música y la literatura se entremezclan, poniendo de relieve que, "...el fútbol no es sólo un deporte. Los futboleros no somos perso&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=-iW2MppTP38"&gt;YouTube - Cuentos por Alejandro Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt--iW2MppTP38</guid><enclosure url="https://rr4---sn-5ouxa-h8qe7.googlevideo.com/videoplayback?expire=1783932713&amp;ei=yVJUarTZL_WgobIPl9K_qA4&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AMuBBkWGCBn3yCdSJWFXv7fYL9S9K8I2HfleWW2nXdhZ&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=329&amp;met=1783911113%2C&amp;mh=6Z&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qe7%2Csn-x1x7dned&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=4&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=2000000&amp;bui=ARmQxEUziyYHsitC0nGUesir38bVE4--av16tKk6r5WvrKvMBGEcleV_dsdLX4T5JSGAZpiFMUW4HSB_&amp;spc=SQ-umlVJ0_PoWHFQv_twhMc6HQuy0cxI2q0BBwAFxg3W&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=7623099&amp;dur=480.861&amp;lmt=1667278020722170&amp;mt=1783910725&amp;fvip=4&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=6318224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIgC21D7zOECxm1d--iQ9CnUcrPMU6j5SL5vx97NvFYmNECIQCgdmLc84tXB6x_4RYOET0NEnnj-Oe2ccZYuyJxSb3ZDA%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIgZuxLIZRGJDvmV5sQJKMID9hTR4_XzWAAAkfCnmDAFWkCIQDIhsZbyDVnXOSZ63FysvTSta9SBcEZ1m_g23cEUF9m1Q%3D%3D" length="481.0" type="audio/mpeg"/><pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>08:01</itunes:duration><itunes:summary>Alejandro Apo lee "Todo con afecto: Todo mientras Diego (Ariel Scher). Alejandro Apo (Radio Nacional)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Octubre de 2022, Apo lee “Todo mientras Diego" de Ariel Scher, un homenaje a Diego Maradona al cumplirse un nuevo aniversario de su nacimiento. Incluye el relato del gol de Diego a los ingleses por Víctor Hugo Morales.
+
+Un programa único en su género, dedicado al fútbol, la música y la literatura que nació en 1995. En un espacio de expresión en el cual el fútbol, la música y la literatura se entremezclan, poniendo de relieve que, "...el fútbol no es sólo un deporte. Los futboleros no somos perso</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>"Maradona sí, Galtieri no" de Osvaldo Soriano</title><description>Alejandro Apo lee ""Maradona sí, Galtieri no" de Osvaldo Soriano", cuento de Osvaldo Soriano.
 
 Fuente original:
 Radio Nacional Argentina.
@@ -1469,7 +2333,25 @@ Radio Nacional Argentina.
 Fuente original:
 Radio Nacional Argentina.
 
-«Tigre, una fiera de primera» de Juan Roberto Presta, en la voz de Alejandro Apo</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>“Torito” de Julio Cortázar</title><description>Alejandro Apo lee "“Torito” de Julio Cortázar", cuento de Julio Cortázar.
+«Tigre, una fiera de primera» de Juan Roberto Presta, en la voz de Alejandro Apo</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Donde quiera que estés: Instrucciones Para Buscar Aventuras (Dolina). Alejandro Apo (Radio Madres)</title><description>Alejandro Apo lee "Donde quiera que estés: Instrucciones Para Buscar Aventuras (Dolina). Alejandro Apo (Radio Madres)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+2014, Apo lee “Instrucciones Para Buscar Aventuras”, de Alejandro Dolina, de "El Libro del fantasma".
+La selección de cuentos de Alejandro Apo en "Donde quiera que estés".</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Donde quiera que estés: Instrucciones Para Buscar Aventuras (Dolina). Alejandro Apo (Radio Madres)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+2014, Apo lee “Instrucciones Para Buscar Aventuras”, de Alejandro Dolina, de "El Libro del fantasma".
+La selección de cuentos de Alejandro Apo en "Donde quiera que estés".&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=YmDQTmbc_CU"&gt;YouTube - Cuentos por Alejandro Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-YmDQTmbc_CU</guid><enclosure url="https://rr1---sn-5ouxa-h8qez.googlevideo.com/videoplayback?expire=1783932717&amp;ei=zVJUarqOFaej1sQPwur3GA&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AIxVZ0ZPYFI52YPdyOrx9MNUdYV7Rq4r5J1JnVDwehJj&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=253&amp;met=1783911117%2C&amp;mh=sJ&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qez%2Csn-x1x7dne6&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=1&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1998750&amp;bui=ARmQxEWxFCv8FzLYyHogn5cb_t_qwUmTbUoWOYs3JgkBHqBGL87ywsNnupKEvmiyTisPdRM31jEsY3_I&amp;spc=SQ-umlKH1pxfZjQfkBHjTOn2QSi52HO3ahqxxyVMcEar&amp;vprv=1&amp;svpuc=1&amp;xtags=acont%3Doriginal%3Alang%3Des-US&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=10799796&amp;dur=634.021&amp;lmt=1763366808311981&amp;mt=1783910725&amp;fvip=3&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=8208224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIgFP-BnxX7xflG9MeEbrIBOQGO-wDTis2yfCfdtDe2WVUCIQDqbtKK_MofTX5D7sPh9aYtOAmV0mVg1Igd8XapFOBsJA%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAJS7ODqRofh9HImjbEoA1Z7kllth6VYoHw7VVSdaawaKAiAdyxr4AQXTgX1ezZAIUkzlXrwa0gJvVorea8gd3FgnKw%3D%3D" length="634.0" type="audio/mpeg"/><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>10:34</itunes:duration><itunes:summary>Alejandro Apo lee "Donde quiera que estés: Instrucciones Para Buscar Aventuras (Dolina). Alejandro Apo (Radio Madres)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+2014, Apo lee “Instrucciones Para Buscar Aventuras”, de Alejandro Dolina, de "El Libro del fantasma".
+La selección de cuentos de Alejandro Apo en "Donde quiera que estés".</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>“Torito” de Julio Cortázar</title><description>Alejandro Apo lee "“Torito” de Julio Cortázar", cuento de Julio Cortázar.
 
 Fuente original:
 Radio Nacional Argentina.
@@ -1649,7 +2531,43 @@ Radio Nacional Argentina.
 Fuente original:
 Radio Nacional Argentina.
 
-«Un verano italiano», de Eduardo Sacheri, en la voz de Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>"La barrera", de Roberto Fontanarrosa</title><description>Alejandro Apo lee ""La barrera", de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
+«Un verano italiano», de Eduardo Sacheri, en la voz de Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Donde quiera que estés: Los asesinos. Alejandro Apo (Radio 750)</title><description>Alejandro Apo lee "Donde quiera que estés: Los asesinos. Alejandro Apo (Radio 750)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Octubre de 2021, Apo lee “Los asesinos”, de Ernest Hemingway, un clásico de la literatura universal.
+La selección de cuentos de Alejandro Apo en Donde quiera que estés.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Donde quiera que estés: Los asesinos. Alejandro Apo (Radio 750)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Octubre de 2021, Apo lee “Los asesinos”, de Ernest Hemingway, un clásico de la literatura universal.
+La selección de cuentos de Alejandro Apo en Donde quiera que estés.&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=ehoHrcckOnU"&gt;YouTube - Cuentos por Alejandro Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-ehoHrcckOnU</guid><enclosure url="https://rr5---sn-5ouxa-h8qy.googlevideo.com/videoplayback?expire=1783932703&amp;ei=v1JUav27Mte8obIPzNSkyAQ&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ACanGeiif6GrnT6eaZAosljq9-JTBmnaTvfA8B4kwndi&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=178&amp;met=1783911103%2C&amp;mh=9r&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qy%2Csn-u1x1x5-55&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=5&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1987500&amp;bui=ARmQxEW5e3upScMK1ocYXdVLFVnv5Kjw-gRYeoMVvNTpjKyh7y_h6VSyYgMAN-sSBI4AxIz5GPE6jYqD&amp;spc=SQ-umkOFOzkFqC2gT-p8jjlA1i2ZvuCADkljUwcDtfnC&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=22040237&amp;dur=1290.641&amp;lmt=1665172535651945&amp;mt=1783910725&amp;fvip=2&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=6211224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIgejFGxyQyS-RyELpIwa44-TBK-_gjrhfpV6EUEtBKNGUCIQCk_xYQtAPn8-wGkogWEJ9c3ScIb5u6wQwx4JUlVNLFHw%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRAIgZ13uBNw70eIF4mXFE7sMWr7brgBBaCCgQHDKrp1UBg8CIAIiwmLi1AIPsbzQXxWcbv5JHhJqOZj6T8FVnQqfVlxr" length="1291.0" type="audio/mpeg"/><pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>21:31</itunes:duration><itunes:summary>Alejandro Apo lee "Donde quiera que estés: Los asesinos. Alejandro Apo (Radio 750)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Octubre de 2021, Apo lee “Los asesinos”, de Ernest Hemingway, un clásico de la literatura universal.
+La selección de cuentos de Alejandro Apo en Donde quiera que estés.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Donde quiera que estés: Te cuento un cuento de Babalú. Alejandro Apo (Radio 750)</title><description>Alejandro Apo lee "Donde quiera que estés: Te cuento un cuento de Babalú. Alejandro Apo (Radio 750)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Abril 2020, Apo lee “Te cuento un cuento de Babalú”, de Eduardo Galeano, el gran escritor y pensador uruguayo.
+La selección de cuentos de Alejandro Apo en Donde quiera que estés.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Donde quiera que estés: Te cuento un cuento de Babalú. Alejandro Apo (Radio 750)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Abril 2020, Apo lee “Te cuento un cuento de Babalú”, de Eduardo Galeano, el gran escritor y pensador uruguayo.
+La selección de cuentos de Alejandro Apo en Donde quiera que estés.&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=bycCMb_YzSo"&gt;YouTube - Cuentos por Alejandro Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-bycCMb_YzSo</guid><enclosure url="https://rr7---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932700&amp;ei=vFJUaunwKOCj-LAP6sDH2AM&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ANZsaaV8iQWdURqWS4G2KyENDQTeo0BKPdJV7fAjSpuQ&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=185&amp;met=1783911100%2C&amp;mh=GC&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qel%2Csn-x1x7dned&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=7&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1913750&amp;bui=AZFlqhOvhGrl-QCjlSI2LjILmvoSP6HjPCeWXctdHBBCr93ltgN84drcerwln1wB3nS2wdGiAnZlI-A2&amp;spc=SQ-umgkjwTC8UFyOsdUgVjJWM4PHe4aomd6jewNPg6_F&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=20368324&amp;dur=1264.501&amp;lmt=1665170625653504&amp;mt=1783910725&amp;fvip=4&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=6211224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIhAPfnFomQtgPG_hoDeUGF4xTnLuo-45aZcbXHc4LZSaSRAh87QiMCnCyaT1rxM02k9yi1w4LuQ3FYpBFXKila5pWJ&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhALsk_IUVUk7cqz8u8MRf2qXFhS5Gs6jgmb6IKrlCjB60AiAJoBqc5PxuK9uux4qxgDa1QwiAekkSSfMnQ8QfwIWzJQ%3D%3D" length="1265.0" type="audio/mpeg"/><pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>21:05</itunes:duration><itunes:summary>Alejandro Apo lee "Donde quiera que estés: Te cuento un cuento de Babalú. Alejandro Apo (Radio 750)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Abril 2020, Apo lee “Te cuento un cuento de Babalú”, de Eduardo Galeano, el gran escritor y pensador uruguayo.
+La selección de cuentos de Alejandro Apo en Donde quiera que estés.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>"La barrera", de Roberto Fontanarrosa</title><description>Alejandro Apo lee ""La barrera", de Roberto Fontanarrosa", cuento de Roberto Fontanarrosa.
 
 Fuente original:
 Radio Nacional Argentina.
@@ -1739,7 +2657,25 @@ Radio Nacional Argentina.
 Fuente original:
 Radio Nacional Argentina.
 
-«Pura verdad», de Ángel Cappa, en la voz de Alejandro Apo</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>"Cuentos de los años felices", de Osvaldo Soriano</title><description>Alejandro Apo lee ""Cuentos de los años felices", de Osvaldo Soriano", cuento de Osvaldo Soriano.
+«Pura verdad», de Ángel Cappa, en la voz de Alejandro Apo</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Donde quiera que estés: La Verdad Sobre el Transbordador Columbia. Alejandro Apo (Radio Madres)</title><description>Alejandro Apo lee "Donde quiera que estés: La Verdad Sobre el Transbordador Columbia. Alejandro Apo (Radio Madres)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Agosto de 2015, Apo lee “La Verdad Sobre el Transbordador Columbia", del inolvidable "Negro" Fontanarrosa, un disparatado y genial cuento.
+La selección de cuentos de Alejandro Apo en Donde quiera que estés.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Donde quiera que estés: La Verdad Sobre el Transbordador Columbia. Alejandro Apo (Radio Madres)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Agosto de 2015, Apo lee “La Verdad Sobre el Transbordador Columbia", del inolvidable "Negro" Fontanarrosa, un disparatado y genial cuento.
+La selección de cuentos de Alejandro Apo en Donde quiera que estés.&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=bXxy8qY3sTo"&gt;YouTube - Cuentos por Alejandro Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-bXxy8qY3sTo</guid><enclosure url="https://rr4---sn-5ouxa-h8qez.googlevideo.com/videoplayback?expire=1783932706&amp;ei=wlJUarG8NtOeobIPn8KayA4&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-AIK-bhxjuJ_1G6vayZU9aZjx-hDr6wAKQgRgmbKcygTK&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=196&amp;met=1783911106%2C&amp;mh=KV&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qez%2Csn-x1x7dne6&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=4&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1998750&amp;bui=ARmQxEVr2QzIsQBiP9tzNW2qxKt4jUSUMqXOWadJVHhQn3NRhpf1shC8VT82H0-x6k2eDvPPt4Uh5Uvk&amp;spc=SQ-umtCr3nlmIKrQEav3D2oF06zNyH-njaGds86b1_t_&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=16489938&amp;dur=1309.461&amp;lmt=1665382833693785&amp;mt=1783910725&amp;fvip=2&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=5318224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIgCiUmsKNPd7xDZuv8Cqjj_EEovIL7uOWIIx33FtwtXaQCIQDD6YSFvj8pNiRK1AbXaI5WT4tcq0f5m4-rvnalA2gqiQ%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIgDmj8f5EgsUea50Ut8vgdJq8NQeBBk3Ge9qYNwBaNjhoCIQDpYxPaDFGW8lknSr6cj-l2FAHS36gEnbwPKI46YJOg6w%3D%3D" length="1309.0" type="audio/mpeg"/><pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>21:49</itunes:duration><itunes:summary>Alejandro Apo lee "Donde quiera que estés: La Verdad Sobre el Transbordador Columbia. Alejandro Apo (Radio Madres)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Agosto de 2015, Apo lee “La Verdad Sobre el Transbordador Columbia", del inolvidable "Negro" Fontanarrosa, un disparatado y genial cuento.
+La selección de cuentos de Alejandro Apo en Donde quiera que estés.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>"Cuentos de los años felices", de Osvaldo Soriano</title><description>Alejandro Apo lee ""Cuentos de los años felices", de Osvaldo Soriano", cuento de Osvaldo Soriano.
 
 Fuente original:
 Radio Nacional Argentina.
@@ -1784,7 +2720,88 @@ Radio Nacional Argentina.
 Fuente original:
 Radio Nacional Argentina.
 
-«Todo mientras Diego» , de Ariel Scher, en la voz de Alejandro Apo</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>"Banderín solferino", de Juan Sasturain</title><description>Alejandro Apo lee ""Banderín solferino", de Juan Sasturain", cuento de Juan Sasturain.
+«Todo mientras Diego» , de Ariel Scher, en la voz de Alejandro Apo</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Donde quiera que estés: El Discípulo (Fontanarrosa). Alejandro Apo (Radio Madres)</title><description>Alejandro Apo lee "Donde quiera que estés: El Discípulo (Fontanarrosa). Alejandro Apo (Radio Madres)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Abril de 2015, Apo lee “El Discípulo", otro cuentazo  del "Negro" Fontanarrosa.
+La selección de cuentos de Alejandro Apo en Donde quiera que estés.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Donde quiera que estés: El Discípulo (Fontanarrosa). Alejandro Apo (Radio Madres)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Abril de 2015, Apo lee “El Discípulo", otro cuentazo  del "Negro" Fontanarrosa.
+La selección de cuentos de Alejandro Apo en Donde quiera que estés.&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=abzH50ySdVU"&gt;YouTube - Cuentos por Alejandro Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-abzH50ySdVU</guid><enclosure url="https://rr11---sn-5ouxa-h8qee.googlevideo.com/videoplayback?expire=1783932709&amp;ei=xVJUaqHeMqTZ1sQP3I-PMA&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ADVp5BL8yYor-M-dDpeV6M6Xju2s45SfP1dfTYlE95QZ&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=213&amp;met=1783911109%2C&amp;mh=aT&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qee%2Csn-x1x7dnek&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=11&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1890000&amp;bui=ARmQxEVVRutKtiVacAmVntQkCmOxz4FNh_NkDkazzaJoVZ5XGsdDBM12_802-kJB9lHNdQLBLTrH7C86&amp;spc=SQ-umrPicENfpp2F3quAvsIiuJvjeYtcvoiRoUI9clYs&amp;vprv=1&amp;svpuc=1&amp;xtags=acont%3Doriginal%3Alang%3Des-US&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=18729782&amp;dur=1455.201&amp;lmt=1761963177197858&amp;mt=1783910725&amp;fvip=5&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=6208224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRgIhANSEWwCjV0w93ETACxZtaE4GQwXd8Js_Bqbj7mjUJFlBAiEA1Ph_lUJEerzh0wztW2hIt70-x2mYDUXgBq481aLMPoE%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRAIgdjIbqqGWwTMkTm8Df33kgMt1nqpHg0lBdWPqdOB3jCYCIAqe_mHm9QBqszpP42bDC44kEOHJpUw8BOP1cTBkc4pO" length="1455.0" type="audio/mpeg"/><pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>24:15</itunes:duration><itunes:summary>Alejandro Apo lee "Donde quiera que estés: El Discípulo (Fontanarrosa). Alejandro Apo (Radio Madres)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Abril de 2015, Apo lee “El Discípulo", otro cuentazo  del "Negro" Fontanarrosa.
+La selección de cuentos de Alejandro Apo en Donde quiera que estés.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Donde quiera que estés: Atlas del Infierno (Dolina). Alejandro Apo (Radio 750)</title><description>Alejandro Apo lee "Donde quiera que estés: Atlas del Infierno (Dolina). Alejandro Apo (Radio 750)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Noviembre 2022, Apo lee “Atlas del Infierno”, de Alejandro Dolina, de "El Libro del fantasma".
+La selección de cuentos de Alejandro Apo en "Donde quiera que estés".</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Donde quiera que estés: Atlas del Infierno (Dolina). Alejandro Apo (Radio 750)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Noviembre 2022, Apo lee “Atlas del Infierno”, de Alejandro Dolina, de "El Libro del fantasma".
+La selección de cuentos de Alejandro Apo en "Donde quiera que estés".&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=LnDqqWq87dg"&gt;YouTube - Cuentos por Alejandro Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-LnDqqWq87dg</guid><enclosure url="https://rr5---sn-5ouxa-h8qr.googlevideo.com/videoplayback?expire=1783932720&amp;ei=0FJUaru_Jtur1sQPgOuM8Q4&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ADh6rMBZ-3GB5-efEqaKultMfaNSxGwzTWfRUe5Zc7Mh&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=84&amp;met=1783911120%2C&amp;mh=-c&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qr%2Csn-x1x7dnek&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=5&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1963750&amp;bui=ARmQxEXREu8TVejmqUJhfnhr5T4DpzgTNTyAka7u_FXybkoWhTdCrlhLQdJ_jkCuKpB4S08j_Uf5AP6_&amp;spc=SQ-umhHSGTO1cav7b0gwQ55IZtdhWRvSbwLhXPjamj2_&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=22841500&amp;dur=1448.041&amp;lmt=1668156237874021&amp;mt=1783910725&amp;fvip=3&amp;keepalive=yes&amp;fexp=51565115%2C51946837%2C52017147&amp;c=ANDROID_VR&amp;txp=6318224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRgIhANIAq55h34r9XFC_PlnrgVlnTKqnQ9WUKymliTviBTESAiEAw6BUU-uW7QFFx1N-1HRTKkkkm6zhTrHokhnTnadzzqs%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIgFlp3yF4qDabZJj7s_RpbY_ODEhTtxgKRVsjp2AnVwF4CIQDGnaI3y9xOXWTaqH1poN1W_ZhZxTkt5ou8AGm4qxhogQ%3D%3D" length="1448.0" type="audio/mpeg"/><pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>24:08</itunes:duration><itunes:summary>Alejandro Apo lee "Donde quiera que estés: Atlas del Infierno (Dolina). Alejandro Apo (Radio 750)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Noviembre 2022, Apo lee “Atlas del Infierno”, de Alejandro Dolina, de "El Libro del fantasma".
+La selección de cuentos de Alejandro Apo en "Donde quiera que estés".</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Donde quiera que estés: Silencio (Edgar Allan Poe). Alejandro Apo (Radio 750)</title><description>Alejandro Apo lee "Donde quiera que estés: Silencio (Edgar Allan Poe). Alejandro Apo (Radio 750)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Agosto 2022, Apo lee "Silencio", del enorme Edgar Allan Poe.
+La selección de cuentos de Alejandro Apo en "Donde quiera que estés". En esta ocasión, le presta voz a la fábula "Silencio", de Edgar Allan Poe.
+
+Edgar Allan Poe (Boston, Estados Unidos, 19 de enero de 1809-Baltimore, Estados Unidos, 7 de octubre de 1849) fue un escritor, poeta, crítico y periodista romántico1 estadounidense, generalmente reconocido como uno de los maestros universales del relato corto, del cual fue uno de los primeros</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Donde quiera que estés: Silencio (Edgar Allan Poe). Alejandro Apo (Radio 750)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Agosto 2022, Apo lee "Silencio", del enorme Edgar Allan Poe.
+La selección de cuentos de Alejandro Apo en "Donde quiera que estés". En esta ocasión, le presta voz a la fábula "Silencio", de Edgar Allan Poe.
+
+Edgar Allan Poe (Boston, Estados Unidos, 19 de enero de 1809-Baltimore, Estados Unidos, 7 de octubre de 1849) fue un escritor, poeta, crítico y periodista romántico1 estadounidense, generalmente reconocido como uno de los maestros universales del relato corto, del cual fue uno de los primeros&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=yRKJL3_fBOc"&gt;YouTube - Cuentos por Alejandro Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-yRKJL3_fBOc</guid><enclosure url="https://rr4---sn-5ouxa-h8qee.googlevideo.com/videoplayback?expire=1783932724&amp;ei=1FJUaua6C66UobIPm5-zyQk&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ADhP4ZT7RHKCCmo9EzDOnntg8xDRxdij_0MEajyJiSW3&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=185&amp;met=1783911124%2C&amp;mh=vn&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qee%2Csn-x1x7dned&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=4&amp;pcm2cms=yes&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1890000&amp;bui=ARmQxEUYnXRYiR8P34Dh0UVOPpnmPvjnB3Sl8Wd-L7-GOWIG3xm0hKQtw8kcgsvdfVCMGglpmDU4CCEP&amp;spc=SQ-umqfqLQV6MXSzESEb_nS4CM4Sv4EA2FZrBg19t0Js&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=12858307&amp;dur=742.781&amp;lmt=1669029363050110&amp;mt=1783910725&amp;fvip=1&amp;keepalive=yes&amp;fexp=51565116%2C52017147&amp;c=ANDROID_VR&amp;txp=6318224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIhAKgove5Xyh0RK0yd_lCeRhiMKfHrHkpfQ0c7fSkPOIluAiBH-BR7SFtx94HPnD_iKG-ouU5lwEsb0lSWn1FJ4n5BgA%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRAIgIywJytN9BU3r75FQE6bKa14Yg_l4uqsm0s8Oor5IyZ8CIED4LJmojHbQnmxuHqglai5fQQutZydahmy-65xOvfp8" length="743.0" type="audio/mpeg"/><pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>12:23</itunes:duration><itunes:summary>Alejandro Apo lee "Donde quiera que estés: Silencio (Edgar Allan Poe). Alejandro Apo (Radio 750)".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Agosto 2022, Apo lee "Silencio", del enorme Edgar Allan Poe.
+La selección de cuentos de Alejandro Apo en "Donde quiera que estés". En esta ocasión, le presta voz a la fábula "Silencio", de Edgar Allan Poe.
+
+Edgar Allan Poe (Boston, Estados Unidos, 19 de enero de 1809-Baltimore, Estados Unidos, 7 de octubre de 1849) fue un escritor, poeta, crítico y periodista romántico1 estadounidense, generalmente reconocido como uno de los maestros universales del relato corto, del cual fue uno de los primeros</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Donde quiera que estés: El fin (Jorge Luis Borges). Alejandro Apo (Radio Madres).</title><description>Alejandro Apo lee "Donde quiera que estés: El fin (Jorge Luis Borges). Alejandro Apo (Radio Madres).".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Mayo 2014, Apo lee “El fin", de Jorge Luis Borges.
+La selección de cuentos de Alejandro Apo en "Donde quiera que estés".
+Como cada noche en Donde quiera que estés, Alejandro Apo lee un cuento. Esta vez, le pone voz a "El fin", de Jorge Luis Borges, incluido en Ficciones (1956), donde el escritor argentino retoma el destino de la vida de Martín Fierro.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Donde quiera que estés: El fin (Jorge Luis Borges). Alejandro Apo (Radio Madres).".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Mayo 2014, Apo lee “El fin", de Jorge Luis Borges.
+La selección de cuentos de Alejandro Apo en "Donde quiera que estés".
+Como cada noche en Donde quiera que estés, Alejandro Apo lee un cuento. Esta vez, le pone voz a "El fin", de Jorge Luis Borges, incluido en Ficciones (1956), donde el escritor argentino retoma el destino de la vida de Martín Fierro.&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=yAwpkey_D3A"&gt;YouTube - Cuentos por Alejandro Apo&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-yAwpkey_D3A</guid><enclosure url="https://rr7---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932727&amp;ei=11JUapyAJ_Xi1AHNxeqxCQ&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ALUFzrWxz_avoRwCBr5m8XmJXjDM5umdu1dSj9UKPeIw&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=266&amp;met=1783911127%2C&amp;mh=-9&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qel%2Csn-x1xe7nes&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=7&amp;pl=42&amp;rms=au%2Cau&amp;pcm2=no&amp;initcwndbps=1913750&amp;bui=ARmQxEWrljRZT1h6V_RvdLa4iOhcYPUS5L0qDtPskpoAwM9nv3qGcTyrGsQxF7d0ki2R3IaLuaArUkeX&amp;spc=SQ-umpacmcT5NzUqdQaq74v7v_ygGRmWpoG_b7sZBod1&amp;vprv=1&amp;svpuc=1&amp;xtags=acont%3Doriginal%3Alang%3Des-US&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=8093549&amp;dur=487.561&amp;lmt=1762087062347773&amp;mt=1783910725&amp;fvip=5&amp;keepalive=yes&amp;fexp=51565115%2C52017147&amp;c=ANDROID_VR&amp;txp=8208224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRQIhAMJF6iloSWey4zsj3E-PkTK6z4jgx8dcdvo6gxiDwXY5AiBf-xerfOjvkiMWXEls8H9g-4V071YPJbZsr-ekA_aHfQ%3D%3D&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAP5OiF4URSf782ONEj-qrbm2PlagxtJf0pQYE_o-WBq6AiA8dhT40Yhrv9jLCdw0Deo1QcMty6reylJS91fdjitRoQ%3D%3D" length="488.0" type="audio/mpeg"/><pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>08:08</itunes:duration><itunes:summary>Alejandro Apo lee "Donde quiera que estés: El fin (Jorge Luis Borges). Alejandro Apo (Radio Madres).".
+
+Fuente original:
+YouTube - Cuentos por Alejandro Apo.
+
+Mayo 2014, Apo lee “El fin", de Jorge Luis Borges.
+La selección de cuentos de Alejandro Apo en "Donde quiera que estés".
+Como cada noche en Donde quiera que estés, Alejandro Apo lee un cuento. Esta vez, le pone voz a "El fin", de Jorge Luis Borges, incluido en Ficciones (1956), donde el escritor argentino retoma el destino de la vida de Martín Fierro.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>"Banderín solferino", de Juan Sasturain</title><description>Alejandro Apo lee ""Banderín solferino", de Juan Sasturain", cuento de Juan Sasturain.
 
 Fuente original:
 Radio Nacional Argentina.
@@ -2084,7 +3101,22 @@ Radio Nacional Argentina.
 Fuente original:
 Radio Nacional Argentina.
 
-"El Chango Agüero, Schopenhauer y el descenso", de Osvaldo Soriano, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>'Tenemos un arquero que es una maravilla' de Eduardo Maicas</title><description>Alejandro Apo lee "'Tenemos un arquero que es una maravilla' de Eduardo Maicas", cuento de Eduardo Maicas.
+"El Chango Agüero, Schopenhauer y el descenso", de Osvaldo Soriano, en la voz de Alejandro Apo. Todo con Afecto, todos los sábados de 15.00 a 17.00 Con Alejandro Apo.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>Un cuento de futbol - La Promesa de Eduardo Sacheri en la Voz de Alejandro Apo</title><description>Alejandro Apo lee "Un cuento de futbol - La Promesa de Eduardo Sacheri en la Voz de Alejandro Apo", cuento de Alejandro Apo.
+
+Fuente original:
+YouTube - Cuentos y Relatos.
+
+Un hermoso cuento de Eduardo Sacheri en la inconfundible voz de Alejandro Apo, una historia emocionante de una promesa dificil de cumplir.</description><content:encoded>&lt;img src="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg" alt="" /&gt;&lt;p&gt;Alejandro Apo lee "Un cuento de futbol - La Promesa de Eduardo Sacheri en la Voz de Alejandro Apo", cuento de Alejandro Apo.
+
+Fuente original:
+YouTube - Cuentos y Relatos.
+
+Un hermoso cuento de Eduardo Sacheri en la inconfundible voz de Alejandro Apo, una historia emocionante de una promesa dificil de cumplir.&lt;/p&gt;&lt;p&gt;Autor: &lt;strong&gt;Alejandro Apo&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fuente: &lt;a href="https://www.youtube.com/watch?v=jL6wqADswdg"&gt;YouTube - Cuentos y Relatos&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="false">yt-jL6wqADswdg</guid><enclosure url="https://rr7---sn-5ouxa-h8qel.googlevideo.com/videoplayback?expire=1783932792&amp;ei=GFNUarikB9vHobIPqKTiyAQ&amp;ip=2800%3Aa4%3A1cbd%3A7900%3A25f5%3A1d91%3A1b73%3A336d&amp;id=o-ANsedvZ3ghkpRnuCiXPDdMi_XvW8t6P_dHAHrAmfNxBF&amp;itag=251&amp;source=youtube&amp;requiressl=yes&amp;xpc=EgVo2aDSNQ%3D%3D&amp;cps=340&amp;met=1783911192%2C&amp;mh=Bd&amp;mm=31%2C29&amp;mn=sn-5ouxa-h8qel%2Csn-x1xe7nes&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=7&amp;pl=42&amp;rms=au%2Cau&amp;initcwndbps=1913750&amp;bui=ARmQxEUNqHAYOygmuJc-lvpLUozTSKMOysopUq9widV3p0o0eya3SLT2MM59C_M8M427ywY95KQlUQMT&amp;spc=SQ-umtPS-ajXATGzCE5cElRKIEhnjop-OVv0z6oihaF-&amp;vprv=1&amp;svpuc=1&amp;mime=audio%2Fwebm&amp;rqh=1&amp;gir=yes&amp;clen=18049741&amp;dur=1017.321&amp;lmt=1692071111335207&amp;mt=1783910725&amp;fvip=4&amp;keepalive=yes&amp;fexp=51565116%2C51946837%2C52017147&amp;c=ANDROID_VR&amp;txp=6218224&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&amp;sig=AHEqNM4wRAIgRfTZKLz7s5o7qM1nIc_USFFDfADTaQAFacnHNKMOPXECIAdhF3oDDXTo4o9L9oqP9t5mQ4jXlqXMPtIcGepodBZx&amp;lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&amp;lsig=APaTxxMwRQIhAI3LuZhGJjfCaf6Fer9Z1u2yShbq58R65qW0CXADkfDDAiATupdlKFBLuwlZiYy8hi3cLAl_uHGJEKgyqOzjthEw8g%3D%3D" length="1017.0" type="audio/mpeg"/><pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate><itunes:image href="https://raw.githubusercontent.com/mauric75/apo-rss/main/cover.jpg"/><itunes:duration>16:57</itunes:duration><itunes:summary>Alejandro Apo lee "Un cuento de futbol - La Promesa de Eduardo Sacheri en la Voz de Alejandro Apo", cuento de Alejandro Apo.
+
+Fuente original:
+YouTube - Cuentos y Relatos.
+
+Un hermoso cuento de Eduardo Sacheri en la inconfundible voz de Alejandro Apo, una historia emocionante de una promesa dificil de cumplir.</itunes:summary><itunes:episodeType>full</itunes:episodeType></item><item><title>'Tenemos un arquero que es una maravilla' de Eduardo Maicas</title><description>Alejandro Apo lee "'Tenemos un arquero que es una maravilla' de Eduardo Maicas", cuento de Eduardo Maicas.
 
 Fuente original:
 Radio Nacional Argentina.

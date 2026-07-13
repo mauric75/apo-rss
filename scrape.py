@@ -7,6 +7,11 @@ import requests
 from bs4 import BeautifulSoup
 from mutagen.mp3 import MP3, HeaderNotFoundError
 from dateutil import parser as date_parser
+try:
+    import yt_dlp
+    HAS_YT_DLP = True
+except ImportError:
+    HAS_YT_DLP = False
 
 DATA_FILE = Path("episodes.json")
 LOG_FILE = Path("scrape.log")
@@ -396,6 +401,28 @@ def _parse_anchor_title(full_title, body_text=""):
     autor = _guess_author(titulo, body_text)
     return titulo, autor
 
+def _parse_youtube_title(full_title):
+    """Extrae titulo del cuento y autor desde titulo de video de YouTube.
+    
+    Formatos tipicos:
+      '"La Guerra y la Paz" de Mario Benedetti (Alejandro Apo)'
+      '"Trenes" de Osvaldo Soriano por (Alejandro Apo)'
+    
+    Retorna (titulo_cuento, autor_cuento).
+    """
+    titulo = full_title.strip()
+    titulo = re.sub(r'\s*(por\s*)?[,(]\s*Alejandro\s+Apo\s*\)?\s*$', '', titulo, flags=re.IGNORECASE).strip()
+    titulo = titulo.strip('\u201c\u201d"\'').strip()
+    autor = _guess_author(titulo, "")
+    if not autor:
+        m = re.search(r',?\s*de\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){0,4})\s*$', titulo)
+        if m:
+            autor = m.group(1).strip()
+            prefix = titulo[:m.start()].strip().rstrip(',').strip()
+            if len(prefix) > 5:
+                titulo = prefix
+    return titulo, autor
+
 def scrape_anchor_feed():
     """Lee el feed RSS de Anchor.fm (Spotify for Creators) del podcast
     'Los cuentos de Apo' y devuelve los episodios encontrados."""
@@ -472,6 +499,119 @@ def scrape_anchor_feed():
             "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         })
         time.sleep(0.2)  # Ser amable con el servidor, pero el feed es ligero
+    
+    return results
+
+# --- Scraper YouTube (via yt-dlp) ---
+# Busca playlists de YouTube con cuentos de Apo y extrae audio con yt-dlp.
+# Las URLs de audio expiran en ~24h, por eso el scraper debe correr seguido.
+
+# Playlists curadas de cuentos de Alejandro Apo en YouTube
+YT_PLAYLISTS = [
+    ("PLoxVsJWn3DIbdI-yp_CjdG35mF3fYoBfv", "Alejandro Apo, El Cuento de la tarde"),
+    ("PLbleEK5UfTEUAlhfk5E-4_7DG-YS9pXzv",  "Y el fútbol contó un cuento"),
+    ("PLuXU-g7mjkKOXlptwpDhUp4HpGz3f1cX1",  "Cuentos por Alejandro Apo"),
+    ("PLiikv-x97RDJDMqAtcVD8gvqMXVJcQ75x",  "Fontanarrosa por Apo"),
+    ("PLRq2HHwFPBf3LhIKFJMZTFGW0hJe4e-Hv",  "Todo con Afecto - Cuentos de fútbol"),
+    ("PLvnTVNZIelOs32hx35Y1X8SnDGwP6MOfC",  "Todo con afecto (Apo)"),
+    ("PLDHL1yN56dYj4VdHfFXbZH2S1OUUJMF1t",  "Cuentos y Relatos"),
+    ("PLTaR_galnfke4wBGOmWmXozEGNF55Z4YH",  "Cuentos (varios)"),
+]
+
+YT_FUENTE = "YouTube"
+
+def _get_youtube_audio(video_url):
+    """Usa yt-dlp para obtener URL de audio y duracion de un video de YouTube.
+    Retorna (audio_url, duracion_segundos) o (None, 0) si falla."""
+    if not HAS_YT_DLP:
+        log.warning("yt-dlp no instalado, omitiendo %s", video_url)
+        return None, 0
+    try:
+        ydl_opts = {"quiet": True, "format": "bestaudio", "no_warnings": True}
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(video_url, download=False)
+            return info.get("url"), info.get("duration", 0)
+    except Exception as e:
+        log.warning("yt-dlp fallo para %s: %s", video_url, str(e)[:100])
+        return None, 0
+
+def scrape_youtube_playlist(playlist_id, playlist_name):
+    """Lee el RSS de una playlist de YouTube y extrae audio con yt-dlp."""
+    results = []
+    if not HAS_YT_DLP:
+        log.warning("yt-dlp no disponible, saltando playlist %s", playlist_name)
+        return results
+    
+    rss_url = f"https://www.youtube.com/feeds/videos.xml?playlist_id={playlist_id}"
+    log.info("Leyendo playlist YouTube: %s", playlist_name)
+    resp = safe_get(rss_url)
+    if not resp:
+        log.error("No se pudo acceder al RSS de la playlist %s", playlist_name)
+        return results
+    
+    soup = BeautifulSoup(resp.text, "xml")
+    entries = soup.find_all("entry")
+    log.info("Playlist '%s': %d videos", playlist_name, len(entries))
+    
+    for entry in entries:
+        title_el = entry.find("title")
+        full_title = title_el.get_text(strip=True) if title_el else ""
+        if not full_title:
+            continue
+        
+        # Filtrar: debe mencionar a Apo o ser claramente un cuento narrado
+        if not matches_apo(full_title, full_title):
+            # Tambien aceptar si tiene pinta de cuento (autor conocido + Apo en el titulo)
+            if "apo" not in full_title.lower() and "alejandro" not in full_title.lower():
+                continue
+        
+        link_el = entry.find("link")
+        video_url = link_el.get("href", "") if link_el else ""
+        if not video_url:
+            continue
+        
+        # Parsear titulo (formato: "'Cuento' de Autor (Alejandro Apo)")
+        titulo, autor_cuento = _parse_youtube_title(full_title)
+        if not autor_cuento:
+            autor_cuento = _guess_author(full_title, "")
+        
+        # Obtener audio con yt-dlp
+        audio_url, duracion = _get_youtube_audio(video_url)
+        if not audio_url:
+            continue
+        
+        pubdate_el = entry.find("published")
+        fecha = parse_fecha(pubdate_el.get_text(strip=True)) if pubdate_el else ""
+        
+        # Descripcion desde media:description
+        desc_el = entry.find("media:description") or entry.find("description")
+        descripcion = text_clean(desc_el.get_text())[:500] if desc_el else ""
+        if not descripcion:
+            desc_el = entry.find("media:group")
+            if desc_el:
+                md = desc_el.find("media:description")
+                if md: descripcion = text_clean(md.get_text())[:500]
+        
+        # Video ID como guid
+        vid_el = entry.find("yt:videoId")
+        video_id = vid_el.get_text(strip=True) if vid_el else ""
+        
+        log.info("  OK YT: %s", titulo[:70])
+        results.append({
+            "titulo": titulo,
+            "autor_cuento": autor_cuento,
+            "narrador": "Alejandro Apo",
+            "descripcion": descripcion[:800],
+            "fecha": fecha,
+            "duracion": round(float(duracion), 1) if duracion else 0.0,
+            "imagen": COVER_URL,
+            "mp3_url": audio_url,
+            "fuente": f"{YT_FUENTE} - {playlist_name}",
+            "fuente_url": video_url,
+            "guid": f"yt-{video_id}" if video_id else make_guid(titulo, autor_cuento),
+            "extraido": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        })
+        time.sleep(1)  # No saturar yt-dlp
     
     return results
 
@@ -556,7 +696,19 @@ def main():
     except Exception as e:
         log.error("Error en Radio Nacional (feed tag): %s", e)
 
-    # 3. Anchor.fm (Spotify for Creators) — feed oficial del podcast
+    # 3. YouTube — playlists curadas de cuentos de Apo.
+    # Usa yt-dlp para extraer audio. Las URLs expiran en ~24h, por eso
+    # el scraper debe ejecutarse diariamente via GitHub Actions.
+    if HAS_YT_DLP:
+        for pl_id, pl_name in YT_PLAYLISTS:
+            try:
+                _agregar(scrape_youtube_playlist(pl_id, pl_name))
+            except Exception as e:
+                log.error("Error en YouTube playlist %s: %s", pl_name[:40], e)
+    else:
+        log.warning("yt-dlp no instalado. Saltando YouTube. Instalar con: pip install yt-dlp")
+
+    # 4. Anchor.fm (Spotify for Creators) — feed oficial del podcast
     # "Los cuentos de Apo" por Grupo Octubre. Contiene 51 episodios (2021).
     # Es la fuente original que TuneIn agrega en:
     #   https://tunein.com/podcasts/Books--Literature/Los-cuentos-de-Apo-p2783793/
@@ -565,7 +717,7 @@ def main():
     except Exception as e:
         log.error("Error en Anchor.fm: %s", e)
 
-    # 3. Pagina/12 (incluye AM750): DESHABILITADO otra vez, esta vez por un
+    # 5. Pagina/12 (incluye AM750): DESHABILITADO otra vez, esta vez por un
     # motivo distinto y definitivo. El dominio am750.com.ar murio y su
     # contenido se mudo a pagina12.com.ar/am750/, y la pagina de tag real
     # (pagina12.com.ar/tags/7116-alejandro-apo) SI lista notas reales sobre

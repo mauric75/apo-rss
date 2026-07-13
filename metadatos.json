@@ -2,19 +2,20 @@
   "podcast": {
     "titulo": "Los cuentos de Alejandro Apo",
     "rss": "https://mauric75.github.io/apo-rss/rss.xml",
-    "generado": "2026-07-13T02:36:24.001004+00:00"
+    "generado": "2026-07-13T02:54:26.523955+00:00"
   },
   "estadisticas": {
-    "total_episodios": 169,
-    "autores_unicos": 74,
-    "fuentes": 2,
-    "duracion_total_segundos": 130175.0
+    "total_episodios": 217,
+    "autores_unicos": 81,
+    "fuentes": 10,
+    "duracion_total_segundos": 172785.0
   },
   "autores": [
     "Abel Antonio Ponse",
     "Abelardo Castillo",
     "Agustina Bazterrica",
     "Aldo Riera",
+    "Alejandro Apo",
     "Alejandro Dolina",
     "Alfredo Carlino",
     "Antonio Dal Masetto",
@@ -41,15 +42,18 @@
     "Guillermo Blanco",
     "Guillermo Ronnow",
     "Haroldo Conti",
+    "Horacio Quiroga",
     "Humberto",
     "Humberto Costantini",
     "Héctor Sánchez",
     "Ignacio Bogino",
     "Inés Fernández Moreno",
+    "Isidoro Blaisten",
     "Jaime Muñoz Vargas",
     "Jorge Luis Borges",
     "Jorge Valdano",
     "Juan Carlos Muñiz",
+    "Juan Jose Becerra",
     "Juan José Becerra",
     "Juan José Manauta",
     "Juan Roberto Presta",
@@ -70,13 +74,16 @@
     "Rafael Bielsa",
     "Ray Bradbury",
     "Ricardo Piglia",
+    "Robert Louis Stevenson",
     "Roberto Arlt",
     "Roberto Braceli",
     "Roberto Fontanarrosa",
+    "Roberto Fontarrosa",
     "Rodolfo Braceli",
     "Rodolfo Walsh",
     "Ryunosuke Akutagawa",
     "Samanta Schweblin",
+    "Sebastián Wainraich",
     "Sergio Ranieri",
     "Silvina Ocampo",
     "Silvio Velo",
@@ -88,6 +95,14 @@
   ],
   "fuentes": [
     "Los cuentos de Apo (Anchor.fm / Grupo Octubre)",
-    "Radio Nacional Argentina"
+    "Radio Nacional Argentina",
+    "YouTube - Alejandro Apo, El Cuento de la tarde",
+    "YouTube - Cuentos (varios)",
+    "YouTube - Cuentos por Alejandro Apo",
+    "YouTube - Cuentos y Relatos",
+    "YouTube - Fontanarrosa por Apo",
+    "YouTube - Todo con Afecto - Cuentos de fútbol",
+    "YouTube - Todo con afecto (Apo)",
+    "YouTube - Y el fútbol contó un cuento"
   ]
 }
